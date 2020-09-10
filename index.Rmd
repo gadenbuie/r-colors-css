@@ -106,6 +106,7 @@ reactable::reactable(
   searchable = TRUE,
   pagination = FALSE,
   highlight = TRUE,
+  height = "80vh",
   columns = list(
     name = reactable::colDef("Name", html = TRUE),
     color = reactable::colDef("Color", html = TRUE),
