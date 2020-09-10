@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# R Colors in CSS
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+> All of R's [named colors](https://rdrr.io/r/grDevices/colors.html)
+> in [one CSS stylesheet](r-colors.css).
+
+&#x2139;&#xFE0F; [pkg.garrickadenbuie.com/r-colors-css](https://pkg.garrickadenbuie.com/r-colors-css)
+
+```{r child="usage.Rmd"}
+```
+
+## Colors
+
+```{r colors, echo = FALSE}
+library(glue)
+
+r_colors <- readRDS("r_colors.rds")
+
+x <- data.frame(
+  name = glue_data(r_colors, '<span style="color:{color}">{name}</span>'),
+  color = glue_data(r_colors, '<span style="color:{color}">&#9608;&#9608;&#9608;&#9608;</span>'),
+  foreground = glue_data(r_colors, ".{name}"),
+  background = glue_data(r_colors, ".bg-{name}")
+)
+
+knitr::kable(x, format = "html", escape = FALSE, col.names = c(
+  "Name", "Color", "Foreground Class", "Background Class"
+))
+```
+

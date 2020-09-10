@@ -1,0 +1,52 @@
+## Usage
+
+[Download the stylesheet](r-colors.css) 
+
+```r
+download.file(
+  "https://pkg.garrickadenbuie.com/r-colors-css/r-colors.css",
+  "r-colors.css"
+)
+```
+
+and then add it to your HTML R Markdown documents
+
+````markdown
+output: 
+  html_document:
+    css: r-colors.css
+````
+
+or your [xaringan](https://slides.yihui.org/xaringan) slides
+
+````markdown
+output: 
+  xaringan::moon_reader:
+    css: r-colors.css
+````
+
+or just about anywhere else
+
+```{r eval=FALSE}
+htmltools::includeCSS("r-colors.css")
+```
+
+```{r echo=FALSE}
+demo_color <- sample(colors(), 1)
+```
+
+
+Each of the 
+`r format(length(colors()), big.mark = ',')` colors 
+are available in three ways,
+using the color name.
+For example, 
+the R color named
+`"`r demo_color`"`
+is available
+
+1. as a **foreground** color-setting class: <code>.`r demo_color`</code>
+
+1. as a **background** color-setting class: <code>.bg-`r demo_color`</code>
+
+1. as a [css variable](https://developer.mozilla.org/en-US/docs/Web/CSS/--*): `var(--`r demo_color`)`

@@ -1,9 +1,13 @@
 ---
-title: R Colors CSS
+title: R Colors in CSS
 output: 
   html_document:
     css: r-colors.css
 ---
+
+```{r clipboard, echo=FALSE}
+xaringanExtra::use_clipboard()
+```
 
 ```{css echo=FALSE}
 .background {
@@ -19,13 +23,18 @@ output:
 	padding: 1em 2em 2em 2em;
 	position: sticky;
 	top: 0;
-	z-index: 9999;
+	z-index: 999;
 	margin-bottom: 1em;
 }
 #demo-text p { font-size: 1.5em; }
 
 #demo-text {
   transition: all 150ms linear;
+}
+
+#demo-text .mono { 
+  font-size: 0.8em;
+  font-family: monospace; 
 }
 
 .darkmode {
@@ -42,6 +51,7 @@ output:
   background-color: black;
   cursor: pointer;
   line-height: 32px;
+  z-index: 9999;
 }
 #toggle-dark-mode::before {
   display: table-cell;
@@ -65,6 +75,16 @@ output:
 }
 ```
 
+> All of R's [named colors](https://rdrr.io/r/grDevices/colors.html)
+> in [one CSS stylesheet](r-colors.css).
+
+
+```{r child="usage.Rmd"}
+```
+
+
+## Colors
+
 <div id="demo-text" class="bg-white black"><h2>Preview</h2><p>Click on a color below<p></div>
 
 ::: {.table-responsive} :::
@@ -77,7 +97,9 @@ x <- data.frame(
   foreground = glue(".{colors()}"),
   background = glue(".bg-{colors()}")
 )
+```
 
+```{r echo=FALSE}
 reactable::reactable(
   data = x,
   sortable = TRUE,
@@ -95,9 +117,6 @@ reactable::reactable(
       if (!['name', 'color'].includes(colInfo.id)) return
       
       const preview = document.getElementById('demo-text')
-      preview.querySelector('p').innerText = 'The quick brown fox jumps over the lazy dog.'
-      
-      debugger;
       
       const classCell = colInfo.id === 'name' ? 'foreground' : 'background'
       let fg = [...preview.classList].filter(x => !/^bg-/.test(x))
@@ -110,10 +129,14 @@ reactable::reactable(
       }
       
       preview.classList = fg + ' ' + bg
+      preview.querySelector('p').innerHTML = 
+        `The quick brown fox jumps over the lazy dog.<br><br>
+        <span class=\"mono\">class=\"${fg} ${bg}\"</span>`
     }
   ")
 )
 ```
+
 
 :::
 
