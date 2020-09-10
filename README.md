@@ -1,10 +1,9 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# R Colors in CSS
+R Colors in CSS
+===============
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 > All of R’s [named colors](https://rdrr.io/r/grDevices/colors.html) in
@@ -13,18484 +12,9261 @@
 ℹ️
 [pkg.garrickadenbuie.com/r-colors-css](https://pkg.garrickadenbuie.com/r-colors-css)
 
-## Usage
+Usage
+-----
 
 [Download the stylesheet](r-colors.css)
 
-``` r
-download.file(
-  "https://pkg.garrickadenbuie.com/r-colors-css/r-colors.css",
-  "r-colors.css"
-)
-```
+    download.file(
+      "https://pkg.garrickadenbuie.com/r-colors-css/r-colors.css",
+      "r-colors.css"
+    )
 
 and then add it to your HTML R Markdown documents
 
-``` markdown
-output: 
-  html_document:
-    css: r-colors.css
-```
+    output: 
+      html_document:
+        css: r-colors.css
 
 or your [xaringan](https://slides.yihui.org/xaringan) slides
 
-``` markdown
-output: 
-  xaringan::moon_reader:
-    css: r-colors.css
-```
+    output: 
+      xaringan::moon_reader:
+        css: r-colors.css
 
 or just about anywhere else
 
-``` r
-htmltools::includeCSS("r-colors.css")
-```
+    htmltools::includeCSS("r-colors.css")
 
 Each of the 657 colors are available in three ways, using the color
-name. For example, the R color named `"grey75"` is available
+name. For example, the R color named `"aliceblue"` is available
 
-1.  as a **foreground** color-setting class: <code>.grey75</code>
+1.  as a **foreground** color-setting class: <code>.aliceblue</code>
 
-2.  as a **background** color-setting class: <code>.bg-grey75</code>
+2.  as a **background** color-setting class: <code>.bg-aliceblue</code>
 
 3.  as a [css
     variable](https://developer.mozilla.org/en-US/docs/Web/CSS/--*):
-    `var(--grey75)`
+    `var(--aliceblue)`
 
-## Colors
+Colors
+------
 
 <table>
-
 <thead>
-
 <tr>
-
 <th style="text-align:left;">
-
-Name
-
-</th>
-
-<th style="text-align:left;">
-
 Color
-
 </th>
-
 <th style="text-align:left;">
-
 Foreground Class
-
 </th>
-
 <th style="text-align:left;">
-
 Background Class
-
 </th>
-
+<th style="text-align:left;">
+CSS Variable
+</th>
 </tr>
-
 </thead>
-
 <tbody>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,255)">white</span>
-
+![](https://placehold.it/50/FFFFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,255)">████</span>
-
+`.white`
 </td>
-
 <td style="text-align:left;">
-
-.white
-
+`.bg-white`
 </td>
-
 <td style="text-align:left;">
-
-.bg-white
-
+`var(--white)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,248,255)">aliceblue</span>
-
+![](https://placehold.it/50/F0F8FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,248,255)">████</span>
-
+`.aliceblue`
 </td>
-
 <td style="text-align:left;">
-
-.aliceblue
-
+`.bg-aliceblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-aliceblue
-
+`var(--aliceblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,235,215)">antiquewhite</span>
-
+![](https://placehold.it/50/FAEBD7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,235,215)">████</span>
-
+`.antiquewhite`
 </td>
-
 <td style="text-align:left;">
-
-.antiquewhite
-
+`.bg-antiquewhite`
 </td>
-
 <td style="text-align:left;">
-
-.bg-antiquewhite
-
+`var(--antiquewhite)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,239,219)">antiquewhite1</span>
-
+![](https://placehold.it/50/FFEFDB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,239,219)">████</span>
-
+`.antiquewhite1`
 </td>
-
 <td style="text-align:left;">
-
-.antiquewhite1
-
+`.bg-antiquewhite1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-antiquewhite1
-
+`var(--antiquewhite1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,223,204)">antiquewhite2</span>
-
+![](https://placehold.it/50/EEDFCC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,223,204)">████</span>
-
+`.antiquewhite2`
 </td>
-
 <td style="text-align:left;">
-
-.antiquewhite2
-
+`.bg-antiquewhite2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-antiquewhite2
-
+`var(--antiquewhite2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,192,176)">antiquewhite3</span>
-
+![](https://placehold.it/50/CDC0B0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,192,176)">████</span>
-
+`.antiquewhite3`
 </td>
-
 <td style="text-align:left;">
-
-.antiquewhite3
-
+`.bg-antiquewhite3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-antiquewhite3
-
+`var(--antiquewhite3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,131,120)">antiquewhite4</span>
-
+![](https://placehold.it/50/8B8378/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,131,120)">████</span>
-
+`.antiquewhite4`
 </td>
-
 <td style="text-align:left;">
-
-.antiquewhite4
-
+`.bg-antiquewhite4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-antiquewhite4
-
+`var(--antiquewhite4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,212)">aquamarine</span>
-
+![](https://placehold.it/50/7FFFD4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,212)">████</span>
-
+`.aquamarine`
 </td>
-
 <td style="text-align:left;">
-
-.aquamarine
-
+`.bg-aquamarine`
 </td>
-
 <td style="text-align:left;">
-
-.bg-aquamarine
-
+`var(--aquamarine)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,212)">aquamarine1</span>
-
+![](https://placehold.it/50/7FFFD4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,212)">████</span>
-
+`.aquamarine1`
 </td>
-
 <td style="text-align:left;">
-
-.aquamarine1
-
+`.bg-aquamarine1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-aquamarine1
-
+`var(--aquamarine1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(118,238,198)">aquamarine2</span>
-
+![](https://placehold.it/50/76EEC6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(118,238,198)">████</span>
-
+`.aquamarine2`
 </td>
-
 <td style="text-align:left;">
-
-.aquamarine2
-
+`.bg-aquamarine2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-aquamarine2
-
+`var(--aquamarine2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,205,170)">aquamarine3</span>
-
+![](https://placehold.it/50/66CDAA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,205,170)">████</span>
-
+`.aquamarine3`
 </td>
-
 <td style="text-align:left;">
-
-.aquamarine3
-
+`.bg-aquamarine3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-aquamarine3
-
+`var(--aquamarine3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,139,116)">aquamarine4</span>
-
+![](https://placehold.it/50/458B74/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,139,116)">████</span>
-
+`.aquamarine4`
 </td>
-
 <td style="text-align:left;">
-
-.aquamarine4
-
+`.bg-aquamarine4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-aquamarine4
-
+`var(--aquamarine4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,255)">azure</span>
-
+![](https://placehold.it/50/F0FFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,255)">████</span>
-
+`.azure`
 </td>
-
 <td style="text-align:left;">
-
-.azure
-
+`.bg-azure`
 </td>
-
 <td style="text-align:left;">
-
-.bg-azure
-
+`var(--azure)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,255)">azure1</span>
-
+![](https://placehold.it/50/F0FFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,255)">████</span>
-
+`.azure1`
 </td>
-
 <td style="text-align:left;">
-
-.azure1
-
+`.bg-azure1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-azure1
-
+`var(--azure1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,238,238)">azure2</span>
-
+![](https://placehold.it/50/E0EEEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,238,238)">████</span>
-
+`.azure2`
 </td>
-
 <td style="text-align:left;">
-
-.azure2
-
+`.bg-azure2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-azure2
-
+`var(--azure2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(193,205,205)">azure3</span>
-
+![](https://placehold.it/50/C1CDCD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(193,205,205)">████</span>
-
+`.azure3`
 </td>
-
 <td style="text-align:left;">
-
-.azure3
-
+`.bg-azure3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-azure3
-
+`var(--azure3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(131,139,139)">azure4</span>
-
+![](https://placehold.it/50/838B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(131,139,139)">████</span>
-
+`.azure4`
 </td>
-
 <td style="text-align:left;">
-
-.azure4
-
+`.bg-azure4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-azure4
-
+`var(--azure4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,220)">beige</span>
-
+![](https://placehold.it/50/F5F5DC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,220)">████</span>
-
+`.beige`
 </td>
-
 <td style="text-align:left;">
-
-.beige
-
+`.bg-beige`
 </td>
-
 <td style="text-align:left;">
-
-.bg-beige
-
+`var(--beige)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,196)">bisque</span>
-
+![](https://placehold.it/50/FFE4C4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,196)">████</span>
-
+`.bisque`
 </td>
-
 <td style="text-align:left;">
-
-.bisque
-
+`.bg-bisque`
 </td>
-
 <td style="text-align:left;">
-
-.bg-bisque
-
+`var(--bisque)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,196)">bisque1</span>
-
+![](https://placehold.it/50/FFE4C4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,196)">████</span>
-
+`.bisque1`
 </td>
-
 <td style="text-align:left;">
-
-.bisque1
-
+`.bg-bisque1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-bisque1
-
+`var(--bisque1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,213,183)">bisque2</span>
-
+![](https://placehold.it/50/EED5B7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,213,183)">████</span>
-
+`.bisque2`
 </td>
-
 <td style="text-align:left;">
-
-.bisque2
-
+`.bg-bisque2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-bisque2
-
+`var(--bisque2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,183,158)">bisque3</span>
-
+![](https://placehold.it/50/CDB79E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,183,158)">████</span>
-
+`.bisque3`
 </td>
-
 <td style="text-align:left;">
-
-.bisque3
-
+`.bg-bisque3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-bisque3
-
+`var(--bisque3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,125,107)">bisque4</span>
-
+![](https://placehold.it/50/8B7D6B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,125,107)">████</span>
-
+`.bisque4`
 </td>
-
 <td style="text-align:left;">
-
-.bisque4
-
+`.bg-bisque4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-bisque4
-
+`var(--bisque4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,0)">black</span>
-
+![](https://placehold.it/50/000000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,0)">████</span>
-
+`.black`
 </td>
-
 <td style="text-align:left;">
-
-.black
-
+`.bg-black`
 </td>
-
 <td style="text-align:left;">
-
-.bg-black
-
+`var(--black)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,235,205)">blanchedalmond</span>
-
+![](https://placehold.it/50/FFEBCD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,235,205)">████</span>
-
+`.blanchedalmond`
 </td>
-
 <td style="text-align:left;">
-
-.blanchedalmond
-
+`.bg-blanchedalmond`
 </td>
-
 <td style="text-align:left;">
-
-.bg-blanchedalmond
-
+`var(--blanchedalmond)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,255)">blue</span>
-
+![](https://placehold.it/50/0000FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,255)">████</span>
-
+`.blue`
 </td>
-
 <td style="text-align:left;">
-
-.blue
-
+`.bg-blue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-blue
-
+`var(--blue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,255)">blue1</span>
-
+![](https://placehold.it/50/0000FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,255)">████</span>
-
+`.blue1`
 </td>
-
 <td style="text-align:left;">
-
-.blue1
-
+`.bg-blue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-blue1
-
+`var(--blue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,238)">blue2</span>
-
+![](https://placehold.it/50/0000EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,238)">████</span>
-
+`.blue2`
 </td>
-
 <td style="text-align:left;">
-
-.blue2
-
+`.bg-blue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-blue2
-
+`var(--blue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,205)">blue3</span>
-
+![](https://placehold.it/50/0000CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,205)">████</span>
-
+`.blue3`
 </td>
-
 <td style="text-align:left;">
-
-.blue3
-
+`.bg-blue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-blue3
-
+`var(--blue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,139)">blue4</span>
-
+![](https://placehold.it/50/00008B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,139)">████</span>
-
+`.blue4`
 </td>
-
 <td style="text-align:left;">
-
-.blue4
-
+`.bg-blue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-blue4
-
+`var(--blue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(138,43,226)">blueviolet</span>
-
+![](https://placehold.it/50/8A2BE2/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(138,43,226)">████</span>
-
+`.blueviolet`
 </td>
-
 <td style="text-align:left;">
-
-.blueviolet
-
+`.bg-blueviolet`
 </td>
-
 <td style="text-align:left;">
-
-.bg-blueviolet
-
+`var(--blueviolet)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(165,42,42)">brown</span>
-
+![](https://placehold.it/50/A52A2A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(165,42,42)">████</span>
-
+`.brown`
 </td>
-
 <td style="text-align:left;">
-
-.brown
-
+`.bg-brown`
 </td>
-
 <td style="text-align:left;">
-
-.bg-brown
-
+`var(--brown)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,64,64)">brown1</span>
-
+![](https://placehold.it/50/FF4040/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,64,64)">████</span>
-
+`.brown1`
 </td>
-
 <td style="text-align:left;">
-
-.brown1
-
+`.bg-brown1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-brown1
-
+`var(--brown1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,59,59)">brown2</span>
-
+![](https://placehold.it/50/EE3B3B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,59,59)">████</span>
-
+`.brown2`
 </td>
-
 <td style="text-align:left;">
-
-.brown2
-
+`.bg-brown2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-brown2
-
+`var(--brown2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,51,51)">brown3</span>
-
+![](https://placehold.it/50/CD3333/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,51,51)">████</span>
-
+`.brown3`
 </td>
-
 <td style="text-align:left;">
-
-.brown3
-
+`.bg-brown3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-brown3
-
+`var(--brown3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,35,35)">brown4</span>
-
+![](https://placehold.it/50/8B2323/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,35,35)">████</span>
-
+`.brown4`
 </td>
-
 <td style="text-align:left;">
-
-.brown4
-
+`.bg-brown4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-brown4
-
+`var(--brown4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(222,184,135)">burlywood</span>
-
+![](https://placehold.it/50/DEB887/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(222,184,135)">████</span>
-
+`.burlywood`
 </td>
-
 <td style="text-align:left;">
-
-.burlywood
-
+`.bg-burlywood`
 </td>
-
 <td style="text-align:left;">
-
-.bg-burlywood
-
+`var(--burlywood)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,211,155)">burlywood1</span>
-
+![](https://placehold.it/50/FFD39B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,211,155)">████</span>
-
+`.burlywood1`
 </td>
-
 <td style="text-align:left;">
-
-.burlywood1
-
+`.bg-burlywood1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-burlywood1
-
+`var(--burlywood1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,197,145)">burlywood2</span>
-
+![](https://placehold.it/50/EEC591/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,197,145)">████</span>
-
+`.burlywood2`
 </td>
-
 <td style="text-align:left;">
-
-.burlywood2
-
+`.bg-burlywood2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-burlywood2
-
+`var(--burlywood2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,170,125)">burlywood3</span>
-
+![](https://placehold.it/50/CDAA7D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,170,125)">████</span>
-
+`.burlywood3`
 </td>
-
 <td style="text-align:left;">
-
-.burlywood3
-
+`.bg-burlywood3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-burlywood3
-
+`var(--burlywood3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,115,85)">burlywood4</span>
-
+![](https://placehold.it/50/8B7355/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,115,85)">████</span>
-
+`.burlywood4`
 </td>
-
 <td style="text-align:left;">
-
-.burlywood4
-
+`.bg-burlywood4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-burlywood4
-
+`var(--burlywood4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(95,158,160)">cadetblue</span>
-
+![](https://placehold.it/50/5F9EA0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(95,158,160)">████</span>
-
+`.cadetblue`
 </td>
-
 <td style="text-align:left;">
-
-.cadetblue
-
+`.bg-cadetblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cadetblue
-
+`var(--cadetblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(152,245,255)">cadetblue1</span>
-
+![](https://placehold.it/50/98F5FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(152,245,255)">████</span>
-
+`.cadetblue1`
 </td>
-
 <td style="text-align:left;">
-
-.cadetblue1
-
+`.bg-cadetblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cadetblue1
-
+`var(--cadetblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(142,229,238)">cadetblue2</span>
-
+![](https://placehold.it/50/8EE5EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(142,229,238)">████</span>
-
+`.cadetblue2`
 </td>
-
 <td style="text-align:left;">
-
-.cadetblue2
-
+`.bg-cadetblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cadetblue2
-
+`var(--cadetblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,197,205)">cadetblue3</span>
-
+![](https://placehold.it/50/7AC5CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,197,205)">████</span>
-
+`.cadetblue3`
 </td>
-
 <td style="text-align:left;">
-
-.cadetblue3
-
+`.bg-cadetblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cadetblue3
-
+`var(--cadetblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(83,134,139)">cadetblue4</span>
-
+![](https://placehold.it/50/53868B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(83,134,139)">████</span>
-
+`.cadetblue4`
 </td>
-
 <td style="text-align:left;">
-
-.cadetblue4
-
+`.bg-cadetblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cadetblue4
-
+`var(--cadetblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,0)">chartreuse</span>
-
+![](https://placehold.it/50/7FFF00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,0)">████</span>
-
+`.chartreuse`
 </td>
-
 <td style="text-align:left;">
-
-.chartreuse
-
+`.bg-chartreuse`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chartreuse
-
+`var(--chartreuse)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,0)">chartreuse1</span>
-
+![](https://placehold.it/50/7FFF00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,255,0)">████</span>
-
+`.chartreuse1`
 </td>
-
 <td style="text-align:left;">
-
-.chartreuse1
-
+`.bg-chartreuse1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chartreuse1
-
+`var(--chartreuse1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(118,238,0)">chartreuse2</span>
-
+![](https://placehold.it/50/76EE00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(118,238,0)">████</span>
-
+`.chartreuse2`
 </td>
-
 <td style="text-align:left;">
-
-.chartreuse2
-
+`.bg-chartreuse2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chartreuse2
-
+`var(--chartreuse2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,205,0)">chartreuse3</span>
-
+![](https://placehold.it/50/66CD00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,205,0)">████</span>
-
+`.chartreuse3`
 </td>
-
 <td style="text-align:left;">
-
-.chartreuse3
-
+`.bg-chartreuse3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chartreuse3
-
+`var(--chartreuse3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,139,0)">chartreuse4</span>
-
+![](https://placehold.it/50/458B00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,139,0)">████</span>
-
+`.chartreuse4`
 </td>
-
 <td style="text-align:left;">
-
-.chartreuse4
-
+`.bg-chartreuse4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chartreuse4
-
+`var(--chartreuse4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(210,105,30)">chocolate</span>
-
+![](https://placehold.it/50/D2691E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(210,105,30)">████</span>
-
+`.chocolate`
 </td>
-
 <td style="text-align:left;">
-
-.chocolate
-
+`.bg-chocolate`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chocolate
-
+`var(--chocolate)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,127,36)">chocolate1</span>
-
+![](https://placehold.it/50/FF7F24/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,127,36)">████</span>
-
+`.chocolate1`
 </td>
-
 <td style="text-align:left;">
-
-.chocolate1
-
+`.bg-chocolate1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chocolate1
-
+`var(--chocolate1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,118,33)">chocolate2</span>
-
+![](https://placehold.it/50/EE7621/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,118,33)">████</span>
-
+`.chocolate2`
 </td>
-
 <td style="text-align:left;">
-
-.chocolate2
-
+`.bg-chocolate2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chocolate2
-
+`var(--chocolate2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,102,29)">chocolate3</span>
-
+![](https://placehold.it/50/CD661D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,102,29)">████</span>
-
+`.chocolate3`
 </td>
-
 <td style="text-align:left;">
-
-.chocolate3
-
+`.bg-chocolate3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chocolate3
-
+`var(--chocolate3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,69,19)">chocolate4</span>
-
+![](https://placehold.it/50/8B4513/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,69,19)">████</span>
-
+`.chocolate4`
 </td>
-
 <td style="text-align:left;">
-
-.chocolate4
-
+`.bg-chocolate4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-chocolate4
-
+`var(--chocolate4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,127,80)">coral</span>
-
+![](https://placehold.it/50/FF7F50/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,127,80)">████</span>
-
+`.coral`
 </td>
-
 <td style="text-align:left;">
-
-.coral
-
+`.bg-coral`
 </td>
-
 <td style="text-align:left;">
-
-.bg-coral
-
+`var(--coral)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,114,86)">coral1</span>
-
+![](https://placehold.it/50/FF7256/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,114,86)">████</span>
-
+`.coral1`
 </td>
-
 <td style="text-align:left;">
-
-.coral1
-
+`.bg-coral1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-coral1
-
+`var(--coral1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,106,80)">coral2</span>
-
+![](https://placehold.it/50/EE6A50/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,106,80)">████</span>
-
+`.coral2`
 </td>
-
 <td style="text-align:left;">
-
-.coral2
-
+`.bg-coral2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-coral2
-
+`var(--coral2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,91,69)">coral3</span>
-
+![](https://placehold.it/50/CD5B45/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,91,69)">████</span>
-
+`.coral3`
 </td>
-
 <td style="text-align:left;">
-
-.coral3
-
+`.bg-coral3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-coral3
-
+`var(--coral3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,62,47)">coral4</span>
-
+![](https://placehold.it/50/8B3E2F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,62,47)">████</span>
-
+`.coral4`
 </td>
-
 <td style="text-align:left;">
-
-.coral4
-
+`.bg-coral4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-coral4
-
+`var(--coral4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(100,149,237)">cornflowerblue</span>
-
+![](https://placehold.it/50/6495ED/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(100,149,237)">████</span>
-
+`.cornflowerblue`
 </td>
-
 <td style="text-align:left;">
-
-.cornflowerblue
-
+`.bg-cornflowerblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cornflowerblue
-
+`var(--cornflowerblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,248,220)">cornsilk</span>
-
+![](https://placehold.it/50/FFF8DC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,248,220)">████</span>
-
+`.cornsilk`
 </td>
-
 <td style="text-align:left;">
-
-.cornsilk
-
+`.bg-cornsilk`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cornsilk
-
+`var(--cornsilk)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,248,220)">cornsilk1</span>
-
+![](https://placehold.it/50/FFF8DC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,248,220)">████</span>
-
+`.cornsilk1`
 </td>
-
 <td style="text-align:left;">
-
-.cornsilk1
-
+`.bg-cornsilk1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cornsilk1
-
+`var(--cornsilk1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,232,205)">cornsilk2</span>
-
+![](https://placehold.it/50/EEE8CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,232,205)">████</span>
-
+`.cornsilk2`
 </td>
-
 <td style="text-align:left;">
-
-.cornsilk2
-
+`.bg-cornsilk2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cornsilk2
-
+`var(--cornsilk2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,200,177)">cornsilk3</span>
-
+![](https://placehold.it/50/CDC8B1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,200,177)">████</span>
-
+`.cornsilk3`
 </td>
-
 <td style="text-align:left;">
-
-.cornsilk3
-
+`.bg-cornsilk3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cornsilk3
-
+`var(--cornsilk3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,136,120)">cornsilk4</span>
-
+![](https://placehold.it/50/8B8878/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,136,120)">████</span>
-
+`.cornsilk4`
 </td>
-
 <td style="text-align:left;">
-
-.cornsilk4
-
+`.bg-cornsilk4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cornsilk4
-
+`var(--cornsilk4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,255)">cyan</span>
-
+![](https://placehold.it/50/00FFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,255)">████</span>
-
+`.cyan`
 </td>
-
 <td style="text-align:left;">
-
-.cyan
-
+`.bg-cyan`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cyan
-
+`var(--cyan)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,255)">cyan1</span>
-
+![](https://placehold.it/50/00FFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,255)">████</span>
-
+`.cyan1`
 </td>
-
 <td style="text-align:left;">
-
-.cyan1
-
+`.bg-cyan1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cyan1
-
+`var(--cyan1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,238,238)">cyan2</span>
-
+![](https://placehold.it/50/00EEEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,238,238)">████</span>
-
+`.cyan2`
 </td>
-
 <td style="text-align:left;">
-
-.cyan2
-
+`.bg-cyan2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cyan2
-
+`var(--cyan2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,205,205)">cyan3</span>
-
+![](https://placehold.it/50/00CDCD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,205,205)">████</span>
-
+`.cyan3`
 </td>
-
 <td style="text-align:left;">
-
-.cyan3
-
+`.bg-cyan3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cyan3
-
+`var(--cyan3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,139)">cyan4</span>
-
+![](https://placehold.it/50/008B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,139)">████</span>
-
+`.cyan4`
 </td>
-
 <td style="text-align:left;">
-
-.cyan4
-
+`.bg-cyan4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-cyan4
-
+`var(--cyan4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,139)">darkblue</span>
-
+![](https://placehold.it/50/00008B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,139)">████</span>
-
+`.darkblue`
 </td>
-
 <td style="text-align:left;">
-
-.darkblue
-
+`.bg-darkblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkblue
-
+`var(--darkblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,139)">darkcyan</span>
-
+![](https://placehold.it/50/008B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,139)">████</span>
-
+`.darkcyan`
 </td>
-
 <td style="text-align:left;">
-
-.darkcyan
-
+`.bg-darkcyan`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkcyan
-
+`var(--darkcyan)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(184,134,11)">darkgoldenrod</span>
-
+![](https://placehold.it/50/B8860B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(184,134,11)">████</span>
-
+`.darkgoldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.darkgoldenrod
-
+`.bg-darkgoldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgoldenrod
-
+`var(--darkgoldenrod)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,185,15)">darkgoldenrod1</span>
-
+![](https://placehold.it/50/FFB90F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,185,15)">████</span>
-
+`.darkgoldenrod1`
 </td>
-
 <td style="text-align:left;">
-
-.darkgoldenrod1
-
+`.bg-darkgoldenrod1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgoldenrod1
-
+`var(--darkgoldenrod1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,173,14)">darkgoldenrod2</span>
-
+![](https://placehold.it/50/EEAD0E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,173,14)">████</span>
-
+`.darkgoldenrod2`
 </td>
-
 <td style="text-align:left;">
-
-.darkgoldenrod2
-
+`.bg-darkgoldenrod2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgoldenrod2
-
+`var(--darkgoldenrod2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,149,12)">darkgoldenrod3</span>
-
+![](https://placehold.it/50/CD950C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,149,12)">████</span>
-
+`.darkgoldenrod3`
 </td>
-
 <td style="text-align:left;">
-
-.darkgoldenrod3
-
+`.bg-darkgoldenrod3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgoldenrod3
-
+`var(--darkgoldenrod3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,101,8)">darkgoldenrod4</span>
-
+![](https://placehold.it/50/8B6508/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,101,8)">████</span>
-
+`.darkgoldenrod4`
 </td>
-
 <td style="text-align:left;">
-
-.darkgoldenrod4
-
+`.bg-darkgoldenrod4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgoldenrod4
-
+`var(--darkgoldenrod4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(169,169,169)">darkgray</span>
-
+![](https://placehold.it/50/A9A9A9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(169,169,169)">████</span>
-
+`.darkgray`
 </td>
-
 <td style="text-align:left;">
-
-.darkgray
-
+`.bg-darkgray`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgray
-
+`var(--darkgray)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,100,0)">darkgreen</span>
-
+![](https://placehold.it/50/006400/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,100,0)">████</span>
-
+`.darkgreen`
 </td>
-
 <td style="text-align:left;">
-
-.darkgreen
-
+`.bg-darkgreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgreen
-
+`var(--darkgreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(169,169,169)">darkgrey</span>
-
+![](https://placehold.it/50/A9A9A9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(169,169,169)">████</span>
-
+`.darkgrey`
 </td>
-
 <td style="text-align:left;">
-
-.darkgrey
-
+`.bg-darkgrey`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkgrey
-
+`var(--darkgrey)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(189,183,107)">darkkhaki</span>
-
+![](https://placehold.it/50/BDB76B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(189,183,107)">████</span>
-
+`.darkkhaki`
 </td>
-
 <td style="text-align:left;">
-
-.darkkhaki
-
+`.bg-darkkhaki`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkkhaki
-
+`var(--darkkhaki)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,139)">darkmagenta</span>
-
+![](https://placehold.it/50/8B008B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,139)">████</span>
-
+`.darkmagenta`
 </td>
-
 <td style="text-align:left;">
-
-.darkmagenta
-
+`.bg-darkmagenta`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkmagenta
-
+`var(--darkmagenta)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(85,107,47)">darkolivegreen</span>
-
+![](https://placehold.it/50/556B2F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(85,107,47)">████</span>
-
+`.darkolivegreen`
 </td>
-
 <td style="text-align:left;">
-
-.darkolivegreen
-
+`.bg-darkolivegreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkolivegreen
-
+`var(--darkolivegreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(202,255,112)">darkolivegreen1</span>
-
+![](https://placehold.it/50/CAFF70/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(202,255,112)">████</span>
-
+`.darkolivegreen1`
 </td>
-
 <td style="text-align:left;">
-
-.darkolivegreen1
-
+`.bg-darkolivegreen1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkolivegreen1
-
+`var(--darkolivegreen1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(188,238,104)">darkolivegreen2</span>
-
+![](https://placehold.it/50/BCEE68/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(188,238,104)">████</span>
-
+`.darkolivegreen2`
 </td>
-
 <td style="text-align:left;">
-
-.darkolivegreen2
-
+`.bg-darkolivegreen2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkolivegreen2
-
+`var(--darkolivegreen2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(162,205,90)">darkolivegreen3</span>
-
+![](https://placehold.it/50/A2CD5A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(162,205,90)">████</span>
-
+`.darkolivegreen3`
 </td>
-
 <td style="text-align:left;">
-
-.darkolivegreen3
-
+`.bg-darkolivegreen3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkolivegreen3
-
+`var(--darkolivegreen3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,139,61)">darkolivegreen4</span>
-
+![](https://placehold.it/50/6E8B3D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,139,61)">████</span>
-
+`.darkolivegreen4`
 </td>
-
 <td style="text-align:left;">
-
-.darkolivegreen4
-
+`.bg-darkolivegreen4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkolivegreen4
-
+`var(--darkolivegreen4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,140,0)">darkorange</span>
-
+![](https://placehold.it/50/FF8C00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,140,0)">████</span>
-
+`.darkorange`
 </td>
-
 <td style="text-align:left;">
-
-.darkorange
-
+`.bg-darkorange`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorange
-
+`var(--darkorange)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,127,0)">darkorange1</span>
-
+![](https://placehold.it/50/FF7F00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,127,0)">████</span>
-
+`.darkorange1`
 </td>
-
 <td style="text-align:left;">
-
-.darkorange1
-
+`.bg-darkorange1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorange1
-
+`var(--darkorange1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,118,0)">darkorange2</span>
-
+![](https://placehold.it/50/EE7600/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,118,0)">████</span>
-
+`.darkorange2`
 </td>
-
 <td style="text-align:left;">
-
-.darkorange2
-
+`.bg-darkorange2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorange2
-
+`var(--darkorange2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,102,0)">darkorange3</span>
-
+![](https://placehold.it/50/CD6600/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,102,0)">████</span>
-
+`.darkorange3`
 </td>
-
 <td style="text-align:left;">
-
-.darkorange3
-
+`.bg-darkorange3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorange3
-
+`var(--darkorange3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,69,0)">darkorange4</span>
-
+![](https://placehold.it/50/8B4500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,69,0)">████</span>
-
+`.darkorange4`
 </td>
-
 <td style="text-align:left;">
-
-.darkorange4
-
+`.bg-darkorange4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorange4
-
+`var(--darkorange4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(153,50,204)">darkorchid</span>
-
+![](https://placehold.it/50/9932CC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(153,50,204)">████</span>
-
+`.darkorchid`
 </td>
-
 <td style="text-align:left;">
-
-.darkorchid
-
+`.bg-darkorchid`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorchid
-
+`var(--darkorchid)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,62,255)">darkorchid1</span>
-
+![](https://placehold.it/50/BF3EFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,62,255)">████</span>
-
+`.darkorchid1`
 </td>
-
 <td style="text-align:left;">
-
-.darkorchid1
-
+`.bg-darkorchid1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorchid1
-
+`var(--darkorchid1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(178,58,238)">darkorchid2</span>
-
+![](https://placehold.it/50/B23AEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(178,58,238)">████</span>
-
+`.darkorchid2`
 </td>
-
 <td style="text-align:left;">
-
-.darkorchid2
-
+`.bg-darkorchid2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorchid2
-
+`var(--darkorchid2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,50,205)">darkorchid3</span>
-
+![](https://placehold.it/50/9A32CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,50,205)">████</span>
-
+`.darkorchid3`
 </td>
-
 <td style="text-align:left;">
-
-.darkorchid3
-
+`.bg-darkorchid3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorchid3
-
+`var(--darkorchid3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(104,34,139)">darkorchid4</span>
-
+![](https://placehold.it/50/68228B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(104,34,139)">████</span>
-
+`.darkorchid4`
 </td>
-
 <td style="text-align:left;">
-
-.darkorchid4
-
+`.bg-darkorchid4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkorchid4
-
+`var(--darkorchid4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,0)">darkred</span>
-
+![](https://placehold.it/50/8B0000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,0)">████</span>
-
+`.darkred`
 </td>
-
 <td style="text-align:left;">
-
-.darkred
-
+`.bg-darkred`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkred
-
+`var(--darkred)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(233,150,122)">darksalmon</span>
-
+![](https://placehold.it/50/E9967A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(233,150,122)">████</span>
-
+`.darksalmon`
 </td>
-
 <td style="text-align:left;">
-
-.darksalmon
-
+`.bg-darksalmon`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darksalmon
-
+`var(--darksalmon)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(143,188,143)">darkseagreen</span>
-
+![](https://placehold.it/50/8FBC8F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(143,188,143)">████</span>
-
+`.darkseagreen`
 </td>
-
 <td style="text-align:left;">
-
-.darkseagreen
-
+`.bg-darkseagreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkseagreen
-
+`var(--darkseagreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(193,255,193)">darkseagreen1</span>
-
+![](https://placehold.it/50/C1FFC1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(193,255,193)">████</span>
-
+`.darkseagreen1`
 </td>
-
 <td style="text-align:left;">
-
-.darkseagreen1
-
+`.bg-darkseagreen1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkseagreen1
-
+`var(--darkseagreen1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(180,238,180)">darkseagreen2</span>
-
+![](https://placehold.it/50/B4EEB4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(180,238,180)">████</span>
-
+`.darkseagreen2`
 </td>
-
 <td style="text-align:left;">
-
-.darkseagreen2
-
+`.bg-darkseagreen2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkseagreen2
-
+`var(--darkseagreen2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(155,205,155)">darkseagreen3</span>
-
+![](https://placehold.it/50/9BCD9B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(155,205,155)">████</span>
-
+`.darkseagreen3`
 </td>
-
 <td style="text-align:left;">
-
-.darkseagreen3
-
+`.bg-darkseagreen3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkseagreen3
-
+`var(--darkseagreen3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,139,105)">darkseagreen4</span>
-
+![](https://placehold.it/50/698B69/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,139,105)">████</span>
-
+`.darkseagreen4`
 </td>
-
 <td style="text-align:left;">
-
-.darkseagreen4
-
+`.bg-darkseagreen4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkseagreen4
-
+`var(--darkseagreen4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(72,61,139)">darkslateblue</span>
-
+![](https://placehold.it/50/483D8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(72,61,139)">████</span>
-
+`.darkslateblue`
 </td>
-
 <td style="text-align:left;">
-
-.darkslateblue
-
+`.bg-darkslateblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkslateblue
-
+`var(--darkslateblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(47,79,79)">darkslategray</span>
-
+![](https://placehold.it/50/2F4F4F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(47,79,79)">████</span>
-
+`.darkslategray`
 </td>
-
 <td style="text-align:left;">
-
-.darkslategray
-
+`.bg-darkslategray`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkslategray
-
+`var(--darkslategray)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(151,255,255)">darkslategray1</span>
-
+![](https://placehold.it/50/97FFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(151,255,255)">████</span>
-
+`.darkslategray1`
 </td>
-
 <td style="text-align:left;">
-
-.darkslategray1
-
+`.bg-darkslategray1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkslategray1
-
+`var(--darkslategray1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(141,238,238)">darkslategray2</span>
-
+![](https://placehold.it/50/8DEEEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(141,238,238)">████</span>
-
+`.darkslategray2`
 </td>
-
 <td style="text-align:left;">
-
-.darkslategray2
-
+`.bg-darkslategray2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkslategray2
-
+`var(--darkslategray2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(121,205,205)">darkslategray3</span>
-
+![](https://placehold.it/50/79CDCD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(121,205,205)">████</span>
-
+`.darkslategray3`
 </td>
-
 <td style="text-align:left;">
-
-.darkslategray3
-
+`.bg-darkslategray3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkslategray3
-
+`var(--darkslategray3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(82,139,139)">darkslategray4</span>
-
+![](https://placehold.it/50/528B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(82,139,139)">████</span>
-
+`.darkslategray4`
 </td>
-
 <td style="text-align:left;">
-
-.darkslategray4
-
+`.bg-darkslategray4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkslategray4
-
+`var(--darkslategray4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(47,79,79)">darkslategrey</span>
-
+![](https://placehold.it/50/2F4F4F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(47,79,79)">████</span>
-
+`.darkslategrey`
 </td>
-
 <td style="text-align:left;">
-
-.darkslategrey
-
+`.bg-darkslategrey`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkslategrey
-
+`var(--darkslategrey)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,206,209)">darkturquoise</span>
-
+![](https://placehold.it/50/00CED1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,206,209)">████</span>
-
+`.darkturquoise`
 </td>
-
 <td style="text-align:left;">
-
-.darkturquoise
-
+`.bg-darkturquoise`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkturquoise
-
+`var(--darkturquoise)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(148,0,211)">darkviolet</span>
-
+![](https://placehold.it/50/9400D3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(148,0,211)">████</span>
-
+`.darkviolet`
 </td>
-
 <td style="text-align:left;">
-
-.darkviolet
-
+`.bg-darkviolet`
 </td>
-
 <td style="text-align:left;">
-
-.bg-darkviolet
-
+`var(--darkviolet)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,20,147)">deeppink</span>
-
+![](https://placehold.it/50/FF1493/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,20,147)">████</span>
-
+`.deeppink`
 </td>
-
 <td style="text-align:left;">
-
-.deeppink
-
+`.bg-deeppink`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deeppink
-
+`var(--deeppink)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,20,147)">deeppink1</span>
-
+![](https://placehold.it/50/FF1493/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,20,147)">████</span>
-
+`.deeppink1`
 </td>
-
 <td style="text-align:left;">
-
-.deeppink1
-
+`.bg-deeppink1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deeppink1
-
+`var(--deeppink1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,18,137)">deeppink2</span>
-
+![](https://placehold.it/50/EE1289/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,18,137)">████</span>
-
+`.deeppink2`
 </td>
-
 <td style="text-align:left;">
-
-.deeppink2
-
+`.bg-deeppink2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deeppink2
-
+`var(--deeppink2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,16,118)">deeppink3</span>
-
+![](https://placehold.it/50/CD1076/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,16,118)">████</span>
-
+`.deeppink3`
 </td>
-
 <td style="text-align:left;">
-
-.deeppink3
-
+`.bg-deeppink3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deeppink3
-
+`var(--deeppink3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,10,80)">deeppink4</span>
-
+![](https://placehold.it/50/8B0A50/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,10,80)">████</span>
-
+`.deeppink4`
 </td>
-
 <td style="text-align:left;">
-
-.deeppink4
-
+`.bg-deeppink4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deeppink4
-
+`var(--deeppink4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,191,255)">deepskyblue</span>
-
+![](https://placehold.it/50/00BFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,191,255)">████</span>
-
+`.deepskyblue`
 </td>
-
 <td style="text-align:left;">
-
-.deepskyblue
-
+`.bg-deepskyblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deepskyblue
-
+`var(--deepskyblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,191,255)">deepskyblue1</span>
-
+![](https://placehold.it/50/00BFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,191,255)">████</span>
-
+`.deepskyblue1`
 </td>
-
 <td style="text-align:left;">
-
-.deepskyblue1
-
+`.bg-deepskyblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deepskyblue1
-
+`var(--deepskyblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,178,238)">deepskyblue2</span>
-
+![](https://placehold.it/50/00B2EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,178,238)">████</span>
-
+`.deepskyblue2`
 </td>
-
 <td style="text-align:left;">
-
-.deepskyblue2
-
+`.bg-deepskyblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deepskyblue2
-
+`var(--deepskyblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,154,205)">deepskyblue3</span>
-
+![](https://placehold.it/50/009ACD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,154,205)">████</span>
-
+`.deepskyblue3`
 </td>
-
 <td style="text-align:left;">
-
-.deepskyblue3
-
+`.bg-deepskyblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deepskyblue3
-
+`var(--deepskyblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,104,139)">deepskyblue4</span>
-
+![](https://placehold.it/50/00688B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,104,139)">████</span>
-
+`.deepskyblue4`
 </td>
-
 <td style="text-align:left;">
-
-.deepskyblue4
-
+`.bg-deepskyblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-deepskyblue4
-
+`var(--deepskyblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">dimgray</span>
-
+![](https://placehold.it/50/696969/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">████</span>
-
+`.dimgray`
 </td>
-
 <td style="text-align:left;">
-
-.dimgray
-
+`.bg-dimgray`
 </td>
-
 <td style="text-align:left;">
-
-.bg-dimgray
-
+`var(--dimgray)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">dimgrey</span>
-
+![](https://placehold.it/50/696969/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">████</span>
-
+`.dimgrey`
 </td>
-
 <td style="text-align:left;">
-
-.dimgrey
-
+`.bg-dimgrey`
 </td>
-
 <td style="text-align:left;">
-
-.bg-dimgrey
-
+`var(--dimgrey)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(30,144,255)">dodgerblue</span>
-
+![](https://placehold.it/50/1E90FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(30,144,255)">████</span>
-
+`.dodgerblue`
 </td>
-
 <td style="text-align:left;">
-
-.dodgerblue
-
+`.bg-dodgerblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-dodgerblue
-
+`var(--dodgerblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(30,144,255)">dodgerblue1</span>
-
+![](https://placehold.it/50/1E90FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(30,144,255)">████</span>
-
+`.dodgerblue1`
 </td>
-
 <td style="text-align:left;">
-
-.dodgerblue1
-
+`.bg-dodgerblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-dodgerblue1
-
+`var(--dodgerblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(28,134,238)">dodgerblue2</span>
-
+![](https://placehold.it/50/1C86EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(28,134,238)">████</span>
-
+`.dodgerblue2`
 </td>
-
 <td style="text-align:left;">
-
-.dodgerblue2
-
+`.bg-dodgerblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-dodgerblue2
-
+`var(--dodgerblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(24,116,205)">dodgerblue3</span>
-
+![](https://placehold.it/50/1874CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(24,116,205)">████</span>
-
+`.dodgerblue3`
 </td>
-
 <td style="text-align:left;">
-
-.dodgerblue3
-
+`.bg-dodgerblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-dodgerblue3
-
+`var(--dodgerblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(16,78,139)">dodgerblue4</span>
-
+![](https://placehold.it/50/104E8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(16,78,139)">████</span>
-
+`.dodgerblue4`
 </td>
-
 <td style="text-align:left;">
-
-.dodgerblue4
-
+`.bg-dodgerblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-dodgerblue4
-
+`var(--dodgerblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(178,34,34)">firebrick</span>
-
+![](https://placehold.it/50/B22222/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(178,34,34)">████</span>
-
+`.firebrick`
 </td>
-
 <td style="text-align:left;">
-
-.firebrick
-
+`.bg-firebrick`
 </td>
-
 <td style="text-align:left;">
-
-.bg-firebrick
-
+`var(--firebrick)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,48,48)">firebrick1</span>
-
+![](https://placehold.it/50/FF3030/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,48,48)">████</span>
-
+`.firebrick1`
 </td>
-
 <td style="text-align:left;">
-
-.firebrick1
-
+`.bg-firebrick1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-firebrick1
-
+`var(--firebrick1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,44,44)">firebrick2</span>
-
+![](https://placehold.it/50/EE2C2C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,44,44)">████</span>
-
+`.firebrick2`
 </td>
-
 <td style="text-align:left;">
-
-.firebrick2
-
+`.bg-firebrick2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-firebrick2
-
+`var(--firebrick2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,38,38)">firebrick3</span>
-
+![](https://placehold.it/50/CD2626/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,38,38)">████</span>
-
+`.firebrick3`
 </td>
-
 <td style="text-align:left;">
-
-.firebrick3
-
+`.bg-firebrick3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-firebrick3
-
+`var(--firebrick3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,26,26)">firebrick4</span>
-
+![](https://placehold.it/50/8B1A1A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,26,26)">████</span>
-
+`.firebrick4`
 </td>
-
 <td style="text-align:left;">
-
-.firebrick4
-
+`.bg-firebrick4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-firebrick4
-
+`var(--firebrick4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,240)">floralwhite</span>
-
+![](https://placehold.it/50/FFFAF0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,240)">████</span>
-
+`.floralwhite`
 </td>
-
 <td style="text-align:left;">
-
-.floralwhite
-
+`.bg-floralwhite`
 </td>
-
 <td style="text-align:left;">
-
-.bg-floralwhite
-
+`var(--floralwhite)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(34,139,34)">forestgreen</span>
-
+![](https://placehold.it/50/228B22/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(34,139,34)">████</span>
-
+`.forestgreen`
 </td>
-
 <td style="text-align:left;">
-
-.forestgreen
-
+`.bg-forestgreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-forestgreen
-
+`var(--forestgreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(220,220,220)">gainsboro</span>
-
+![](https://placehold.it/50/DCDCDC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(220,220,220)">████</span>
-
+`.gainsboro`
 </td>
-
 <td style="text-align:left;">
-
-.gainsboro
-
+`.bg-gainsboro`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gainsboro
-
+`var(--gainsboro)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(248,248,255)">ghostwhite</span>
-
+![](https://placehold.it/50/F8F8FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(248,248,255)">████</span>
-
+`.ghostwhite`
 </td>
-
 <td style="text-align:left;">
-
-.ghostwhite
-
+`.bg-ghostwhite`
 </td>
-
 <td style="text-align:left;">
-
-.bg-ghostwhite
-
+`var(--ghostwhite)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,215,0)">gold</span>
-
+![](https://placehold.it/50/FFD700/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,215,0)">████</span>
-
+`.gold`
 </td>
-
 <td style="text-align:left;">
-
-.gold
-
+`.bg-gold`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gold
-
+`var(--gold)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,215,0)">gold1</span>
-
+![](https://placehold.it/50/FFD700/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,215,0)">████</span>
-
+`.gold1`
 </td>
-
 <td style="text-align:left;">
-
-.gold1
-
+`.bg-gold1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gold1
-
+`var(--gold1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,201,0)">gold2</span>
-
+![](https://placehold.it/50/EEC900/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,201,0)">████</span>
-
+`.gold2`
 </td>
-
 <td style="text-align:left;">
-
-.gold2
-
+`.bg-gold2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gold2
-
+`var(--gold2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,173,0)">gold3</span>
-
+![](https://placehold.it/50/CDAD00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,173,0)">████</span>
-
+`.gold3`
 </td>
-
 <td style="text-align:left;">
-
-.gold3
-
+`.bg-gold3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gold3
-
+`var(--gold3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,117,0)">gold4</span>
-
+![](https://placehold.it/50/8B7500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,117,0)">████</span>
-
+`.gold4`
 </td>
-
 <td style="text-align:left;">
-
-.gold4
-
+`.bg-gold4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gold4
-
+`var(--gold4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(218,165,32)">goldenrod</span>
-
+![](https://placehold.it/50/DAA520/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(218,165,32)">████</span>
-
+`.goldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.goldenrod
-
+`.bg-goldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.bg-goldenrod
-
+`var(--goldenrod)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,193,37)">goldenrod1</span>
-
+![](https://placehold.it/50/FFC125/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,193,37)">████</span>
-
+`.goldenrod1`
 </td>
-
 <td style="text-align:left;">
-
-.goldenrod1
-
+`.bg-goldenrod1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-goldenrod1
-
+`var(--goldenrod1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,180,34)">goldenrod2</span>
-
+![](https://placehold.it/50/EEB422/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,180,34)">████</span>
-
+`.goldenrod2`
 </td>
-
 <td style="text-align:left;">
-
-.goldenrod2
-
+`.bg-goldenrod2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-goldenrod2
-
+`var(--goldenrod2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,155,29)">goldenrod3</span>
-
+![](https://placehold.it/50/CD9B1D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,155,29)">████</span>
-
+`.goldenrod3`
 </td>
-
 <td style="text-align:left;">
-
-.goldenrod3
-
+`.bg-goldenrod3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-goldenrod3
-
+`var(--goldenrod3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,105,20)">goldenrod4</span>
-
+![](https://placehold.it/50/8B6914/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,105,20)">████</span>
-
+`.goldenrod4`
 </td>
-
 <td style="text-align:left;">
-
-.goldenrod4
-
+`.bg-goldenrod4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-goldenrod4
-
+`var(--goldenrod4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(190,190,190)">gray</span>
-
+![](https://placehold.it/50/BEBEBE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(190,190,190)">████</span>
-
+`.gray`
 </td>
-
 <td style="text-align:left;">
-
-.gray
-
+`.bg-gray`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray
-
+`var(--gray)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,0)">gray0</span>
-
+![](https://placehold.it/50/000000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,0)">████</span>
-
+`.gray0`
 </td>
-
 <td style="text-align:left;">
-
-.gray0
-
+`.bg-gray0`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray0
-
+`var(--gray0)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(3,3,3)">gray1</span>
-
+![](https://placehold.it/50/030303/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(3,3,3)">████</span>
-
+`.gray1`
 </td>
-
 <td style="text-align:left;">
-
-.gray1
-
+`.bg-gray1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray1
-
+`var(--gray1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(5,5,5)">gray2</span>
-
+![](https://placehold.it/50/050505/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(5,5,5)">████</span>
-
+`.gray2`
 </td>
-
 <td style="text-align:left;">
-
-.gray2
-
+`.bg-gray2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray2
-
+`var(--gray2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(8,8,8)">gray3</span>
-
+![](https://placehold.it/50/080808/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(8,8,8)">████</span>
-
+`.gray3`
 </td>
-
 <td style="text-align:left;">
-
-.gray3
-
+`.bg-gray3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray3
-
+`var(--gray3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(10,10,10)">gray4</span>
-
+![](https://placehold.it/50/0A0A0A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(10,10,10)">████</span>
-
+`.gray4`
 </td>
-
 <td style="text-align:left;">
-
-.gray4
-
+`.bg-gray4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray4
-
+`var(--gray4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(13,13,13)">gray5</span>
-
+![](https://placehold.it/50/0D0D0D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(13,13,13)">████</span>
-
+`.gray5`
 </td>
-
 <td style="text-align:left;">
-
-.gray5
-
+`.bg-gray5`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray5
-
+`var(--gray5)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(15,15,15)">gray6</span>
-
+![](https://placehold.it/50/0F0F0F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(15,15,15)">████</span>
-
+`.gray6`
 </td>
-
 <td style="text-align:left;">
-
-.gray6
-
+`.bg-gray6`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray6
-
+`var(--gray6)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(18,18,18)">gray7</span>
-
+![](https://placehold.it/50/121212/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(18,18,18)">████</span>
-
+`.gray7`
 </td>
-
 <td style="text-align:left;">
-
-.gray7
-
+`.bg-gray7`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray7
-
+`var(--gray7)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(20,20,20)">gray8</span>
-
+![](https://placehold.it/50/141414/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(20,20,20)">████</span>
-
+`.gray8`
 </td>
-
 <td style="text-align:left;">
-
-.gray8
-
+`.bg-gray8`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray8
-
+`var(--gray8)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(23,23,23)">gray9</span>
-
+![](https://placehold.it/50/171717/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(23,23,23)">████</span>
-
+`.gray9`
 </td>
-
 <td style="text-align:left;">
-
-.gray9
-
+`.bg-gray9`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray9
-
+`var(--gray9)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(26,26,26)">gray10</span>
-
+![](https://placehold.it/50/1A1A1A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(26,26,26)">████</span>
-
+`.gray10`
 </td>
-
 <td style="text-align:left;">
-
-.gray10
-
+`.bg-gray10`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray10
-
+`var(--gray10)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(28,28,28)">gray11</span>
-
+![](https://placehold.it/50/1C1C1C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(28,28,28)">████</span>
-
+`.gray11`
 </td>
-
 <td style="text-align:left;">
-
-.gray11
-
+`.bg-gray11`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray11
-
+`var(--gray11)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(31,31,31)">gray12</span>
-
+![](https://placehold.it/50/1F1F1F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(31,31,31)">████</span>
-
+`.gray12`
 </td>
-
 <td style="text-align:left;">
-
-.gray12
-
+`.bg-gray12`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray12
-
+`var(--gray12)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(33,33,33)">gray13</span>
-
+![](https://placehold.it/50/212121/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(33,33,33)">████</span>
-
+`.gray13`
 </td>
-
 <td style="text-align:left;">
-
-.gray13
-
+`.bg-gray13`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray13
-
+`var(--gray13)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(36,36,36)">gray14</span>
-
+![](https://placehold.it/50/242424/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(36,36,36)">████</span>
-
+`.gray14`
 </td>
-
 <td style="text-align:left;">
-
-.gray14
-
+`.bg-gray14`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray14
-
+`var(--gray14)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(38,38,38)">gray15</span>
-
+![](https://placehold.it/50/262626/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(38,38,38)">████</span>
-
+`.gray15`
 </td>
-
 <td style="text-align:left;">
-
-.gray15
-
+`.bg-gray15`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray15
-
+`var(--gray15)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(41,41,41)">gray16</span>
-
+![](https://placehold.it/50/292929/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(41,41,41)">████</span>
-
+`.gray16`
 </td>
-
 <td style="text-align:left;">
-
-.gray16
-
+`.bg-gray16`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray16
-
+`var(--gray16)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(43,43,43)">gray17</span>
-
+![](https://placehold.it/50/2B2B2B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(43,43,43)">████</span>
-
+`.gray17`
 </td>
-
 <td style="text-align:left;">
-
-.gray17
-
+`.bg-gray17`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray17
-
+`var(--gray17)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,46,46)">gray18</span>
-
+![](https://placehold.it/50/2E2E2E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,46,46)">████</span>
-
+`.gray18`
 </td>
-
 <td style="text-align:left;">
-
-.gray18
-
+`.bg-gray18`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray18
-
+`var(--gray18)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(48,48,48)">gray19</span>
-
+![](https://placehold.it/50/303030/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(48,48,48)">████</span>
-
+`.gray19`
 </td>
-
 <td style="text-align:left;">
-
-.gray19
-
+`.bg-gray19`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray19
-
+`var(--gray19)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(51,51,51)">gray20</span>
-
+![](https://placehold.it/50/333333/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(51,51,51)">████</span>
-
+`.gray20`
 </td>
-
 <td style="text-align:left;">
-
-.gray20
-
+`.bg-gray20`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray20
-
+`var(--gray20)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(54,54,54)">gray21</span>
-
+![](https://placehold.it/50/363636/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(54,54,54)">████</span>
-
+`.gray21`
 </td>
-
 <td style="text-align:left;">
-
-.gray21
-
+`.bg-gray21`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray21
-
+`var(--gray21)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(56,56,56)">gray22</span>
-
+![](https://placehold.it/50/383838/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(56,56,56)">████</span>
-
+`.gray22`
 </td>
-
 <td style="text-align:left;">
-
-.gray22
-
+`.bg-gray22`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray22
-
+`var(--gray22)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(59,59,59)">gray23</span>
-
+![](https://placehold.it/50/3B3B3B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(59,59,59)">████</span>
-
+`.gray23`
 </td>
-
 <td style="text-align:left;">
-
-.gray23
-
+`.bg-gray23`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray23
-
+`var(--gray23)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(61,61,61)">gray24</span>
-
+![](https://placehold.it/50/3D3D3D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(61,61,61)">████</span>
-
+`.gray24`
 </td>
-
 <td style="text-align:left;">
-
-.gray24
-
+`.bg-gray24`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray24
-
+`var(--gray24)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(64,64,64)">gray25</span>
-
+![](https://placehold.it/50/404040/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(64,64,64)">████</span>
-
+`.gray25`
 </td>
-
 <td style="text-align:left;">
-
-.gray25
-
+`.bg-gray25`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray25
-
+`var(--gray25)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(66,66,66)">gray26</span>
-
+![](https://placehold.it/50/424242/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(66,66,66)">████</span>
-
+`.gray26`
 </td>
-
 <td style="text-align:left;">
-
-.gray26
-
+`.bg-gray26`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray26
-
+`var(--gray26)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,69,69)">gray27</span>
-
+![](https://placehold.it/50/454545/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,69,69)">████</span>
-
+`.gray27`
 </td>
-
 <td style="text-align:left;">
-
-.gray27
-
+`.bg-gray27`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray27
-
+`var(--gray27)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(71,71,71)">gray28</span>
-
+![](https://placehold.it/50/474747/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(71,71,71)">████</span>
-
+`.gray28`
 </td>
-
 <td style="text-align:left;">
-
-.gray28
-
+`.bg-gray28`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray28
-
+`var(--gray28)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(74,74,74)">gray29</span>
-
+![](https://placehold.it/50/4A4A4A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(74,74,74)">████</span>
-
+`.gray29`
 </td>
-
 <td style="text-align:left;">
-
-.gray29
-
+`.bg-gray29`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray29
-
+`var(--gray29)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(77,77,77)">gray30</span>
-
+![](https://placehold.it/50/4D4D4D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(77,77,77)">████</span>
-
+`.gray30`
 </td>
-
 <td style="text-align:left;">
-
-.gray30
-
+`.bg-gray30`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray30
-
+`var(--gray30)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(79,79,79)">gray31</span>
-
+![](https://placehold.it/50/4F4F4F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(79,79,79)">████</span>
-
+`.gray31`
 </td>
-
 <td style="text-align:left;">
-
-.gray31
-
+`.bg-gray31`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray31
-
+`var(--gray31)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(82,82,82)">gray32</span>
-
+![](https://placehold.it/50/525252/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(82,82,82)">████</span>
-
+`.gray32`
 </td>
-
 <td style="text-align:left;">
-
-.gray32
-
+`.bg-gray32`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray32
-
+`var(--gray32)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,84,84)">gray33</span>
-
+![](https://placehold.it/50/545454/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,84,84)">████</span>
-
+`.gray33`
 </td>
-
 <td style="text-align:left;">
-
-.gray33
-
+`.bg-gray33`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray33
-
+`var(--gray33)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(87,87,87)">gray34</span>
-
+![](https://placehold.it/50/575757/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(87,87,87)">████</span>
-
+`.gray34`
 </td>
-
 <td style="text-align:left;">
-
-.gray34
-
+`.bg-gray34`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray34
-
+`var(--gray34)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(89,89,89)">gray35</span>
-
+![](https://placehold.it/50/595959/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(89,89,89)">████</span>
-
+`.gray35`
 </td>
-
 <td style="text-align:left;">
-
-.gray35
-
+`.bg-gray35`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray35
-
+`var(--gray35)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(92,92,92)">gray36</span>
-
+![](https://placehold.it/50/5C5C5C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(92,92,92)">████</span>
-
+`.gray36`
 </td>
-
 <td style="text-align:left;">
-
-.gray36
-
+`.bg-gray36`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray36
-
+`var(--gray36)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(94,94,94)">gray37</span>
-
+![](https://placehold.it/50/5E5E5E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(94,94,94)">████</span>
-
+`.gray37`
 </td>
-
 <td style="text-align:left;">
-
-.gray37
-
+`.bg-gray37`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray37
-
+`var(--gray37)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(97,97,97)">gray38</span>
-
+![](https://placehold.it/50/616161/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(97,97,97)">████</span>
-
+`.gray38`
 </td>
-
 <td style="text-align:left;">
-
-.gray38
-
+`.bg-gray38`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray38
-
+`var(--gray38)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(99,99,99)">gray39</span>
-
+![](https://placehold.it/50/636363/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(99,99,99)">████</span>
-
+`.gray39`
 </td>
-
 <td style="text-align:left;">
-
-.gray39
-
+`.bg-gray39`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray39
-
+`var(--gray39)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,102,102)">gray40</span>
-
+![](https://placehold.it/50/666666/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,102,102)">████</span>
-
+`.gray40`
 </td>
-
 <td style="text-align:left;">
-
-.gray40
-
+`.bg-gray40`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray40
-
+`var(--gray40)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">gray41</span>
-
+![](https://placehold.it/50/696969/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">████</span>
-
+`.gray41`
 </td>
-
 <td style="text-align:left;">
-
-.gray41
-
+`.bg-gray41`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray41
-
+`var(--gray41)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(107,107,107)">gray42</span>
-
+![](https://placehold.it/50/6B6B6B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(107,107,107)">████</span>
-
+`.gray42`
 </td>
-
 <td style="text-align:left;">
-
-.gray42
-
+`.bg-gray42`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray42
-
+`var(--gray42)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,110,110)">gray43</span>
-
+![](https://placehold.it/50/6E6E6E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,110,110)">████</span>
-
+`.gray43`
 </td>
-
 <td style="text-align:left;">
-
-.gray43
-
+`.bg-gray43`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray43
-
+`var(--gray43)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,112,112)">gray44</span>
-
+![](https://placehold.it/50/707070/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,112,112)">████</span>
-
+`.gray44`
 </td>
-
 <td style="text-align:left;">
-
-.gray44
-
+`.bg-gray44`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray44
-
+`var(--gray44)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(115,115,115)">gray45</span>
-
+![](https://placehold.it/50/737373/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(115,115,115)">████</span>
-
+`.gray45`
 </td>
-
 <td style="text-align:left;">
-
-.gray45
-
+`.bg-gray45`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray45
-
+`var(--gray45)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(117,117,117)">gray46</span>
-
+![](https://placehold.it/50/757575/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(117,117,117)">████</span>
-
+`.gray46`
 </td>
-
 <td style="text-align:left;">
-
-.gray46
-
+`.bg-gray46`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray46
-
+`var(--gray46)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(120,120,120)">gray47</span>
-
+![](https://placehold.it/50/787878/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(120,120,120)">████</span>
-
+`.gray47`
 </td>
-
 <td style="text-align:left;">
-
-.gray47
-
+`.bg-gray47`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray47
-
+`var(--gray47)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,122,122)">gray48</span>
-
+![](https://placehold.it/50/7A7A7A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,122,122)">████</span>
-
+`.gray48`
 </td>
-
 <td style="text-align:left;">
-
-.gray48
-
+`.bg-gray48`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray48
-
+`var(--gray48)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(125,125,125)">gray49</span>
-
+![](https://placehold.it/50/7D7D7D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(125,125,125)">████</span>
-
+`.gray49`
 </td>
-
 <td style="text-align:left;">
-
-.gray49
-
+`.bg-gray49`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray49
-
+`var(--gray49)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,127,127)">gray50</span>
-
+![](https://placehold.it/50/7F7F7F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,127,127)">████</span>
-
+`.gray50`
 </td>
-
 <td style="text-align:left;">
-
-.gray50
-
+`.bg-gray50`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray50
-
+`var(--gray50)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(130,130,130)">gray51</span>
-
+![](https://placehold.it/50/828282/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(130,130,130)">████</span>
-
+`.gray51`
 </td>
-
 <td style="text-align:left;">
-
-.gray51
-
+`.bg-gray51`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray51
-
+`var(--gray51)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(133,133,133)">gray52</span>
-
+![](https://placehold.it/50/858585/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(133,133,133)">████</span>
-
+`.gray52`
 </td>
-
 <td style="text-align:left;">
-
-.gray52
-
+`.bg-gray52`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray52
-
+`var(--gray52)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,135,135)">gray53</span>
-
+![](https://placehold.it/50/878787/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,135,135)">████</span>
-
+`.gray53`
 </td>
-
 <td style="text-align:left;">
-
-.gray53
-
+`.bg-gray53`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray53
-
+`var(--gray53)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(138,138,138)">gray54</span>
-
+![](https://placehold.it/50/8A8A8A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(138,138,138)">████</span>
-
+`.gray54`
 </td>
-
 <td style="text-align:left;">
-
-.gray54
-
+`.bg-gray54`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray54
-
+`var(--gray54)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(140,140,140)">gray55</span>
-
+![](https://placehold.it/50/8C8C8C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(140,140,140)">████</span>
-
+`.gray55`
 </td>
-
 <td style="text-align:left;">
-
-.gray55
-
+`.bg-gray55`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray55
-
+`var(--gray55)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(143,143,143)">gray56</span>
-
+![](https://placehold.it/50/8F8F8F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(143,143,143)">████</span>
-
+`.gray56`
 </td>
-
 <td style="text-align:left;">
-
-.gray56
-
+`.bg-gray56`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray56
-
+`var(--gray56)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(145,145,145)">gray57</span>
-
+![](https://placehold.it/50/919191/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(145,145,145)">████</span>
-
+`.gray57`
 </td>
-
 <td style="text-align:left;">
-
-.gray57
-
+`.bg-gray57`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray57
-
+`var(--gray57)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(148,148,148)">gray58</span>
-
+![](https://placehold.it/50/949494/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(148,148,148)">████</span>
-
+`.gray58`
 </td>
-
 <td style="text-align:left;">
-
-.gray58
-
+`.bg-gray58`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray58
-
+`var(--gray58)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(150,150,150)">gray59</span>
-
+![](https://placehold.it/50/969696/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(150,150,150)">████</span>
-
+`.gray59`
 </td>
-
 <td style="text-align:left;">
-
-.gray59
-
+`.bg-gray59`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray59
-
+`var(--gray59)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(153,153,153)">gray60</span>
-
+![](https://placehold.it/50/999999/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(153,153,153)">████</span>
-
+`.gray60`
 </td>
-
 <td style="text-align:left;">
-
-.gray60
-
+`.bg-gray60`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray60
-
+`var(--gray60)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(156,156,156)">gray61</span>
-
+![](https://placehold.it/50/9C9C9C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(156,156,156)">████</span>
-
+`.gray61`
 </td>
-
 <td style="text-align:left;">
-
-.gray61
-
+`.bg-gray61`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray61
-
+`var(--gray61)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(158,158,158)">gray62</span>
-
+![](https://placehold.it/50/9E9E9E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(158,158,158)">████</span>
-
+`.gray62`
 </td>
-
 <td style="text-align:left;">
-
-.gray62
-
+`.bg-gray62`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray62
-
+`var(--gray62)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(161,161,161)">gray63</span>
-
+![](https://placehold.it/50/A1A1A1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(161,161,161)">████</span>
-
+`.gray63`
 </td>
-
 <td style="text-align:left;">
-
-.gray63
-
+`.bg-gray63`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray63
-
+`var(--gray63)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(163,163,163)">gray64</span>
-
+![](https://placehold.it/50/A3A3A3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(163,163,163)">████</span>
-
+`.gray64`
 </td>
-
 <td style="text-align:left;">
-
-.gray64
-
+`.bg-gray64`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray64
-
+`var(--gray64)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(166,166,166)">gray65</span>
-
+![](https://placehold.it/50/A6A6A6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(166,166,166)">████</span>
-
+`.gray65`
 </td>
-
 <td style="text-align:left;">
-
-.gray65
-
+`.bg-gray65`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray65
-
+`var(--gray65)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(168,168,168)">gray66</span>
-
+![](https://placehold.it/50/A8A8A8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(168,168,168)">████</span>
-
+`.gray66`
 </td>
-
 <td style="text-align:left;">
-
-.gray66
-
+`.bg-gray66`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray66
-
+`var(--gray66)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(171,171,171)">gray67</span>
-
+![](https://placehold.it/50/ABABAB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(171,171,171)">████</span>
-
+`.gray67`
 </td>
-
 <td style="text-align:left;">
-
-.gray67
-
+`.bg-gray67`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray67
-
+`var(--gray67)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,173,173)">gray68</span>
-
+![](https://placehold.it/50/ADADAD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,173,173)">████</span>
-
+`.gray68`
 </td>
-
 <td style="text-align:left;">
-
-.gray68
-
+`.bg-gray68`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray68
-
+`var(--gray68)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,176,176)">gray69</span>
-
+![](https://placehold.it/50/B0B0B0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,176,176)">████</span>
-
+`.gray69`
 </td>
-
 <td style="text-align:left;">
-
-.gray69
-
+`.bg-gray69`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray69
-
+`var(--gray69)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(179,179,179)">gray70</span>
-
+![](https://placehold.it/50/B3B3B3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(179,179,179)">████</span>
-
+`.gray70`
 </td>
-
 <td style="text-align:left;">
-
-.gray70
-
+`.bg-gray70`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray70
-
+`var(--gray70)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(181,181,181)">gray71</span>
-
+![](https://placehold.it/50/B5B5B5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(181,181,181)">████</span>
-
+`.gray71`
 </td>
-
 <td style="text-align:left;">
-
-.gray71
-
+`.bg-gray71`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray71
-
+`var(--gray71)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(184,184,184)">gray72</span>
-
+![](https://placehold.it/50/B8B8B8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(184,184,184)">████</span>
-
+`.gray72`
 </td>
-
 <td style="text-align:left;">
-
-.gray72
-
+`.bg-gray72`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray72
-
+`var(--gray72)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(186,186,186)">gray73</span>
-
+![](https://placehold.it/50/BABABA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(186,186,186)">████</span>
-
+`.gray73`
 </td>
-
 <td style="text-align:left;">
-
-.gray73
-
+`.bg-gray73`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray73
-
+`var(--gray73)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(189,189,189)">gray74</span>
-
+![](https://placehold.it/50/BDBDBD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(189,189,189)">████</span>
-
+`.gray74`
 </td>
-
 <td style="text-align:left;">
-
-.gray74
-
+`.bg-gray74`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray74
-
+`var(--gray74)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,191,191)">gray75</span>
-
+![](https://placehold.it/50/BFBFBF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,191,191)">████</span>
-
+`.gray75`
 </td>
-
 <td style="text-align:left;">
-
-.gray75
-
+`.bg-gray75`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray75
-
+`var(--gray75)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(194,194,194)">gray76</span>
-
+![](https://placehold.it/50/C2C2C2/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(194,194,194)">████</span>
-
+`.gray76`
 </td>
-
 <td style="text-align:left;">
-
-.gray76
-
+`.bg-gray76`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray76
-
+`var(--gray76)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(196,196,196)">gray77</span>
-
+![](https://placehold.it/50/C4C4C4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(196,196,196)">████</span>
-
+`.gray77`
 </td>
-
 <td style="text-align:left;">
-
-.gray77
-
+`.bg-gray77`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray77
-
+`var(--gray77)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(199,199,199)">gray78</span>
-
+![](https://placehold.it/50/C7C7C7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(199,199,199)">████</span>
-
+`.gray78`
 </td>
-
 <td style="text-align:left;">
-
-.gray78
-
+`.bg-gray78`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray78
-
+`var(--gray78)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(201,201,201)">gray79</span>
-
+![](https://placehold.it/50/C9C9C9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(201,201,201)">████</span>
-
+`.gray79`
 </td>
-
 <td style="text-align:left;">
-
-.gray79
-
+`.bg-gray79`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray79
-
+`var(--gray79)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(204,204,204)">gray80</span>
-
+![](https://placehold.it/50/CCCCCC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(204,204,204)">████</span>
-
+`.gray80`
 </td>
-
 <td style="text-align:left;">
-
-.gray80
-
+`.bg-gray80`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray80
-
+`var(--gray80)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(207,207,207)">gray81</span>
-
+![](https://placehold.it/50/CFCFCF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(207,207,207)">████</span>
-
+`.gray81`
 </td>
-
 <td style="text-align:left;">
-
-.gray81
-
+`.bg-gray81`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray81
-
+`var(--gray81)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,209,209)">gray82</span>
-
+![](https://placehold.it/50/D1D1D1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,209,209)">████</span>
-
+`.gray82`
 </td>
-
 <td style="text-align:left;">
-
-.gray82
-
+`.bg-gray82`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray82
-
+`var(--gray82)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(212,212,212)">gray83</span>
-
+![](https://placehold.it/50/D4D4D4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(212,212,212)">████</span>
-
+`.gray83`
 </td>
-
 <td style="text-align:left;">
-
-.gray83
-
+`.bg-gray83`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray83
-
+`var(--gray83)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(214,214,214)">gray84</span>
-
+![](https://placehold.it/50/D6D6D6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(214,214,214)">████</span>
-
+`.gray84`
 </td>
-
 <td style="text-align:left;">
-
-.gray84
-
+`.bg-gray84`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray84
-
+`var(--gray84)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(217,217,217)">gray85</span>
-
+![](https://placehold.it/50/D9D9D9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(217,217,217)">████</span>
-
+`.gray85`
 </td>
-
 <td style="text-align:left;">
-
-.gray85
-
+`.bg-gray85`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray85
-
+`var(--gray85)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(219,219,219)">gray86</span>
-
+![](https://placehold.it/50/DBDBDB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(219,219,219)">████</span>
-
+`.gray86`
 </td>
-
 <td style="text-align:left;">
-
-.gray86
-
+`.bg-gray86`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray86
-
+`var(--gray86)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(222,222,222)">gray87</span>
-
+![](https://placehold.it/50/DEDEDE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(222,222,222)">████</span>
-
+`.gray87`
 </td>
-
 <td style="text-align:left;">
-
-.gray87
-
+`.bg-gray87`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray87
-
+`var(--gray87)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,224,224)">gray88</span>
-
+![](https://placehold.it/50/E0E0E0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,224,224)">████</span>
-
+`.gray88`
 </td>
-
 <td style="text-align:left;">
-
-.gray88
-
+`.bg-gray88`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray88
-
+`var(--gray88)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(227,227,227)">gray89</span>
-
+![](https://placehold.it/50/E3E3E3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(227,227,227)">████</span>
-
+`.gray89`
 </td>
-
 <td style="text-align:left;">
-
-.gray89
-
+`.bg-gray89`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray89
-
+`var(--gray89)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(229,229,229)">gray90</span>
-
+![](https://placehold.it/50/E5E5E5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(229,229,229)">████</span>
-
+`.gray90`
 </td>
-
 <td style="text-align:left;">
-
-.gray90
-
+`.bg-gray90`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray90
-
+`var(--gray90)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(232,232,232)">gray91</span>
-
+![](https://placehold.it/50/E8E8E8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(232,232,232)">████</span>
-
+`.gray91`
 </td>
-
 <td style="text-align:left;">
-
-.gray91
-
+`.bg-gray91`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray91
-
+`var(--gray91)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(235,235,235)">gray92</span>
-
+![](https://placehold.it/50/EBEBEB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(235,235,235)">████</span>
-
+`.gray92`
 </td>
-
 <td style="text-align:left;">
-
-.gray92
-
+`.bg-gray92`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray92
-
+`var(--gray92)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(237,237,237)">gray93</span>
-
+![](https://placehold.it/50/EDEDED/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(237,237,237)">████</span>
-
+`.gray93`
 </td>
-
 <td style="text-align:left;">
-
-.gray93
-
+`.bg-gray93`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray93
-
+`var(--gray93)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,240,240)">gray94</span>
-
+![](https://placehold.it/50/F0F0F0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,240,240)">████</span>
-
+`.gray94`
 </td>
-
 <td style="text-align:left;">
-
-.gray94
-
+`.bg-gray94`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray94
-
+`var(--gray94)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(242,242,242)">gray95</span>
-
+![](https://placehold.it/50/F2F2F2/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(242,242,242)">████</span>
-
+`.gray95`
 </td>
-
 <td style="text-align:left;">
-
-.gray95
-
+`.bg-gray95`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray95
-
+`var(--gray95)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,245)">gray96</span>
-
+![](https://placehold.it/50/F5F5F5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,245)">████</span>
-
+`.gray96`
 </td>
-
 <td style="text-align:left;">
-
-.gray96
-
+`.bg-gray96`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray96
-
+`var(--gray96)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(247,247,247)">gray97</span>
-
+![](https://placehold.it/50/F7F7F7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(247,247,247)">████</span>
-
+`.gray97`
 </td>
-
 <td style="text-align:left;">
-
-.gray97
-
+`.bg-gray97`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray97
-
+`var(--gray97)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,250,250)">gray98</span>
-
+![](https://placehold.it/50/FAFAFA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,250,250)">████</span>
-
+`.gray98`
 </td>
-
 <td style="text-align:left;">
-
-.gray98
-
+`.bg-gray98`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray98
-
+`var(--gray98)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(252,252,252)">gray99</span>
-
+![](https://placehold.it/50/FCFCFC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(252,252,252)">████</span>
-
+`.gray99`
 </td>
-
 <td style="text-align:left;">
-
-.gray99
-
+`.bg-gray99`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray99
-
+`var(--gray99)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,255)">gray100</span>
-
+![](https://placehold.it/50/FFFFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,255)">████</span>
-
+`.gray100`
 </td>
-
 <td style="text-align:left;">
-
-.gray100
-
+`.bg-gray100`
 </td>
-
 <td style="text-align:left;">
-
-.bg-gray100
-
+`var(--gray100)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,0)">green</span>
-
+![](https://placehold.it/50/00FF00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,0)">████</span>
-
+`.green`
 </td>
-
 <td style="text-align:left;">
-
-.green
-
+`.bg-green`
 </td>
-
 <td style="text-align:left;">
-
-.bg-green
-
+`var(--green)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,0)">green1</span>
-
+![](https://placehold.it/50/00FF00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,0)">████</span>
-
+`.green1`
 </td>
-
 <td style="text-align:left;">
-
-.green1
-
+`.bg-green1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-green1
-
+`var(--green1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,238,0)">green2</span>
-
+![](https://placehold.it/50/00EE00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,238,0)">████</span>
-
+`.green2`
 </td>
-
 <td style="text-align:left;">
-
-.green2
-
+`.bg-green2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-green2
-
+`var(--green2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,205,0)">green3</span>
-
+![](https://placehold.it/50/00CD00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,205,0)">████</span>
-
+`.green3`
 </td>
-
 <td style="text-align:left;">
-
-.green3
-
+`.bg-green3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-green3
-
+`var(--green3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,0)">green4</span>
-
+![](https://placehold.it/50/008B00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,0)">████</span>
-
+`.green4`
 </td>
-
 <td style="text-align:left;">
-
-.green4
-
+`.bg-green4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-green4
-
+`var(--green4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,255,47)">greenyellow</span>
-
+![](https://placehold.it/50/ADFF2F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,255,47)">████</span>
-
+`.greenyellow`
 </td>
-
 <td style="text-align:left;">
-
-.greenyellow
-
+`.bg-greenyellow`
 </td>
-
 <td style="text-align:left;">
-
-.bg-greenyellow
-
+`var(--greenyellow)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(190,190,190)">grey</span>
-
+![](https://placehold.it/50/BEBEBE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(190,190,190)">████</span>
-
+`.grey`
 </td>
-
 <td style="text-align:left;">
-
-.grey
-
+`.bg-grey`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey
-
+`var(--grey)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,0)">grey0</span>
-
+![](https://placehold.it/50/000000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,0)">████</span>
-
+`.grey0`
 </td>
-
 <td style="text-align:left;">
-
-.grey0
-
+`.bg-grey0`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey0
-
+`var(--grey0)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(3,3,3)">grey1</span>
-
+![](https://placehold.it/50/030303/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(3,3,3)">████</span>
-
+`.grey1`
 </td>
-
 <td style="text-align:left;">
-
-.grey1
-
+`.bg-grey1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey1
-
+`var(--grey1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(5,5,5)">grey2</span>
-
+![](https://placehold.it/50/050505/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(5,5,5)">████</span>
-
+`.grey2`
 </td>
-
 <td style="text-align:left;">
-
-.grey2
-
+`.bg-grey2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey2
-
+`var(--grey2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(8,8,8)">grey3</span>
-
+![](https://placehold.it/50/080808/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(8,8,8)">████</span>
-
+`.grey3`
 </td>
-
 <td style="text-align:left;">
-
-.grey3
-
+`.bg-grey3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey3
-
+`var(--grey3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(10,10,10)">grey4</span>
-
+![](https://placehold.it/50/0A0A0A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(10,10,10)">████</span>
-
+`.grey4`
 </td>
-
 <td style="text-align:left;">
-
-.grey4
-
+`.bg-grey4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey4
-
+`var(--grey4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(13,13,13)">grey5</span>
-
+![](https://placehold.it/50/0D0D0D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(13,13,13)">████</span>
-
+`.grey5`
 </td>
-
 <td style="text-align:left;">
-
-.grey5
-
+`.bg-grey5`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey5
-
+`var(--grey5)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(15,15,15)">grey6</span>
-
+![](https://placehold.it/50/0F0F0F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(15,15,15)">████</span>
-
+`.grey6`
 </td>
-
 <td style="text-align:left;">
-
-.grey6
-
+`.bg-grey6`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey6
-
+`var(--grey6)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(18,18,18)">grey7</span>
-
+![](https://placehold.it/50/121212/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(18,18,18)">████</span>
-
+`.grey7`
 </td>
-
 <td style="text-align:left;">
-
-.grey7
-
+`.bg-grey7`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey7
-
+`var(--grey7)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(20,20,20)">grey8</span>
-
+![](https://placehold.it/50/141414/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(20,20,20)">████</span>
-
+`.grey8`
 </td>
-
 <td style="text-align:left;">
-
-.grey8
-
+`.bg-grey8`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey8
-
+`var(--grey8)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(23,23,23)">grey9</span>
-
+![](https://placehold.it/50/171717/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(23,23,23)">████</span>
-
+`.grey9`
 </td>
-
 <td style="text-align:left;">
-
-.grey9
-
+`.bg-grey9`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey9
-
+`var(--grey9)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(26,26,26)">grey10</span>
-
+![](https://placehold.it/50/1A1A1A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(26,26,26)">████</span>
-
+`.grey10`
 </td>
-
 <td style="text-align:left;">
-
-.grey10
-
+`.bg-grey10`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey10
-
+`var(--grey10)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(28,28,28)">grey11</span>
-
+![](https://placehold.it/50/1C1C1C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(28,28,28)">████</span>
-
+`.grey11`
 </td>
-
 <td style="text-align:left;">
-
-.grey11
-
+`.bg-grey11`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey11
-
+`var(--grey11)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(31,31,31)">grey12</span>
-
+![](https://placehold.it/50/1F1F1F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(31,31,31)">████</span>
-
+`.grey12`
 </td>
-
 <td style="text-align:left;">
-
-.grey12
-
+`.bg-grey12`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey12
-
+`var(--grey12)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(33,33,33)">grey13</span>
-
+![](https://placehold.it/50/212121/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(33,33,33)">████</span>
-
+`.grey13`
 </td>
-
 <td style="text-align:left;">
-
-.grey13
-
+`.bg-grey13`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey13
-
+`var(--grey13)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(36,36,36)">grey14</span>
-
+![](https://placehold.it/50/242424/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(36,36,36)">████</span>
-
+`.grey14`
 </td>
-
 <td style="text-align:left;">
-
-.grey14
-
+`.bg-grey14`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey14
-
+`var(--grey14)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(38,38,38)">grey15</span>
-
+![](https://placehold.it/50/262626/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(38,38,38)">████</span>
-
+`.grey15`
 </td>
-
 <td style="text-align:left;">
-
-.grey15
-
+`.bg-grey15`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey15
-
+`var(--grey15)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(41,41,41)">grey16</span>
-
+![](https://placehold.it/50/292929/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(41,41,41)">████</span>
-
+`.grey16`
 </td>
-
 <td style="text-align:left;">
-
-.grey16
-
+`.bg-grey16`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey16
-
+`var(--grey16)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(43,43,43)">grey17</span>
-
+![](https://placehold.it/50/2B2B2B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(43,43,43)">████</span>
-
+`.grey17`
 </td>
-
 <td style="text-align:left;">
-
-.grey17
-
+`.bg-grey17`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey17
-
+`var(--grey17)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,46,46)">grey18</span>
-
+![](https://placehold.it/50/2E2E2E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,46,46)">████</span>
-
+`.grey18`
 </td>
-
 <td style="text-align:left;">
-
-.grey18
-
+`.bg-grey18`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey18
-
+`var(--grey18)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(48,48,48)">grey19</span>
-
+![](https://placehold.it/50/303030/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(48,48,48)">████</span>
-
+`.grey19`
 </td>
-
 <td style="text-align:left;">
-
-.grey19
-
+`.bg-grey19`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey19
-
+`var(--grey19)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(51,51,51)">grey20</span>
-
+![](https://placehold.it/50/333333/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(51,51,51)">████</span>
-
+`.grey20`
 </td>
-
 <td style="text-align:left;">
-
-.grey20
-
+`.bg-grey20`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey20
-
+`var(--grey20)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(54,54,54)">grey21</span>
-
+![](https://placehold.it/50/363636/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(54,54,54)">████</span>
-
+`.grey21`
 </td>
-
 <td style="text-align:left;">
-
-.grey21
-
+`.bg-grey21`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey21
-
+`var(--grey21)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(56,56,56)">grey22</span>
-
+![](https://placehold.it/50/383838/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(56,56,56)">████</span>
-
+`.grey22`
 </td>
-
 <td style="text-align:left;">
-
-.grey22
-
+`.bg-grey22`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey22
-
+`var(--grey22)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(59,59,59)">grey23</span>
-
+![](https://placehold.it/50/3B3B3B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(59,59,59)">████</span>
-
+`.grey23`
 </td>
-
 <td style="text-align:left;">
-
-.grey23
-
+`.bg-grey23`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey23
-
+`var(--grey23)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(61,61,61)">grey24</span>
-
+![](https://placehold.it/50/3D3D3D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(61,61,61)">████</span>
-
+`.grey24`
 </td>
-
 <td style="text-align:left;">
-
-.grey24
-
+`.bg-grey24`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey24
-
+`var(--grey24)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(64,64,64)">grey25</span>
-
+![](https://placehold.it/50/404040/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(64,64,64)">████</span>
-
+`.grey25`
 </td>
-
 <td style="text-align:left;">
-
-.grey25
-
+`.bg-grey25`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey25
-
+`var(--grey25)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(66,66,66)">grey26</span>
-
+![](https://placehold.it/50/424242/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(66,66,66)">████</span>
-
+`.grey26`
 </td>
-
 <td style="text-align:left;">
-
-.grey26
-
+`.bg-grey26`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey26
-
+`var(--grey26)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,69,69)">grey27</span>
-
+![](https://placehold.it/50/454545/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(69,69,69)">████</span>
-
+`.grey27`
 </td>
-
 <td style="text-align:left;">
-
-.grey27
-
+`.bg-grey27`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey27
-
+`var(--grey27)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(71,71,71)">grey28</span>
-
+![](https://placehold.it/50/474747/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(71,71,71)">████</span>
-
+`.grey28`
 </td>
-
 <td style="text-align:left;">
-
-.grey28
-
+`.bg-grey28`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey28
-
+`var(--grey28)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(74,74,74)">grey29</span>
-
+![](https://placehold.it/50/4A4A4A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(74,74,74)">████</span>
-
+`.grey29`
 </td>
-
 <td style="text-align:left;">
-
-.grey29
-
+`.bg-grey29`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey29
-
+`var(--grey29)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(77,77,77)">grey30</span>
-
+![](https://placehold.it/50/4D4D4D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(77,77,77)">████</span>
-
+`.grey30`
 </td>
-
 <td style="text-align:left;">
-
-.grey30
-
+`.bg-grey30`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey30
-
+`var(--grey30)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(79,79,79)">grey31</span>
-
+![](https://placehold.it/50/4F4F4F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(79,79,79)">████</span>
-
+`.grey31`
 </td>
-
 <td style="text-align:left;">
-
-.grey31
-
+`.bg-grey31`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey31
-
+`var(--grey31)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(82,82,82)">grey32</span>
-
+![](https://placehold.it/50/525252/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(82,82,82)">████</span>
-
+`.grey32`
 </td>
-
 <td style="text-align:left;">
-
-.grey32
-
+`.bg-grey32`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey32
-
+`var(--grey32)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,84,84)">grey33</span>
-
+![](https://placehold.it/50/545454/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,84,84)">████</span>
-
+`.grey33`
 </td>
-
 <td style="text-align:left;">
-
-.grey33
-
+`.bg-grey33`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey33
-
+`var(--grey33)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(87,87,87)">grey34</span>
-
+![](https://placehold.it/50/575757/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(87,87,87)">████</span>
-
+`.grey34`
 </td>
-
 <td style="text-align:left;">
-
-.grey34
-
+`.bg-grey34`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey34
-
+`var(--grey34)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(89,89,89)">grey35</span>
-
+![](https://placehold.it/50/595959/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(89,89,89)">████</span>
-
+`.grey35`
 </td>
-
 <td style="text-align:left;">
-
-.grey35
-
+`.bg-grey35`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey35
-
+`var(--grey35)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(92,92,92)">grey36</span>
-
+![](https://placehold.it/50/5C5C5C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(92,92,92)">████</span>
-
+`.grey36`
 </td>
-
 <td style="text-align:left;">
-
-.grey36
-
+`.bg-grey36`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey36
-
+`var(--grey36)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(94,94,94)">grey37</span>
-
+![](https://placehold.it/50/5E5E5E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(94,94,94)">████</span>
-
+`.grey37`
 </td>
-
 <td style="text-align:left;">
-
-.grey37
-
+`.bg-grey37`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey37
-
+`var(--grey37)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(97,97,97)">grey38</span>
-
+![](https://placehold.it/50/616161/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(97,97,97)">████</span>
-
+`.grey38`
 </td>
-
 <td style="text-align:left;">
-
-.grey38
-
+`.bg-grey38`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey38
-
+`var(--grey38)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(99,99,99)">grey39</span>
-
+![](https://placehold.it/50/636363/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(99,99,99)">████</span>
-
+`.grey39`
 </td>
-
 <td style="text-align:left;">
-
-.grey39
-
+`.bg-grey39`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey39
-
+`var(--grey39)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,102,102)">grey40</span>
-
+![](https://placehold.it/50/666666/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,102,102)">████</span>
-
+`.grey40`
 </td>
-
 <td style="text-align:left;">
-
-.grey40
-
+`.bg-grey40`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey40
-
+`var(--grey40)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">grey41</span>
-
+![](https://placehold.it/50/696969/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,105,105)">████</span>
-
+`.grey41`
 </td>
-
 <td style="text-align:left;">
-
-.grey41
-
+`.bg-grey41`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey41
-
+`var(--grey41)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(107,107,107)">grey42</span>
-
+![](https://placehold.it/50/6B6B6B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(107,107,107)">████</span>
-
+`.grey42`
 </td>
-
 <td style="text-align:left;">
-
-.grey42
-
+`.bg-grey42`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey42
-
+`var(--grey42)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,110,110)">grey43</span>
-
+![](https://placehold.it/50/6E6E6E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,110,110)">████</span>
-
+`.grey43`
 </td>
-
 <td style="text-align:left;">
-
-.grey43
-
+`.bg-grey43`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey43
-
+`var(--grey43)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,112,112)">grey44</span>
-
+![](https://placehold.it/50/707070/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,112,112)">████</span>
-
+`.grey44`
 </td>
-
 <td style="text-align:left;">
-
-.grey44
-
+`.bg-grey44`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey44
-
+`var(--grey44)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(115,115,115)">grey45</span>
-
+![](https://placehold.it/50/737373/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(115,115,115)">████</span>
-
+`.grey45`
 </td>
-
 <td style="text-align:left;">
-
-.grey45
-
+`.bg-grey45`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey45
-
+`var(--grey45)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(117,117,117)">grey46</span>
-
+![](https://placehold.it/50/757575/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(117,117,117)">████</span>
-
+`.grey46`
 </td>
-
 <td style="text-align:left;">
-
-.grey46
-
+`.bg-grey46`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey46
-
+`var(--grey46)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(120,120,120)">grey47</span>
-
+![](https://placehold.it/50/787878/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(120,120,120)">████</span>
-
+`.grey47`
 </td>
-
 <td style="text-align:left;">
-
-.grey47
-
+`.bg-grey47`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey47
-
+`var(--grey47)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,122,122)">grey48</span>
-
+![](https://placehold.it/50/7A7A7A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,122,122)">████</span>
-
+`.grey48`
 </td>
-
 <td style="text-align:left;">
-
-.grey48
-
+`.bg-grey48`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey48
-
+`var(--grey48)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(125,125,125)">grey49</span>
-
+![](https://placehold.it/50/7D7D7D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(125,125,125)">████</span>
-
+`.grey49`
 </td>
-
 <td style="text-align:left;">
-
-.grey49
-
+`.bg-grey49`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey49
-
+`var(--grey49)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,127,127)">grey50</span>
-
+![](https://placehold.it/50/7F7F7F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(127,127,127)">████</span>
-
+`.grey50`
 </td>
-
 <td style="text-align:left;">
-
-.grey50
-
+`.bg-grey50`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey50
-
+`var(--grey50)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(130,130,130)">grey51</span>
-
+![](https://placehold.it/50/828282/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(130,130,130)">████</span>
-
+`.grey51`
 </td>
-
 <td style="text-align:left;">
-
-.grey51
-
+`.bg-grey51`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey51
-
+`var(--grey51)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(133,133,133)">grey52</span>
-
+![](https://placehold.it/50/858585/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(133,133,133)">████</span>
-
+`.grey52`
 </td>
-
 <td style="text-align:left;">
-
-.grey52
-
+`.bg-grey52`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey52
-
+`var(--grey52)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,135,135)">grey53</span>
-
+![](https://placehold.it/50/878787/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,135,135)">████</span>
-
+`.grey53`
 </td>
-
 <td style="text-align:left;">
-
-.grey53
-
+`.bg-grey53`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey53
-
+`var(--grey53)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(138,138,138)">grey54</span>
-
+![](https://placehold.it/50/8A8A8A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(138,138,138)">████</span>
-
+`.grey54`
 </td>
-
 <td style="text-align:left;">
-
-.grey54
-
+`.bg-grey54`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey54
-
+`var(--grey54)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(140,140,140)">grey55</span>
-
+![](https://placehold.it/50/8C8C8C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(140,140,140)">████</span>
-
+`.grey55`
 </td>
-
 <td style="text-align:left;">
-
-.grey55
-
+`.bg-grey55`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey55
-
+`var(--grey55)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(143,143,143)">grey56</span>
-
+![](https://placehold.it/50/8F8F8F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(143,143,143)">████</span>
-
+`.grey56`
 </td>
-
 <td style="text-align:left;">
-
-.grey56
-
+`.bg-grey56`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey56
-
+`var(--grey56)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(145,145,145)">grey57</span>
-
+![](https://placehold.it/50/919191/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(145,145,145)">████</span>
-
+`.grey57`
 </td>
-
 <td style="text-align:left;">
-
-.grey57
-
+`.bg-grey57`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey57
-
+`var(--grey57)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(148,148,148)">grey58</span>
-
+![](https://placehold.it/50/949494/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(148,148,148)">████</span>
-
+`.grey58`
 </td>
-
 <td style="text-align:left;">
-
-.grey58
-
+`.bg-grey58`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey58
-
+`var(--grey58)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(150,150,150)">grey59</span>
-
+![](https://placehold.it/50/969696/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(150,150,150)">████</span>
-
+`.grey59`
 </td>
-
 <td style="text-align:left;">
-
-.grey59
-
+`.bg-grey59`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey59
-
+`var(--grey59)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(153,153,153)">grey60</span>
-
+![](https://placehold.it/50/999999/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(153,153,153)">████</span>
-
+`.grey60`
 </td>
-
 <td style="text-align:left;">
-
-.grey60
-
+`.bg-grey60`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey60
-
+`var(--grey60)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(156,156,156)">grey61</span>
-
+![](https://placehold.it/50/9C9C9C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(156,156,156)">████</span>
-
+`.grey61`
 </td>
-
 <td style="text-align:left;">
-
-.grey61
-
+`.bg-grey61`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey61
-
+`var(--grey61)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(158,158,158)">grey62</span>
-
+![](https://placehold.it/50/9E9E9E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(158,158,158)">████</span>
-
+`.grey62`
 </td>
-
 <td style="text-align:left;">
-
-.grey62
-
+`.bg-grey62`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey62
-
+`var(--grey62)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(161,161,161)">grey63</span>
-
+![](https://placehold.it/50/A1A1A1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(161,161,161)">████</span>
-
+`.grey63`
 </td>
-
 <td style="text-align:left;">
-
-.grey63
-
+`.bg-grey63`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey63
-
+`var(--grey63)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(163,163,163)">grey64</span>
-
+![](https://placehold.it/50/A3A3A3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(163,163,163)">████</span>
-
+`.grey64`
 </td>
-
 <td style="text-align:left;">
-
-.grey64
-
+`.bg-grey64`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey64
-
+`var(--grey64)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(166,166,166)">grey65</span>
-
+![](https://placehold.it/50/A6A6A6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(166,166,166)">████</span>
-
+`.grey65`
 </td>
-
 <td style="text-align:left;">
-
-.grey65
-
+`.bg-grey65`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey65
-
+`var(--grey65)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(168,168,168)">grey66</span>
-
+![](https://placehold.it/50/A8A8A8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(168,168,168)">████</span>
-
+`.grey66`
 </td>
-
 <td style="text-align:left;">
-
-.grey66
-
+`.bg-grey66`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey66
-
+`var(--grey66)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(171,171,171)">grey67</span>
-
+![](https://placehold.it/50/ABABAB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(171,171,171)">████</span>
-
+`.grey67`
 </td>
-
 <td style="text-align:left;">
-
-.grey67
-
+`.bg-grey67`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey67
-
+`var(--grey67)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,173,173)">grey68</span>
-
+![](https://placehold.it/50/ADADAD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,173,173)">████</span>
-
+`.grey68`
 </td>
-
 <td style="text-align:left;">
-
-.grey68
-
+`.bg-grey68`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey68
-
+`var(--grey68)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,176,176)">grey69</span>
-
+![](https://placehold.it/50/B0B0B0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,176,176)">████</span>
-
+`.grey69`
 </td>
-
 <td style="text-align:left;">
-
-.grey69
-
+`.bg-grey69`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey69
-
+`var(--grey69)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(179,179,179)">grey70</span>
-
+![](https://placehold.it/50/B3B3B3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(179,179,179)">████</span>
-
+`.grey70`
 </td>
-
 <td style="text-align:left;">
-
-.grey70
-
+`.bg-grey70`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey70
-
+`var(--grey70)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(181,181,181)">grey71</span>
-
+![](https://placehold.it/50/B5B5B5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(181,181,181)">████</span>
-
+`.grey71`
 </td>
-
 <td style="text-align:left;">
-
-.grey71
-
+`.bg-grey71`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey71
-
+`var(--grey71)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(184,184,184)">grey72</span>
-
+![](https://placehold.it/50/B8B8B8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(184,184,184)">████</span>
-
+`.grey72`
 </td>
-
 <td style="text-align:left;">
-
-.grey72
-
+`.bg-grey72`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey72
-
+`var(--grey72)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(186,186,186)">grey73</span>
-
+![](https://placehold.it/50/BABABA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(186,186,186)">████</span>
-
+`.grey73`
 </td>
-
 <td style="text-align:left;">
-
-.grey73
-
+`.bg-grey73`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey73
-
+`var(--grey73)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(189,189,189)">grey74</span>
-
+![](https://placehold.it/50/BDBDBD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(189,189,189)">████</span>
-
+`.grey74`
 </td>
-
 <td style="text-align:left;">
-
-.grey74
-
+`.bg-grey74`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey74
-
+`var(--grey74)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,191,191)">grey75</span>
-
+![](https://placehold.it/50/BFBFBF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,191,191)">████</span>
-
+`.grey75`
 </td>
-
 <td style="text-align:left;">
-
-.grey75
-
+`.bg-grey75`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey75
-
+`var(--grey75)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(194,194,194)">grey76</span>
-
+![](https://placehold.it/50/C2C2C2/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(194,194,194)">████</span>
-
+`.grey76`
 </td>
-
 <td style="text-align:left;">
-
-.grey76
-
+`.bg-grey76`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey76
-
+`var(--grey76)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(196,196,196)">grey77</span>
-
+![](https://placehold.it/50/C4C4C4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(196,196,196)">████</span>
-
+`.grey77`
 </td>
-
 <td style="text-align:left;">
-
-.grey77
-
+`.bg-grey77`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey77
-
+`var(--grey77)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(199,199,199)">grey78</span>
-
+![](https://placehold.it/50/C7C7C7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(199,199,199)">████</span>
-
+`.grey78`
 </td>
-
 <td style="text-align:left;">
-
-.grey78
-
+`.bg-grey78`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey78
-
+`var(--grey78)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(201,201,201)">grey79</span>
-
+![](https://placehold.it/50/C9C9C9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(201,201,201)">████</span>
-
+`.grey79`
 </td>
-
 <td style="text-align:left;">
-
-.grey79
-
+`.bg-grey79`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey79
-
+`var(--grey79)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(204,204,204)">grey80</span>
-
+![](https://placehold.it/50/CCCCCC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(204,204,204)">████</span>
-
+`.grey80`
 </td>
-
 <td style="text-align:left;">
-
-.grey80
-
+`.bg-grey80`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey80
-
+`var(--grey80)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(207,207,207)">grey81</span>
-
+![](https://placehold.it/50/CFCFCF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(207,207,207)">████</span>
-
+`.grey81`
 </td>
-
 <td style="text-align:left;">
-
-.grey81
-
+`.bg-grey81`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey81
-
+`var(--grey81)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,209,209)">grey82</span>
-
+![](https://placehold.it/50/D1D1D1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,209,209)">████</span>
-
+`.grey82`
 </td>
-
 <td style="text-align:left;">
-
-.grey82
-
+`.bg-grey82`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey82
-
+`var(--grey82)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(212,212,212)">grey83</span>
-
+![](https://placehold.it/50/D4D4D4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(212,212,212)">████</span>
-
+`.grey83`
 </td>
-
 <td style="text-align:left;">
-
-.grey83
-
+`.bg-grey83`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey83
-
+`var(--grey83)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(214,214,214)">grey84</span>
-
+![](https://placehold.it/50/D6D6D6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(214,214,214)">████</span>
-
+`.grey84`
 </td>
-
 <td style="text-align:left;">
-
-.grey84
-
+`.bg-grey84`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey84
-
+`var(--grey84)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(217,217,217)">grey85</span>
-
+![](https://placehold.it/50/D9D9D9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(217,217,217)">████</span>
-
+`.grey85`
 </td>
-
 <td style="text-align:left;">
-
-.grey85
-
+`.bg-grey85`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey85
-
+`var(--grey85)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(219,219,219)">grey86</span>
-
+![](https://placehold.it/50/DBDBDB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(219,219,219)">████</span>
-
+`.grey86`
 </td>
-
 <td style="text-align:left;">
-
-.grey86
-
+`.bg-grey86`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey86
-
+`var(--grey86)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(222,222,222)">grey87</span>
-
+![](https://placehold.it/50/DEDEDE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(222,222,222)">████</span>
-
+`.grey87`
 </td>
-
 <td style="text-align:left;">
-
-.grey87
-
+`.bg-grey87`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey87
-
+`var(--grey87)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,224,224)">grey88</span>
-
+![](https://placehold.it/50/E0E0E0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,224,224)">████</span>
-
+`.grey88`
 </td>
-
 <td style="text-align:left;">
-
-.grey88
-
+`.bg-grey88`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey88
-
+`var(--grey88)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(227,227,227)">grey89</span>
-
+![](https://placehold.it/50/E3E3E3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(227,227,227)">████</span>
-
+`.grey89`
 </td>
-
 <td style="text-align:left;">
-
-.grey89
-
+`.bg-grey89`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey89
-
+`var(--grey89)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(229,229,229)">grey90</span>
-
+![](https://placehold.it/50/E5E5E5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(229,229,229)">████</span>
-
+`.grey90`
 </td>
-
 <td style="text-align:left;">
-
-.grey90
-
+`.bg-grey90`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey90
-
+`var(--grey90)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(232,232,232)">grey91</span>
-
+![](https://placehold.it/50/E8E8E8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(232,232,232)">████</span>
-
+`.grey91`
 </td>
-
 <td style="text-align:left;">
-
-.grey91
-
+`.bg-grey91`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey91
-
+`var(--grey91)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(235,235,235)">grey92</span>
-
+![](https://placehold.it/50/EBEBEB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(235,235,235)">████</span>
-
+`.grey92`
 </td>
-
 <td style="text-align:left;">
-
-.grey92
-
+`.bg-grey92`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey92
-
+`var(--grey92)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(237,237,237)">grey93</span>
-
+![](https://placehold.it/50/EDEDED/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(237,237,237)">████</span>
-
+`.grey93`
 </td>
-
 <td style="text-align:left;">
-
-.grey93
-
+`.bg-grey93`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey93
-
+`var(--grey93)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,240,240)">grey94</span>
-
+![](https://placehold.it/50/F0F0F0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,240,240)">████</span>
-
+`.grey94`
 </td>
-
 <td style="text-align:left;">
-
-.grey94
-
+`.bg-grey94`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey94
-
+`var(--grey94)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(242,242,242)">grey95</span>
-
+![](https://placehold.it/50/F2F2F2/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(242,242,242)">████</span>
-
+`.grey95`
 </td>
-
 <td style="text-align:left;">
-
-.grey95
-
+`.bg-grey95`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey95
-
+`var(--grey95)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,245)">grey96</span>
-
+![](https://placehold.it/50/F5F5F5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,245)">████</span>
-
+`.grey96`
 </td>
-
 <td style="text-align:left;">
-
-.grey96
-
+`.bg-grey96`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey96
-
+`var(--grey96)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(247,247,247)">grey97</span>
-
+![](https://placehold.it/50/F7F7F7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(247,247,247)">████</span>
-
+`.grey97`
 </td>
-
 <td style="text-align:left;">
-
-.grey97
-
+`.bg-grey97`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey97
-
+`var(--grey97)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,250,250)">grey98</span>
-
+![](https://placehold.it/50/FAFAFA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,250,250)">████</span>
-
+`.grey98`
 </td>
-
 <td style="text-align:left;">
-
-.grey98
-
+`.bg-grey98`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey98
-
+`var(--grey98)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(252,252,252)">grey99</span>
-
+![](https://placehold.it/50/FCFCFC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(252,252,252)">████</span>
-
+`.grey99`
 </td>
-
 <td style="text-align:left;">
-
-.grey99
-
+`.bg-grey99`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey99
-
+`var(--grey99)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,255)">grey100</span>
-
+![](https://placehold.it/50/FFFFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,255)">████</span>
-
+`.grey100`
 </td>
-
 <td style="text-align:left;">
-
-.grey100
-
+`.bg-grey100`
 </td>
-
 <td style="text-align:left;">
-
-.bg-grey100
-
+`var(--grey100)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,240)">honeydew</span>
-
+![](https://placehold.it/50/F0FFF0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,240)">████</span>
-
+`.honeydew`
 </td>
-
 <td style="text-align:left;">
-
-.honeydew
-
+`.bg-honeydew`
 </td>
-
 <td style="text-align:left;">
-
-.bg-honeydew
-
+`var(--honeydew)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,240)">honeydew1</span>
-
+![](https://placehold.it/50/F0FFF0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,255,240)">████</span>
-
+`.honeydew1`
 </td>
-
 <td style="text-align:left;">
-
-.honeydew1
-
+`.bg-honeydew1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-honeydew1
-
+`var(--honeydew1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,238,224)">honeydew2</span>
-
+![](https://placehold.it/50/E0EEE0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,238,224)">████</span>
-
+`.honeydew2`
 </td>
-
 <td style="text-align:left;">
-
-.honeydew2
-
+`.bg-honeydew2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-honeydew2
-
+`var(--honeydew2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(193,205,193)">honeydew3</span>
-
+![](https://placehold.it/50/C1CDC1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(193,205,193)">████</span>
-
+`.honeydew3`
 </td>
-
 <td style="text-align:left;">
-
-.honeydew3
-
+`.bg-honeydew3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-honeydew3
-
+`var(--honeydew3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(131,139,131)">honeydew4</span>
-
+![](https://placehold.it/50/838B83/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(131,139,131)">████</span>
-
+`.honeydew4`
 </td>
-
 <td style="text-align:left;">
-
-.honeydew4
-
+`.bg-honeydew4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-honeydew4
-
+`var(--honeydew4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,105,180)">hotpink</span>
-
+![](https://placehold.it/50/FF69B4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,105,180)">████</span>
-
+`.hotpink`
 </td>
-
 <td style="text-align:left;">
-
-.hotpink
-
+`.bg-hotpink`
 </td>
-
 <td style="text-align:left;">
-
-.bg-hotpink
-
+`var(--hotpink)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,110,180)">hotpink1</span>
-
+![](https://placehold.it/50/FF6EB4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,110,180)">████</span>
-
+`.hotpink1`
 </td>
-
 <td style="text-align:left;">
-
-.hotpink1
-
+`.bg-hotpink1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-hotpink1
-
+`var(--hotpink1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,106,167)">hotpink2</span>
-
+![](https://placehold.it/50/EE6AA7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,106,167)">████</span>
-
+`.hotpink2`
 </td>
-
 <td style="text-align:left;">
-
-.hotpink2
-
+`.bg-hotpink2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-hotpink2
-
+`var(--hotpink2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,96,144)">hotpink3</span>
-
+![](https://placehold.it/50/CD6090/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,96,144)">████</span>
-
+`.hotpink3`
 </td>
-
 <td style="text-align:left;">
-
-.hotpink3
-
+`.bg-hotpink3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-hotpink3
-
+`var(--hotpink3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,58,98)">hotpink4</span>
-
+![](https://placehold.it/50/8B3A62/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,58,98)">████</span>
-
+`.hotpink4`
 </td>
-
 <td style="text-align:left;">
-
-.hotpink4
-
+`.bg-hotpink4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-hotpink4
-
+`var(--hotpink4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,92,92)">indianred</span>
-
+![](https://placehold.it/50/CD5C5C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,92,92)">████</span>
-
+`.indianred`
 </td>
-
 <td style="text-align:left;">
-
-.indianred
-
+`.bg-indianred`
 </td>
-
 <td style="text-align:left;">
-
-.bg-indianred
-
+`var(--indianred)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,106,106)">indianred1</span>
-
+![](https://placehold.it/50/FF6A6A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,106,106)">████</span>
-
+`.indianred1`
 </td>
-
 <td style="text-align:left;">
-
-.indianred1
-
+`.bg-indianred1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-indianred1
-
+`var(--indianred1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,99,99)">indianred2</span>
-
+![](https://placehold.it/50/EE6363/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,99,99)">████</span>
-
+`.indianred2`
 </td>
-
 <td style="text-align:left;">
-
-.indianred2
-
+`.bg-indianred2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-indianred2
-
+`var(--indianred2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,85,85)">indianred3</span>
-
+![](https://placehold.it/50/CD5555/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,85,85)">████</span>
-
+`.indianred3`
 </td>
-
 <td style="text-align:left;">
-
-.indianred3
-
+`.bg-indianred3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-indianred3
-
+`var(--indianred3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,58,58)">indianred4</span>
-
+![](https://placehold.it/50/8B3A3A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,58,58)">████</span>
-
+`.indianred4`
 </td>
-
 <td style="text-align:left;">
-
-.indianred4
-
+`.bg-indianred4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-indianred4
-
+`var(--indianred4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,240)">ivory</span>
-
+![](https://placehold.it/50/FFFFF0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,240)">████</span>
-
+`.ivory`
 </td>
-
 <td style="text-align:left;">
-
-.ivory
-
+`.bg-ivory`
 </td>
-
 <td style="text-align:left;">
-
-.bg-ivory
-
+`var(--ivory)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,240)">ivory1</span>
-
+![](https://placehold.it/50/FFFFF0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,240)">████</span>
-
+`.ivory1`
 </td>
-
 <td style="text-align:left;">
-
-.ivory1
-
+`.bg-ivory1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-ivory1
-
+`var(--ivory1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,238,224)">ivory2</span>
-
+![](https://placehold.it/50/EEEEE0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,238,224)">████</span>
-
+`.ivory2`
 </td>
-
 <td style="text-align:left;">
-
-.ivory2
-
+`.bg-ivory2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-ivory2
-
+`var(--ivory2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,205,193)">ivory3</span>
-
+![](https://placehold.it/50/CDCDC1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,205,193)">████</span>
-
+`.ivory3`
 </td>
-
 <td style="text-align:left;">
-
-.ivory3
-
+`.bg-ivory3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-ivory3
-
+`var(--ivory3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,139,131)">ivory4</span>
-
+![](https://placehold.it/50/8B8B83/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,139,131)">████</span>
-
+`.ivory4`
 </td>
-
 <td style="text-align:left;">
-
-.ivory4
-
+`.bg-ivory4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-ivory4
-
+`var(--ivory4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,230,140)">khaki</span>
-
+![](https://placehold.it/50/F0E68C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,230,140)">████</span>
-
+`.khaki`
 </td>
-
 <td style="text-align:left;">
-
-.khaki
-
+`.bg-khaki`
 </td>
-
 <td style="text-align:left;">
-
-.bg-khaki
-
+`var(--khaki)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,246,143)">khaki1</span>
-
+![](https://placehold.it/50/FFF68F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,246,143)">████</span>
-
+`.khaki1`
 </td>
-
 <td style="text-align:left;">
-
-.khaki1
-
+`.bg-khaki1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-khaki1
-
+`var(--khaki1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,230,133)">khaki2</span>
-
+![](https://placehold.it/50/EEE685/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,230,133)">████</span>
-
+`.khaki2`
 </td>
-
 <td style="text-align:left;">
-
-.khaki2
-
+`.bg-khaki2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-khaki2
-
+`var(--khaki2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,198,115)">khaki3</span>
-
+![](https://placehold.it/50/CDC673/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,198,115)">████</span>
-
+`.khaki3`
 </td>
-
 <td style="text-align:left;">
-
-.khaki3
-
+`.bg-khaki3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-khaki3
-
+`var(--khaki3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,134,78)">khaki4</span>
-
+![](https://placehold.it/50/8B864E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,134,78)">████</span>
-
+`.khaki4`
 </td>
-
 <td style="text-align:left;">
-
-.khaki4
-
+`.bg-khaki4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-khaki4
-
+`var(--khaki4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(230,230,250)">lavender</span>
-
+![](https://placehold.it/50/E6E6FA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(230,230,250)">████</span>
-
+`.lavender`
 </td>
-
 <td style="text-align:left;">
-
-.lavender
-
+`.bg-lavender`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lavender
-
+`var(--lavender)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,240,245)">lavenderblush</span>
-
+![](https://placehold.it/50/FFF0F5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,240,245)">████</span>
-
+`.lavenderblush`
 </td>
-
 <td style="text-align:left;">
-
-.lavenderblush
-
+`.bg-lavenderblush`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lavenderblush
-
+`var(--lavenderblush)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,240,245)">lavenderblush1</span>
-
+![](https://placehold.it/50/FFF0F5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,240,245)">████</span>
-
+`.lavenderblush1`
 </td>
-
 <td style="text-align:left;">
-
-.lavenderblush1
-
+`.bg-lavenderblush1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lavenderblush1
-
+`var(--lavenderblush1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,224,229)">lavenderblush2</span>
-
+![](https://placehold.it/50/EEE0E5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,224,229)">████</span>
-
+`.lavenderblush2`
 </td>
-
 <td style="text-align:left;">
-
-.lavenderblush2
-
+`.bg-lavenderblush2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lavenderblush2
-
+`var(--lavenderblush2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,193,197)">lavenderblush3</span>
-
+![](https://placehold.it/50/CDC1C5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,193,197)">████</span>
-
+`.lavenderblush3`
 </td>
-
 <td style="text-align:left;">
-
-.lavenderblush3
-
+`.bg-lavenderblush3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lavenderblush3
-
+`var(--lavenderblush3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,131,134)">lavenderblush4</span>
-
+![](https://placehold.it/50/8B8386/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,131,134)">████</span>
-
+`.lavenderblush4`
 </td>
-
 <td style="text-align:left;">
-
-.lavenderblush4
-
+`.bg-lavenderblush4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lavenderblush4
-
+`var(--lavenderblush4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(124,252,0)">lawngreen</span>
-
+![](https://placehold.it/50/7CFC00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(124,252,0)">████</span>
-
+`.lawngreen`
 </td>
-
 <td style="text-align:left;">
-
-.lawngreen
-
+`.bg-lawngreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lawngreen
-
+`var(--lawngreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,205)">lemonchiffon</span>
-
+![](https://placehold.it/50/FFFACD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,205)">████</span>
-
+`.lemonchiffon`
 </td>
-
 <td style="text-align:left;">
-
-.lemonchiffon
-
+`.bg-lemonchiffon`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lemonchiffon
-
+`var(--lemonchiffon)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,205)">lemonchiffon1</span>
-
+![](https://placehold.it/50/FFFACD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,205)">████</span>
-
+`.lemonchiffon1`
 </td>
-
 <td style="text-align:left;">
-
-.lemonchiffon1
-
+`.bg-lemonchiffon1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lemonchiffon1
-
+`var(--lemonchiffon1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,233,191)">lemonchiffon2</span>
-
+![](https://placehold.it/50/EEE9BF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,233,191)">████</span>
-
+`.lemonchiffon2`
 </td>
-
 <td style="text-align:left;">
-
-.lemonchiffon2
-
+`.bg-lemonchiffon2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lemonchiffon2
-
+`var(--lemonchiffon2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,201,165)">lemonchiffon3</span>
-
+![](https://placehold.it/50/CDC9A5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,201,165)">████</span>
-
+`.lemonchiffon3`
 </td>
-
 <td style="text-align:left;">
-
-.lemonchiffon3
-
+`.bg-lemonchiffon3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lemonchiffon3
-
+`var(--lemonchiffon3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,137,112)">lemonchiffon4</span>
-
+![](https://placehold.it/50/8B8970/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,137,112)">████</span>
-
+`.lemonchiffon4`
 </td>
-
 <td style="text-align:left;">
-
-.lemonchiffon4
-
+`.bg-lemonchiffon4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lemonchiffon4
-
+`var(--lemonchiffon4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,216,230)">lightblue</span>
-
+![](https://placehold.it/50/ADD8E6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(173,216,230)">████</span>
-
+`.lightblue`
 </td>
-
 <td style="text-align:left;">
-
-.lightblue
-
+`.bg-lightblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightblue
-
+`var(--lightblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,239,255)">lightblue1</span>
-
+![](https://placehold.it/50/BFEFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(191,239,255)">████</span>
-
+`.lightblue1`
 </td>
-
 <td style="text-align:left;">
-
-.lightblue1
-
+`.bg-lightblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightblue1
-
+`var(--lightblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(178,223,238)">lightblue2</span>
-
+![](https://placehold.it/50/B2DFEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(178,223,238)">████</span>
-
+`.lightblue2`
 </td>
-
 <td style="text-align:left;">
-
-.lightblue2
-
+`.bg-lightblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightblue2
-
+`var(--lightblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,192,205)">lightblue3</span>
-
+![](https://placehold.it/50/9AC0CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,192,205)">████</span>
-
+`.lightblue3`
 </td>
-
 <td style="text-align:left;">
-
-.lightblue3
-
+`.bg-lightblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightblue3
-
+`var(--lightblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(104,131,139)">lightblue4</span>
-
+![](https://placehold.it/50/68838B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(104,131,139)">████</span>
-
+`.lightblue4`
 </td>
-
 <td style="text-align:left;">
-
-.lightblue4
-
+`.bg-lightblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightblue4
-
+`var(--lightblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,128,128)">lightcoral</span>
-
+![](https://placehold.it/50/F08080/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(240,128,128)">████</span>
-
+`.lightcoral`
 </td>
-
 <td style="text-align:left;">
-
-.lightcoral
-
+`.bg-lightcoral`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightcoral
-
+`var(--lightcoral)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,255,255)">lightcyan</span>
-
+![](https://placehold.it/50/E0FFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,255,255)">████</span>
-
+`.lightcyan`
 </td>
-
 <td style="text-align:left;">
-
-.lightcyan
-
+`.bg-lightcyan`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightcyan
-
+`var(--lightcyan)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,255,255)">lightcyan1</span>
-
+![](https://placehold.it/50/E0FFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,255,255)">████</span>
-
+`.lightcyan1`
 </td>
-
 <td style="text-align:left;">
-
-.lightcyan1
-
+`.bg-lightcyan1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightcyan1
-
+`var(--lightcyan1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,238,238)">lightcyan2</span>
-
+![](https://placehold.it/50/D1EEEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,238,238)">████</span>
-
+`.lightcyan2`
 </td>
-
 <td style="text-align:left;">
-
-.lightcyan2
-
+`.bg-lightcyan2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightcyan2
-
+`var(--lightcyan2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(180,205,205)">lightcyan3</span>
-
+![](https://placehold.it/50/B4CDCD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(180,205,205)">████</span>
-
+`.lightcyan3`
 </td>
-
 <td style="text-align:left;">
-
-.lightcyan3
-
+`.bg-lightcyan3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightcyan3
-
+`var(--lightcyan3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,139,139)">lightcyan4</span>
-
+![](https://placehold.it/50/7A8B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,139,139)">████</span>
-
+`.lightcyan4`
 </td>
-
 <td style="text-align:left;">
-
-.lightcyan4
-
+`.bg-lightcyan4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightcyan4
-
+`var(--lightcyan4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,221,130)">lightgoldenrod</span>
-
+![](https://placehold.it/50/EEDD82/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,221,130)">████</span>
-
+`.lightgoldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.lightgoldenrod
-
+`.bg-lightgoldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgoldenrod
-
+`var(--lightgoldenrod)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,236,139)">lightgoldenrod1</span>
-
+![](https://placehold.it/50/FFEC8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,236,139)">████</span>
-
+`.lightgoldenrod1`
 </td>
-
 <td style="text-align:left;">
-
-.lightgoldenrod1
-
+`.bg-lightgoldenrod1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgoldenrod1
-
+`var(--lightgoldenrod1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,220,130)">lightgoldenrod2</span>
-
+![](https://placehold.it/50/EEDC82/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,220,130)">████</span>
-
+`.lightgoldenrod2`
 </td>
-
 <td style="text-align:left;">
-
-.lightgoldenrod2
-
+`.bg-lightgoldenrod2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgoldenrod2
-
+`var(--lightgoldenrod2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,190,112)">lightgoldenrod3</span>
-
+![](https://placehold.it/50/CDBE70/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,190,112)">████</span>
-
+`.lightgoldenrod3`
 </td>
-
 <td style="text-align:left;">
-
-.lightgoldenrod3
-
+`.bg-lightgoldenrod3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgoldenrod3
-
+`var(--lightgoldenrod3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,129,76)">lightgoldenrod4</span>
-
+![](https://placehold.it/50/8B814C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,129,76)">████</span>
-
+`.lightgoldenrod4`
 </td>
-
 <td style="text-align:left;">
-
-.lightgoldenrod4
-
+`.bg-lightgoldenrod4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgoldenrod4
-
+`var(--lightgoldenrod4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,250,210)">lightgoldenrodyellow</span>
-
+![](https://placehold.it/50/FAFAD2/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,250,210)">████</span>
-
+`.lightgoldenrodyellow`
 </td>
-
 <td style="text-align:left;">
-
-.lightgoldenrodyellow
-
+`.bg-lightgoldenrodyellow`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgoldenrodyellow
-
+`var(--lightgoldenrodyellow)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(211,211,211)">lightgray</span>
-
+![](https://placehold.it/50/D3D3D3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(211,211,211)">████</span>
-
+`.lightgray`
 </td>
-
 <td style="text-align:left;">
-
-.lightgray
-
+`.bg-lightgray`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgray
-
+`var(--lightgray)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(144,238,144)">lightgreen</span>
-
+![](https://placehold.it/50/90EE90/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(144,238,144)">████</span>
-
+`.lightgreen`
 </td>
-
 <td style="text-align:left;">
-
-.lightgreen
-
+`.bg-lightgreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgreen
-
+`var(--lightgreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(211,211,211)">lightgrey</span>
-
+![](https://placehold.it/50/D3D3D3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(211,211,211)">████</span>
-
+`.lightgrey`
 </td>
-
 <td style="text-align:left;">
-
-.lightgrey
-
+`.bg-lightgrey`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightgrey
-
+`var(--lightgrey)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,182,193)">lightpink</span>
-
+![](https://placehold.it/50/FFB6C1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,182,193)">████</span>
-
+`.lightpink`
 </td>
-
 <td style="text-align:left;">
-
-.lightpink
-
+`.bg-lightpink`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightpink
-
+`var(--lightpink)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,174,185)">lightpink1</span>
-
+![](https://placehold.it/50/FFAEB9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,174,185)">████</span>
-
+`.lightpink1`
 </td>
-
 <td style="text-align:left;">
-
-.lightpink1
-
+`.bg-lightpink1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightpink1
-
+`var(--lightpink1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,162,173)">lightpink2</span>
-
+![](https://placehold.it/50/EEA2AD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,162,173)">████</span>
-
+`.lightpink2`
 </td>
-
 <td style="text-align:left;">
-
-.lightpink2
-
+`.bg-lightpink2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightpink2
-
+`var(--lightpink2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,140,149)">lightpink3</span>
-
+![](https://placehold.it/50/CD8C95/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,140,149)">████</span>
-
+`.lightpink3`
 </td>
-
 <td style="text-align:left;">
-
-.lightpink3
-
+`.bg-lightpink3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightpink3
-
+`var(--lightpink3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,95,101)">lightpink4</span>
-
+![](https://placehold.it/50/8B5F65/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,95,101)">████</span>
-
+`.lightpink4`
 </td>
-
 <td style="text-align:left;">
-
-.lightpink4
-
+`.bg-lightpink4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightpink4
-
+`var(--lightpink4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,160,122)">lightsalmon</span>
-
+![](https://placehold.it/50/FFA07A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,160,122)">████</span>
-
+`.lightsalmon`
 </td>
-
 <td style="text-align:left;">
-
-.lightsalmon
-
+`.bg-lightsalmon`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsalmon
-
+`var(--lightsalmon)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,160,122)">lightsalmon1</span>
-
+![](https://placehold.it/50/FFA07A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,160,122)">████</span>
-
+`.lightsalmon1`
 </td>
-
 <td style="text-align:left;">
-
-.lightsalmon1
-
+`.bg-lightsalmon1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsalmon1
-
+`var(--lightsalmon1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,149,114)">lightsalmon2</span>
-
+![](https://placehold.it/50/EE9572/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,149,114)">████</span>
-
+`.lightsalmon2`
 </td>
-
 <td style="text-align:left;">
-
-.lightsalmon2
-
+`.bg-lightsalmon2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsalmon2
-
+`var(--lightsalmon2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,129,98)">lightsalmon3</span>
-
+![](https://placehold.it/50/CD8162/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,129,98)">████</span>
-
+`.lightsalmon3`
 </td>
-
 <td style="text-align:left;">
-
-.lightsalmon3
-
+`.bg-lightsalmon3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsalmon3
-
+`var(--lightsalmon3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,87,66)">lightsalmon4</span>
-
+![](https://placehold.it/50/8B5742/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,87,66)">████</span>
-
+`.lightsalmon4`
 </td>
-
 <td style="text-align:left;">
-
-.lightsalmon4
-
+`.bg-lightsalmon4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsalmon4
-
+`var(--lightsalmon4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(32,178,170)">lightseagreen</span>
-
+![](https://placehold.it/50/20B2AA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(32,178,170)">████</span>
-
+`.lightseagreen`
 </td>
-
 <td style="text-align:left;">
-
-.lightseagreen
-
+`.bg-lightseagreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightseagreen
-
+`var(--lightseagreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,206,250)">lightskyblue</span>
-
+![](https://placehold.it/50/87CEFA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,206,250)">████</span>
-
+`.lightskyblue`
 </td>
-
 <td style="text-align:left;">
-
-.lightskyblue
-
+`.bg-lightskyblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightskyblue
-
+`var(--lightskyblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,226,255)">lightskyblue1</span>
-
+![](https://placehold.it/50/B0E2FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,226,255)">████</span>
-
+`.lightskyblue1`
 </td>
-
 <td style="text-align:left;">
-
-.lightskyblue1
-
+`.bg-lightskyblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightskyblue1
-
+`var(--lightskyblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(164,211,238)">lightskyblue2</span>
-
+![](https://placehold.it/50/A4D3EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(164,211,238)">████</span>
-
+`.lightskyblue2`
 </td>
-
 <td style="text-align:left;">
-
-.lightskyblue2
-
+`.bg-lightskyblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightskyblue2
-
+`var(--lightskyblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(141,182,205)">lightskyblue3</span>
-
+![](https://placehold.it/50/8DB6CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(141,182,205)">████</span>
-
+`.lightskyblue3`
 </td>
-
 <td style="text-align:left;">
-
-.lightskyblue3
-
+`.bg-lightskyblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightskyblue3
-
+`var(--lightskyblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(96,123,139)">lightskyblue4</span>
-
+![](https://placehold.it/50/607B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(96,123,139)">████</span>
-
+`.lightskyblue4`
 </td>
-
 <td style="text-align:left;">
-
-.lightskyblue4
-
+`.bg-lightskyblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightskyblue4
-
+`var(--lightskyblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(132,112,255)">lightslateblue</span>
-
+![](https://placehold.it/50/8470FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(132,112,255)">████</span>
-
+`.lightslateblue`
 </td>
-
 <td style="text-align:left;">
-
-.lightslateblue
-
+`.bg-lightslateblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightslateblue
-
+`var(--lightslateblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(119,136,153)">lightslategray</span>
-
+![](https://placehold.it/50/778899/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(119,136,153)">████</span>
-
+`.lightslategray`
 </td>
-
 <td style="text-align:left;">
-
-.lightslategray
-
+`.bg-lightslategray`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightslategray
-
+`var(--lightslategray)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(119,136,153)">lightslategrey</span>
-
+![](https://placehold.it/50/778899/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(119,136,153)">████</span>
-
+`.lightslategrey`
 </td>
-
 <td style="text-align:left;">
-
-.lightslategrey
-
+`.bg-lightslategrey`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightslategrey
-
+`var(--lightslategrey)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,196,222)">lightsteelblue</span>
-
+![](https://placehold.it/50/B0C4DE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,196,222)">████</span>
-
+`.lightsteelblue`
 </td>
-
 <td style="text-align:left;">
-
-.lightsteelblue
-
+`.bg-lightsteelblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsteelblue
-
+`var(--lightsteelblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(202,225,255)">lightsteelblue1</span>
-
+![](https://placehold.it/50/CAE1FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(202,225,255)">████</span>
-
+`.lightsteelblue1`
 </td>
-
 <td style="text-align:left;">
-
-.lightsteelblue1
-
+`.bg-lightsteelblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsteelblue1
-
+`var(--lightsteelblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(188,210,238)">lightsteelblue2</span>
-
+![](https://placehold.it/50/BCD2EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(188,210,238)">████</span>
-
+`.lightsteelblue2`
 </td>
-
 <td style="text-align:left;">
-
-.lightsteelblue2
-
+`.bg-lightsteelblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsteelblue2
-
+`var(--lightsteelblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(162,181,205)">lightsteelblue3</span>
-
+![](https://placehold.it/50/A2B5CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(162,181,205)">████</span>
-
+`.lightsteelblue3`
 </td>
-
 <td style="text-align:left;">
-
-.lightsteelblue3
-
+`.bg-lightsteelblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsteelblue3
-
+`var(--lightsteelblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,123,139)">lightsteelblue4</span>
-
+![](https://placehold.it/50/6E7B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(110,123,139)">████</span>
-
+`.lightsteelblue4`
 </td>
-
 <td style="text-align:left;">
-
-.lightsteelblue4
-
+`.bg-lightsteelblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightsteelblue4
-
+`var(--lightsteelblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,224)">lightyellow</span>
-
+![](https://placehold.it/50/FFFFE0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,224)">████</span>
-
+`.lightyellow`
 </td>
-
 <td style="text-align:left;">
-
-.lightyellow
-
+`.bg-lightyellow`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightyellow
-
+`var(--lightyellow)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,224)">lightyellow1</span>
-
+![](https://placehold.it/50/FFFFE0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,224)">████</span>
-
+`.lightyellow1`
 </td>
-
 <td style="text-align:left;">
-
-.lightyellow1
-
+`.bg-lightyellow1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightyellow1
-
+`var(--lightyellow1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,238,209)">lightyellow2</span>
-
+![](https://placehold.it/50/EEEED1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,238,209)">████</span>
-
+`.lightyellow2`
 </td>
-
 <td style="text-align:left;">
-
-.lightyellow2
-
+`.bg-lightyellow2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightyellow2
-
+`var(--lightyellow2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,205,180)">lightyellow3</span>
-
+![](https://placehold.it/50/CDCDB4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,205,180)">████</span>
-
+`.lightyellow3`
 </td>
-
 <td style="text-align:left;">
-
-.lightyellow3
-
+`.bg-lightyellow3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightyellow3
-
+`var(--lightyellow3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,139,122)">lightyellow4</span>
-
+![](https://placehold.it/50/8B8B7A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,139,122)">████</span>
-
+`.lightyellow4`
 </td>
-
 <td style="text-align:left;">
-
-.lightyellow4
-
+`.bg-lightyellow4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-lightyellow4
-
+`var(--lightyellow4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(50,205,50)">limegreen</span>
-
+![](https://placehold.it/50/32CD32/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(50,205,50)">████</span>
-
+`.limegreen`
 </td>
-
 <td style="text-align:left;">
-
-.limegreen
-
+`.bg-limegreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-limegreen
-
+`var(--limegreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,240,230)">linen</span>
-
+![](https://placehold.it/50/FAF0E6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,240,230)">████</span>
-
+`.linen`
 </td>
-
 <td style="text-align:left;">
-
-.linen
-
+`.bg-linen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-linen
-
+`var(--linen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,255)">magenta</span>
-
+![](https://placehold.it/50/FF00FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,255)">████</span>
-
+`.magenta`
 </td>
-
 <td style="text-align:left;">
-
-.magenta
-
+`.bg-magenta`
 </td>
-
 <td style="text-align:left;">
-
-.bg-magenta
-
+`var(--magenta)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,255)">magenta1</span>
-
+![](https://placehold.it/50/FF00FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,255)">████</span>
-
+`.magenta1`
 </td>
-
 <td style="text-align:left;">
-
-.magenta1
-
+`.bg-magenta1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-magenta1
-
+`var(--magenta1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,0,238)">magenta2</span>
-
+![](https://placehold.it/50/EE00EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,0,238)">████</span>
-
+`.magenta2`
 </td>
-
 <td style="text-align:left;">
-
-.magenta2
-
+`.bg-magenta2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-magenta2
-
+`var(--magenta2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,0,205)">magenta3</span>
-
+![](https://placehold.it/50/CD00CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,0,205)">████</span>
-
+`.magenta3`
 </td>
-
 <td style="text-align:left;">
-
-.magenta3
-
+`.bg-magenta3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-magenta3
-
+`var(--magenta3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,139)">magenta4</span>
-
+![](https://placehold.it/50/8B008B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,139)">████</span>
-
+`.magenta4`
 </td>
-
 <td style="text-align:left;">
-
-.magenta4
-
+`.bg-magenta4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-magenta4
-
+`var(--magenta4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,48,96)">maroon</span>
-
+![](https://placehold.it/50/B03060/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,48,96)">████</span>
-
+`.maroon`
 </td>
-
 <td style="text-align:left;">
-
-.maroon
-
+`.bg-maroon`
 </td>
-
 <td style="text-align:left;">
-
-.bg-maroon
-
+`var(--maroon)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,52,179)">maroon1</span>
-
+![](https://placehold.it/50/FF34B3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,52,179)">████</span>
-
+`.maroon1`
 </td>
-
 <td style="text-align:left;">
-
-.maroon1
-
+`.bg-maroon1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-maroon1
-
+`var(--maroon1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,48,167)">maroon2</span>
-
+![](https://placehold.it/50/EE30A7/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,48,167)">████</span>
-
+`.maroon2`
 </td>
-
 <td style="text-align:left;">
-
-.maroon2
-
+`.bg-maroon2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-maroon2
-
+`var(--maroon2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,41,144)">maroon3</span>
-
+![](https://placehold.it/50/CD2990/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,41,144)">████</span>
-
+`.maroon3`
 </td>
-
 <td style="text-align:left;">
-
-.maroon3
-
+`.bg-maroon3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-maroon3
-
+`var(--maroon3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,28,98)">maroon4</span>
-
+![](https://placehold.it/50/8B1C62/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,28,98)">████</span>
-
+`.maroon4`
 </td>
-
 <td style="text-align:left;">
-
-.maroon4
-
+`.bg-maroon4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-maroon4
-
+`var(--maroon4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,205,170)">mediumaquamarine</span>
-
+![](https://placehold.it/50/66CDAA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,205,170)">████</span>
-
+`.mediumaquamarine`
 </td>
-
 <td style="text-align:left;">
-
-.mediumaquamarine
-
+`.bg-mediumaquamarine`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumaquamarine
-
+`var(--mediumaquamarine)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,205)">mediumblue</span>
-
+![](https://placehold.it/50/0000CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,205)">████</span>
-
+`.mediumblue`
 </td>
-
 <td style="text-align:left;">
-
-.mediumblue
-
+`.bg-mediumblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumblue
-
+`var(--mediumblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(186,85,211)">mediumorchid</span>
-
+![](https://placehold.it/50/BA55D3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(186,85,211)">████</span>
-
+`.mediumorchid`
 </td>
-
 <td style="text-align:left;">
-
-.mediumorchid
-
+`.bg-mediumorchid`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumorchid
-
+`var(--mediumorchid)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,102,255)">mediumorchid1</span>
-
+![](https://placehold.it/50/E066FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(224,102,255)">████</span>
-
+`.mediumorchid1`
 </td>
-
 <td style="text-align:left;">
-
-.mediumorchid1
-
+`.bg-mediumorchid1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumorchid1
-
+`var(--mediumorchid1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,95,238)">mediumorchid2</span>
-
+![](https://placehold.it/50/D15FEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(209,95,238)">████</span>
-
+`.mediumorchid2`
 </td>
-
 <td style="text-align:left;">
-
-.mediumorchid2
-
+`.bg-mediumorchid2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumorchid2
-
+`var(--mediumorchid2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(180,82,205)">mediumorchid3</span>
-
+![](https://placehold.it/50/B452CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(180,82,205)">████</span>
-
+`.mediumorchid3`
 </td>
-
 <td style="text-align:left;">
-
-.mediumorchid3
-
+`.bg-mediumorchid3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumorchid3
-
+`var(--mediumorchid3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,55,139)">mediumorchid4</span>
-
+![](https://placehold.it/50/7A378B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,55,139)">████</span>
-
+`.mediumorchid4`
 </td>
-
 <td style="text-align:left;">
-
-.mediumorchid4
-
+`.bg-mediumorchid4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumorchid4
-
+`var(--mediumorchid4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(147,112,219)">mediumpurple</span>
-
+![](https://placehold.it/50/9370DB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(147,112,219)">████</span>
-
+`.mediumpurple`
 </td>
-
 <td style="text-align:left;">
-
-.mediumpurple
-
+`.bg-mediumpurple`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumpurple
-
+`var(--mediumpurple)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(171,130,255)">mediumpurple1</span>
-
+![](https://placehold.it/50/AB82FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(171,130,255)">████</span>
-
+`.mediumpurple1`
 </td>
-
 <td style="text-align:left;">
-
-.mediumpurple1
-
+`.bg-mediumpurple1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumpurple1
-
+`var(--mediumpurple1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(159,121,238)">mediumpurple2</span>
-
+![](https://placehold.it/50/9F79EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(159,121,238)">████</span>
-
+`.mediumpurple2`
 </td>
-
 <td style="text-align:left;">
-
-.mediumpurple2
-
+`.bg-mediumpurple2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumpurple2
-
+`var(--mediumpurple2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(137,104,205)">mediumpurple3</span>
-
+![](https://placehold.it/50/8968CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(137,104,205)">████</span>
-
+`.mediumpurple3`
 </td>
-
 <td style="text-align:left;">
-
-.mediumpurple3
-
+`.bg-mediumpurple3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumpurple3
-
+`var(--mediumpurple3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(93,71,139)">mediumpurple4</span>
-
+![](https://placehold.it/50/5D478B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(93,71,139)">████</span>
-
+`.mediumpurple4`
 </td>
-
 <td style="text-align:left;">
-
-.mediumpurple4
-
+`.bg-mediumpurple4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumpurple4
-
+`var(--mediumpurple4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(60,179,113)">mediumseagreen</span>
-
+![](https://placehold.it/50/3CB371/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(60,179,113)">████</span>
-
+`.mediumseagreen`
 </td>
-
 <td style="text-align:left;">
-
-.mediumseagreen
-
+`.bg-mediumseagreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumseagreen
-
+`var(--mediumseagreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(123,104,238)">mediumslateblue</span>
-
+![](https://placehold.it/50/7B68EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(123,104,238)">████</span>
-
+`.mediumslateblue`
 </td>
-
 <td style="text-align:left;">
-
-.mediumslateblue
-
+`.bg-mediumslateblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumslateblue
-
+`var(--mediumslateblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,250,154)">mediumspringgreen</span>
-
+![](https://placehold.it/50/00FA9A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,250,154)">████</span>
-
+`.mediumspringgreen`
 </td>
-
 <td style="text-align:left;">
-
-.mediumspringgreen
-
+`.bg-mediumspringgreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumspringgreen
-
+`var(--mediumspringgreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(72,209,204)">mediumturquoise</span>
-
+![](https://placehold.it/50/48D1CC/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(72,209,204)">████</span>
-
+`.mediumturquoise`
 </td>
-
 <td style="text-align:left;">
-
-.mediumturquoise
-
+`.bg-mediumturquoise`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumturquoise
-
+`var(--mediumturquoise)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(199,21,133)">mediumvioletred</span>
-
+![](https://placehold.it/50/C71585/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(199,21,133)">████</span>
-
+`.mediumvioletred`
 </td>
-
 <td style="text-align:left;">
-
-.mediumvioletred
-
+`.bg-mediumvioletred`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mediumvioletred
-
+`var(--mediumvioletred)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(25,25,112)">midnightblue</span>
-
+![](https://placehold.it/50/191970/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(25,25,112)">████</span>
-
+`.midnightblue`
 </td>
-
 <td style="text-align:left;">
-
-.midnightblue
-
+`.bg-midnightblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-midnightblue
-
+`var(--midnightblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,255,250)">mintcream</span>
-
+![](https://placehold.it/50/F5FFFA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,255,250)">████</span>
-
+`.mintcream`
 </td>
-
 <td style="text-align:left;">
-
-.mintcream
-
+`.bg-mintcream`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mintcream
-
+`var(--mintcream)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,225)">mistyrose</span>
-
+![](https://placehold.it/50/FFE4E1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,225)">████</span>
-
+`.mistyrose`
 </td>
-
 <td style="text-align:left;">
-
-.mistyrose
-
+`.bg-mistyrose`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mistyrose
-
+`var(--mistyrose)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,225)">mistyrose1</span>
-
+![](https://placehold.it/50/FFE4E1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,225)">████</span>
-
+`.mistyrose1`
 </td>
-
 <td style="text-align:left;">
-
-.mistyrose1
-
+`.bg-mistyrose1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mistyrose1
-
+`var(--mistyrose1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,213,210)">mistyrose2</span>
-
+![](https://placehold.it/50/EED5D2/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,213,210)">████</span>
-
+`.mistyrose2`
 </td>
-
 <td style="text-align:left;">
-
-.mistyrose2
-
+`.bg-mistyrose2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mistyrose2
-
+`var(--mistyrose2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,183,181)">mistyrose3</span>
-
+![](https://placehold.it/50/CDB7B5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,183,181)">████</span>
-
+`.mistyrose3`
 </td>
-
 <td style="text-align:left;">
-
-.mistyrose3
-
+`.bg-mistyrose3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mistyrose3
-
+`var(--mistyrose3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,125,123)">mistyrose4</span>
-
+![](https://placehold.it/50/8B7D7B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,125,123)">████</span>
-
+`.mistyrose4`
 </td>
-
 <td style="text-align:left;">
-
-.mistyrose4
-
+`.bg-mistyrose4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-mistyrose4
-
+`var(--mistyrose4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,181)">moccasin</span>
-
+![](https://placehold.it/50/FFE4B5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,228,181)">████</span>
-
+`.moccasin`
 </td>
-
 <td style="text-align:left;">
-
-.moccasin
-
+`.bg-moccasin`
 </td>
-
 <td style="text-align:left;">
-
-.bg-moccasin
-
+`var(--moccasin)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,222,173)">navajowhite</span>
-
+![](https://placehold.it/50/FFDEAD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,222,173)">████</span>
-
+`.navajowhite`
 </td>
-
 <td style="text-align:left;">
-
-.navajowhite
-
+`.bg-navajowhite`
 </td>
-
 <td style="text-align:left;">
-
-.bg-navajowhite
-
+`var(--navajowhite)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,222,173)">navajowhite1</span>
-
+![](https://placehold.it/50/FFDEAD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,222,173)">████</span>
-
+`.navajowhite1`
 </td>
-
 <td style="text-align:left;">
-
-.navajowhite1
-
+`.bg-navajowhite1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-navajowhite1
-
+`var(--navajowhite1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,207,161)">navajowhite2</span>
-
+![](https://placehold.it/50/EECFA1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,207,161)">████</span>
-
+`.navajowhite2`
 </td>
-
 <td style="text-align:left;">
-
-.navajowhite2
-
+`.bg-navajowhite2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-navajowhite2
-
+`var(--navajowhite2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,179,139)">navajowhite3</span>
-
+![](https://placehold.it/50/CDB38B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,179,139)">████</span>
-
+`.navajowhite3`
 </td>
-
 <td style="text-align:left;">
-
-.navajowhite3
-
+`.bg-navajowhite3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-navajowhite3
-
+`var(--navajowhite3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,121,94)">navajowhite4</span>
-
+![](https://placehold.it/50/8B795E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,121,94)">████</span>
-
+`.navajowhite4`
 </td>
-
 <td style="text-align:left;">
-
-.navajowhite4
-
+`.bg-navajowhite4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-navajowhite4
-
+`var(--navajowhite4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,128)">navy</span>
-
+![](https://placehold.it/50/000080/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,128)">████</span>
-
+`.navy`
 </td>
-
 <td style="text-align:left;">
-
-.navy
-
+`.bg-navy`
 </td>
-
 <td style="text-align:left;">
-
-.bg-navy
-
+`var(--navy)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,128)">navyblue</span>
-
+![](https://placehold.it/50/000080/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,0,128)">████</span>
-
+`.navyblue`
 </td>
-
 <td style="text-align:left;">
-
-.navyblue
-
+`.bg-navyblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-navyblue
-
+`var(--navyblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(253,245,230)">oldlace</span>
-
+![](https://placehold.it/50/FDF5E6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(253,245,230)">████</span>
-
+`.oldlace`
 </td>
-
 <td style="text-align:left;">
-
-.oldlace
-
+`.bg-oldlace`
 </td>
-
 <td style="text-align:left;">
-
-.bg-oldlace
-
+`var(--oldlace)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(107,142,35)">olivedrab</span>
-
+![](https://placehold.it/50/6B8E23/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(107,142,35)">████</span>
-
+`.olivedrab`
 </td>
-
 <td style="text-align:left;">
-
-.olivedrab
-
+`.bg-olivedrab`
 </td>
-
 <td style="text-align:left;">
-
-.bg-olivedrab
-
+`var(--olivedrab)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(192,255,62)">olivedrab1</span>
-
+![](https://placehold.it/50/C0FF3E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(192,255,62)">████</span>
-
+`.olivedrab1`
 </td>
-
 <td style="text-align:left;">
-
-.olivedrab1
-
+`.bg-olivedrab1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-olivedrab1
-
+`var(--olivedrab1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(179,238,58)">olivedrab2</span>
-
+![](https://placehold.it/50/B3EE3A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(179,238,58)">████</span>
-
+`.olivedrab2`
 </td>
-
 <td style="text-align:left;">
-
-.olivedrab2
-
+`.bg-olivedrab2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-olivedrab2
-
+`var(--olivedrab2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,205,50)">olivedrab3</span>
-
+![](https://placehold.it/50/9ACD32/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,205,50)">████</span>
-
+`.olivedrab3`
 </td>
-
 <td style="text-align:left;">
-
-.olivedrab3
-
+`.bg-olivedrab3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-olivedrab3
-
+`var(--olivedrab3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,139,34)">olivedrab4</span>
-
+![](https://placehold.it/50/698B22/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,139,34)">████</span>
-
+`.olivedrab4`
 </td>
-
 <td style="text-align:left;">
-
-.olivedrab4
-
+`.bg-olivedrab4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-olivedrab4
-
+`var(--olivedrab4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,165,0)">orange</span>
-
+![](https://placehold.it/50/FFA500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,165,0)">████</span>
-
+`.orange`
 </td>
-
 <td style="text-align:left;">
-
-.orange
-
+`.bg-orange`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orange
-
+`var(--orange)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,165,0)">orange1</span>
-
+![](https://placehold.it/50/FFA500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,165,0)">████</span>
-
+`.orange1`
 </td>
-
 <td style="text-align:left;">
-
-.orange1
-
+`.bg-orange1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orange1
-
+`var(--orange1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,154,0)">orange2</span>
-
+![](https://placehold.it/50/EE9A00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,154,0)">████</span>
-
+`.orange2`
 </td>
-
 <td style="text-align:left;">
-
-.orange2
-
+`.bg-orange2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orange2
-
+`var(--orange2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,133,0)">orange3</span>
-
+![](https://placehold.it/50/CD8500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,133,0)">████</span>
-
+`.orange3`
 </td>
-
 <td style="text-align:left;">
-
-.orange3
-
+`.bg-orange3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orange3
-
+`var(--orange3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,90,0)">orange4</span>
-
+![](https://placehold.it/50/8B5A00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,90,0)">████</span>
-
+`.orange4`
 </td>
-
 <td style="text-align:left;">
-
-.orange4
-
+`.bg-orange4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orange4
-
+`var(--orange4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,69,0)">orangered</span>
-
+![](https://placehold.it/50/FF4500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,69,0)">████</span>
-
+`.orangered`
 </td>
-
 <td style="text-align:left;">
-
-.orangered
-
+`.bg-orangered`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orangered
-
+`var(--orangered)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,69,0)">orangered1</span>
-
+![](https://placehold.it/50/FF4500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,69,0)">████</span>
-
+`.orangered1`
 </td>
-
 <td style="text-align:left;">
-
-.orangered1
-
+`.bg-orangered1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orangered1
-
+`var(--orangered1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,64,0)">orangered2</span>
-
+![](https://placehold.it/50/EE4000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,64,0)">████</span>
-
+`.orangered2`
 </td>
-
 <td style="text-align:left;">
-
-.orangered2
-
+`.bg-orangered2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orangered2
-
+`var(--orangered2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,55,0)">orangered3</span>
-
+![](https://placehold.it/50/CD3700/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,55,0)">████</span>
-
+`.orangered3`
 </td>
-
 <td style="text-align:left;">
-
-.orangered3
-
+`.bg-orangered3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orangered3
-
+`var(--orangered3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,37,0)">orangered4</span>
-
+![](https://placehold.it/50/8B2500/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,37,0)">████</span>
-
+`.orangered4`
 </td>
-
 <td style="text-align:left;">
-
-.orangered4
-
+`.bg-orangered4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orangered4
-
+`var(--orangered4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(218,112,214)">orchid</span>
-
+![](https://placehold.it/50/DA70D6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(218,112,214)">████</span>
-
+`.orchid`
 </td>
-
 <td style="text-align:left;">
-
-.orchid
-
+`.bg-orchid`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orchid
-
+`var(--orchid)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,131,250)">orchid1</span>
-
+![](https://placehold.it/50/FF83FA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,131,250)">████</span>
-
+`.orchid1`
 </td>
-
 <td style="text-align:left;">
-
-.orchid1
-
+`.bg-orchid1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orchid1
-
+`var(--orchid1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,122,233)">orchid2</span>
-
+![](https://placehold.it/50/EE7AE9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,122,233)">████</span>
-
+`.orchid2`
 </td>
-
 <td style="text-align:left;">
-
-.orchid2
-
+`.bg-orchid2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orchid2
-
+`var(--orchid2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,105,201)">orchid3</span>
-
+![](https://placehold.it/50/CD69C9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,105,201)">████</span>
-
+`.orchid3`
 </td>
-
 <td style="text-align:left;">
-
-.orchid3
-
+`.bg-orchid3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orchid3
-
+`var(--orchid3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,71,137)">orchid4</span>
-
+![](https://placehold.it/50/8B4789/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,71,137)">████</span>
-
+`.orchid4`
 </td>
-
 <td style="text-align:left;">
-
-.orchid4
-
+`.bg-orchid4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-orchid4
-
+`var(--orchid4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,232,170)">palegoldenrod</span>
-
+![](https://placehold.it/50/EEE8AA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,232,170)">████</span>
-
+`.palegoldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.palegoldenrod
-
+`.bg-palegoldenrod`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palegoldenrod
-
+`var(--palegoldenrod)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(152,251,152)">palegreen</span>
-
+![](https://placehold.it/50/98FB98/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(152,251,152)">████</span>
-
+`.palegreen`
 </td>
-
 <td style="text-align:left;">
-
-.palegreen
-
+`.bg-palegreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palegreen
-
+`var(--palegreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,255,154)">palegreen1</span>
-
+![](https://placehold.it/50/9AFF9A/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,255,154)">████</span>
-
+`.palegreen1`
 </td>
-
 <td style="text-align:left;">
-
-.palegreen1
-
+`.bg-palegreen1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palegreen1
-
+`var(--palegreen1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(144,238,144)">palegreen2</span>
-
+![](https://placehold.it/50/90EE90/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(144,238,144)">████</span>
-
+`.palegreen2`
 </td>
-
 <td style="text-align:left;">
-
-.palegreen2
-
+`.bg-palegreen2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palegreen2
-
+`var(--palegreen2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(124,205,124)">palegreen3</span>
-
+![](https://placehold.it/50/7CCD7C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(124,205,124)">████</span>
-
+`.palegreen3`
 </td>
-
 <td style="text-align:left;">
-
-.palegreen3
-
+`.bg-palegreen3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palegreen3
-
+`var(--palegreen3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,139,84)">palegreen4</span>
-
+![](https://placehold.it/50/548B54/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,139,84)">████</span>
-
+`.palegreen4`
 </td>
-
 <td style="text-align:left;">
-
-.palegreen4
-
+`.bg-palegreen4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palegreen4
-
+`var(--palegreen4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(175,238,238)">paleturquoise</span>
-
+![](https://placehold.it/50/AFEEEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(175,238,238)">████</span>
-
+`.paleturquoise`
 </td>
-
 <td style="text-align:left;">
-
-.paleturquoise
-
+`.bg-paleturquoise`
 </td>
-
 <td style="text-align:left;">
-
-.bg-paleturquoise
-
+`var(--paleturquoise)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(187,255,255)">paleturquoise1</span>
-
+![](https://placehold.it/50/BBFFFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(187,255,255)">████</span>
-
+`.paleturquoise1`
 </td>
-
 <td style="text-align:left;">
-
-.paleturquoise1
-
+`.bg-paleturquoise1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-paleturquoise1
-
+`var(--paleturquoise1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(174,238,238)">paleturquoise2</span>
-
+![](https://placehold.it/50/AEEEEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(174,238,238)">████</span>
-
+`.paleturquoise2`
 </td>
-
 <td style="text-align:left;">
-
-.paleturquoise2
-
+`.bg-paleturquoise2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-paleturquoise2
-
+`var(--paleturquoise2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(150,205,205)">paleturquoise3</span>
-
+![](https://placehold.it/50/96CDCD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(150,205,205)">████</span>
-
+`.paleturquoise3`
 </td>
-
 <td style="text-align:left;">
-
-.paleturquoise3
-
+`.bg-paleturquoise3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-paleturquoise3
-
+`var(--paleturquoise3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,139,139)">paleturquoise4</span>
-
+![](https://placehold.it/50/668B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(102,139,139)">████</span>
-
+`.paleturquoise4`
 </td>
-
 <td style="text-align:left;">
-
-.paleturquoise4
-
+`.bg-paleturquoise4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-paleturquoise4
-
+`var(--paleturquoise4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(219,112,147)">palevioletred</span>
-
+![](https://placehold.it/50/DB7093/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(219,112,147)">████</span>
-
+`.palevioletred`
 </td>
-
 <td style="text-align:left;">
-
-.palevioletred
-
+`.bg-palevioletred`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palevioletred
-
+`var(--palevioletred)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,130,171)">palevioletred1</span>
-
+![](https://placehold.it/50/FF82AB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,130,171)">████</span>
-
+`.palevioletred1`
 </td>
-
 <td style="text-align:left;">
-
-.palevioletred1
-
+`.bg-palevioletred1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palevioletred1
-
+`var(--palevioletred1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,121,159)">palevioletred2</span>
-
+![](https://placehold.it/50/EE799F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,121,159)">████</span>
-
+`.palevioletred2`
 </td>
-
 <td style="text-align:left;">
-
-.palevioletred2
-
+`.bg-palevioletred2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palevioletred2
-
+`var(--palevioletred2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,104,137)">palevioletred3</span>
-
+![](https://placehold.it/50/CD6889/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,104,137)">████</span>
-
+`.palevioletred3`
 </td>
-
 <td style="text-align:left;">
-
-.palevioletred3
-
+`.bg-palevioletred3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palevioletred3
-
+`var(--palevioletred3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,71,93)">palevioletred4</span>
-
+![](https://placehold.it/50/8B475D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,71,93)">████</span>
-
+`.palevioletred4`
 </td>
-
 <td style="text-align:left;">
-
-.palevioletred4
-
+`.bg-palevioletred4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-palevioletred4
-
+`var(--palevioletred4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,239,213)">papayawhip</span>
-
+![](https://placehold.it/50/FFEFD5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,239,213)">████</span>
-
+`.papayawhip`
 </td>
-
 <td style="text-align:left;">
-
-.papayawhip
-
+`.bg-papayawhip`
 </td>
-
 <td style="text-align:left;">
-
-.bg-papayawhip
-
+`var(--papayawhip)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,218,185)">peachpuff</span>
-
+![](https://placehold.it/50/FFDAB9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,218,185)">████</span>
-
+`.peachpuff`
 </td>
-
 <td style="text-align:left;">
-
-.peachpuff
-
+`.bg-peachpuff`
 </td>
-
 <td style="text-align:left;">
-
-.bg-peachpuff
-
+`var(--peachpuff)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,218,185)">peachpuff1</span>
-
+![](https://placehold.it/50/FFDAB9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,218,185)">████</span>
-
+`.peachpuff1`
 </td>
-
 <td style="text-align:left;">
-
-.peachpuff1
-
+`.bg-peachpuff1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-peachpuff1
-
+`var(--peachpuff1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,203,173)">peachpuff2</span>
-
+![](https://placehold.it/50/EECBAD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,203,173)">████</span>
-
+`.peachpuff2`
 </td>
-
 <td style="text-align:left;">
-
-.peachpuff2
-
+`.bg-peachpuff2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-peachpuff2
-
+`var(--peachpuff2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,175,149)">peachpuff3</span>
-
+![](https://placehold.it/50/CDAF95/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,175,149)">████</span>
-
+`.peachpuff3`
 </td>
-
 <td style="text-align:left;">
-
-.peachpuff3
-
+`.bg-peachpuff3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-peachpuff3
-
+`var(--peachpuff3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,119,101)">peachpuff4</span>
-
+![](https://placehold.it/50/8B7765/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,119,101)">████</span>
-
+`.peachpuff4`
 </td>
-
 <td style="text-align:left;">
-
-.peachpuff4
-
+`.bg-peachpuff4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-peachpuff4
-
+`var(--peachpuff4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,133,63)">peru</span>
-
+![](https://placehold.it/50/CD853F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,133,63)">████</span>
-
+`.peru`
 </td>
-
 <td style="text-align:left;">
-
-.peru
-
+`.bg-peru`
 </td>
-
 <td style="text-align:left;">
-
-.bg-peru
-
+`var(--peru)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,192,203)">pink</span>
-
+![](https://placehold.it/50/FFC0CB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,192,203)">████</span>
-
+`.pink`
 </td>
-
 <td style="text-align:left;">
-
-.pink
-
+`.bg-pink`
 </td>
-
 <td style="text-align:left;">
-
-.bg-pink
-
+`var(--pink)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,181,197)">pink1</span>
-
+![](https://placehold.it/50/FFB5C5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,181,197)">████</span>
-
+`.pink1`
 </td>
-
 <td style="text-align:left;">
-
-.pink1
-
+`.bg-pink1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-pink1
-
+`var(--pink1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,169,184)">pink2</span>
-
+![](https://placehold.it/50/EEA9B8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,169,184)">████</span>
-
+`.pink2`
 </td>
-
 <td style="text-align:left;">
-
-.pink2
-
+`.bg-pink2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-pink2
-
+`var(--pink2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,145,158)">pink3</span>
-
+![](https://placehold.it/50/CD919E/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,145,158)">████</span>
-
+`.pink3`
 </td>
-
 <td style="text-align:left;">
-
-.pink3
-
+`.bg-pink3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-pink3
-
+`var(--pink3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,99,108)">pink4</span>
-
+![](https://placehold.it/50/8B636C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,99,108)">████</span>
-
+`.pink4`
 </td>
-
 <td style="text-align:left;">
-
-.pink4
-
+`.bg-pink4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-pink4
-
+`var(--pink4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(221,160,221)">plum</span>
-
+![](https://placehold.it/50/DDA0DD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(221,160,221)">████</span>
-
+`.plum`
 </td>
-
 <td style="text-align:left;">
-
-.plum
-
+`.bg-plum`
 </td>
-
 <td style="text-align:left;">
-
-.bg-plum
-
+`var(--plum)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,187,255)">plum1</span>
-
+![](https://placehold.it/50/FFBBFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,187,255)">████</span>
-
+`.plum1`
 </td>
-
 <td style="text-align:left;">
-
-.plum1
-
+`.bg-plum1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-plum1
-
+`var(--plum1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,174,238)">plum2</span>
-
+![](https://placehold.it/50/EEAEEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,174,238)">████</span>
-
+`.plum2`
 </td>
-
 <td style="text-align:left;">
-
-.plum2
-
+`.bg-plum2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-plum2
-
+`var(--plum2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,150,205)">plum3</span>
-
+![](https://placehold.it/50/CD96CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,150,205)">████</span>
-
+`.plum3`
 </td>
-
 <td style="text-align:left;">
-
-.plum3
-
+`.bg-plum3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-plum3
-
+`var(--plum3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,102,139)">plum4</span>
-
+![](https://placehold.it/50/8B668B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,102,139)">████</span>
-
+`.plum4`
 </td>
-
 <td style="text-align:left;">
-
-.plum4
-
+`.bg-plum4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-plum4
-
+`var(--plum4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,224,230)">powderblue</span>
-
+![](https://placehold.it/50/B0E0E6/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(176,224,230)">████</span>
-
+`.powderblue`
 </td>
-
 <td style="text-align:left;">
-
-.powderblue
-
+`.bg-powderblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-powderblue
-
+`var(--powderblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(160,32,240)">purple</span>
-
+![](https://placehold.it/50/A020F0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(160,32,240)">████</span>
-
+`.purple`
 </td>
-
 <td style="text-align:left;">
-
-.purple
-
+`.bg-purple`
 </td>
-
 <td style="text-align:left;">
-
-.bg-purple
-
+`var(--purple)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(155,48,255)">purple1</span>
-
+![](https://placehold.it/50/9B30FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(155,48,255)">████</span>
-
+`.purple1`
 </td>
-
 <td style="text-align:left;">
-
-.purple1
-
+`.bg-purple1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-purple1
-
+`var(--purple1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(145,44,238)">purple2</span>
-
+![](https://placehold.it/50/912CEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(145,44,238)">████</span>
-
+`.purple2`
 </td>
-
 <td style="text-align:left;">
-
-.purple2
-
+`.bg-purple2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-purple2
-
+`var(--purple2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(125,38,205)">purple3</span>
-
+![](https://placehold.it/50/7D26CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(125,38,205)">████</span>
-
+`.purple3`
 </td>
-
 <td style="text-align:left;">
-
-.purple3
-
+`.bg-purple3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-purple3
-
+`var(--purple3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(85,26,139)">purple4</span>
-
+![](https://placehold.it/50/551A8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(85,26,139)">████</span>
-
+`.purple4`
 </td>
-
 <td style="text-align:left;">
-
-.purple4
-
+`.bg-purple4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-purple4
-
+`var(--purple4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,0)">red</span>
-
+![](https://placehold.it/50/FF0000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,0)">████</span>
-
+`.red`
 </td>
-
 <td style="text-align:left;">
-
-.red
-
+`.bg-red`
 </td>
-
 <td style="text-align:left;">
-
-.bg-red
-
+`var(--red)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,0)">red1</span>
-
+![](https://placehold.it/50/FF0000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,0,0)">████</span>
-
+`.red1`
 </td>
-
 <td style="text-align:left;">
-
-.red1
-
+`.bg-red1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-red1
-
+`var(--red1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,0,0)">red2</span>
-
+![](https://placehold.it/50/EE0000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,0,0)">████</span>
-
+`.red2`
 </td>
-
 <td style="text-align:left;">
-
-.red2
-
+`.bg-red2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-red2
-
+`var(--red2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,0,0)">red3</span>
-
+![](https://placehold.it/50/CD0000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,0,0)">████</span>
-
+`.red3`
 </td>
-
 <td style="text-align:left;">
-
-.red3
-
+`.bg-red3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-red3
-
+`var(--red3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,0)">red4</span>
-
+![](https://placehold.it/50/8B0000/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,0,0)">████</span>
-
+`.red4`
 </td>
-
 <td style="text-align:left;">
-
-.red4
-
+`.bg-red4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-red4
-
+`var(--red4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(188,143,143)">rosybrown</span>
-
+![](https://placehold.it/50/BC8F8F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(188,143,143)">████</span>
-
+`.rosybrown`
 </td>
-
 <td style="text-align:left;">
-
-.rosybrown
-
+`.bg-rosybrown`
 </td>
-
 <td style="text-align:left;">
-
-.bg-rosybrown
-
+`var(--rosybrown)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,193,193)">rosybrown1</span>
-
+![](https://placehold.it/50/FFC1C1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,193,193)">████</span>
-
+`.rosybrown1`
 </td>
-
 <td style="text-align:left;">
-
-.rosybrown1
-
+`.bg-rosybrown1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-rosybrown1
-
+`var(--rosybrown1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,180,180)">rosybrown2</span>
-
+![](https://placehold.it/50/EEB4B4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,180,180)">████</span>
-
+`.rosybrown2`
 </td>
-
 <td style="text-align:left;">
-
-.rosybrown2
-
+`.bg-rosybrown2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-rosybrown2
-
+`var(--rosybrown2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,155,155)">rosybrown3</span>
-
+![](https://placehold.it/50/CD9B9B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,155,155)">████</span>
-
+`.rosybrown3`
 </td>
-
 <td style="text-align:left;">
-
-.rosybrown3
-
+`.bg-rosybrown3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-rosybrown3
-
+`var(--rosybrown3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,105,105)">rosybrown4</span>
-
+![](https://placehold.it/50/8B6969/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,105,105)">████</span>
-
+`.rosybrown4`
 </td>
-
 <td style="text-align:left;">
-
-.rosybrown4
-
+`.bg-rosybrown4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-rosybrown4
-
+`var(--rosybrown4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(65,105,225)">royalblue</span>
-
+![](https://placehold.it/50/4169E1/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(65,105,225)">████</span>
-
+`.royalblue`
 </td>
-
 <td style="text-align:left;">
-
-.royalblue
-
+`.bg-royalblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-royalblue
-
+`var(--royalblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(72,118,255)">royalblue1</span>
-
+![](https://placehold.it/50/4876FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(72,118,255)">████</span>
-
+`.royalblue1`
 </td>
-
 <td style="text-align:left;">
-
-.royalblue1
-
+`.bg-royalblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-royalblue1
-
+`var(--royalblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(67,110,238)">royalblue2</span>
-
+![](https://placehold.it/50/436EEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(67,110,238)">████</span>
-
+`.royalblue2`
 </td>
-
 <td style="text-align:left;">
-
-.royalblue2
-
+`.bg-royalblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-royalblue2
-
+`var(--royalblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(58,95,205)">royalblue3</span>
-
+![](https://placehold.it/50/3A5FCD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(58,95,205)">████</span>
-
+`.royalblue3`
 </td>
-
 <td style="text-align:left;">
-
-.royalblue3
-
+`.bg-royalblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-royalblue3
-
+`var(--royalblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(39,64,139)">royalblue4</span>
-
+![](https://placehold.it/50/27408B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(39,64,139)">████</span>
-
+`.royalblue4`
 </td>
-
 <td style="text-align:left;">
-
-.royalblue4
-
+`.bg-royalblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-royalblue4
-
+`var(--royalblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,69,19)">saddlebrown</span>
-
+![](https://placehold.it/50/8B4513/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,69,19)">████</span>
-
+`.saddlebrown`
 </td>
-
 <td style="text-align:left;">
-
-.saddlebrown
-
+`.bg-saddlebrown`
 </td>
-
 <td style="text-align:left;">
-
-.bg-saddlebrown
-
+`var(--saddlebrown)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,128,114)">salmon</span>
-
+![](https://placehold.it/50/FA8072/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(250,128,114)">████</span>
-
+`.salmon`
 </td>
-
 <td style="text-align:left;">
-
-.salmon
-
+`.bg-salmon`
 </td>
-
 <td style="text-align:left;">
-
-.bg-salmon
-
+`var(--salmon)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,140,105)">salmon1</span>
-
+![](https://placehold.it/50/FF8C69/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,140,105)">████</span>
-
+`.salmon1`
 </td>
-
 <td style="text-align:left;">
-
-.salmon1
-
+`.bg-salmon1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-salmon1
-
+`var(--salmon1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,130,98)">salmon2</span>
-
+![](https://placehold.it/50/EE8262/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,130,98)">████</span>
-
+`.salmon2`
 </td>
-
 <td style="text-align:left;">
-
-.salmon2
-
+`.bg-salmon2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-salmon2
-
+`var(--salmon2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,112,84)">salmon3</span>
-
+![](https://placehold.it/50/CD7054/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,112,84)">████</span>
-
+`.salmon3`
 </td>
-
 <td style="text-align:left;">
-
-.salmon3
-
+`.bg-salmon3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-salmon3
-
+`var(--salmon3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,76,57)">salmon4</span>
-
+![](https://placehold.it/50/8B4C39/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,76,57)">████</span>
-
+`.salmon4`
 </td>
-
 <td style="text-align:left;">
-
-.salmon4
-
+`.bg-salmon4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-salmon4
-
+`var(--salmon4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(244,164,96)">sandybrown</span>
-
+![](https://placehold.it/50/F4A460/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(244,164,96)">████</span>
-
+`.sandybrown`
 </td>
-
 <td style="text-align:left;">
-
-.sandybrown
-
+`.bg-sandybrown`
 </td>
-
 <td style="text-align:left;">
-
-.bg-sandybrown
-
+`var(--sandybrown)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,139,87)">seagreen</span>
-
+![](https://placehold.it/50/2E8B57/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,139,87)">████</span>
-
+`.seagreen`
 </td>
-
 <td style="text-align:left;">
-
-.seagreen
-
+`.bg-seagreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seagreen
-
+`var(--seagreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,255,159)">seagreen1</span>
-
+![](https://placehold.it/50/54FF9F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(84,255,159)">████</span>
-
+`.seagreen1`
 </td>
-
 <td style="text-align:left;">
-
-.seagreen1
-
+`.bg-seagreen1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seagreen1
-
+`var(--seagreen1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(78,238,148)">seagreen2</span>
-
+![](https://placehold.it/50/4EEE94/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(78,238,148)">████</span>
-
+`.seagreen2`
 </td>
-
 <td style="text-align:left;">
-
-.seagreen2
-
+`.bg-seagreen2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seagreen2
-
+`var(--seagreen2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(67,205,128)">seagreen3</span>
-
+![](https://placehold.it/50/43CD80/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(67,205,128)">████</span>
-
+`.seagreen3`
 </td>
-
 <td style="text-align:left;">
-
-.seagreen3
-
+`.bg-seagreen3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seagreen3
-
+`var(--seagreen3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,139,87)">seagreen4</span>
-
+![](https://placehold.it/50/2E8B57/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(46,139,87)">████</span>
-
+`.seagreen4`
 </td>
-
 <td style="text-align:left;">
-
-.seagreen4
-
+`.bg-seagreen4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seagreen4
-
+`var(--seagreen4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,245,238)">seashell</span>
-
+![](https://placehold.it/50/FFF5EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,245,238)">████</span>
-
+`.seashell`
 </td>
-
 <td style="text-align:left;">
-
-.seashell
-
+`.bg-seashell`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seashell
-
+`var(--seashell)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,245,238)">seashell1</span>
-
+![](https://placehold.it/50/FFF5EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,245,238)">████</span>
-
+`.seashell1`
 </td>
-
 <td style="text-align:left;">
-
-.seashell1
-
+`.bg-seashell1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seashell1
-
+`var(--seashell1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,229,222)">seashell2</span>
-
+![](https://placehold.it/50/EEE5DE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,229,222)">████</span>
-
+`.seashell2`
 </td>
-
 <td style="text-align:left;">
-
-.seashell2
-
+`.bg-seashell2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seashell2
-
+`var(--seashell2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,197,191)">seashell3</span>
-
+![](https://placehold.it/50/CDC5BF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,197,191)">████</span>
-
+`.seashell3`
 </td>
-
 <td style="text-align:left;">
-
-.seashell3
-
+`.bg-seashell3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seashell3
-
+`var(--seashell3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,134,130)">seashell4</span>
-
+![](https://placehold.it/50/8B8682/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,134,130)">████</span>
-
+`.seashell4`
 </td>
-
 <td style="text-align:left;">
-
-.seashell4
-
+`.bg-seashell4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-seashell4
-
+`var(--seashell4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(160,82,45)">sienna</span>
-
+![](https://placehold.it/50/A0522D/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(160,82,45)">████</span>
-
+`.sienna`
 </td>
-
 <td style="text-align:left;">
-
-.sienna
-
+`.bg-sienna`
 </td>
-
 <td style="text-align:left;">
-
-.bg-sienna
-
+`var(--sienna)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,130,71)">sienna1</span>
-
+![](https://placehold.it/50/FF8247/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,130,71)">████</span>
-
+`.sienna1`
 </td>
-
 <td style="text-align:left;">
-
-.sienna1
-
+`.bg-sienna1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-sienna1
-
+`var(--sienna1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,121,66)">sienna2</span>
-
+![](https://placehold.it/50/EE7942/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,121,66)">████</span>
-
+`.sienna2`
 </td>
-
 <td style="text-align:left;">
-
-.sienna2
-
+`.bg-sienna2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-sienna2
-
+`var(--sienna2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,104,57)">sienna3</span>
-
+![](https://placehold.it/50/CD6839/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,104,57)">████</span>
-
+`.sienna3`
 </td>
-
 <td style="text-align:left;">
-
-.sienna3
-
+`.bg-sienna3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-sienna3
-
+`var(--sienna3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,71,38)">sienna4</span>
-
+![](https://placehold.it/50/8B4726/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,71,38)">████</span>
-
+`.sienna4`
 </td>
-
 <td style="text-align:left;">
-
-.sienna4
-
+`.bg-sienna4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-sienna4
-
+`var(--sienna4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,206,235)">skyblue</span>
-
+![](https://placehold.it/50/87CEEB/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,206,235)">████</span>
-
+`.skyblue`
 </td>
-
 <td style="text-align:left;">
-
-.skyblue
-
+`.bg-skyblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-skyblue
-
+`var(--skyblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,206,255)">skyblue1</span>
-
+![](https://placehold.it/50/87CEFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(135,206,255)">████</span>
-
+`.skyblue1`
 </td>
-
 <td style="text-align:left;">
-
-.skyblue1
-
+`.bg-skyblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-skyblue1
-
+`var(--skyblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(126,192,238)">skyblue2</span>
-
+![](https://placehold.it/50/7EC0EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(126,192,238)">████</span>
-
+`.skyblue2`
 </td>
-
 <td style="text-align:left;">
-
-.skyblue2
-
+`.bg-skyblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-skyblue2
-
+`var(--skyblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(108,166,205)">skyblue3</span>
-
+![](https://placehold.it/50/6CA6CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(108,166,205)">████</span>
-
+`.skyblue3`
 </td>
-
 <td style="text-align:left;">
-
-.skyblue3
-
+`.bg-skyblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-skyblue3
-
+`var(--skyblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(74,112,139)">skyblue4</span>
-
+![](https://placehold.it/50/4A708B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(74,112,139)">████</span>
-
+`.skyblue4`
 </td>
-
 <td style="text-align:left;">
-
-.skyblue4
-
+`.bg-skyblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-skyblue4
-
+`var(--skyblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(106,90,205)">slateblue</span>
-
+![](https://placehold.it/50/6A5ACD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(106,90,205)">████</span>
-
+`.slateblue`
 </td>
-
 <td style="text-align:left;">
-
-.slateblue
-
+`.bg-slateblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slateblue
-
+`var(--slateblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(131,111,255)">slateblue1</span>
-
+![](https://placehold.it/50/836FFF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(131,111,255)">████</span>
-
+`.slateblue1`
 </td>
-
 <td style="text-align:left;">
-
-.slateblue1
-
+`.bg-slateblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slateblue1
-
+`var(--slateblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,103,238)">slateblue2</span>
-
+![](https://placehold.it/50/7A67EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(122,103,238)">████</span>
-
+`.slateblue2`
 </td>
-
 <td style="text-align:left;">
-
-.slateblue2
-
+`.bg-slateblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slateblue2
-
+`var(--slateblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,89,205)">slateblue3</span>
-
+![](https://placehold.it/50/6959CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(105,89,205)">████</span>
-
+`.slateblue3`
 </td>
-
 <td style="text-align:left;">
-
-.slateblue3
-
+`.bg-slateblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slateblue3
-
+`var(--slateblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(71,60,139)">slateblue4</span>
-
+![](https://placehold.it/50/473C8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(71,60,139)">████</span>
-
+`.slateblue4`
 </td>
-
 <td style="text-align:left;">
-
-.slateblue4
-
+`.bg-slateblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slateblue4
-
+`var(--slateblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,128,144)">slategray</span>
-
+![](https://placehold.it/50/708090/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,128,144)">████</span>
-
+`.slategray`
 </td>
-
 <td style="text-align:left;">
-
-.slategray
-
+`.bg-slategray`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slategray
-
+`var(--slategray)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(198,226,255)">slategray1</span>
-
+![](https://placehold.it/50/C6E2FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(198,226,255)">████</span>
-
+`.slategray1`
 </td>
-
 <td style="text-align:left;">
-
-.slategray1
-
+`.bg-slategray1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slategray1
-
+`var(--slategray1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(185,211,238)">slategray2</span>
-
+![](https://placehold.it/50/B9D3EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(185,211,238)">████</span>
-
+`.slategray2`
 </td>
-
 <td style="text-align:left;">
-
-.slategray2
-
+`.bg-slategray2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slategray2
-
+`var(--slategray2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(159,182,205)">slategray3</span>
-
+![](https://placehold.it/50/9FB6CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(159,182,205)">████</span>
-
+`.slategray3`
 </td>
-
 <td style="text-align:left;">
-
-.slategray3
-
+`.bg-slategray3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slategray3
-
+`var(--slategray3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(108,123,139)">slategray4</span>
-
+![](https://placehold.it/50/6C7B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(108,123,139)">████</span>
-
+`.slategray4`
 </td>
-
 <td style="text-align:left;">
-
-.slategray4
-
+`.bg-slategray4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slategray4
-
+`var(--slategray4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,128,144)">slategrey</span>
-
+![](https://placehold.it/50/708090/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(112,128,144)">████</span>
-
+`.slategrey`
 </td>
-
 <td style="text-align:left;">
-
-.slategrey
-
+`.bg-slategrey`
 </td>
-
 <td style="text-align:left;">
-
-.bg-slategrey
-
+`var(--slategrey)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,250)">snow</span>
-
+![](https://placehold.it/50/FFFAFA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,250)">████</span>
-
+`.snow`
 </td>
-
 <td style="text-align:left;">
-
-.snow
-
+`.bg-snow`
 </td>
-
 <td style="text-align:left;">
-
-.bg-snow
-
+`var(--snow)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,250)">snow1</span>
-
+![](https://placehold.it/50/FFFAFA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,250,250)">████</span>
-
+`.snow1`
 </td>
-
 <td style="text-align:left;">
-
-.snow1
-
+`.bg-snow1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-snow1
-
+`var(--snow1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,233,233)">snow2</span>
-
+![](https://placehold.it/50/EEE9E9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,233,233)">████</span>
-
+`.snow2`
 </td>
-
 <td style="text-align:left;">
-
-.snow2
-
+`.bg-snow2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-snow2
-
+`var(--snow2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,201,201)">snow3</span>
-
+![](https://placehold.it/50/CDC9C9/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,201,201)">████</span>
-
+`.snow3`
 </td>
-
 <td style="text-align:left;">
-
-.snow3
-
+`.bg-snow3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-snow3
-
+`var(--snow3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,137,137)">snow4</span>
-
+![](https://placehold.it/50/8B8989/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,137,137)">████</span>
-
+`.snow4`
 </td>
-
 <td style="text-align:left;">
-
-.snow4
-
+`.bg-snow4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-snow4
-
+`var(--snow4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,127)">springgreen</span>
-
+![](https://placehold.it/50/00FF7F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,127)">████</span>
-
+`.springgreen`
 </td>
-
 <td style="text-align:left;">
-
-.springgreen
-
+`.bg-springgreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-springgreen
-
+`var(--springgreen)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,127)">springgreen1</span>
-
+![](https://placehold.it/50/00FF7F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,255,127)">████</span>
-
+`.springgreen1`
 </td>
-
 <td style="text-align:left;">
-
-.springgreen1
-
+`.bg-springgreen1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-springgreen1
-
+`var(--springgreen1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,238,118)">springgreen2</span>
-
+![](https://placehold.it/50/00EE76/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,238,118)">████</span>
-
+`.springgreen2`
 </td>
-
 <td style="text-align:left;">
-
-.springgreen2
-
+`.bg-springgreen2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-springgreen2
-
+`var(--springgreen2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,205,102)">springgreen3</span>
-
+![](https://placehold.it/50/00CD66/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,205,102)">████</span>
-
+`.springgreen3`
 </td>
-
 <td style="text-align:left;">
-
-.springgreen3
-
+`.bg-springgreen3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-springgreen3
-
+`var(--springgreen3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,69)">springgreen4</span>
-
+![](https://placehold.it/50/008B45/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,139,69)">████</span>
-
+`.springgreen4`
 </td>
-
 <td style="text-align:left;">
-
-.springgreen4
-
+`.bg-springgreen4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-springgreen4
-
+`var(--springgreen4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(70,130,180)">steelblue</span>
-
+![](https://placehold.it/50/4682B4/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(70,130,180)">████</span>
-
+`.steelblue`
 </td>
-
 <td style="text-align:left;">
-
-.steelblue
-
+`.bg-steelblue`
 </td>
-
 <td style="text-align:left;">
-
-.bg-steelblue
-
+`var(--steelblue)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(99,184,255)">steelblue1</span>
-
+![](https://placehold.it/50/63B8FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(99,184,255)">████</span>
-
+`.steelblue1`
 </td>
-
 <td style="text-align:left;">
-
-.steelblue1
-
+`.bg-steelblue1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-steelblue1
-
+`var(--steelblue1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(92,172,238)">steelblue2</span>
-
+![](https://placehold.it/50/5CACEE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(92,172,238)">████</span>
-
+`.steelblue2`
 </td>
-
 <td style="text-align:left;">
-
-.steelblue2
-
+`.bg-steelblue2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-steelblue2
-
+`var(--steelblue2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(79,148,205)">steelblue3</span>
-
+![](https://placehold.it/50/4F94CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(79,148,205)">████</span>
-
+`.steelblue3`
 </td>
-
 <td style="text-align:left;">
-
-.steelblue3
-
+`.bg-steelblue3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-steelblue3
-
+`var(--steelblue3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(54,100,139)">steelblue4</span>
-
+![](https://placehold.it/50/36648B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(54,100,139)">████</span>
-
+`.steelblue4`
 </td>
-
 <td style="text-align:left;">
-
-.steelblue4
-
+`.bg-steelblue4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-steelblue4
-
+`var(--steelblue4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(210,180,140)">tan</span>
-
+![](https://placehold.it/50/D2B48C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(210,180,140)">████</span>
-
+`.tan`
 </td>
-
 <td style="text-align:left;">
-
-.tan
-
+`.bg-tan`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tan
-
+`var(--tan)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,165,79)">tan1</span>
-
+![](https://placehold.it/50/FFA54F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,165,79)">████</span>
-
+`.tan1`
 </td>
-
 <td style="text-align:left;">
-
-.tan1
-
+`.bg-tan1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tan1
-
+`var(--tan1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,154,73)">tan2</span>
-
+![](https://placehold.it/50/EE9A49/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,154,73)">████</span>
-
+`.tan2`
 </td>
-
 <td style="text-align:left;">
-
-.tan2
-
+`.bg-tan2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tan2
-
+`var(--tan2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,133,63)">tan3</span>
-
+![](https://placehold.it/50/CD853F/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,133,63)">████</span>
-
+`.tan3`
 </td>
-
 <td style="text-align:left;">
-
-.tan3
-
+`.bg-tan3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tan3
-
+`var(--tan3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,90,43)">tan4</span>
-
+![](https://placehold.it/50/8B5A2B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,90,43)">████</span>
-
+`.tan4`
 </td>
-
 <td style="text-align:left;">
-
-.tan4
-
+`.bg-tan4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tan4
-
+`var(--tan4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(216,191,216)">thistle</span>
-
+![](https://placehold.it/50/D8BFD8/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(216,191,216)">████</span>
-
+`.thistle`
 </td>
-
 <td style="text-align:left;">
-
-.thistle
-
+`.bg-thistle`
 </td>
-
 <td style="text-align:left;">
-
-.bg-thistle
-
+`var(--thistle)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,225,255)">thistle1</span>
-
+![](https://placehold.it/50/FFE1FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,225,255)">████</span>
-
+`.thistle1`
 </td>
-
 <td style="text-align:left;">
-
-.thistle1
-
+`.bg-thistle1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-thistle1
-
+`var(--thistle1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,210,238)">thistle2</span>
-
+![](https://placehold.it/50/EED2EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,210,238)">████</span>
-
+`.thistle2`
 </td>
-
 <td style="text-align:left;">
-
-.thistle2
-
+`.bg-thistle2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-thistle2
-
+`var(--thistle2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,181,205)">thistle3</span>
-
+![](https://placehold.it/50/CDB5CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,181,205)">████</span>
-
+`.thistle3`
 </td>
-
 <td style="text-align:left;">
-
-.thistle3
-
+`.bg-thistle3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-thistle3
-
+`var(--thistle3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,123,139)">thistle4</span>
-
+![](https://placehold.it/50/8B7B8B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,123,139)">████</span>
-
+`.thistle4`
 </td>
-
 <td style="text-align:left;">
-
-.thistle4
-
+`.bg-thistle4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-thistle4
-
+`var(--thistle4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,99,71)">tomato</span>
-
+![](https://placehold.it/50/FF6347/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,99,71)">████</span>
-
+`.tomato`
 </td>
-
 <td style="text-align:left;">
-
-.tomato
-
+`.bg-tomato`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tomato
-
+`var(--tomato)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,99,71)">tomato1</span>
-
+![](https://placehold.it/50/FF6347/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,99,71)">████</span>
-
+`.tomato1`
 </td>
-
 <td style="text-align:left;">
-
-.tomato1
-
+`.bg-tomato1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tomato1
-
+`var(--tomato1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,92,66)">tomato2</span>
-
+![](https://placehold.it/50/EE5C42/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,92,66)">████</span>
-
+`.tomato2`
 </td>
-
 <td style="text-align:left;">
-
-.tomato2
-
+`.bg-tomato2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tomato2
-
+`var(--tomato2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,79,57)">tomato3</span>
-
+![](https://placehold.it/50/CD4F39/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,79,57)">████</span>
-
+`.tomato3`
 </td>
-
 <td style="text-align:left;">
-
-.tomato3
-
+`.bg-tomato3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tomato3
-
+`var(--tomato3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,54,38)">tomato4</span>
-
+![](https://placehold.it/50/8B3626/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,54,38)">████</span>
-
+`.tomato4`
 </td>
-
 <td style="text-align:left;">
-
-.tomato4
-
+`.bg-tomato4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-tomato4
-
+`var(--tomato4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(64,224,208)">turquoise</span>
-
+![](https://placehold.it/50/40E0D0/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(64,224,208)">████</span>
-
+`.turquoise`
 </td>
-
 <td style="text-align:left;">
-
-.turquoise
-
+`.bg-turquoise`
 </td>
-
 <td style="text-align:left;">
-
-.bg-turquoise
-
+`var(--turquoise)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,245,255)">turquoise1</span>
-
+![](https://placehold.it/50/00F5FF/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,245,255)">████</span>
-
+`.turquoise1`
 </td>
-
 <td style="text-align:left;">
-
-.turquoise1
-
+`.bg-turquoise1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-turquoise1
-
+`var(--turquoise1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,229,238)">turquoise2</span>
-
+![](https://placehold.it/50/00E5EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,229,238)">████</span>
-
+`.turquoise2`
 </td>
-
 <td style="text-align:left;">
-
-.turquoise2
-
+`.bg-turquoise2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-turquoise2
-
+`var(--turquoise2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,197,205)">turquoise3</span>
-
+![](https://placehold.it/50/00C5CD/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,197,205)">████</span>
-
+`.turquoise3`
 </td>
-
 <td style="text-align:left;">
-
-.turquoise3
-
+`.bg-turquoise3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-turquoise3
-
+`var(--turquoise3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,134,139)">turquoise4</span>
-
+![](https://placehold.it/50/00868B/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(0,134,139)">████</span>
-
+`.turquoise4`
 </td>
-
 <td style="text-align:left;">
-
-.turquoise4
-
+`.bg-turquoise4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-turquoise4
-
+`var(--turquoise4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,130,238)">violet</span>
-
+![](https://placehold.it/50/EE82EE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,130,238)">████</span>
-
+`.violet`
 </td>
-
 <td style="text-align:left;">
-
-.violet
-
+`.bg-violet`
 </td>
-
 <td style="text-align:left;">
-
-.bg-violet
-
+`var(--violet)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(208,32,144)">violetred</span>
-
+![](https://placehold.it/50/D02090/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(208,32,144)">████</span>
-
+`.violetred`
 </td>
-
 <td style="text-align:left;">
-
-.violetred
-
+`.bg-violetred`
 </td>
-
 <td style="text-align:left;">
-
-.bg-violetred
-
+`var(--violetred)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,62,150)">violetred1</span>
-
+![](https://placehold.it/50/FF3E96/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,62,150)">████</span>
-
+`.violetred1`
 </td>
-
 <td style="text-align:left;">
-
-.violetred1
-
+`.bg-violetred1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-violetred1
-
+`var(--violetred1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,58,140)">violetred2</span>
-
+![](https://placehold.it/50/EE3A8C/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,58,140)">████</span>
-
+`.violetred2`
 </td>
-
 <td style="text-align:left;">
-
-.violetred2
-
+`.bg-violetred2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-violetred2
-
+`var(--violetred2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,50,120)">violetred3</span>
-
+![](https://placehold.it/50/CD3278/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,50,120)">████</span>
-
+`.violetred3`
 </td>
-
 <td style="text-align:left;">
-
-.violetred3
-
+`.bg-violetred3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-violetred3
-
+`var(--violetred3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,34,82)">violetred4</span>
-
+![](https://placehold.it/50/8B2252/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,34,82)">████</span>
-
+`.violetred4`
 </td>
-
 <td style="text-align:left;">
-
-.violetred4
-
+`.bg-violetred4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-violetred4
-
+`var(--violetred4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,222,179)">wheat</span>
-
+![](https://placehold.it/50/F5DEB3/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,222,179)">████</span>
-
+`.wheat`
 </td>
-
 <td style="text-align:left;">
-
-.wheat
-
+`.bg-wheat`
 </td>
-
 <td style="text-align:left;">
-
-.bg-wheat
-
+`var(--wheat)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,231,186)">wheat1</span>
-
+![](https://placehold.it/50/FFE7BA/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,231,186)">████</span>
-
+`.wheat1`
 </td>
-
 <td style="text-align:left;">
-
-.wheat1
-
+`.bg-wheat1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-wheat1
-
+`var(--wheat1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,216,174)">wheat2</span>
-
+![](https://placehold.it/50/EED8AE/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,216,174)">████</span>
-
+`.wheat2`
 </td>
-
 <td style="text-align:left;">
-
-.wheat2
-
+`.bg-wheat2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-wheat2
-
+`var(--wheat2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,186,150)">wheat3</span>
-
+![](https://placehold.it/50/CDBA96/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,186,150)">████</span>
-
+`.wheat3`
 </td>
-
 <td style="text-align:left;">
-
-.wheat3
-
+`.bg-wheat3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-wheat3
-
+`var(--wheat3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,126,102)">wheat4</span>
-
+![](https://placehold.it/50/8B7E66/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,126,102)">████</span>
-
+`.wheat4`
 </td>
-
 <td style="text-align:left;">
-
-.wheat4
-
+`.bg-wheat4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-wheat4
-
+`var(--wheat4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,245)">whitesmoke</span>
-
+![](https://placehold.it/50/F5F5F5/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(245,245,245)">████</span>
-
+`.whitesmoke`
 </td>
-
 <td style="text-align:left;">
-
-.whitesmoke
-
+`.bg-whitesmoke`
 </td>
-
 <td style="text-align:left;">
-
-.bg-whitesmoke
-
+`var(--whitesmoke)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,0)">yellow</span>
-
+![](https://placehold.it/50/FFFF00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,0)">████</span>
-
+`.yellow`
 </td>
-
 <td style="text-align:left;">
-
-.yellow
-
+`.bg-yellow`
 </td>
-
 <td style="text-align:left;">
-
-.bg-yellow
-
+`var(--yellow)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,0)">yellow1</span>
-
+![](https://placehold.it/50/FFFF00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(255,255,0)">████</span>
-
+`.yellow1`
 </td>
-
 <td style="text-align:left;">
-
-.yellow1
-
+`.bg-yellow1`
 </td>
-
 <td style="text-align:left;">
-
-.bg-yellow1
-
+`var(--yellow1)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,238,0)">yellow2</span>
-
+![](https://placehold.it/50/EEEE00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(238,238,0)">████</span>
-
+`.yellow2`
 </td>
-
 <td style="text-align:left;">
-
-.yellow2
-
+`.bg-yellow2`
 </td>
-
 <td style="text-align:left;">
-
-.bg-yellow2
-
+`var(--yellow2)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,205,0)">yellow3</span>
-
+![](https://placehold.it/50/CDCD00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(205,205,0)">████</span>
-
+`.yellow3`
 </td>
-
 <td style="text-align:left;">
-
-.yellow3
-
+`.bg-yellow3`
 </td>
-
 <td style="text-align:left;">
-
-.bg-yellow3
-
+`var(--yellow3)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,139,0)">yellow4</span>
-
+![](https://placehold.it/50/8B8B00/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(139,139,0)">████</span>
-
+`.yellow4`
 </td>
-
 <td style="text-align:left;">
-
-.yellow4
-
+`.bg-yellow4`
 </td>
-
 <td style="text-align:left;">
-
-.bg-yellow4
-
+`var(--yellow4)`
 </td>
-
 </tr>
-
 <tr>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,205,50)">yellowgreen</span>
-
+![](https://placehold.it/50/9ACD32/000000?text=+)
 </td>
-
 <td style="text-align:left;">
-
-<span style="color:rgb(154,205,50)">████</span>
-
+`.yellowgreen`
 </td>
-
 <td style="text-align:left;">
-
-.yellowgreen
-
+`.bg-yellowgreen`
 </td>
-
 <td style="text-align:left;">
-
-.bg-yellowgreen
-
+`var(--yellowgreen)`
 </td>
-
 </tr>
-
 </tbody>
-
 </table>
