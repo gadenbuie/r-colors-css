@@ -7,11 +7,18 @@ r_colors_rgb <- lapply(colors(), function(color) {
   )
 })
 
+hex <- function(x) {
+  rgb <- function(r,g,b) grDevices::rgb(r,g,b, maxColorValue = 255)
+  eval(parse(text = x))
+}
+
 r_colors <- data.frame(
   name = colors(),
   color = unlist(r_colors_rgb),
   stringsAsFactors = FALSE
 )
+
+r_colors$hex <- vapply(r_colors$color, hex, character(1))
 
 saveRDS(r_colors, "r_colors.rds")
 
