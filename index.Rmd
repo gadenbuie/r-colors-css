@@ -8,6 +8,18 @@ output:
 
 ```{r clipboard, echo=FALSE}
 xaringanExtra::use_clipboard()
+
+library(metathis)
+meta() %>% 
+  meta_social(
+    title = "R Colors in CSS",
+    description = "R's named colors as CSS styles",
+    url = "https://pkg.garricakdenbuie.com/r-colors-css",
+    og_type = "website",
+    og_author = "Garrick Aden-Buie",
+    twitter_card_type = "summary",
+    twitter_creator = "@grrrck"
+  )
 ```
 
 ```{css echo=FALSE}
