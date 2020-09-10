@@ -32,10 +32,10 @@ library(glue)
 r_colors <- readRDS("r_colors.rds")
 
 x <- data.frame(
-  color = glue_data(r_colors, '![](https://placehold.it/50/{sub("#", "", hex)}/000000?text=+)'),
-  foreground = glue_data(r_colors, "`.{name}`"),
-  background = glue_data(r_colors, "`.bg-{name}`"),
-  variable   = glue_data(r_colors, "`var(--{name})`")
+  color = glue_data(r_colors, '<img src="https://placehold.it/50/{sub("#", "", hex)}/000000?text=+)" />'),
+  foreground = glue_data(r_colors, "<code>.{name}</code>"),
+  background = glue_data(r_colors, "<code>.bg&#x002D;{name}</code>"),
+  variable   = glue_data(r_colors, "<code>var(&#x002D;&#x002D;{name})</code>")
 )
 
 knitr::kable(x, format = "html", escape = FALSE, col.names = c(

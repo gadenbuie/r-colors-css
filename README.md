@@ -39,15 +39,16 @@ or just about anywhere else
     htmltools::includeCSS("r-colors.css")
 
 Each of the 657 colors are available in three ways, using the color
-name. For example, the R color named `"aliceblue"` is available
+name. For example, the R color named `"saddlebrown"` is available
 
-1.  as a **foreground** color-setting class: <code>.aliceblue</code>
+1.  as a **foreground** color-setting class: <code>.saddlebrown</code>
 
-2.  as a **background** color-setting class: <code>.bg-aliceblue</code>
+2.  as a **background** color-setting class:
+    <code>.bg-saddlebrown</code>
 
 3.  as a [css
     variable](https://developer.mozilla.org/en-US/docs/Web/CSS/--*):
-    `var(--aliceblue)`
+    `var(--saddlebrown)`
 
 Colors
 ------
@@ -72,9200 +73,9200 @@ CSS Variable
 <tbody>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFFFF/000000?text=+)
+<img src="https://placehold.it/50/FFFFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.white`
+<code>.white</code>
 </td>
 <td style="text-align:left;">
-`.bg-white`
+<code>.bg-white</code>
 </td>
 <td style="text-align:left;">
-`var(--white)`
+<code>var(--white)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0F8FF/000000?text=+)
+<img src="https://placehold.it/50/F0F8FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.aliceblue`
+<code>.aliceblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-aliceblue`
+<code>.bg-aliceblue</code>
 </td>
 <td style="text-align:left;">
-`var(--aliceblue)`
+<code>var(--aliceblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FAEBD7/000000?text=+)
+<img src="https://placehold.it/50/FAEBD7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.antiquewhite`
+<code>.antiquewhite</code>
 </td>
 <td style="text-align:left;">
-`.bg-antiquewhite`
+<code>.bg-antiquewhite</code>
 </td>
 <td style="text-align:left;">
-`var(--antiquewhite)`
+<code>var(--antiquewhite)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFEFDB/000000?text=+)
+<img src="https://placehold.it/50/FFEFDB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.antiquewhite1`
+<code>.antiquewhite1</code>
 </td>
 <td style="text-align:left;">
-`.bg-antiquewhite1`
+<code>.bg-antiquewhite1</code>
 </td>
 <td style="text-align:left;">
-`var(--antiquewhite1)`
+<code>var(--antiquewhite1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEDFCC/000000?text=+)
+<img src="https://placehold.it/50/EEDFCC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.antiquewhite2`
+<code>.antiquewhite2</code>
 </td>
 <td style="text-align:left;">
-`.bg-antiquewhite2`
+<code>.bg-antiquewhite2</code>
 </td>
 <td style="text-align:left;">
-`var(--antiquewhite2)`
+<code>var(--antiquewhite2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDC0B0/000000?text=+)
+<img src="https://placehold.it/50/CDC0B0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.antiquewhite3`
+<code>.antiquewhite3</code>
 </td>
 <td style="text-align:left;">
-`.bg-antiquewhite3`
+<code>.bg-antiquewhite3</code>
 </td>
 <td style="text-align:left;">
-`var(--antiquewhite3)`
+<code>var(--antiquewhite3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8378/000000?text=+)
+<img src="https://placehold.it/50/8B8378/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.antiquewhite4`
+<code>.antiquewhite4</code>
 </td>
 <td style="text-align:left;">
-`.bg-antiquewhite4`
+<code>.bg-antiquewhite4</code>
 </td>
 <td style="text-align:left;">
-`var(--antiquewhite4)`
+<code>var(--antiquewhite4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7FFFD4/000000?text=+)
+<img src="https://placehold.it/50/7FFFD4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.aquamarine`
+<code>.aquamarine</code>
 </td>
 <td style="text-align:left;">
-`.bg-aquamarine`
+<code>.bg-aquamarine</code>
 </td>
 <td style="text-align:left;">
-`var(--aquamarine)`
+<code>var(--aquamarine)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7FFFD4/000000?text=+)
+<img src="https://placehold.it/50/7FFFD4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.aquamarine1`
+<code>.aquamarine1</code>
 </td>
 <td style="text-align:left;">
-`.bg-aquamarine1`
+<code>.bg-aquamarine1</code>
 </td>
 <td style="text-align:left;">
-`var(--aquamarine1)`
+<code>var(--aquamarine1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/76EEC6/000000?text=+)
+<img src="https://placehold.it/50/76EEC6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.aquamarine2`
+<code>.aquamarine2</code>
 </td>
 <td style="text-align:left;">
-`.bg-aquamarine2`
+<code>.bg-aquamarine2</code>
 </td>
 <td style="text-align:left;">
-`var(--aquamarine2)`
+<code>var(--aquamarine2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/66CDAA/000000?text=+)
+<img src="https://placehold.it/50/66CDAA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.aquamarine3`
+<code>.aquamarine3</code>
 </td>
 <td style="text-align:left;">
-`.bg-aquamarine3`
+<code>.bg-aquamarine3</code>
 </td>
 <td style="text-align:left;">
-`var(--aquamarine3)`
+<code>var(--aquamarine3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/458B74/000000?text=+)
+<img src="https://placehold.it/50/458B74/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.aquamarine4`
+<code>.aquamarine4</code>
 </td>
 <td style="text-align:left;">
-`.bg-aquamarine4`
+<code>.bg-aquamarine4</code>
 </td>
 <td style="text-align:left;">
-`var(--aquamarine4)`
+<code>var(--aquamarine4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0FFFF/000000?text=+)
+<img src="https://placehold.it/50/F0FFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.azure`
+<code>.azure</code>
 </td>
 <td style="text-align:left;">
-`.bg-azure`
+<code>.bg-azure</code>
 </td>
 <td style="text-align:left;">
-`var(--azure)`
+<code>var(--azure)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0FFFF/000000?text=+)
+<img src="https://placehold.it/50/F0FFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.azure1`
+<code>.azure1</code>
 </td>
 <td style="text-align:left;">
-`.bg-azure1`
+<code>.bg-azure1</code>
 </td>
 <td style="text-align:left;">
-`var(--azure1)`
+<code>var(--azure1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E0EEEE/000000?text=+)
+<img src="https://placehold.it/50/E0EEEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.azure2`
+<code>.azure2</code>
 </td>
 <td style="text-align:left;">
-`.bg-azure2`
+<code>.bg-azure2</code>
 </td>
 <td style="text-align:left;">
-`var(--azure2)`
+<code>var(--azure2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C1CDCD/000000?text=+)
+<img src="https://placehold.it/50/C1CDCD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.azure3`
+<code>.azure3</code>
 </td>
 <td style="text-align:left;">
-`.bg-azure3`
+<code>.bg-azure3</code>
 </td>
 <td style="text-align:left;">
-`var(--azure3)`
+<code>var(--azure3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/838B8B/000000?text=+)
+<img src="https://placehold.it/50/838B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.azure4`
+<code>.azure4</code>
 </td>
 <td style="text-align:left;">
-`.bg-azure4`
+<code>.bg-azure4</code>
 </td>
 <td style="text-align:left;">
-`var(--azure4)`
+<code>var(--azure4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F5F5DC/000000?text=+)
+<img src="https://placehold.it/50/F5F5DC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.beige`
+<code>.beige</code>
 </td>
 <td style="text-align:left;">
-`.bg-beige`
+<code>.bg-beige</code>
 </td>
 <td style="text-align:left;">
-`var(--beige)`
+<code>var(--beige)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFE4C4/000000?text=+)
+<img src="https://placehold.it/50/FFE4C4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.bisque`
+<code>.bisque</code>
 </td>
 <td style="text-align:left;">
-`.bg-bisque`
+<code>.bg-bisque</code>
 </td>
 <td style="text-align:left;">
-`var(--bisque)`
+<code>var(--bisque)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFE4C4/000000?text=+)
+<img src="https://placehold.it/50/FFE4C4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.bisque1`
+<code>.bisque1</code>
 </td>
 <td style="text-align:left;">
-`.bg-bisque1`
+<code>.bg-bisque1</code>
 </td>
 <td style="text-align:left;">
-`var(--bisque1)`
+<code>var(--bisque1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EED5B7/000000?text=+)
+<img src="https://placehold.it/50/EED5B7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.bisque2`
+<code>.bisque2</code>
 </td>
 <td style="text-align:left;">
-`.bg-bisque2`
+<code>.bg-bisque2</code>
 </td>
 <td style="text-align:left;">
-`var(--bisque2)`
+<code>var(--bisque2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDB79E/000000?text=+)
+<img src="https://placehold.it/50/CDB79E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.bisque3`
+<code>.bisque3</code>
 </td>
 <td style="text-align:left;">
-`.bg-bisque3`
+<code>.bg-bisque3</code>
 </td>
 <td style="text-align:left;">
-`var(--bisque3)`
+<code>var(--bisque3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B7D6B/000000?text=+)
+<img src="https://placehold.it/50/8B7D6B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.bisque4`
+<code>.bisque4</code>
 </td>
 <td style="text-align:left;">
-`.bg-bisque4`
+<code>.bg-bisque4</code>
 </td>
 <td style="text-align:left;">
-`var(--bisque4)`
+<code>var(--bisque4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/000000/000000?text=+)
+<img src="https://placehold.it/50/000000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.black`
+<code>.black</code>
 </td>
 <td style="text-align:left;">
-`.bg-black`
+<code>.bg-black</code>
 </td>
 <td style="text-align:left;">
-`var(--black)`
+<code>var(--black)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFEBCD/000000?text=+)
+<img src="https://placehold.it/50/FFEBCD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.blanchedalmond`
+<code>.blanchedalmond</code>
 </td>
 <td style="text-align:left;">
-`.bg-blanchedalmond`
+<code>.bg-blanchedalmond</code>
 </td>
 <td style="text-align:left;">
-`var(--blanchedalmond)`
+<code>var(--blanchedalmond)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0000FF/000000?text=+)
+<img src="https://placehold.it/50/0000FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.blue`
+<code>.blue</code>
 </td>
 <td style="text-align:left;">
-`.bg-blue`
+<code>.bg-blue</code>
 </td>
 <td style="text-align:left;">
-`var(--blue)`
+<code>var(--blue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0000FF/000000?text=+)
+<img src="https://placehold.it/50/0000FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.blue1`
+<code>.blue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-blue1`
+<code>.bg-blue1</code>
 </td>
 <td style="text-align:left;">
-`var(--blue1)`
+<code>var(--blue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0000EE/000000?text=+)
+<img src="https://placehold.it/50/0000EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.blue2`
+<code>.blue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-blue2`
+<code>.bg-blue2</code>
 </td>
 <td style="text-align:left;">
-`var(--blue2)`
+<code>var(--blue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0000CD/000000?text=+)
+<img src="https://placehold.it/50/0000CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.blue3`
+<code>.blue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-blue3`
+<code>.bg-blue3</code>
 </td>
 <td style="text-align:left;">
-`var(--blue3)`
+<code>var(--blue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00008B/000000?text=+)
+<img src="https://placehold.it/50/00008B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.blue4`
+<code>.blue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-blue4`
+<code>.bg-blue4</code>
 </td>
 <td style="text-align:left;">
-`var(--blue4)`
+<code>var(--blue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8A2BE2/000000?text=+)
+<img src="https://placehold.it/50/8A2BE2/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.blueviolet`
+<code>.blueviolet</code>
 </td>
 <td style="text-align:left;">
-`.bg-blueviolet`
+<code>.bg-blueviolet</code>
 </td>
 <td style="text-align:left;">
-`var(--blueviolet)`
+<code>var(--blueviolet)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A52A2A/000000?text=+)
+<img src="https://placehold.it/50/A52A2A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.brown`
+<code>.brown</code>
 </td>
 <td style="text-align:left;">
-`.bg-brown`
+<code>.bg-brown</code>
 </td>
 <td style="text-align:left;">
-`var(--brown)`
+<code>var(--brown)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF4040/000000?text=+)
+<img src="https://placehold.it/50/FF4040/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.brown1`
+<code>.brown1</code>
 </td>
 <td style="text-align:left;">
-`.bg-brown1`
+<code>.bg-brown1</code>
 </td>
 <td style="text-align:left;">
-`var(--brown1)`
+<code>var(--brown1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE3B3B/000000?text=+)
+<img src="https://placehold.it/50/EE3B3B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.brown2`
+<code>.brown2</code>
 </td>
 <td style="text-align:left;">
-`.bg-brown2`
+<code>.bg-brown2</code>
 </td>
 <td style="text-align:left;">
-`var(--brown2)`
+<code>var(--brown2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD3333/000000?text=+)
+<img src="https://placehold.it/50/CD3333/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.brown3`
+<code>.brown3</code>
 </td>
 <td style="text-align:left;">
-`.bg-brown3`
+<code>.bg-brown3</code>
 </td>
 <td style="text-align:left;">
-`var(--brown3)`
+<code>var(--brown3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B2323/000000?text=+)
+<img src="https://placehold.it/50/8B2323/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.brown4`
+<code>.brown4</code>
 </td>
 <td style="text-align:left;">
-`.bg-brown4`
+<code>.bg-brown4</code>
 </td>
 <td style="text-align:left;">
-`var(--brown4)`
+<code>var(--brown4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DEB887/000000?text=+)
+<img src="https://placehold.it/50/DEB887/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.burlywood`
+<code>.burlywood</code>
 </td>
 <td style="text-align:left;">
-`.bg-burlywood`
+<code>.bg-burlywood</code>
 </td>
 <td style="text-align:left;">
-`var(--burlywood)`
+<code>var(--burlywood)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFD39B/000000?text=+)
+<img src="https://placehold.it/50/FFD39B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.burlywood1`
+<code>.burlywood1</code>
 </td>
 <td style="text-align:left;">
-`.bg-burlywood1`
+<code>.bg-burlywood1</code>
 </td>
 <td style="text-align:left;">
-`var(--burlywood1)`
+<code>var(--burlywood1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEC591/000000?text=+)
+<img src="https://placehold.it/50/EEC591/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.burlywood2`
+<code>.burlywood2</code>
 </td>
 <td style="text-align:left;">
-`.bg-burlywood2`
+<code>.bg-burlywood2</code>
 </td>
 <td style="text-align:left;">
-`var(--burlywood2)`
+<code>var(--burlywood2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDAA7D/000000?text=+)
+<img src="https://placehold.it/50/CDAA7D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.burlywood3`
+<code>.burlywood3</code>
 </td>
 <td style="text-align:left;">
-`.bg-burlywood3`
+<code>.bg-burlywood3</code>
 </td>
 <td style="text-align:left;">
-`var(--burlywood3)`
+<code>var(--burlywood3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B7355/000000?text=+)
+<img src="https://placehold.it/50/8B7355/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.burlywood4`
+<code>.burlywood4</code>
 </td>
 <td style="text-align:left;">
-`.bg-burlywood4`
+<code>.bg-burlywood4</code>
 </td>
 <td style="text-align:left;">
-`var(--burlywood4)`
+<code>var(--burlywood4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/5F9EA0/000000?text=+)
+<img src="https://placehold.it/50/5F9EA0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cadetblue`
+<code>.cadetblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-cadetblue`
+<code>.bg-cadetblue</code>
 </td>
 <td style="text-align:left;">
-`var(--cadetblue)`
+<code>var(--cadetblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/98F5FF/000000?text=+)
+<img src="https://placehold.it/50/98F5FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cadetblue1`
+<code>.cadetblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-cadetblue1`
+<code>.bg-cadetblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--cadetblue1)`
+<code>var(--cadetblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8EE5EE/000000?text=+)
+<img src="https://placehold.it/50/8EE5EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cadetblue2`
+<code>.cadetblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-cadetblue2`
+<code>.bg-cadetblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--cadetblue2)`
+<code>var(--cadetblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7AC5CD/000000?text=+)
+<img src="https://placehold.it/50/7AC5CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cadetblue3`
+<code>.cadetblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-cadetblue3`
+<code>.bg-cadetblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--cadetblue3)`
+<code>var(--cadetblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/53868B/000000?text=+)
+<img src="https://placehold.it/50/53868B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cadetblue4`
+<code>.cadetblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-cadetblue4`
+<code>.bg-cadetblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--cadetblue4)`
+<code>var(--cadetblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7FFF00/000000?text=+)
+<img src="https://placehold.it/50/7FFF00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chartreuse`
+<code>.chartreuse</code>
 </td>
 <td style="text-align:left;">
-`.bg-chartreuse`
+<code>.bg-chartreuse</code>
 </td>
 <td style="text-align:left;">
-`var(--chartreuse)`
+<code>var(--chartreuse)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7FFF00/000000?text=+)
+<img src="https://placehold.it/50/7FFF00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chartreuse1`
+<code>.chartreuse1</code>
 </td>
 <td style="text-align:left;">
-`.bg-chartreuse1`
+<code>.bg-chartreuse1</code>
 </td>
 <td style="text-align:left;">
-`var(--chartreuse1)`
+<code>var(--chartreuse1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/76EE00/000000?text=+)
+<img src="https://placehold.it/50/76EE00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chartreuse2`
+<code>.chartreuse2</code>
 </td>
 <td style="text-align:left;">
-`.bg-chartreuse2`
+<code>.bg-chartreuse2</code>
 </td>
 <td style="text-align:left;">
-`var(--chartreuse2)`
+<code>var(--chartreuse2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/66CD00/000000?text=+)
+<img src="https://placehold.it/50/66CD00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chartreuse3`
+<code>.chartreuse3</code>
 </td>
 <td style="text-align:left;">
-`.bg-chartreuse3`
+<code>.bg-chartreuse3</code>
 </td>
 <td style="text-align:left;">
-`var(--chartreuse3)`
+<code>var(--chartreuse3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/458B00/000000?text=+)
+<img src="https://placehold.it/50/458B00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chartreuse4`
+<code>.chartreuse4</code>
 </td>
 <td style="text-align:left;">
-`.bg-chartreuse4`
+<code>.bg-chartreuse4</code>
 </td>
 <td style="text-align:left;">
-`var(--chartreuse4)`
+<code>var(--chartreuse4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D2691E/000000?text=+)
+<img src="https://placehold.it/50/D2691E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chocolate`
+<code>.chocolate</code>
 </td>
 <td style="text-align:left;">
-`.bg-chocolate`
+<code>.bg-chocolate</code>
 </td>
 <td style="text-align:left;">
-`var(--chocolate)`
+<code>var(--chocolate)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF7F24/000000?text=+)
+<img src="https://placehold.it/50/FF7F24/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chocolate1`
+<code>.chocolate1</code>
 </td>
 <td style="text-align:left;">
-`.bg-chocolate1`
+<code>.bg-chocolate1</code>
 </td>
 <td style="text-align:left;">
-`var(--chocolate1)`
+<code>var(--chocolate1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE7621/000000?text=+)
+<img src="https://placehold.it/50/EE7621/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chocolate2`
+<code>.chocolate2</code>
 </td>
 <td style="text-align:left;">
-`.bg-chocolate2`
+<code>.bg-chocolate2</code>
 </td>
 <td style="text-align:left;">
-`var(--chocolate2)`
+<code>var(--chocolate2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD661D/000000?text=+)
+<img src="https://placehold.it/50/CD661D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chocolate3`
+<code>.chocolate3</code>
 </td>
 <td style="text-align:left;">
-`.bg-chocolate3`
+<code>.bg-chocolate3</code>
 </td>
 <td style="text-align:left;">
-`var(--chocolate3)`
+<code>var(--chocolate3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B4513/000000?text=+)
+<img src="https://placehold.it/50/8B4513/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.chocolate4`
+<code>.chocolate4</code>
 </td>
 <td style="text-align:left;">
-`.bg-chocolate4`
+<code>.bg-chocolate4</code>
 </td>
 <td style="text-align:left;">
-`var(--chocolate4)`
+<code>var(--chocolate4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF7F50/000000?text=+)
+<img src="https://placehold.it/50/FF7F50/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.coral`
+<code>.coral</code>
 </td>
 <td style="text-align:left;">
-`.bg-coral`
+<code>.bg-coral</code>
 </td>
 <td style="text-align:left;">
-`var(--coral)`
+<code>var(--coral)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF7256/000000?text=+)
+<img src="https://placehold.it/50/FF7256/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.coral1`
+<code>.coral1</code>
 </td>
 <td style="text-align:left;">
-`.bg-coral1`
+<code>.bg-coral1</code>
 </td>
 <td style="text-align:left;">
-`var(--coral1)`
+<code>var(--coral1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE6A50/000000?text=+)
+<img src="https://placehold.it/50/EE6A50/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.coral2`
+<code>.coral2</code>
 </td>
 <td style="text-align:left;">
-`.bg-coral2`
+<code>.bg-coral2</code>
 </td>
 <td style="text-align:left;">
-`var(--coral2)`
+<code>var(--coral2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD5B45/000000?text=+)
+<img src="https://placehold.it/50/CD5B45/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.coral3`
+<code>.coral3</code>
 </td>
 <td style="text-align:left;">
-`.bg-coral3`
+<code>.bg-coral3</code>
 </td>
 <td style="text-align:left;">
-`var(--coral3)`
+<code>var(--coral3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B3E2F/000000?text=+)
+<img src="https://placehold.it/50/8B3E2F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.coral4`
+<code>.coral4</code>
 </td>
 <td style="text-align:left;">
-`.bg-coral4`
+<code>.bg-coral4</code>
 </td>
 <td style="text-align:left;">
-`var(--coral4)`
+<code>var(--coral4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6495ED/000000?text=+)
+<img src="https://placehold.it/50/6495ED/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cornflowerblue`
+<code>.cornflowerblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-cornflowerblue`
+<code>.bg-cornflowerblue</code>
 </td>
 <td style="text-align:left;">
-`var(--cornflowerblue)`
+<code>var(--cornflowerblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFF8DC/000000?text=+)
+<img src="https://placehold.it/50/FFF8DC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cornsilk`
+<code>.cornsilk</code>
 </td>
 <td style="text-align:left;">
-`.bg-cornsilk`
+<code>.bg-cornsilk</code>
 </td>
 <td style="text-align:left;">
-`var(--cornsilk)`
+<code>var(--cornsilk)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFF8DC/000000?text=+)
+<img src="https://placehold.it/50/FFF8DC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cornsilk1`
+<code>.cornsilk1</code>
 </td>
 <td style="text-align:left;">
-`.bg-cornsilk1`
+<code>.bg-cornsilk1</code>
 </td>
 <td style="text-align:left;">
-`var(--cornsilk1)`
+<code>var(--cornsilk1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEE8CD/000000?text=+)
+<img src="https://placehold.it/50/EEE8CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cornsilk2`
+<code>.cornsilk2</code>
 </td>
 <td style="text-align:left;">
-`.bg-cornsilk2`
+<code>.bg-cornsilk2</code>
 </td>
 <td style="text-align:left;">
-`var(--cornsilk2)`
+<code>var(--cornsilk2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDC8B1/000000?text=+)
+<img src="https://placehold.it/50/CDC8B1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cornsilk3`
+<code>.cornsilk3</code>
 </td>
 <td style="text-align:left;">
-`.bg-cornsilk3`
+<code>.bg-cornsilk3</code>
 </td>
 <td style="text-align:left;">
-`var(--cornsilk3)`
+<code>var(--cornsilk3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8878/000000?text=+)
+<img src="https://placehold.it/50/8B8878/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cornsilk4`
+<code>.cornsilk4</code>
 </td>
 <td style="text-align:left;">
-`.bg-cornsilk4`
+<code>.bg-cornsilk4</code>
 </td>
 <td style="text-align:left;">
-`var(--cornsilk4)`
+<code>var(--cornsilk4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00FFFF/000000?text=+)
+<img src="https://placehold.it/50/00FFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cyan`
+<code>.cyan</code>
 </td>
 <td style="text-align:left;">
-`.bg-cyan`
+<code>.bg-cyan</code>
 </td>
 <td style="text-align:left;">
-`var(--cyan)`
+<code>var(--cyan)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00FFFF/000000?text=+)
+<img src="https://placehold.it/50/00FFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cyan1`
+<code>.cyan1</code>
 </td>
 <td style="text-align:left;">
-`.bg-cyan1`
+<code>.bg-cyan1</code>
 </td>
 <td style="text-align:left;">
-`var(--cyan1)`
+<code>var(--cyan1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00EEEE/000000?text=+)
+<img src="https://placehold.it/50/00EEEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cyan2`
+<code>.cyan2</code>
 </td>
 <td style="text-align:left;">
-`.bg-cyan2`
+<code>.bg-cyan2</code>
 </td>
 <td style="text-align:left;">
-`var(--cyan2)`
+<code>var(--cyan2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00CDCD/000000?text=+)
+<img src="https://placehold.it/50/00CDCD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cyan3`
+<code>.cyan3</code>
 </td>
 <td style="text-align:left;">
-`.bg-cyan3`
+<code>.bg-cyan3</code>
 </td>
 <td style="text-align:left;">
-`var(--cyan3)`
+<code>var(--cyan3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/008B8B/000000?text=+)
+<img src="https://placehold.it/50/008B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.cyan4`
+<code>.cyan4</code>
 </td>
 <td style="text-align:left;">
-`.bg-cyan4`
+<code>.bg-cyan4</code>
 </td>
 <td style="text-align:left;">
-`var(--cyan4)`
+<code>var(--cyan4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00008B/000000?text=+)
+<img src="https://placehold.it/50/00008B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkblue`
+<code>.darkblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkblue`
+<code>.bg-darkblue</code>
 </td>
 <td style="text-align:left;">
-`var(--darkblue)`
+<code>var(--darkblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/008B8B/000000?text=+)
+<img src="https://placehold.it/50/008B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkcyan`
+<code>.darkcyan</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkcyan`
+<code>.bg-darkcyan</code>
 </td>
 <td style="text-align:left;">
-`var(--darkcyan)`
+<code>var(--darkcyan)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B8860B/000000?text=+)
+<img src="https://placehold.it/50/B8860B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgoldenrod`
+<code>.darkgoldenrod</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgoldenrod`
+<code>.bg-darkgoldenrod</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgoldenrod)`
+<code>var(--darkgoldenrod)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFB90F/000000?text=+)
+<img src="https://placehold.it/50/FFB90F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgoldenrod1`
+<code>.darkgoldenrod1</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgoldenrod1`
+<code>.bg-darkgoldenrod1</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgoldenrod1)`
+<code>var(--darkgoldenrod1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEAD0E/000000?text=+)
+<img src="https://placehold.it/50/EEAD0E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgoldenrod2`
+<code>.darkgoldenrod2</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgoldenrod2`
+<code>.bg-darkgoldenrod2</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgoldenrod2)`
+<code>var(--darkgoldenrod2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD950C/000000?text=+)
+<img src="https://placehold.it/50/CD950C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgoldenrod3`
+<code>.darkgoldenrod3</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgoldenrod3`
+<code>.bg-darkgoldenrod3</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgoldenrod3)`
+<code>var(--darkgoldenrod3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B6508/000000?text=+)
+<img src="https://placehold.it/50/8B6508/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgoldenrod4`
+<code>.darkgoldenrod4</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgoldenrod4`
+<code>.bg-darkgoldenrod4</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgoldenrod4)`
+<code>var(--darkgoldenrod4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A9A9A9/000000?text=+)
+<img src="https://placehold.it/50/A9A9A9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgray`
+<code>.darkgray</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgray`
+<code>.bg-darkgray</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgray)`
+<code>var(--darkgray)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/006400/000000?text=+)
+<img src="https://placehold.it/50/006400/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgreen`
+<code>.darkgreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgreen`
+<code>.bg-darkgreen</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgreen)`
+<code>var(--darkgreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A9A9A9/000000?text=+)
+<img src="https://placehold.it/50/A9A9A9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkgrey`
+<code>.darkgrey</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkgrey`
+<code>.bg-darkgrey</code>
 </td>
 <td style="text-align:left;">
-`var(--darkgrey)`
+<code>var(--darkgrey)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BDB76B/000000?text=+)
+<img src="https://placehold.it/50/BDB76B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkkhaki`
+<code>.darkkhaki</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkkhaki`
+<code>.bg-darkkhaki</code>
 </td>
 <td style="text-align:left;">
-`var(--darkkhaki)`
+<code>var(--darkkhaki)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B008B/000000?text=+)
+<img src="https://placehold.it/50/8B008B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkmagenta`
+<code>.darkmagenta</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkmagenta`
+<code>.bg-darkmagenta</code>
 </td>
 <td style="text-align:left;">
-`var(--darkmagenta)`
+<code>var(--darkmagenta)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/556B2F/000000?text=+)
+<img src="https://placehold.it/50/556B2F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkolivegreen`
+<code>.darkolivegreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkolivegreen`
+<code>.bg-darkolivegreen</code>
 </td>
 <td style="text-align:left;">
-`var(--darkolivegreen)`
+<code>var(--darkolivegreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CAFF70/000000?text=+)
+<img src="https://placehold.it/50/CAFF70/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkolivegreen1`
+<code>.darkolivegreen1</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkolivegreen1`
+<code>.bg-darkolivegreen1</code>
 </td>
 <td style="text-align:left;">
-`var(--darkolivegreen1)`
+<code>var(--darkolivegreen1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BCEE68/000000?text=+)
+<img src="https://placehold.it/50/BCEE68/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkolivegreen2`
+<code>.darkolivegreen2</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkolivegreen2`
+<code>.bg-darkolivegreen2</code>
 </td>
 <td style="text-align:left;">
-`var(--darkolivegreen2)`
+<code>var(--darkolivegreen2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A2CD5A/000000?text=+)
+<img src="https://placehold.it/50/A2CD5A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkolivegreen3`
+<code>.darkolivegreen3</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkolivegreen3`
+<code>.bg-darkolivegreen3</code>
 </td>
 <td style="text-align:left;">
-`var(--darkolivegreen3)`
+<code>var(--darkolivegreen3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6E8B3D/000000?text=+)
+<img src="https://placehold.it/50/6E8B3D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkolivegreen4`
+<code>.darkolivegreen4</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkolivegreen4`
+<code>.bg-darkolivegreen4</code>
 </td>
 <td style="text-align:left;">
-`var(--darkolivegreen4)`
+<code>var(--darkolivegreen4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF8C00/000000?text=+)
+<img src="https://placehold.it/50/FF8C00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorange`
+<code>.darkorange</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorange`
+<code>.bg-darkorange</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorange)`
+<code>var(--darkorange)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF7F00/000000?text=+)
+<img src="https://placehold.it/50/FF7F00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorange1`
+<code>.darkorange1</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorange1`
+<code>.bg-darkorange1</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorange1)`
+<code>var(--darkorange1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE7600/000000?text=+)
+<img src="https://placehold.it/50/EE7600/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorange2`
+<code>.darkorange2</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorange2`
+<code>.bg-darkorange2</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorange2)`
+<code>var(--darkorange2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD6600/000000?text=+)
+<img src="https://placehold.it/50/CD6600/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorange3`
+<code>.darkorange3</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorange3`
+<code>.bg-darkorange3</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorange3)`
+<code>var(--darkorange3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B4500/000000?text=+)
+<img src="https://placehold.it/50/8B4500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorange4`
+<code>.darkorange4</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorange4`
+<code>.bg-darkorange4</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorange4)`
+<code>var(--darkorange4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9932CC/000000?text=+)
+<img src="https://placehold.it/50/9932CC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorchid`
+<code>.darkorchid</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorchid`
+<code>.bg-darkorchid</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorchid)`
+<code>var(--darkorchid)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BF3EFF/000000?text=+)
+<img src="https://placehold.it/50/BF3EFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorchid1`
+<code>.darkorchid1</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorchid1`
+<code>.bg-darkorchid1</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorchid1)`
+<code>var(--darkorchid1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B23AEE/000000?text=+)
+<img src="https://placehold.it/50/B23AEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorchid2`
+<code>.darkorchid2</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorchid2`
+<code>.bg-darkorchid2</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorchid2)`
+<code>var(--darkorchid2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9A32CD/000000?text=+)
+<img src="https://placehold.it/50/9A32CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorchid3`
+<code>.darkorchid3</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorchid3`
+<code>.bg-darkorchid3</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorchid3)`
+<code>var(--darkorchid3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/68228B/000000?text=+)
+<img src="https://placehold.it/50/68228B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkorchid4`
+<code>.darkorchid4</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkorchid4`
+<code>.bg-darkorchid4</code>
 </td>
 <td style="text-align:left;">
-`var(--darkorchid4)`
+<code>var(--darkorchid4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B0000/000000?text=+)
+<img src="https://placehold.it/50/8B0000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkred`
+<code>.darkred</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkred`
+<code>.bg-darkred</code>
 </td>
 <td style="text-align:left;">
-`var(--darkred)`
+<code>var(--darkred)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E9967A/000000?text=+)
+<img src="https://placehold.it/50/E9967A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darksalmon`
+<code>.darksalmon</code>
 </td>
 <td style="text-align:left;">
-`.bg-darksalmon`
+<code>.bg-darksalmon</code>
 </td>
 <td style="text-align:left;">
-`var(--darksalmon)`
+<code>var(--darksalmon)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8FBC8F/000000?text=+)
+<img src="https://placehold.it/50/8FBC8F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkseagreen`
+<code>.darkseagreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkseagreen`
+<code>.bg-darkseagreen</code>
 </td>
 <td style="text-align:left;">
-`var(--darkseagreen)`
+<code>var(--darkseagreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C1FFC1/000000?text=+)
+<img src="https://placehold.it/50/C1FFC1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkseagreen1`
+<code>.darkseagreen1</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkseagreen1`
+<code>.bg-darkseagreen1</code>
 </td>
 <td style="text-align:left;">
-`var(--darkseagreen1)`
+<code>var(--darkseagreen1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B4EEB4/000000?text=+)
+<img src="https://placehold.it/50/B4EEB4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkseagreen2`
+<code>.darkseagreen2</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkseagreen2`
+<code>.bg-darkseagreen2</code>
 </td>
 <td style="text-align:left;">
-`var(--darkseagreen2)`
+<code>var(--darkseagreen2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9BCD9B/000000?text=+)
+<img src="https://placehold.it/50/9BCD9B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkseagreen3`
+<code>.darkseagreen3</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkseagreen3`
+<code>.bg-darkseagreen3</code>
 </td>
 <td style="text-align:left;">
-`var(--darkseagreen3)`
+<code>var(--darkseagreen3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/698B69/000000?text=+)
+<img src="https://placehold.it/50/698B69/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkseagreen4`
+<code>.darkseagreen4</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkseagreen4`
+<code>.bg-darkseagreen4</code>
 </td>
 <td style="text-align:left;">
-`var(--darkseagreen4)`
+<code>var(--darkseagreen4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/483D8B/000000?text=+)
+<img src="https://placehold.it/50/483D8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkslateblue`
+<code>.darkslateblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkslateblue`
+<code>.bg-darkslateblue</code>
 </td>
 <td style="text-align:left;">
-`var(--darkslateblue)`
+<code>var(--darkslateblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2F4F4F/000000?text=+)
+<img src="https://placehold.it/50/2F4F4F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkslategray`
+<code>.darkslategray</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkslategray`
+<code>.bg-darkslategray</code>
 </td>
 <td style="text-align:left;">
-`var(--darkslategray)`
+<code>var(--darkslategray)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/97FFFF/000000?text=+)
+<img src="https://placehold.it/50/97FFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkslategray1`
+<code>.darkslategray1</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkslategray1`
+<code>.bg-darkslategray1</code>
 </td>
 <td style="text-align:left;">
-`var(--darkslategray1)`
+<code>var(--darkslategray1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8DEEEE/000000?text=+)
+<img src="https://placehold.it/50/8DEEEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkslategray2`
+<code>.darkslategray2</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkslategray2`
+<code>.bg-darkslategray2</code>
 </td>
 <td style="text-align:left;">
-`var(--darkslategray2)`
+<code>var(--darkslategray2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/79CDCD/000000?text=+)
+<img src="https://placehold.it/50/79CDCD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkslategray3`
+<code>.darkslategray3</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkslategray3`
+<code>.bg-darkslategray3</code>
 </td>
 <td style="text-align:left;">
-`var(--darkslategray3)`
+<code>var(--darkslategray3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/528B8B/000000?text=+)
+<img src="https://placehold.it/50/528B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkslategray4`
+<code>.darkslategray4</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkslategray4`
+<code>.bg-darkslategray4</code>
 </td>
 <td style="text-align:left;">
-`var(--darkslategray4)`
+<code>var(--darkslategray4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2F4F4F/000000?text=+)
+<img src="https://placehold.it/50/2F4F4F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkslategrey`
+<code>.darkslategrey</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkslategrey`
+<code>.bg-darkslategrey</code>
 </td>
 <td style="text-align:left;">
-`var(--darkslategrey)`
+<code>var(--darkslategrey)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00CED1/000000?text=+)
+<img src="https://placehold.it/50/00CED1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkturquoise`
+<code>.darkturquoise</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkturquoise`
+<code>.bg-darkturquoise</code>
 </td>
 <td style="text-align:left;">
-`var(--darkturquoise)`
+<code>var(--darkturquoise)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9400D3/000000?text=+)
+<img src="https://placehold.it/50/9400D3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.darkviolet`
+<code>.darkviolet</code>
 </td>
 <td style="text-align:left;">
-`.bg-darkviolet`
+<code>.bg-darkviolet</code>
 </td>
 <td style="text-align:left;">
-`var(--darkviolet)`
+<code>var(--darkviolet)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF1493/000000?text=+)
+<img src="https://placehold.it/50/FF1493/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deeppink`
+<code>.deeppink</code>
 </td>
 <td style="text-align:left;">
-`.bg-deeppink`
+<code>.bg-deeppink</code>
 </td>
 <td style="text-align:left;">
-`var(--deeppink)`
+<code>var(--deeppink)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF1493/000000?text=+)
+<img src="https://placehold.it/50/FF1493/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deeppink1`
+<code>.deeppink1</code>
 </td>
 <td style="text-align:left;">
-`.bg-deeppink1`
+<code>.bg-deeppink1</code>
 </td>
 <td style="text-align:left;">
-`var(--deeppink1)`
+<code>var(--deeppink1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE1289/000000?text=+)
+<img src="https://placehold.it/50/EE1289/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deeppink2`
+<code>.deeppink2</code>
 </td>
 <td style="text-align:left;">
-`.bg-deeppink2`
+<code>.bg-deeppink2</code>
 </td>
 <td style="text-align:left;">
-`var(--deeppink2)`
+<code>var(--deeppink2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD1076/000000?text=+)
+<img src="https://placehold.it/50/CD1076/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deeppink3`
+<code>.deeppink3</code>
 </td>
 <td style="text-align:left;">
-`.bg-deeppink3`
+<code>.bg-deeppink3</code>
 </td>
 <td style="text-align:left;">
-`var(--deeppink3)`
+<code>var(--deeppink3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B0A50/000000?text=+)
+<img src="https://placehold.it/50/8B0A50/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deeppink4`
+<code>.deeppink4</code>
 </td>
 <td style="text-align:left;">
-`.bg-deeppink4`
+<code>.bg-deeppink4</code>
 </td>
 <td style="text-align:left;">
-`var(--deeppink4)`
+<code>var(--deeppink4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00BFFF/000000?text=+)
+<img src="https://placehold.it/50/00BFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deepskyblue`
+<code>.deepskyblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-deepskyblue`
+<code>.bg-deepskyblue</code>
 </td>
 <td style="text-align:left;">
-`var(--deepskyblue)`
+<code>var(--deepskyblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00BFFF/000000?text=+)
+<img src="https://placehold.it/50/00BFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deepskyblue1`
+<code>.deepskyblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-deepskyblue1`
+<code>.bg-deepskyblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--deepskyblue1)`
+<code>var(--deepskyblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00B2EE/000000?text=+)
+<img src="https://placehold.it/50/00B2EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deepskyblue2`
+<code>.deepskyblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-deepskyblue2`
+<code>.bg-deepskyblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--deepskyblue2)`
+<code>var(--deepskyblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/009ACD/000000?text=+)
+<img src="https://placehold.it/50/009ACD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deepskyblue3`
+<code>.deepskyblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-deepskyblue3`
+<code>.bg-deepskyblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--deepskyblue3)`
+<code>var(--deepskyblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00688B/000000?text=+)
+<img src="https://placehold.it/50/00688B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.deepskyblue4`
+<code>.deepskyblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-deepskyblue4`
+<code>.bg-deepskyblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--deepskyblue4)`
+<code>var(--deepskyblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/696969/000000?text=+)
+<img src="https://placehold.it/50/696969/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.dimgray`
+<code>.dimgray</code>
 </td>
 <td style="text-align:left;">
-`.bg-dimgray`
+<code>.bg-dimgray</code>
 </td>
 <td style="text-align:left;">
-`var(--dimgray)`
+<code>var(--dimgray)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/696969/000000?text=+)
+<img src="https://placehold.it/50/696969/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.dimgrey`
+<code>.dimgrey</code>
 </td>
 <td style="text-align:left;">
-`.bg-dimgrey`
+<code>.bg-dimgrey</code>
 </td>
 <td style="text-align:left;">
-`var(--dimgrey)`
+<code>var(--dimgrey)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1E90FF/000000?text=+)
+<img src="https://placehold.it/50/1E90FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.dodgerblue`
+<code>.dodgerblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-dodgerblue`
+<code>.bg-dodgerblue</code>
 </td>
 <td style="text-align:left;">
-`var(--dodgerblue)`
+<code>var(--dodgerblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1E90FF/000000?text=+)
+<img src="https://placehold.it/50/1E90FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.dodgerblue1`
+<code>.dodgerblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-dodgerblue1`
+<code>.bg-dodgerblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--dodgerblue1)`
+<code>var(--dodgerblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1C86EE/000000?text=+)
+<img src="https://placehold.it/50/1C86EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.dodgerblue2`
+<code>.dodgerblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-dodgerblue2`
+<code>.bg-dodgerblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--dodgerblue2)`
+<code>var(--dodgerblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1874CD/000000?text=+)
+<img src="https://placehold.it/50/1874CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.dodgerblue3`
+<code>.dodgerblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-dodgerblue3`
+<code>.bg-dodgerblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--dodgerblue3)`
+<code>var(--dodgerblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/104E8B/000000?text=+)
+<img src="https://placehold.it/50/104E8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.dodgerblue4`
+<code>.dodgerblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-dodgerblue4`
+<code>.bg-dodgerblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--dodgerblue4)`
+<code>var(--dodgerblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B22222/000000?text=+)
+<img src="https://placehold.it/50/B22222/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.firebrick`
+<code>.firebrick</code>
 </td>
 <td style="text-align:left;">
-`.bg-firebrick`
+<code>.bg-firebrick</code>
 </td>
 <td style="text-align:left;">
-`var(--firebrick)`
+<code>var(--firebrick)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF3030/000000?text=+)
+<img src="https://placehold.it/50/FF3030/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.firebrick1`
+<code>.firebrick1</code>
 </td>
 <td style="text-align:left;">
-`.bg-firebrick1`
+<code>.bg-firebrick1</code>
 </td>
 <td style="text-align:left;">
-`var(--firebrick1)`
+<code>var(--firebrick1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE2C2C/000000?text=+)
+<img src="https://placehold.it/50/EE2C2C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.firebrick2`
+<code>.firebrick2</code>
 </td>
 <td style="text-align:left;">
-`.bg-firebrick2`
+<code>.bg-firebrick2</code>
 </td>
 <td style="text-align:left;">
-`var(--firebrick2)`
+<code>var(--firebrick2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD2626/000000?text=+)
+<img src="https://placehold.it/50/CD2626/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.firebrick3`
+<code>.firebrick3</code>
 </td>
 <td style="text-align:left;">
-`.bg-firebrick3`
+<code>.bg-firebrick3</code>
 </td>
 <td style="text-align:left;">
-`var(--firebrick3)`
+<code>var(--firebrick3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B1A1A/000000?text=+)
+<img src="https://placehold.it/50/8B1A1A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.firebrick4`
+<code>.firebrick4</code>
 </td>
 <td style="text-align:left;">
-`.bg-firebrick4`
+<code>.bg-firebrick4</code>
 </td>
 <td style="text-align:left;">
-`var(--firebrick4)`
+<code>var(--firebrick4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFAF0/000000?text=+)
+<img src="https://placehold.it/50/FFFAF0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.floralwhite`
+<code>.floralwhite</code>
 </td>
 <td style="text-align:left;">
-`.bg-floralwhite`
+<code>.bg-floralwhite</code>
 </td>
 <td style="text-align:left;">
-`var(--floralwhite)`
+<code>var(--floralwhite)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/228B22/000000?text=+)
+<img src="https://placehold.it/50/228B22/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.forestgreen`
+<code>.forestgreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-forestgreen`
+<code>.bg-forestgreen</code>
 </td>
 <td style="text-align:left;">
-`var(--forestgreen)`
+<code>var(--forestgreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DCDCDC/000000?text=+)
+<img src="https://placehold.it/50/DCDCDC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gainsboro`
+<code>.gainsboro</code>
 </td>
 <td style="text-align:left;">
-`.bg-gainsboro`
+<code>.bg-gainsboro</code>
 </td>
 <td style="text-align:left;">
-`var(--gainsboro)`
+<code>var(--gainsboro)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F8F8FF/000000?text=+)
+<img src="https://placehold.it/50/F8F8FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.ghostwhite`
+<code>.ghostwhite</code>
 </td>
 <td style="text-align:left;">
-`.bg-ghostwhite`
+<code>.bg-ghostwhite</code>
 </td>
 <td style="text-align:left;">
-`var(--ghostwhite)`
+<code>var(--ghostwhite)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFD700/000000?text=+)
+<img src="https://placehold.it/50/FFD700/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gold`
+<code>.gold</code>
 </td>
 <td style="text-align:left;">
-`.bg-gold`
+<code>.bg-gold</code>
 </td>
 <td style="text-align:left;">
-`var(--gold)`
+<code>var(--gold)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFD700/000000?text=+)
+<img src="https://placehold.it/50/FFD700/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gold1`
+<code>.gold1</code>
 </td>
 <td style="text-align:left;">
-`.bg-gold1`
+<code>.bg-gold1</code>
 </td>
 <td style="text-align:left;">
-`var(--gold1)`
+<code>var(--gold1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEC900/000000?text=+)
+<img src="https://placehold.it/50/EEC900/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gold2`
+<code>.gold2</code>
 </td>
 <td style="text-align:left;">
-`.bg-gold2`
+<code>.bg-gold2</code>
 </td>
 <td style="text-align:left;">
-`var(--gold2)`
+<code>var(--gold2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDAD00/000000?text=+)
+<img src="https://placehold.it/50/CDAD00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gold3`
+<code>.gold3</code>
 </td>
 <td style="text-align:left;">
-`.bg-gold3`
+<code>.bg-gold3</code>
 </td>
 <td style="text-align:left;">
-`var(--gold3)`
+<code>var(--gold3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B7500/000000?text=+)
+<img src="https://placehold.it/50/8B7500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gold4`
+<code>.gold4</code>
 </td>
 <td style="text-align:left;">
-`.bg-gold4`
+<code>.bg-gold4</code>
 </td>
 <td style="text-align:left;">
-`var(--gold4)`
+<code>var(--gold4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DAA520/000000?text=+)
+<img src="https://placehold.it/50/DAA520/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.goldenrod`
+<code>.goldenrod</code>
 </td>
 <td style="text-align:left;">
-`.bg-goldenrod`
+<code>.bg-goldenrod</code>
 </td>
 <td style="text-align:left;">
-`var(--goldenrod)`
+<code>var(--goldenrod)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFC125/000000?text=+)
+<img src="https://placehold.it/50/FFC125/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.goldenrod1`
+<code>.goldenrod1</code>
 </td>
 <td style="text-align:left;">
-`.bg-goldenrod1`
+<code>.bg-goldenrod1</code>
 </td>
 <td style="text-align:left;">
-`var(--goldenrod1)`
+<code>var(--goldenrod1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEB422/000000?text=+)
+<img src="https://placehold.it/50/EEB422/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.goldenrod2`
+<code>.goldenrod2</code>
 </td>
 <td style="text-align:left;">
-`.bg-goldenrod2`
+<code>.bg-goldenrod2</code>
 </td>
 <td style="text-align:left;">
-`var(--goldenrod2)`
+<code>var(--goldenrod2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD9B1D/000000?text=+)
+<img src="https://placehold.it/50/CD9B1D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.goldenrod3`
+<code>.goldenrod3</code>
 </td>
 <td style="text-align:left;">
-`.bg-goldenrod3`
+<code>.bg-goldenrod3</code>
 </td>
 <td style="text-align:left;">
-`var(--goldenrod3)`
+<code>var(--goldenrod3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B6914/000000?text=+)
+<img src="https://placehold.it/50/8B6914/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.goldenrod4`
+<code>.goldenrod4</code>
 </td>
 <td style="text-align:left;">
-`.bg-goldenrod4`
+<code>.bg-goldenrod4</code>
 </td>
 <td style="text-align:left;">
-`var(--goldenrod4)`
+<code>var(--goldenrod4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BEBEBE/000000?text=+)
+<img src="https://placehold.it/50/BEBEBE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray`
+<code>.gray</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray`
+<code>.bg-gray</code>
 </td>
 <td style="text-align:left;">
-`var(--gray)`
+<code>var(--gray)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/000000/000000?text=+)
+<img src="https://placehold.it/50/000000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray0`
+<code>.gray0</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray0`
+<code>.bg-gray0</code>
 </td>
 <td style="text-align:left;">
-`var(--gray0)`
+<code>var(--gray0)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/030303/000000?text=+)
+<img src="https://placehold.it/50/030303/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray1`
+<code>.gray1</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray1`
+<code>.bg-gray1</code>
 </td>
 <td style="text-align:left;">
-`var(--gray1)`
+<code>var(--gray1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/050505/000000?text=+)
+<img src="https://placehold.it/50/050505/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray2`
+<code>.gray2</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray2`
+<code>.bg-gray2</code>
 </td>
 <td style="text-align:left;">
-`var(--gray2)`
+<code>var(--gray2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/080808/000000?text=+)
+<img src="https://placehold.it/50/080808/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray3`
+<code>.gray3</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray3`
+<code>.bg-gray3</code>
 </td>
 <td style="text-align:left;">
-`var(--gray3)`
+<code>var(--gray3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0A0A0A/000000?text=+)
+<img src="https://placehold.it/50/0A0A0A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray4`
+<code>.gray4</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray4`
+<code>.bg-gray4</code>
 </td>
 <td style="text-align:left;">
-`var(--gray4)`
+<code>var(--gray4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0D0D0D/000000?text=+)
+<img src="https://placehold.it/50/0D0D0D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray5`
+<code>.gray5</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray5`
+<code>.bg-gray5</code>
 </td>
 <td style="text-align:left;">
-`var(--gray5)`
+<code>var(--gray5)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0F0F0F/000000?text=+)
+<img src="https://placehold.it/50/0F0F0F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray6`
+<code>.gray6</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray6`
+<code>.bg-gray6</code>
 </td>
 <td style="text-align:left;">
-`var(--gray6)`
+<code>var(--gray6)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/121212/000000?text=+)
+<img src="https://placehold.it/50/121212/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray7`
+<code>.gray7</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray7`
+<code>.bg-gray7</code>
 </td>
 <td style="text-align:left;">
-`var(--gray7)`
+<code>var(--gray7)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/141414/000000?text=+)
+<img src="https://placehold.it/50/141414/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray8`
+<code>.gray8</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray8`
+<code>.bg-gray8</code>
 </td>
 <td style="text-align:left;">
-`var(--gray8)`
+<code>var(--gray8)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/171717/000000?text=+)
+<img src="https://placehold.it/50/171717/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray9`
+<code>.gray9</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray9`
+<code>.bg-gray9</code>
 </td>
 <td style="text-align:left;">
-`var(--gray9)`
+<code>var(--gray9)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1A1A1A/000000?text=+)
+<img src="https://placehold.it/50/1A1A1A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray10`
+<code>.gray10</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray10`
+<code>.bg-gray10</code>
 </td>
 <td style="text-align:left;">
-`var(--gray10)`
+<code>var(--gray10)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1C1C1C/000000?text=+)
+<img src="https://placehold.it/50/1C1C1C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray11`
+<code>.gray11</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray11`
+<code>.bg-gray11</code>
 </td>
 <td style="text-align:left;">
-`var(--gray11)`
+<code>var(--gray11)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1F1F1F/000000?text=+)
+<img src="https://placehold.it/50/1F1F1F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray12`
+<code>.gray12</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray12`
+<code>.bg-gray12</code>
 </td>
 <td style="text-align:left;">
-`var(--gray12)`
+<code>var(--gray12)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/212121/000000?text=+)
+<img src="https://placehold.it/50/212121/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray13`
+<code>.gray13</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray13`
+<code>.bg-gray13</code>
 </td>
 <td style="text-align:left;">
-`var(--gray13)`
+<code>var(--gray13)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/242424/000000?text=+)
+<img src="https://placehold.it/50/242424/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray14`
+<code>.gray14</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray14`
+<code>.bg-gray14</code>
 </td>
 <td style="text-align:left;">
-`var(--gray14)`
+<code>var(--gray14)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/262626/000000?text=+)
+<img src="https://placehold.it/50/262626/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray15`
+<code>.gray15</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray15`
+<code>.bg-gray15</code>
 </td>
 <td style="text-align:left;">
-`var(--gray15)`
+<code>var(--gray15)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/292929/000000?text=+)
+<img src="https://placehold.it/50/292929/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray16`
+<code>.gray16</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray16`
+<code>.bg-gray16</code>
 </td>
 <td style="text-align:left;">
-`var(--gray16)`
+<code>var(--gray16)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2B2B2B/000000?text=+)
+<img src="https://placehold.it/50/2B2B2B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray17`
+<code>.gray17</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray17`
+<code>.bg-gray17</code>
 </td>
 <td style="text-align:left;">
-`var(--gray17)`
+<code>var(--gray17)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2E2E2E/000000?text=+)
+<img src="https://placehold.it/50/2E2E2E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray18`
+<code>.gray18</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray18`
+<code>.bg-gray18</code>
 </td>
 <td style="text-align:left;">
-`var(--gray18)`
+<code>var(--gray18)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/303030/000000?text=+)
+<img src="https://placehold.it/50/303030/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray19`
+<code>.gray19</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray19`
+<code>.bg-gray19</code>
 </td>
 <td style="text-align:left;">
-`var(--gray19)`
+<code>var(--gray19)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/333333/000000?text=+)
+<img src="https://placehold.it/50/333333/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray20`
+<code>.gray20</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray20`
+<code>.bg-gray20</code>
 </td>
 <td style="text-align:left;">
-`var(--gray20)`
+<code>var(--gray20)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/363636/000000?text=+)
+<img src="https://placehold.it/50/363636/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray21`
+<code>.gray21</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray21`
+<code>.bg-gray21</code>
 </td>
 <td style="text-align:left;">
-`var(--gray21)`
+<code>var(--gray21)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/383838/000000?text=+)
+<img src="https://placehold.it/50/383838/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray22`
+<code>.gray22</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray22`
+<code>.bg-gray22</code>
 </td>
 <td style="text-align:left;">
-`var(--gray22)`
+<code>var(--gray22)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/3B3B3B/000000?text=+)
+<img src="https://placehold.it/50/3B3B3B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray23`
+<code>.gray23</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray23`
+<code>.bg-gray23</code>
 </td>
 <td style="text-align:left;">
-`var(--gray23)`
+<code>var(--gray23)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/3D3D3D/000000?text=+)
+<img src="https://placehold.it/50/3D3D3D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray24`
+<code>.gray24</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray24`
+<code>.bg-gray24</code>
 </td>
 <td style="text-align:left;">
-`var(--gray24)`
+<code>var(--gray24)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/404040/000000?text=+)
+<img src="https://placehold.it/50/404040/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray25`
+<code>.gray25</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray25`
+<code>.bg-gray25</code>
 </td>
 <td style="text-align:left;">
-`var(--gray25)`
+<code>var(--gray25)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/424242/000000?text=+)
+<img src="https://placehold.it/50/424242/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray26`
+<code>.gray26</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray26`
+<code>.bg-gray26</code>
 </td>
 <td style="text-align:left;">
-`var(--gray26)`
+<code>var(--gray26)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/454545/000000?text=+)
+<img src="https://placehold.it/50/454545/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray27`
+<code>.gray27</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray27`
+<code>.bg-gray27</code>
 </td>
 <td style="text-align:left;">
-`var(--gray27)`
+<code>var(--gray27)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/474747/000000?text=+)
+<img src="https://placehold.it/50/474747/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray28`
+<code>.gray28</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray28`
+<code>.bg-gray28</code>
 </td>
 <td style="text-align:left;">
-`var(--gray28)`
+<code>var(--gray28)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4A4A4A/000000?text=+)
+<img src="https://placehold.it/50/4A4A4A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray29`
+<code>.gray29</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray29`
+<code>.bg-gray29</code>
 </td>
 <td style="text-align:left;">
-`var(--gray29)`
+<code>var(--gray29)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4D4D4D/000000?text=+)
+<img src="https://placehold.it/50/4D4D4D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray30`
+<code>.gray30</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray30`
+<code>.bg-gray30</code>
 </td>
 <td style="text-align:left;">
-`var(--gray30)`
+<code>var(--gray30)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4F4F4F/000000?text=+)
+<img src="https://placehold.it/50/4F4F4F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray31`
+<code>.gray31</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray31`
+<code>.bg-gray31</code>
 </td>
 <td style="text-align:left;">
-`var(--gray31)`
+<code>var(--gray31)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/525252/000000?text=+)
+<img src="https://placehold.it/50/525252/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray32`
+<code>.gray32</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray32`
+<code>.bg-gray32</code>
 </td>
 <td style="text-align:left;">
-`var(--gray32)`
+<code>var(--gray32)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/545454/000000?text=+)
+<img src="https://placehold.it/50/545454/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray33`
+<code>.gray33</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray33`
+<code>.bg-gray33</code>
 </td>
 <td style="text-align:left;">
-`var(--gray33)`
+<code>var(--gray33)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/575757/000000?text=+)
+<img src="https://placehold.it/50/575757/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray34`
+<code>.gray34</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray34`
+<code>.bg-gray34</code>
 </td>
 <td style="text-align:left;">
-`var(--gray34)`
+<code>var(--gray34)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/595959/000000?text=+)
+<img src="https://placehold.it/50/595959/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray35`
+<code>.gray35</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray35`
+<code>.bg-gray35</code>
 </td>
 <td style="text-align:left;">
-`var(--gray35)`
+<code>var(--gray35)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/5C5C5C/000000?text=+)
+<img src="https://placehold.it/50/5C5C5C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray36`
+<code>.gray36</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray36`
+<code>.bg-gray36</code>
 </td>
 <td style="text-align:left;">
-`var(--gray36)`
+<code>var(--gray36)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/5E5E5E/000000?text=+)
+<img src="https://placehold.it/50/5E5E5E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray37`
+<code>.gray37</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray37`
+<code>.bg-gray37</code>
 </td>
 <td style="text-align:left;">
-`var(--gray37)`
+<code>var(--gray37)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/616161/000000?text=+)
+<img src="https://placehold.it/50/616161/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray38`
+<code>.gray38</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray38`
+<code>.bg-gray38</code>
 </td>
 <td style="text-align:left;">
-`var(--gray38)`
+<code>var(--gray38)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/636363/000000?text=+)
+<img src="https://placehold.it/50/636363/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray39`
+<code>.gray39</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray39`
+<code>.bg-gray39</code>
 </td>
 <td style="text-align:left;">
-`var(--gray39)`
+<code>var(--gray39)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/666666/000000?text=+)
+<img src="https://placehold.it/50/666666/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray40`
+<code>.gray40</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray40`
+<code>.bg-gray40</code>
 </td>
 <td style="text-align:left;">
-`var(--gray40)`
+<code>var(--gray40)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/696969/000000?text=+)
+<img src="https://placehold.it/50/696969/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray41`
+<code>.gray41</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray41`
+<code>.bg-gray41</code>
 </td>
 <td style="text-align:left;">
-`var(--gray41)`
+<code>var(--gray41)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6B6B6B/000000?text=+)
+<img src="https://placehold.it/50/6B6B6B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray42`
+<code>.gray42</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray42`
+<code>.bg-gray42</code>
 </td>
 <td style="text-align:left;">
-`var(--gray42)`
+<code>var(--gray42)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6E6E6E/000000?text=+)
+<img src="https://placehold.it/50/6E6E6E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray43`
+<code>.gray43</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray43`
+<code>.bg-gray43</code>
 </td>
 <td style="text-align:left;">
-`var(--gray43)`
+<code>var(--gray43)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/707070/000000?text=+)
+<img src="https://placehold.it/50/707070/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray44`
+<code>.gray44</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray44`
+<code>.bg-gray44</code>
 </td>
 <td style="text-align:left;">
-`var(--gray44)`
+<code>var(--gray44)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/737373/000000?text=+)
+<img src="https://placehold.it/50/737373/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray45`
+<code>.gray45</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray45`
+<code>.bg-gray45</code>
 </td>
 <td style="text-align:left;">
-`var(--gray45)`
+<code>var(--gray45)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/757575/000000?text=+)
+<img src="https://placehold.it/50/757575/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray46`
+<code>.gray46</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray46`
+<code>.bg-gray46</code>
 </td>
 <td style="text-align:left;">
-`var(--gray46)`
+<code>var(--gray46)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/787878/000000?text=+)
+<img src="https://placehold.it/50/787878/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray47`
+<code>.gray47</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray47`
+<code>.bg-gray47</code>
 </td>
 <td style="text-align:left;">
-`var(--gray47)`
+<code>var(--gray47)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7A7A7A/000000?text=+)
+<img src="https://placehold.it/50/7A7A7A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray48`
+<code>.gray48</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray48`
+<code>.bg-gray48</code>
 </td>
 <td style="text-align:left;">
-`var(--gray48)`
+<code>var(--gray48)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7D7D7D/000000?text=+)
+<img src="https://placehold.it/50/7D7D7D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray49`
+<code>.gray49</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray49`
+<code>.bg-gray49</code>
 </td>
 <td style="text-align:left;">
-`var(--gray49)`
+<code>var(--gray49)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7F7F7F/000000?text=+)
+<img src="https://placehold.it/50/7F7F7F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray50`
+<code>.gray50</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray50`
+<code>.bg-gray50</code>
 </td>
 <td style="text-align:left;">
-`var(--gray50)`
+<code>var(--gray50)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/828282/000000?text=+)
+<img src="https://placehold.it/50/828282/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray51`
+<code>.gray51</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray51`
+<code>.bg-gray51</code>
 </td>
 <td style="text-align:left;">
-`var(--gray51)`
+<code>var(--gray51)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/858585/000000?text=+)
+<img src="https://placehold.it/50/858585/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray52`
+<code>.gray52</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray52`
+<code>.bg-gray52</code>
 </td>
 <td style="text-align:left;">
-`var(--gray52)`
+<code>var(--gray52)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/878787/000000?text=+)
+<img src="https://placehold.it/50/878787/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray53`
+<code>.gray53</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray53`
+<code>.bg-gray53</code>
 </td>
 <td style="text-align:left;">
-`var(--gray53)`
+<code>var(--gray53)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8A8A8A/000000?text=+)
+<img src="https://placehold.it/50/8A8A8A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray54`
+<code>.gray54</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray54`
+<code>.bg-gray54</code>
 </td>
 <td style="text-align:left;">
-`var(--gray54)`
+<code>var(--gray54)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8C8C8C/000000?text=+)
+<img src="https://placehold.it/50/8C8C8C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray55`
+<code>.gray55</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray55`
+<code>.bg-gray55</code>
 </td>
 <td style="text-align:left;">
-`var(--gray55)`
+<code>var(--gray55)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8F8F8F/000000?text=+)
+<img src="https://placehold.it/50/8F8F8F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray56`
+<code>.gray56</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray56`
+<code>.bg-gray56</code>
 </td>
 <td style="text-align:left;">
-`var(--gray56)`
+<code>var(--gray56)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/919191/000000?text=+)
+<img src="https://placehold.it/50/919191/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray57`
+<code>.gray57</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray57`
+<code>.bg-gray57</code>
 </td>
 <td style="text-align:left;">
-`var(--gray57)`
+<code>var(--gray57)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/949494/000000?text=+)
+<img src="https://placehold.it/50/949494/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray58`
+<code>.gray58</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray58`
+<code>.bg-gray58</code>
 </td>
 <td style="text-align:left;">
-`var(--gray58)`
+<code>var(--gray58)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/969696/000000?text=+)
+<img src="https://placehold.it/50/969696/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray59`
+<code>.gray59</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray59`
+<code>.bg-gray59</code>
 </td>
 <td style="text-align:left;">
-`var(--gray59)`
+<code>var(--gray59)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/999999/000000?text=+)
+<img src="https://placehold.it/50/999999/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray60`
+<code>.gray60</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray60`
+<code>.bg-gray60</code>
 </td>
 <td style="text-align:left;">
-`var(--gray60)`
+<code>var(--gray60)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9C9C9C/000000?text=+)
+<img src="https://placehold.it/50/9C9C9C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray61`
+<code>.gray61</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray61`
+<code>.bg-gray61</code>
 </td>
 <td style="text-align:left;">
-`var(--gray61)`
+<code>var(--gray61)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9E9E9E/000000?text=+)
+<img src="https://placehold.it/50/9E9E9E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray62`
+<code>.gray62</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray62`
+<code>.bg-gray62</code>
 </td>
 <td style="text-align:left;">
-`var(--gray62)`
+<code>var(--gray62)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A1A1A1/000000?text=+)
+<img src="https://placehold.it/50/A1A1A1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray63`
+<code>.gray63</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray63`
+<code>.bg-gray63</code>
 </td>
 <td style="text-align:left;">
-`var(--gray63)`
+<code>var(--gray63)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A3A3A3/000000?text=+)
+<img src="https://placehold.it/50/A3A3A3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray64`
+<code>.gray64</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray64`
+<code>.bg-gray64</code>
 </td>
 <td style="text-align:left;">
-`var(--gray64)`
+<code>var(--gray64)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A6A6A6/000000?text=+)
+<img src="https://placehold.it/50/A6A6A6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray65`
+<code>.gray65</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray65`
+<code>.bg-gray65</code>
 </td>
 <td style="text-align:left;">
-`var(--gray65)`
+<code>var(--gray65)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A8A8A8/000000?text=+)
+<img src="https://placehold.it/50/A8A8A8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray66`
+<code>.gray66</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray66`
+<code>.bg-gray66</code>
 </td>
 <td style="text-align:left;">
-`var(--gray66)`
+<code>var(--gray66)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/ABABAB/000000?text=+)
+<img src="https://placehold.it/50/ABABAB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray67`
+<code>.gray67</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray67`
+<code>.bg-gray67</code>
 </td>
 <td style="text-align:left;">
-`var(--gray67)`
+<code>var(--gray67)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/ADADAD/000000?text=+)
+<img src="https://placehold.it/50/ADADAD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray68`
+<code>.gray68</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray68`
+<code>.bg-gray68</code>
 </td>
 <td style="text-align:left;">
-`var(--gray68)`
+<code>var(--gray68)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B0B0B0/000000?text=+)
+<img src="https://placehold.it/50/B0B0B0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray69`
+<code>.gray69</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray69`
+<code>.bg-gray69</code>
 </td>
 <td style="text-align:left;">
-`var(--gray69)`
+<code>var(--gray69)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B3B3B3/000000?text=+)
+<img src="https://placehold.it/50/B3B3B3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray70`
+<code>.gray70</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray70`
+<code>.bg-gray70</code>
 </td>
 <td style="text-align:left;">
-`var(--gray70)`
+<code>var(--gray70)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B5B5B5/000000?text=+)
+<img src="https://placehold.it/50/B5B5B5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray71`
+<code>.gray71</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray71`
+<code>.bg-gray71</code>
 </td>
 <td style="text-align:left;">
-`var(--gray71)`
+<code>var(--gray71)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B8B8B8/000000?text=+)
+<img src="https://placehold.it/50/B8B8B8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray72`
+<code>.gray72</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray72`
+<code>.bg-gray72</code>
 </td>
 <td style="text-align:left;">
-`var(--gray72)`
+<code>var(--gray72)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BABABA/000000?text=+)
+<img src="https://placehold.it/50/BABABA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray73`
+<code>.gray73</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray73`
+<code>.bg-gray73</code>
 </td>
 <td style="text-align:left;">
-`var(--gray73)`
+<code>var(--gray73)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BDBDBD/000000?text=+)
+<img src="https://placehold.it/50/BDBDBD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray74`
+<code>.gray74</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray74`
+<code>.bg-gray74</code>
 </td>
 <td style="text-align:left;">
-`var(--gray74)`
+<code>var(--gray74)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BFBFBF/000000?text=+)
+<img src="https://placehold.it/50/BFBFBF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray75`
+<code>.gray75</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray75`
+<code>.bg-gray75</code>
 </td>
 <td style="text-align:left;">
-`var(--gray75)`
+<code>var(--gray75)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C2C2C2/000000?text=+)
+<img src="https://placehold.it/50/C2C2C2/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray76`
+<code>.gray76</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray76`
+<code>.bg-gray76</code>
 </td>
 <td style="text-align:left;">
-`var(--gray76)`
+<code>var(--gray76)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C4C4C4/000000?text=+)
+<img src="https://placehold.it/50/C4C4C4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray77`
+<code>.gray77</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray77`
+<code>.bg-gray77</code>
 </td>
 <td style="text-align:left;">
-`var(--gray77)`
+<code>var(--gray77)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C7C7C7/000000?text=+)
+<img src="https://placehold.it/50/C7C7C7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray78`
+<code>.gray78</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray78`
+<code>.bg-gray78</code>
 </td>
 <td style="text-align:left;">
-`var(--gray78)`
+<code>var(--gray78)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C9C9C9/000000?text=+)
+<img src="https://placehold.it/50/C9C9C9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray79`
+<code>.gray79</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray79`
+<code>.bg-gray79</code>
 </td>
 <td style="text-align:left;">
-`var(--gray79)`
+<code>var(--gray79)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CCCCCC/000000?text=+)
+<img src="https://placehold.it/50/CCCCCC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray80`
+<code>.gray80</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray80`
+<code>.bg-gray80</code>
 </td>
 <td style="text-align:left;">
-`var(--gray80)`
+<code>var(--gray80)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CFCFCF/000000?text=+)
+<img src="https://placehold.it/50/CFCFCF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray81`
+<code>.gray81</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray81`
+<code>.bg-gray81</code>
 </td>
 <td style="text-align:left;">
-`var(--gray81)`
+<code>var(--gray81)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D1D1D1/000000?text=+)
+<img src="https://placehold.it/50/D1D1D1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray82`
+<code>.gray82</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray82`
+<code>.bg-gray82</code>
 </td>
 <td style="text-align:left;">
-`var(--gray82)`
+<code>var(--gray82)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D4D4D4/000000?text=+)
+<img src="https://placehold.it/50/D4D4D4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray83`
+<code>.gray83</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray83`
+<code>.bg-gray83</code>
 </td>
 <td style="text-align:left;">
-`var(--gray83)`
+<code>var(--gray83)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D6D6D6/000000?text=+)
+<img src="https://placehold.it/50/D6D6D6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray84`
+<code>.gray84</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray84`
+<code>.bg-gray84</code>
 </td>
 <td style="text-align:left;">
-`var(--gray84)`
+<code>var(--gray84)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D9D9D9/000000?text=+)
+<img src="https://placehold.it/50/D9D9D9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray85`
+<code>.gray85</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray85`
+<code>.bg-gray85</code>
 </td>
 <td style="text-align:left;">
-`var(--gray85)`
+<code>var(--gray85)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DBDBDB/000000?text=+)
+<img src="https://placehold.it/50/DBDBDB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray86`
+<code>.gray86</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray86`
+<code>.bg-gray86</code>
 </td>
 <td style="text-align:left;">
-`var(--gray86)`
+<code>var(--gray86)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DEDEDE/000000?text=+)
+<img src="https://placehold.it/50/DEDEDE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray87`
+<code>.gray87</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray87`
+<code>.bg-gray87</code>
 </td>
 <td style="text-align:left;">
-`var(--gray87)`
+<code>var(--gray87)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E0E0E0/000000?text=+)
+<img src="https://placehold.it/50/E0E0E0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray88`
+<code>.gray88</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray88`
+<code>.bg-gray88</code>
 </td>
 <td style="text-align:left;">
-`var(--gray88)`
+<code>var(--gray88)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E3E3E3/000000?text=+)
+<img src="https://placehold.it/50/E3E3E3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray89`
+<code>.gray89</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray89`
+<code>.bg-gray89</code>
 </td>
 <td style="text-align:left;">
-`var(--gray89)`
+<code>var(--gray89)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E5E5E5/000000?text=+)
+<img src="https://placehold.it/50/E5E5E5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray90`
+<code>.gray90</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray90`
+<code>.bg-gray90</code>
 </td>
 <td style="text-align:left;">
-`var(--gray90)`
+<code>var(--gray90)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E8E8E8/000000?text=+)
+<img src="https://placehold.it/50/E8E8E8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray91`
+<code>.gray91</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray91`
+<code>.bg-gray91</code>
 </td>
 <td style="text-align:left;">
-`var(--gray91)`
+<code>var(--gray91)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EBEBEB/000000?text=+)
+<img src="https://placehold.it/50/EBEBEB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray92`
+<code>.gray92</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray92`
+<code>.bg-gray92</code>
 </td>
 <td style="text-align:left;">
-`var(--gray92)`
+<code>var(--gray92)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EDEDED/000000?text=+)
+<img src="https://placehold.it/50/EDEDED/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray93`
+<code>.gray93</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray93`
+<code>.bg-gray93</code>
 </td>
 <td style="text-align:left;">
-`var(--gray93)`
+<code>var(--gray93)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0F0F0/000000?text=+)
+<img src="https://placehold.it/50/F0F0F0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray94`
+<code>.gray94</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray94`
+<code>.bg-gray94</code>
 </td>
 <td style="text-align:left;">
-`var(--gray94)`
+<code>var(--gray94)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F2F2F2/000000?text=+)
+<img src="https://placehold.it/50/F2F2F2/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray95`
+<code>.gray95</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray95`
+<code>.bg-gray95</code>
 </td>
 <td style="text-align:left;">
-`var(--gray95)`
+<code>var(--gray95)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F5F5F5/000000?text=+)
+<img src="https://placehold.it/50/F5F5F5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray96`
+<code>.gray96</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray96`
+<code>.bg-gray96</code>
 </td>
 <td style="text-align:left;">
-`var(--gray96)`
+<code>var(--gray96)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F7F7F7/000000?text=+)
+<img src="https://placehold.it/50/F7F7F7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray97`
+<code>.gray97</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray97`
+<code>.bg-gray97</code>
 </td>
 <td style="text-align:left;">
-`var(--gray97)`
+<code>var(--gray97)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FAFAFA/000000?text=+)
+<img src="https://placehold.it/50/FAFAFA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray98`
+<code>.gray98</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray98`
+<code>.bg-gray98</code>
 </td>
 <td style="text-align:left;">
-`var(--gray98)`
+<code>var(--gray98)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FCFCFC/000000?text=+)
+<img src="https://placehold.it/50/FCFCFC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray99`
+<code>.gray99</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray99`
+<code>.bg-gray99</code>
 </td>
 <td style="text-align:left;">
-`var(--gray99)`
+<code>var(--gray99)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFFFF/000000?text=+)
+<img src="https://placehold.it/50/FFFFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.gray100`
+<code>.gray100</code>
 </td>
 <td style="text-align:left;">
-`.bg-gray100`
+<code>.bg-gray100</code>
 </td>
 <td style="text-align:left;">
-`var(--gray100)`
+<code>var(--gray100)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00FF00/000000?text=+)
+<img src="https://placehold.it/50/00FF00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.green`
+<code>.green</code>
 </td>
 <td style="text-align:left;">
-`.bg-green`
+<code>.bg-green</code>
 </td>
 <td style="text-align:left;">
-`var(--green)`
+<code>var(--green)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00FF00/000000?text=+)
+<img src="https://placehold.it/50/00FF00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.green1`
+<code>.green1</code>
 </td>
 <td style="text-align:left;">
-`.bg-green1`
+<code>.bg-green1</code>
 </td>
 <td style="text-align:left;">
-`var(--green1)`
+<code>var(--green1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00EE00/000000?text=+)
+<img src="https://placehold.it/50/00EE00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.green2`
+<code>.green2</code>
 </td>
 <td style="text-align:left;">
-`.bg-green2`
+<code>.bg-green2</code>
 </td>
 <td style="text-align:left;">
-`var(--green2)`
+<code>var(--green2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00CD00/000000?text=+)
+<img src="https://placehold.it/50/00CD00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.green3`
+<code>.green3</code>
 </td>
 <td style="text-align:left;">
-`.bg-green3`
+<code>.bg-green3</code>
 </td>
 <td style="text-align:left;">
-`var(--green3)`
+<code>var(--green3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/008B00/000000?text=+)
+<img src="https://placehold.it/50/008B00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.green4`
+<code>.green4</code>
 </td>
 <td style="text-align:left;">
-`.bg-green4`
+<code>.bg-green4</code>
 </td>
 <td style="text-align:left;">
-`var(--green4)`
+<code>var(--green4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/ADFF2F/000000?text=+)
+<img src="https://placehold.it/50/ADFF2F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.greenyellow`
+<code>.greenyellow</code>
 </td>
 <td style="text-align:left;">
-`.bg-greenyellow`
+<code>.bg-greenyellow</code>
 </td>
 <td style="text-align:left;">
-`var(--greenyellow)`
+<code>var(--greenyellow)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BEBEBE/000000?text=+)
+<img src="https://placehold.it/50/BEBEBE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey`
+<code>.grey</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey`
+<code>.bg-grey</code>
 </td>
 <td style="text-align:left;">
-`var(--grey)`
+<code>var(--grey)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/000000/000000?text=+)
+<img src="https://placehold.it/50/000000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey0`
+<code>.grey0</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey0`
+<code>.bg-grey0</code>
 </td>
 <td style="text-align:left;">
-`var(--grey0)`
+<code>var(--grey0)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/030303/000000?text=+)
+<img src="https://placehold.it/50/030303/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey1`
+<code>.grey1</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey1`
+<code>.bg-grey1</code>
 </td>
 <td style="text-align:left;">
-`var(--grey1)`
+<code>var(--grey1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/050505/000000?text=+)
+<img src="https://placehold.it/50/050505/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey2`
+<code>.grey2</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey2`
+<code>.bg-grey2</code>
 </td>
 <td style="text-align:left;">
-`var(--grey2)`
+<code>var(--grey2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/080808/000000?text=+)
+<img src="https://placehold.it/50/080808/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey3`
+<code>.grey3</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey3`
+<code>.bg-grey3</code>
 </td>
 <td style="text-align:left;">
-`var(--grey3)`
+<code>var(--grey3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0A0A0A/000000?text=+)
+<img src="https://placehold.it/50/0A0A0A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey4`
+<code>.grey4</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey4`
+<code>.bg-grey4</code>
 </td>
 <td style="text-align:left;">
-`var(--grey4)`
+<code>var(--grey4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0D0D0D/000000?text=+)
+<img src="https://placehold.it/50/0D0D0D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey5`
+<code>.grey5</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey5`
+<code>.bg-grey5</code>
 </td>
 <td style="text-align:left;">
-`var(--grey5)`
+<code>var(--grey5)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0F0F0F/000000?text=+)
+<img src="https://placehold.it/50/0F0F0F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey6`
+<code>.grey6</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey6`
+<code>.bg-grey6</code>
 </td>
 <td style="text-align:left;">
-`var(--grey6)`
+<code>var(--grey6)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/121212/000000?text=+)
+<img src="https://placehold.it/50/121212/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey7`
+<code>.grey7</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey7`
+<code>.bg-grey7</code>
 </td>
 <td style="text-align:left;">
-`var(--grey7)`
+<code>var(--grey7)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/141414/000000?text=+)
+<img src="https://placehold.it/50/141414/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey8`
+<code>.grey8</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey8`
+<code>.bg-grey8</code>
 </td>
 <td style="text-align:left;">
-`var(--grey8)`
+<code>var(--grey8)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/171717/000000?text=+)
+<img src="https://placehold.it/50/171717/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey9`
+<code>.grey9</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey9`
+<code>.bg-grey9</code>
 </td>
 <td style="text-align:left;">
-`var(--grey9)`
+<code>var(--grey9)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1A1A1A/000000?text=+)
+<img src="https://placehold.it/50/1A1A1A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey10`
+<code>.grey10</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey10`
+<code>.bg-grey10</code>
 </td>
 <td style="text-align:left;">
-`var(--grey10)`
+<code>var(--grey10)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1C1C1C/000000?text=+)
+<img src="https://placehold.it/50/1C1C1C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey11`
+<code>.grey11</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey11`
+<code>.bg-grey11</code>
 </td>
 <td style="text-align:left;">
-`var(--grey11)`
+<code>var(--grey11)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/1F1F1F/000000?text=+)
+<img src="https://placehold.it/50/1F1F1F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey12`
+<code>.grey12</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey12`
+<code>.bg-grey12</code>
 </td>
 <td style="text-align:left;">
-`var(--grey12)`
+<code>var(--grey12)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/212121/000000?text=+)
+<img src="https://placehold.it/50/212121/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey13`
+<code>.grey13</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey13`
+<code>.bg-grey13</code>
 </td>
 <td style="text-align:left;">
-`var(--grey13)`
+<code>var(--grey13)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/242424/000000?text=+)
+<img src="https://placehold.it/50/242424/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey14`
+<code>.grey14</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey14`
+<code>.bg-grey14</code>
 </td>
 <td style="text-align:left;">
-`var(--grey14)`
+<code>var(--grey14)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/262626/000000?text=+)
+<img src="https://placehold.it/50/262626/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey15`
+<code>.grey15</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey15`
+<code>.bg-grey15</code>
 </td>
 <td style="text-align:left;">
-`var(--grey15)`
+<code>var(--grey15)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/292929/000000?text=+)
+<img src="https://placehold.it/50/292929/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey16`
+<code>.grey16</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey16`
+<code>.bg-grey16</code>
 </td>
 <td style="text-align:left;">
-`var(--grey16)`
+<code>var(--grey16)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2B2B2B/000000?text=+)
+<img src="https://placehold.it/50/2B2B2B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey17`
+<code>.grey17</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey17`
+<code>.bg-grey17</code>
 </td>
 <td style="text-align:left;">
-`var(--grey17)`
+<code>var(--grey17)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2E2E2E/000000?text=+)
+<img src="https://placehold.it/50/2E2E2E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey18`
+<code>.grey18</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey18`
+<code>.bg-grey18</code>
 </td>
 <td style="text-align:left;">
-`var(--grey18)`
+<code>var(--grey18)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/303030/000000?text=+)
+<img src="https://placehold.it/50/303030/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey19`
+<code>.grey19</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey19`
+<code>.bg-grey19</code>
 </td>
 <td style="text-align:left;">
-`var(--grey19)`
+<code>var(--grey19)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/333333/000000?text=+)
+<img src="https://placehold.it/50/333333/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey20`
+<code>.grey20</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey20`
+<code>.bg-grey20</code>
 </td>
 <td style="text-align:left;">
-`var(--grey20)`
+<code>var(--grey20)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/363636/000000?text=+)
+<img src="https://placehold.it/50/363636/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey21`
+<code>.grey21</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey21`
+<code>.bg-grey21</code>
 </td>
 <td style="text-align:left;">
-`var(--grey21)`
+<code>var(--grey21)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/383838/000000?text=+)
+<img src="https://placehold.it/50/383838/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey22`
+<code>.grey22</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey22`
+<code>.bg-grey22</code>
 </td>
 <td style="text-align:left;">
-`var(--grey22)`
+<code>var(--grey22)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/3B3B3B/000000?text=+)
+<img src="https://placehold.it/50/3B3B3B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey23`
+<code>.grey23</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey23`
+<code>.bg-grey23</code>
 </td>
 <td style="text-align:left;">
-`var(--grey23)`
+<code>var(--grey23)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/3D3D3D/000000?text=+)
+<img src="https://placehold.it/50/3D3D3D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey24`
+<code>.grey24</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey24`
+<code>.bg-grey24</code>
 </td>
 <td style="text-align:left;">
-`var(--grey24)`
+<code>var(--grey24)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/404040/000000?text=+)
+<img src="https://placehold.it/50/404040/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey25`
+<code>.grey25</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey25`
+<code>.bg-grey25</code>
 </td>
 <td style="text-align:left;">
-`var(--grey25)`
+<code>var(--grey25)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/424242/000000?text=+)
+<img src="https://placehold.it/50/424242/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey26`
+<code>.grey26</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey26`
+<code>.bg-grey26</code>
 </td>
 <td style="text-align:left;">
-`var(--grey26)`
+<code>var(--grey26)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/454545/000000?text=+)
+<img src="https://placehold.it/50/454545/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey27`
+<code>.grey27</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey27`
+<code>.bg-grey27</code>
 </td>
 <td style="text-align:left;">
-`var(--grey27)`
+<code>var(--grey27)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/474747/000000?text=+)
+<img src="https://placehold.it/50/474747/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey28`
+<code>.grey28</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey28`
+<code>.bg-grey28</code>
 </td>
 <td style="text-align:left;">
-`var(--grey28)`
+<code>var(--grey28)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4A4A4A/000000?text=+)
+<img src="https://placehold.it/50/4A4A4A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey29`
+<code>.grey29</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey29`
+<code>.bg-grey29</code>
 </td>
 <td style="text-align:left;">
-`var(--grey29)`
+<code>var(--grey29)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4D4D4D/000000?text=+)
+<img src="https://placehold.it/50/4D4D4D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey30`
+<code>.grey30</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey30`
+<code>.bg-grey30</code>
 </td>
 <td style="text-align:left;">
-`var(--grey30)`
+<code>var(--grey30)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4F4F4F/000000?text=+)
+<img src="https://placehold.it/50/4F4F4F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey31`
+<code>.grey31</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey31`
+<code>.bg-grey31</code>
 </td>
 <td style="text-align:left;">
-`var(--grey31)`
+<code>var(--grey31)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/525252/000000?text=+)
+<img src="https://placehold.it/50/525252/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey32`
+<code>.grey32</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey32`
+<code>.bg-grey32</code>
 </td>
 <td style="text-align:left;">
-`var(--grey32)`
+<code>var(--grey32)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/545454/000000?text=+)
+<img src="https://placehold.it/50/545454/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey33`
+<code>.grey33</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey33`
+<code>.bg-grey33</code>
 </td>
 <td style="text-align:left;">
-`var(--grey33)`
+<code>var(--grey33)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/575757/000000?text=+)
+<img src="https://placehold.it/50/575757/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey34`
+<code>.grey34</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey34`
+<code>.bg-grey34</code>
 </td>
 <td style="text-align:left;">
-`var(--grey34)`
+<code>var(--grey34)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/595959/000000?text=+)
+<img src="https://placehold.it/50/595959/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey35`
+<code>.grey35</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey35`
+<code>.bg-grey35</code>
 </td>
 <td style="text-align:left;">
-`var(--grey35)`
+<code>var(--grey35)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/5C5C5C/000000?text=+)
+<img src="https://placehold.it/50/5C5C5C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey36`
+<code>.grey36</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey36`
+<code>.bg-grey36</code>
 </td>
 <td style="text-align:left;">
-`var(--grey36)`
+<code>var(--grey36)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/5E5E5E/000000?text=+)
+<img src="https://placehold.it/50/5E5E5E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey37`
+<code>.grey37</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey37`
+<code>.bg-grey37</code>
 </td>
 <td style="text-align:left;">
-`var(--grey37)`
+<code>var(--grey37)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/616161/000000?text=+)
+<img src="https://placehold.it/50/616161/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey38`
+<code>.grey38</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey38`
+<code>.bg-grey38</code>
 </td>
 <td style="text-align:left;">
-`var(--grey38)`
+<code>var(--grey38)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/636363/000000?text=+)
+<img src="https://placehold.it/50/636363/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey39`
+<code>.grey39</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey39`
+<code>.bg-grey39</code>
 </td>
 <td style="text-align:left;">
-`var(--grey39)`
+<code>var(--grey39)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/666666/000000?text=+)
+<img src="https://placehold.it/50/666666/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey40`
+<code>.grey40</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey40`
+<code>.bg-grey40</code>
 </td>
 <td style="text-align:left;">
-`var(--grey40)`
+<code>var(--grey40)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/696969/000000?text=+)
+<img src="https://placehold.it/50/696969/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey41`
+<code>.grey41</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey41`
+<code>.bg-grey41</code>
 </td>
 <td style="text-align:left;">
-`var(--grey41)`
+<code>var(--grey41)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6B6B6B/000000?text=+)
+<img src="https://placehold.it/50/6B6B6B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey42`
+<code>.grey42</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey42`
+<code>.bg-grey42</code>
 </td>
 <td style="text-align:left;">
-`var(--grey42)`
+<code>var(--grey42)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6E6E6E/000000?text=+)
+<img src="https://placehold.it/50/6E6E6E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey43`
+<code>.grey43</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey43`
+<code>.bg-grey43</code>
 </td>
 <td style="text-align:left;">
-`var(--grey43)`
+<code>var(--grey43)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/707070/000000?text=+)
+<img src="https://placehold.it/50/707070/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey44`
+<code>.grey44</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey44`
+<code>.bg-grey44</code>
 </td>
 <td style="text-align:left;">
-`var(--grey44)`
+<code>var(--grey44)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/737373/000000?text=+)
+<img src="https://placehold.it/50/737373/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey45`
+<code>.grey45</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey45`
+<code>.bg-grey45</code>
 </td>
 <td style="text-align:left;">
-`var(--grey45)`
+<code>var(--grey45)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/757575/000000?text=+)
+<img src="https://placehold.it/50/757575/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey46`
+<code>.grey46</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey46`
+<code>.bg-grey46</code>
 </td>
 <td style="text-align:left;">
-`var(--grey46)`
+<code>var(--grey46)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/787878/000000?text=+)
+<img src="https://placehold.it/50/787878/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey47`
+<code>.grey47</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey47`
+<code>.bg-grey47</code>
 </td>
 <td style="text-align:left;">
-`var(--grey47)`
+<code>var(--grey47)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7A7A7A/000000?text=+)
+<img src="https://placehold.it/50/7A7A7A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey48`
+<code>.grey48</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey48`
+<code>.bg-grey48</code>
 </td>
 <td style="text-align:left;">
-`var(--grey48)`
+<code>var(--grey48)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7D7D7D/000000?text=+)
+<img src="https://placehold.it/50/7D7D7D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey49`
+<code>.grey49</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey49`
+<code>.bg-grey49</code>
 </td>
 <td style="text-align:left;">
-`var(--grey49)`
+<code>var(--grey49)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7F7F7F/000000?text=+)
+<img src="https://placehold.it/50/7F7F7F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey50`
+<code>.grey50</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey50`
+<code>.bg-grey50</code>
 </td>
 <td style="text-align:left;">
-`var(--grey50)`
+<code>var(--grey50)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/828282/000000?text=+)
+<img src="https://placehold.it/50/828282/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey51`
+<code>.grey51</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey51`
+<code>.bg-grey51</code>
 </td>
 <td style="text-align:left;">
-`var(--grey51)`
+<code>var(--grey51)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/858585/000000?text=+)
+<img src="https://placehold.it/50/858585/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey52`
+<code>.grey52</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey52`
+<code>.bg-grey52</code>
 </td>
 <td style="text-align:left;">
-`var(--grey52)`
+<code>var(--grey52)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/878787/000000?text=+)
+<img src="https://placehold.it/50/878787/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey53`
+<code>.grey53</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey53`
+<code>.bg-grey53</code>
 </td>
 <td style="text-align:left;">
-`var(--grey53)`
+<code>var(--grey53)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8A8A8A/000000?text=+)
+<img src="https://placehold.it/50/8A8A8A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey54`
+<code>.grey54</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey54`
+<code>.bg-grey54</code>
 </td>
 <td style="text-align:left;">
-`var(--grey54)`
+<code>var(--grey54)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8C8C8C/000000?text=+)
+<img src="https://placehold.it/50/8C8C8C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey55`
+<code>.grey55</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey55`
+<code>.bg-grey55</code>
 </td>
 <td style="text-align:left;">
-`var(--grey55)`
+<code>var(--grey55)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8F8F8F/000000?text=+)
+<img src="https://placehold.it/50/8F8F8F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey56`
+<code>.grey56</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey56`
+<code>.bg-grey56</code>
 </td>
 <td style="text-align:left;">
-`var(--grey56)`
+<code>var(--grey56)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/919191/000000?text=+)
+<img src="https://placehold.it/50/919191/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey57`
+<code>.grey57</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey57`
+<code>.bg-grey57</code>
 </td>
 <td style="text-align:left;">
-`var(--grey57)`
+<code>var(--grey57)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/949494/000000?text=+)
+<img src="https://placehold.it/50/949494/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey58`
+<code>.grey58</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey58`
+<code>.bg-grey58</code>
 </td>
 <td style="text-align:left;">
-`var(--grey58)`
+<code>var(--grey58)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/969696/000000?text=+)
+<img src="https://placehold.it/50/969696/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey59`
+<code>.grey59</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey59`
+<code>.bg-grey59</code>
 </td>
 <td style="text-align:left;">
-`var(--grey59)`
+<code>var(--grey59)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/999999/000000?text=+)
+<img src="https://placehold.it/50/999999/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey60`
+<code>.grey60</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey60`
+<code>.bg-grey60</code>
 </td>
 <td style="text-align:left;">
-`var(--grey60)`
+<code>var(--grey60)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9C9C9C/000000?text=+)
+<img src="https://placehold.it/50/9C9C9C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey61`
+<code>.grey61</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey61`
+<code>.bg-grey61</code>
 </td>
 <td style="text-align:left;">
-`var(--grey61)`
+<code>var(--grey61)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9E9E9E/000000?text=+)
+<img src="https://placehold.it/50/9E9E9E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey62`
+<code>.grey62</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey62`
+<code>.bg-grey62</code>
 </td>
 <td style="text-align:left;">
-`var(--grey62)`
+<code>var(--grey62)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A1A1A1/000000?text=+)
+<img src="https://placehold.it/50/A1A1A1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey63`
+<code>.grey63</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey63`
+<code>.bg-grey63</code>
 </td>
 <td style="text-align:left;">
-`var(--grey63)`
+<code>var(--grey63)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A3A3A3/000000?text=+)
+<img src="https://placehold.it/50/A3A3A3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey64`
+<code>.grey64</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey64`
+<code>.bg-grey64</code>
 </td>
 <td style="text-align:left;">
-`var(--grey64)`
+<code>var(--grey64)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A6A6A6/000000?text=+)
+<img src="https://placehold.it/50/A6A6A6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey65`
+<code>.grey65</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey65`
+<code>.bg-grey65</code>
 </td>
 <td style="text-align:left;">
-`var(--grey65)`
+<code>var(--grey65)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A8A8A8/000000?text=+)
+<img src="https://placehold.it/50/A8A8A8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey66`
+<code>.grey66</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey66`
+<code>.bg-grey66</code>
 </td>
 <td style="text-align:left;">
-`var(--grey66)`
+<code>var(--grey66)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/ABABAB/000000?text=+)
+<img src="https://placehold.it/50/ABABAB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey67`
+<code>.grey67</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey67`
+<code>.bg-grey67</code>
 </td>
 <td style="text-align:left;">
-`var(--grey67)`
+<code>var(--grey67)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/ADADAD/000000?text=+)
+<img src="https://placehold.it/50/ADADAD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey68`
+<code>.grey68</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey68`
+<code>.bg-grey68</code>
 </td>
 <td style="text-align:left;">
-`var(--grey68)`
+<code>var(--grey68)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B0B0B0/000000?text=+)
+<img src="https://placehold.it/50/B0B0B0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey69`
+<code>.grey69</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey69`
+<code>.bg-grey69</code>
 </td>
 <td style="text-align:left;">
-`var(--grey69)`
+<code>var(--grey69)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B3B3B3/000000?text=+)
+<img src="https://placehold.it/50/B3B3B3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey70`
+<code>.grey70</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey70`
+<code>.bg-grey70</code>
 </td>
 <td style="text-align:left;">
-`var(--grey70)`
+<code>var(--grey70)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B5B5B5/000000?text=+)
+<img src="https://placehold.it/50/B5B5B5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey71`
+<code>.grey71</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey71`
+<code>.bg-grey71</code>
 </td>
 <td style="text-align:left;">
-`var(--grey71)`
+<code>var(--grey71)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B8B8B8/000000?text=+)
+<img src="https://placehold.it/50/B8B8B8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey72`
+<code>.grey72</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey72`
+<code>.bg-grey72</code>
 </td>
 <td style="text-align:left;">
-`var(--grey72)`
+<code>var(--grey72)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BABABA/000000?text=+)
+<img src="https://placehold.it/50/BABABA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey73`
+<code>.grey73</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey73`
+<code>.bg-grey73</code>
 </td>
 <td style="text-align:left;">
-`var(--grey73)`
+<code>var(--grey73)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BDBDBD/000000?text=+)
+<img src="https://placehold.it/50/BDBDBD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey74`
+<code>.grey74</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey74`
+<code>.bg-grey74</code>
 </td>
 <td style="text-align:left;">
-`var(--grey74)`
+<code>var(--grey74)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BFBFBF/000000?text=+)
+<img src="https://placehold.it/50/BFBFBF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey75`
+<code>.grey75</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey75`
+<code>.bg-grey75</code>
 </td>
 <td style="text-align:left;">
-`var(--grey75)`
+<code>var(--grey75)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C2C2C2/000000?text=+)
+<img src="https://placehold.it/50/C2C2C2/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey76`
+<code>.grey76</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey76`
+<code>.bg-grey76</code>
 </td>
 <td style="text-align:left;">
-`var(--grey76)`
+<code>var(--grey76)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C4C4C4/000000?text=+)
+<img src="https://placehold.it/50/C4C4C4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey77`
+<code>.grey77</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey77`
+<code>.bg-grey77</code>
 </td>
 <td style="text-align:left;">
-`var(--grey77)`
+<code>var(--grey77)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C7C7C7/000000?text=+)
+<img src="https://placehold.it/50/C7C7C7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey78`
+<code>.grey78</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey78`
+<code>.bg-grey78</code>
 </td>
 <td style="text-align:left;">
-`var(--grey78)`
+<code>var(--grey78)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C9C9C9/000000?text=+)
+<img src="https://placehold.it/50/C9C9C9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey79`
+<code>.grey79</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey79`
+<code>.bg-grey79</code>
 </td>
 <td style="text-align:left;">
-`var(--grey79)`
+<code>var(--grey79)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CCCCCC/000000?text=+)
+<img src="https://placehold.it/50/CCCCCC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey80`
+<code>.grey80</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey80`
+<code>.bg-grey80</code>
 </td>
 <td style="text-align:left;">
-`var(--grey80)`
+<code>var(--grey80)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CFCFCF/000000?text=+)
+<img src="https://placehold.it/50/CFCFCF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey81`
+<code>.grey81</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey81`
+<code>.bg-grey81</code>
 </td>
 <td style="text-align:left;">
-`var(--grey81)`
+<code>var(--grey81)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D1D1D1/000000?text=+)
+<img src="https://placehold.it/50/D1D1D1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey82`
+<code>.grey82</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey82`
+<code>.bg-grey82</code>
 </td>
 <td style="text-align:left;">
-`var(--grey82)`
+<code>var(--grey82)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D4D4D4/000000?text=+)
+<img src="https://placehold.it/50/D4D4D4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey83`
+<code>.grey83</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey83`
+<code>.bg-grey83</code>
 </td>
 <td style="text-align:left;">
-`var(--grey83)`
+<code>var(--grey83)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D6D6D6/000000?text=+)
+<img src="https://placehold.it/50/D6D6D6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey84`
+<code>.grey84</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey84`
+<code>.bg-grey84</code>
 </td>
 <td style="text-align:left;">
-`var(--grey84)`
+<code>var(--grey84)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D9D9D9/000000?text=+)
+<img src="https://placehold.it/50/D9D9D9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey85`
+<code>.grey85</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey85`
+<code>.bg-grey85</code>
 </td>
 <td style="text-align:left;">
-`var(--grey85)`
+<code>var(--grey85)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DBDBDB/000000?text=+)
+<img src="https://placehold.it/50/DBDBDB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey86`
+<code>.grey86</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey86`
+<code>.bg-grey86</code>
 </td>
 <td style="text-align:left;">
-`var(--grey86)`
+<code>var(--grey86)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DEDEDE/000000?text=+)
+<img src="https://placehold.it/50/DEDEDE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey87`
+<code>.grey87</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey87`
+<code>.bg-grey87</code>
 </td>
 <td style="text-align:left;">
-`var(--grey87)`
+<code>var(--grey87)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E0E0E0/000000?text=+)
+<img src="https://placehold.it/50/E0E0E0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey88`
+<code>.grey88</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey88`
+<code>.bg-grey88</code>
 </td>
 <td style="text-align:left;">
-`var(--grey88)`
+<code>var(--grey88)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E3E3E3/000000?text=+)
+<img src="https://placehold.it/50/E3E3E3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey89`
+<code>.grey89</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey89`
+<code>.bg-grey89</code>
 </td>
 <td style="text-align:left;">
-`var(--grey89)`
+<code>var(--grey89)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E5E5E5/000000?text=+)
+<img src="https://placehold.it/50/E5E5E5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey90`
+<code>.grey90</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey90`
+<code>.bg-grey90</code>
 </td>
 <td style="text-align:left;">
-`var(--grey90)`
+<code>var(--grey90)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E8E8E8/000000?text=+)
+<img src="https://placehold.it/50/E8E8E8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey91`
+<code>.grey91</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey91`
+<code>.bg-grey91</code>
 </td>
 <td style="text-align:left;">
-`var(--grey91)`
+<code>var(--grey91)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EBEBEB/000000?text=+)
+<img src="https://placehold.it/50/EBEBEB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey92`
+<code>.grey92</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey92`
+<code>.bg-grey92</code>
 </td>
 <td style="text-align:left;">
-`var(--grey92)`
+<code>var(--grey92)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EDEDED/000000?text=+)
+<img src="https://placehold.it/50/EDEDED/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey93`
+<code>.grey93</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey93`
+<code>.bg-grey93</code>
 </td>
 <td style="text-align:left;">
-`var(--grey93)`
+<code>var(--grey93)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0F0F0/000000?text=+)
+<img src="https://placehold.it/50/F0F0F0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey94`
+<code>.grey94</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey94`
+<code>.bg-grey94</code>
 </td>
 <td style="text-align:left;">
-`var(--grey94)`
+<code>var(--grey94)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F2F2F2/000000?text=+)
+<img src="https://placehold.it/50/F2F2F2/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey95`
+<code>.grey95</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey95`
+<code>.bg-grey95</code>
 </td>
 <td style="text-align:left;">
-`var(--grey95)`
+<code>var(--grey95)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F5F5F5/000000?text=+)
+<img src="https://placehold.it/50/F5F5F5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey96`
+<code>.grey96</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey96`
+<code>.bg-grey96</code>
 </td>
 <td style="text-align:left;">
-`var(--grey96)`
+<code>var(--grey96)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F7F7F7/000000?text=+)
+<img src="https://placehold.it/50/F7F7F7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey97`
+<code>.grey97</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey97`
+<code>.bg-grey97</code>
 </td>
 <td style="text-align:left;">
-`var(--grey97)`
+<code>var(--grey97)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FAFAFA/000000?text=+)
+<img src="https://placehold.it/50/FAFAFA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey98`
+<code>.grey98</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey98`
+<code>.bg-grey98</code>
 </td>
 <td style="text-align:left;">
-`var(--grey98)`
+<code>var(--grey98)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FCFCFC/000000?text=+)
+<img src="https://placehold.it/50/FCFCFC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey99`
+<code>.grey99</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey99`
+<code>.bg-grey99</code>
 </td>
 <td style="text-align:left;">
-`var(--grey99)`
+<code>var(--grey99)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFFFF/000000?text=+)
+<img src="https://placehold.it/50/FFFFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.grey100`
+<code>.grey100</code>
 </td>
 <td style="text-align:left;">
-`.bg-grey100`
+<code>.bg-grey100</code>
 </td>
 <td style="text-align:left;">
-`var(--grey100)`
+<code>var(--grey100)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0FFF0/000000?text=+)
+<img src="https://placehold.it/50/F0FFF0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.honeydew`
+<code>.honeydew</code>
 </td>
 <td style="text-align:left;">
-`.bg-honeydew`
+<code>.bg-honeydew</code>
 </td>
 <td style="text-align:left;">
-`var(--honeydew)`
+<code>var(--honeydew)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0FFF0/000000?text=+)
+<img src="https://placehold.it/50/F0FFF0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.honeydew1`
+<code>.honeydew1</code>
 </td>
 <td style="text-align:left;">
-`.bg-honeydew1`
+<code>.bg-honeydew1</code>
 </td>
 <td style="text-align:left;">
-`var(--honeydew1)`
+<code>var(--honeydew1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E0EEE0/000000?text=+)
+<img src="https://placehold.it/50/E0EEE0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.honeydew2`
+<code>.honeydew2</code>
 </td>
 <td style="text-align:left;">
-`.bg-honeydew2`
+<code>.bg-honeydew2</code>
 </td>
 <td style="text-align:left;">
-`var(--honeydew2)`
+<code>var(--honeydew2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C1CDC1/000000?text=+)
+<img src="https://placehold.it/50/C1CDC1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.honeydew3`
+<code>.honeydew3</code>
 </td>
 <td style="text-align:left;">
-`.bg-honeydew3`
+<code>.bg-honeydew3</code>
 </td>
 <td style="text-align:left;">
-`var(--honeydew3)`
+<code>var(--honeydew3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/838B83/000000?text=+)
+<img src="https://placehold.it/50/838B83/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.honeydew4`
+<code>.honeydew4</code>
 </td>
 <td style="text-align:left;">
-`.bg-honeydew4`
+<code>.bg-honeydew4</code>
 </td>
 <td style="text-align:left;">
-`var(--honeydew4)`
+<code>var(--honeydew4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF69B4/000000?text=+)
+<img src="https://placehold.it/50/FF69B4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.hotpink`
+<code>.hotpink</code>
 </td>
 <td style="text-align:left;">
-`.bg-hotpink`
+<code>.bg-hotpink</code>
 </td>
 <td style="text-align:left;">
-`var(--hotpink)`
+<code>var(--hotpink)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF6EB4/000000?text=+)
+<img src="https://placehold.it/50/FF6EB4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.hotpink1`
+<code>.hotpink1</code>
 </td>
 <td style="text-align:left;">
-`.bg-hotpink1`
+<code>.bg-hotpink1</code>
 </td>
 <td style="text-align:left;">
-`var(--hotpink1)`
+<code>var(--hotpink1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE6AA7/000000?text=+)
+<img src="https://placehold.it/50/EE6AA7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.hotpink2`
+<code>.hotpink2</code>
 </td>
 <td style="text-align:left;">
-`.bg-hotpink2`
+<code>.bg-hotpink2</code>
 </td>
 <td style="text-align:left;">
-`var(--hotpink2)`
+<code>var(--hotpink2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD6090/000000?text=+)
+<img src="https://placehold.it/50/CD6090/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.hotpink3`
+<code>.hotpink3</code>
 </td>
 <td style="text-align:left;">
-`.bg-hotpink3`
+<code>.bg-hotpink3</code>
 </td>
 <td style="text-align:left;">
-`var(--hotpink3)`
+<code>var(--hotpink3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B3A62/000000?text=+)
+<img src="https://placehold.it/50/8B3A62/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.hotpink4`
+<code>.hotpink4</code>
 </td>
 <td style="text-align:left;">
-`.bg-hotpink4`
+<code>.bg-hotpink4</code>
 </td>
 <td style="text-align:left;">
-`var(--hotpink4)`
+<code>var(--hotpink4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD5C5C/000000?text=+)
+<img src="https://placehold.it/50/CD5C5C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.indianred`
+<code>.indianred</code>
 </td>
 <td style="text-align:left;">
-`.bg-indianred`
+<code>.bg-indianred</code>
 </td>
 <td style="text-align:left;">
-`var(--indianred)`
+<code>var(--indianred)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF6A6A/000000?text=+)
+<img src="https://placehold.it/50/FF6A6A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.indianred1`
+<code>.indianred1</code>
 </td>
 <td style="text-align:left;">
-`.bg-indianred1`
+<code>.bg-indianred1</code>
 </td>
 <td style="text-align:left;">
-`var(--indianred1)`
+<code>var(--indianred1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE6363/000000?text=+)
+<img src="https://placehold.it/50/EE6363/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.indianred2`
+<code>.indianred2</code>
 </td>
 <td style="text-align:left;">
-`.bg-indianred2`
+<code>.bg-indianred2</code>
 </td>
 <td style="text-align:left;">
-`var(--indianred2)`
+<code>var(--indianred2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD5555/000000?text=+)
+<img src="https://placehold.it/50/CD5555/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.indianred3`
+<code>.indianred3</code>
 </td>
 <td style="text-align:left;">
-`.bg-indianred3`
+<code>.bg-indianred3</code>
 </td>
 <td style="text-align:left;">
-`var(--indianred3)`
+<code>var(--indianred3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B3A3A/000000?text=+)
+<img src="https://placehold.it/50/8B3A3A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.indianred4`
+<code>.indianred4</code>
 </td>
 <td style="text-align:left;">
-`.bg-indianred4`
+<code>.bg-indianred4</code>
 </td>
 <td style="text-align:left;">
-`var(--indianred4)`
+<code>var(--indianred4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFFF0/000000?text=+)
+<img src="https://placehold.it/50/FFFFF0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.ivory`
+<code>.ivory</code>
 </td>
 <td style="text-align:left;">
-`.bg-ivory`
+<code>.bg-ivory</code>
 </td>
 <td style="text-align:left;">
-`var(--ivory)`
+<code>var(--ivory)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFFF0/000000?text=+)
+<img src="https://placehold.it/50/FFFFF0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.ivory1`
+<code>.ivory1</code>
 </td>
 <td style="text-align:left;">
-`.bg-ivory1`
+<code>.bg-ivory1</code>
 </td>
 <td style="text-align:left;">
-`var(--ivory1)`
+<code>var(--ivory1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEEEE0/000000?text=+)
+<img src="https://placehold.it/50/EEEEE0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.ivory2`
+<code>.ivory2</code>
 </td>
 <td style="text-align:left;">
-`.bg-ivory2`
+<code>.bg-ivory2</code>
 </td>
 <td style="text-align:left;">
-`var(--ivory2)`
+<code>var(--ivory2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDCDC1/000000?text=+)
+<img src="https://placehold.it/50/CDCDC1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.ivory3`
+<code>.ivory3</code>
 </td>
 <td style="text-align:left;">
-`.bg-ivory3`
+<code>.bg-ivory3</code>
 </td>
 <td style="text-align:left;">
-`var(--ivory3)`
+<code>var(--ivory3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8B83/000000?text=+)
+<img src="https://placehold.it/50/8B8B83/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.ivory4`
+<code>.ivory4</code>
 </td>
 <td style="text-align:left;">
-`.bg-ivory4`
+<code>.bg-ivory4</code>
 </td>
 <td style="text-align:left;">
-`var(--ivory4)`
+<code>var(--ivory4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F0E68C/000000?text=+)
+<img src="https://placehold.it/50/F0E68C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.khaki`
+<code>.khaki</code>
 </td>
 <td style="text-align:left;">
-`.bg-khaki`
+<code>.bg-khaki</code>
 </td>
 <td style="text-align:left;">
-`var(--khaki)`
+<code>var(--khaki)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFF68F/000000?text=+)
+<img src="https://placehold.it/50/FFF68F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.khaki1`
+<code>.khaki1</code>
 </td>
 <td style="text-align:left;">
-`.bg-khaki1`
+<code>.bg-khaki1</code>
 </td>
 <td style="text-align:left;">
-`var(--khaki1)`
+<code>var(--khaki1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEE685/000000?text=+)
+<img src="https://placehold.it/50/EEE685/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.khaki2`
+<code>.khaki2</code>
 </td>
 <td style="text-align:left;">
-`.bg-khaki2`
+<code>.bg-khaki2</code>
 </td>
 <td style="text-align:left;">
-`var(--khaki2)`
+<code>var(--khaki2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDC673/000000?text=+)
+<img src="https://placehold.it/50/CDC673/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.khaki3`
+<code>.khaki3</code>
 </td>
 <td style="text-align:left;">
-`.bg-khaki3`
+<code>.bg-khaki3</code>
 </td>
 <td style="text-align:left;">
-`var(--khaki3)`
+<code>var(--khaki3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B864E/000000?text=+)
+<img src="https://placehold.it/50/8B864E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.khaki4`
+<code>.khaki4</code>
 </td>
 <td style="text-align:left;">
-`.bg-khaki4`
+<code>.bg-khaki4</code>
 </td>
 <td style="text-align:left;">
-`var(--khaki4)`
+<code>var(--khaki4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E6E6FA/000000?text=+)
+<img src="https://placehold.it/50/E6E6FA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lavender`
+<code>.lavender</code>
 </td>
 <td style="text-align:left;">
-`.bg-lavender`
+<code>.bg-lavender</code>
 </td>
 <td style="text-align:left;">
-`var(--lavender)`
+<code>var(--lavender)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFF0F5/000000?text=+)
+<img src="https://placehold.it/50/FFF0F5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lavenderblush`
+<code>.lavenderblush</code>
 </td>
 <td style="text-align:left;">
-`.bg-lavenderblush`
+<code>.bg-lavenderblush</code>
 </td>
 <td style="text-align:left;">
-`var(--lavenderblush)`
+<code>var(--lavenderblush)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFF0F5/000000?text=+)
+<img src="https://placehold.it/50/FFF0F5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lavenderblush1`
+<code>.lavenderblush1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lavenderblush1`
+<code>.bg-lavenderblush1</code>
 </td>
 <td style="text-align:left;">
-`var(--lavenderblush1)`
+<code>var(--lavenderblush1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEE0E5/000000?text=+)
+<img src="https://placehold.it/50/EEE0E5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lavenderblush2`
+<code>.lavenderblush2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lavenderblush2`
+<code>.bg-lavenderblush2</code>
 </td>
 <td style="text-align:left;">
-`var(--lavenderblush2)`
+<code>var(--lavenderblush2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDC1C5/000000?text=+)
+<img src="https://placehold.it/50/CDC1C5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lavenderblush3`
+<code>.lavenderblush3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lavenderblush3`
+<code>.bg-lavenderblush3</code>
 </td>
 <td style="text-align:left;">
-`var(--lavenderblush3)`
+<code>var(--lavenderblush3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8386/000000?text=+)
+<img src="https://placehold.it/50/8B8386/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lavenderblush4`
+<code>.lavenderblush4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lavenderblush4`
+<code>.bg-lavenderblush4</code>
 </td>
 <td style="text-align:left;">
-`var(--lavenderblush4)`
+<code>var(--lavenderblush4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7CFC00/000000?text=+)
+<img src="https://placehold.it/50/7CFC00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lawngreen`
+<code>.lawngreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-lawngreen`
+<code>.bg-lawngreen</code>
 </td>
 <td style="text-align:left;">
-`var(--lawngreen)`
+<code>var(--lawngreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFACD/000000?text=+)
+<img src="https://placehold.it/50/FFFACD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lemonchiffon`
+<code>.lemonchiffon</code>
 </td>
 <td style="text-align:left;">
-`.bg-lemonchiffon`
+<code>.bg-lemonchiffon</code>
 </td>
 <td style="text-align:left;">
-`var(--lemonchiffon)`
+<code>var(--lemonchiffon)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFACD/000000?text=+)
+<img src="https://placehold.it/50/FFFACD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lemonchiffon1`
+<code>.lemonchiffon1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lemonchiffon1`
+<code>.bg-lemonchiffon1</code>
 </td>
 <td style="text-align:left;">
-`var(--lemonchiffon1)`
+<code>var(--lemonchiffon1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEE9BF/000000?text=+)
+<img src="https://placehold.it/50/EEE9BF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lemonchiffon2`
+<code>.lemonchiffon2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lemonchiffon2`
+<code>.bg-lemonchiffon2</code>
 </td>
 <td style="text-align:left;">
-`var(--lemonchiffon2)`
+<code>var(--lemonchiffon2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDC9A5/000000?text=+)
+<img src="https://placehold.it/50/CDC9A5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lemonchiffon3`
+<code>.lemonchiffon3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lemonchiffon3`
+<code>.bg-lemonchiffon3</code>
 </td>
 <td style="text-align:left;">
-`var(--lemonchiffon3)`
+<code>var(--lemonchiffon3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8970/000000?text=+)
+<img src="https://placehold.it/50/8B8970/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lemonchiffon4`
+<code>.lemonchiffon4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lemonchiffon4`
+<code>.bg-lemonchiffon4</code>
 </td>
 <td style="text-align:left;">
-`var(--lemonchiffon4)`
+<code>var(--lemonchiffon4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/ADD8E6/000000?text=+)
+<img src="https://placehold.it/50/ADD8E6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightblue`
+<code>.lightblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightblue`
+<code>.bg-lightblue</code>
 </td>
 <td style="text-align:left;">
-`var(--lightblue)`
+<code>var(--lightblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BFEFFF/000000?text=+)
+<img src="https://placehold.it/50/BFEFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightblue1`
+<code>.lightblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightblue1`
+<code>.bg-lightblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightblue1)`
+<code>var(--lightblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B2DFEE/000000?text=+)
+<img src="https://placehold.it/50/B2DFEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightblue2`
+<code>.lightblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightblue2`
+<code>.bg-lightblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightblue2)`
+<code>var(--lightblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9AC0CD/000000?text=+)
+<img src="https://placehold.it/50/9AC0CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightblue3`
+<code>.lightblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightblue3`
+<code>.bg-lightblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightblue3)`
+<code>var(--lightblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/68838B/000000?text=+)
+<img src="https://placehold.it/50/68838B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightblue4`
+<code>.lightblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightblue4`
+<code>.bg-lightblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightblue4)`
+<code>var(--lightblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F08080/000000?text=+)
+<img src="https://placehold.it/50/F08080/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightcoral`
+<code>.lightcoral</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightcoral`
+<code>.bg-lightcoral</code>
 </td>
 <td style="text-align:left;">
-`var(--lightcoral)`
+<code>var(--lightcoral)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E0FFFF/000000?text=+)
+<img src="https://placehold.it/50/E0FFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightcyan`
+<code>.lightcyan</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightcyan`
+<code>.bg-lightcyan</code>
 </td>
 <td style="text-align:left;">
-`var(--lightcyan)`
+<code>var(--lightcyan)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E0FFFF/000000?text=+)
+<img src="https://placehold.it/50/E0FFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightcyan1`
+<code>.lightcyan1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightcyan1`
+<code>.bg-lightcyan1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightcyan1)`
+<code>var(--lightcyan1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D1EEEE/000000?text=+)
+<img src="https://placehold.it/50/D1EEEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightcyan2`
+<code>.lightcyan2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightcyan2`
+<code>.bg-lightcyan2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightcyan2)`
+<code>var(--lightcyan2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B4CDCD/000000?text=+)
+<img src="https://placehold.it/50/B4CDCD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightcyan3`
+<code>.lightcyan3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightcyan3`
+<code>.bg-lightcyan3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightcyan3)`
+<code>var(--lightcyan3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7A8B8B/000000?text=+)
+<img src="https://placehold.it/50/7A8B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightcyan4`
+<code>.lightcyan4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightcyan4`
+<code>.bg-lightcyan4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightcyan4)`
+<code>var(--lightcyan4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEDD82/000000?text=+)
+<img src="https://placehold.it/50/EEDD82/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgoldenrod`
+<code>.lightgoldenrod</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgoldenrod`
+<code>.bg-lightgoldenrod</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgoldenrod)`
+<code>var(--lightgoldenrod)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFEC8B/000000?text=+)
+<img src="https://placehold.it/50/FFEC8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgoldenrod1`
+<code>.lightgoldenrod1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgoldenrod1`
+<code>.bg-lightgoldenrod1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgoldenrod1)`
+<code>var(--lightgoldenrod1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEDC82/000000?text=+)
+<img src="https://placehold.it/50/EEDC82/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgoldenrod2`
+<code>.lightgoldenrod2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgoldenrod2`
+<code>.bg-lightgoldenrod2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgoldenrod2)`
+<code>var(--lightgoldenrod2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDBE70/000000?text=+)
+<img src="https://placehold.it/50/CDBE70/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgoldenrod3`
+<code>.lightgoldenrod3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgoldenrod3`
+<code>.bg-lightgoldenrod3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgoldenrod3)`
+<code>var(--lightgoldenrod3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B814C/000000?text=+)
+<img src="https://placehold.it/50/8B814C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgoldenrod4`
+<code>.lightgoldenrod4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgoldenrod4`
+<code>.bg-lightgoldenrod4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgoldenrod4)`
+<code>var(--lightgoldenrod4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FAFAD2/000000?text=+)
+<img src="https://placehold.it/50/FAFAD2/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgoldenrodyellow`
+<code>.lightgoldenrodyellow</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgoldenrodyellow`
+<code>.bg-lightgoldenrodyellow</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgoldenrodyellow)`
+<code>var(--lightgoldenrodyellow)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D3D3D3/000000?text=+)
+<img src="https://placehold.it/50/D3D3D3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgray`
+<code>.lightgray</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgray`
+<code>.bg-lightgray</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgray)`
+<code>var(--lightgray)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/90EE90/000000?text=+)
+<img src="https://placehold.it/50/90EE90/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgreen`
+<code>.lightgreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgreen`
+<code>.bg-lightgreen</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgreen)`
+<code>var(--lightgreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D3D3D3/000000?text=+)
+<img src="https://placehold.it/50/D3D3D3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightgrey`
+<code>.lightgrey</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightgrey`
+<code>.bg-lightgrey</code>
 </td>
 <td style="text-align:left;">
-`var(--lightgrey)`
+<code>var(--lightgrey)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFB6C1/000000?text=+)
+<img src="https://placehold.it/50/FFB6C1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightpink`
+<code>.lightpink</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightpink`
+<code>.bg-lightpink</code>
 </td>
 <td style="text-align:left;">
-`var(--lightpink)`
+<code>var(--lightpink)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFAEB9/000000?text=+)
+<img src="https://placehold.it/50/FFAEB9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightpink1`
+<code>.lightpink1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightpink1`
+<code>.bg-lightpink1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightpink1)`
+<code>var(--lightpink1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEA2AD/000000?text=+)
+<img src="https://placehold.it/50/EEA2AD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightpink2`
+<code>.lightpink2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightpink2`
+<code>.bg-lightpink2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightpink2)`
+<code>var(--lightpink2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD8C95/000000?text=+)
+<img src="https://placehold.it/50/CD8C95/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightpink3`
+<code>.lightpink3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightpink3`
+<code>.bg-lightpink3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightpink3)`
+<code>var(--lightpink3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B5F65/000000?text=+)
+<img src="https://placehold.it/50/8B5F65/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightpink4`
+<code>.lightpink4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightpink4`
+<code>.bg-lightpink4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightpink4)`
+<code>var(--lightpink4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFA07A/000000?text=+)
+<img src="https://placehold.it/50/FFA07A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsalmon`
+<code>.lightsalmon</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsalmon`
+<code>.bg-lightsalmon</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsalmon)`
+<code>var(--lightsalmon)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFA07A/000000?text=+)
+<img src="https://placehold.it/50/FFA07A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsalmon1`
+<code>.lightsalmon1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsalmon1`
+<code>.bg-lightsalmon1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsalmon1)`
+<code>var(--lightsalmon1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE9572/000000?text=+)
+<img src="https://placehold.it/50/EE9572/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsalmon2`
+<code>.lightsalmon2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsalmon2`
+<code>.bg-lightsalmon2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsalmon2)`
+<code>var(--lightsalmon2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD8162/000000?text=+)
+<img src="https://placehold.it/50/CD8162/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsalmon3`
+<code>.lightsalmon3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsalmon3`
+<code>.bg-lightsalmon3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsalmon3)`
+<code>var(--lightsalmon3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B5742/000000?text=+)
+<img src="https://placehold.it/50/8B5742/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsalmon4`
+<code>.lightsalmon4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsalmon4`
+<code>.bg-lightsalmon4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsalmon4)`
+<code>var(--lightsalmon4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/20B2AA/000000?text=+)
+<img src="https://placehold.it/50/20B2AA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightseagreen`
+<code>.lightseagreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightseagreen`
+<code>.bg-lightseagreen</code>
 </td>
 <td style="text-align:left;">
-`var(--lightseagreen)`
+<code>var(--lightseagreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/87CEFA/000000?text=+)
+<img src="https://placehold.it/50/87CEFA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightskyblue`
+<code>.lightskyblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightskyblue`
+<code>.bg-lightskyblue</code>
 </td>
 <td style="text-align:left;">
-`var(--lightskyblue)`
+<code>var(--lightskyblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B0E2FF/000000?text=+)
+<img src="https://placehold.it/50/B0E2FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightskyblue1`
+<code>.lightskyblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightskyblue1`
+<code>.bg-lightskyblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightskyblue1)`
+<code>var(--lightskyblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A4D3EE/000000?text=+)
+<img src="https://placehold.it/50/A4D3EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightskyblue2`
+<code>.lightskyblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightskyblue2`
+<code>.bg-lightskyblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightskyblue2)`
+<code>var(--lightskyblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8DB6CD/000000?text=+)
+<img src="https://placehold.it/50/8DB6CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightskyblue3`
+<code>.lightskyblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightskyblue3`
+<code>.bg-lightskyblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightskyblue3)`
+<code>var(--lightskyblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/607B8B/000000?text=+)
+<img src="https://placehold.it/50/607B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightskyblue4`
+<code>.lightskyblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightskyblue4`
+<code>.bg-lightskyblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightskyblue4)`
+<code>var(--lightskyblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8470FF/000000?text=+)
+<img src="https://placehold.it/50/8470FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightslateblue`
+<code>.lightslateblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightslateblue`
+<code>.bg-lightslateblue</code>
 </td>
 <td style="text-align:left;">
-`var(--lightslateblue)`
+<code>var(--lightslateblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/778899/000000?text=+)
+<img src="https://placehold.it/50/778899/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightslategray`
+<code>.lightslategray</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightslategray`
+<code>.bg-lightslategray</code>
 </td>
 <td style="text-align:left;">
-`var(--lightslategray)`
+<code>var(--lightslategray)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/778899/000000?text=+)
+<img src="https://placehold.it/50/778899/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightslategrey`
+<code>.lightslategrey</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightslategrey`
+<code>.bg-lightslategrey</code>
 </td>
 <td style="text-align:left;">
-`var(--lightslategrey)`
+<code>var(--lightslategrey)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B0C4DE/000000?text=+)
+<img src="https://placehold.it/50/B0C4DE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsteelblue`
+<code>.lightsteelblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsteelblue`
+<code>.bg-lightsteelblue</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsteelblue)`
+<code>var(--lightsteelblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CAE1FF/000000?text=+)
+<img src="https://placehold.it/50/CAE1FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsteelblue1`
+<code>.lightsteelblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsteelblue1`
+<code>.bg-lightsteelblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsteelblue1)`
+<code>var(--lightsteelblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BCD2EE/000000?text=+)
+<img src="https://placehold.it/50/BCD2EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsteelblue2`
+<code>.lightsteelblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsteelblue2`
+<code>.bg-lightsteelblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsteelblue2)`
+<code>var(--lightsteelblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A2B5CD/000000?text=+)
+<img src="https://placehold.it/50/A2B5CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsteelblue3`
+<code>.lightsteelblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsteelblue3`
+<code>.bg-lightsteelblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsteelblue3)`
+<code>var(--lightsteelblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6E7B8B/000000?text=+)
+<img src="https://placehold.it/50/6E7B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightsteelblue4`
+<code>.lightsteelblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightsteelblue4`
+<code>.bg-lightsteelblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightsteelblue4)`
+<code>var(--lightsteelblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFFE0/000000?text=+)
+<img src="https://placehold.it/50/FFFFE0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightyellow`
+<code>.lightyellow</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightyellow`
+<code>.bg-lightyellow</code>
 </td>
 <td style="text-align:left;">
-`var(--lightyellow)`
+<code>var(--lightyellow)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFFE0/000000?text=+)
+<img src="https://placehold.it/50/FFFFE0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightyellow1`
+<code>.lightyellow1</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightyellow1`
+<code>.bg-lightyellow1</code>
 </td>
 <td style="text-align:left;">
-`var(--lightyellow1)`
+<code>var(--lightyellow1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEEED1/000000?text=+)
+<img src="https://placehold.it/50/EEEED1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightyellow2`
+<code>.lightyellow2</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightyellow2`
+<code>.bg-lightyellow2</code>
 </td>
 <td style="text-align:left;">
-`var(--lightyellow2)`
+<code>var(--lightyellow2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDCDB4/000000?text=+)
+<img src="https://placehold.it/50/CDCDB4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightyellow3`
+<code>.lightyellow3</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightyellow3`
+<code>.bg-lightyellow3</code>
 </td>
 <td style="text-align:left;">
-`var(--lightyellow3)`
+<code>var(--lightyellow3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8B7A/000000?text=+)
+<img src="https://placehold.it/50/8B8B7A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.lightyellow4`
+<code>.lightyellow4</code>
 </td>
 <td style="text-align:left;">
-`.bg-lightyellow4`
+<code>.bg-lightyellow4</code>
 </td>
 <td style="text-align:left;">
-`var(--lightyellow4)`
+<code>var(--lightyellow4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/32CD32/000000?text=+)
+<img src="https://placehold.it/50/32CD32/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.limegreen`
+<code>.limegreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-limegreen`
+<code>.bg-limegreen</code>
 </td>
 <td style="text-align:left;">
-`var(--limegreen)`
+<code>var(--limegreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FAF0E6/000000?text=+)
+<img src="https://placehold.it/50/FAF0E6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.linen`
+<code>.linen</code>
 </td>
 <td style="text-align:left;">
-`.bg-linen`
+<code>.bg-linen</code>
 </td>
 <td style="text-align:left;">
-`var(--linen)`
+<code>var(--linen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF00FF/000000?text=+)
+<img src="https://placehold.it/50/FF00FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.magenta`
+<code>.magenta</code>
 </td>
 <td style="text-align:left;">
-`.bg-magenta`
+<code>.bg-magenta</code>
 </td>
 <td style="text-align:left;">
-`var(--magenta)`
+<code>var(--magenta)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF00FF/000000?text=+)
+<img src="https://placehold.it/50/FF00FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.magenta1`
+<code>.magenta1</code>
 </td>
 <td style="text-align:left;">
-`.bg-magenta1`
+<code>.bg-magenta1</code>
 </td>
 <td style="text-align:left;">
-`var(--magenta1)`
+<code>var(--magenta1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE00EE/000000?text=+)
+<img src="https://placehold.it/50/EE00EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.magenta2`
+<code>.magenta2</code>
 </td>
 <td style="text-align:left;">
-`.bg-magenta2`
+<code>.bg-magenta2</code>
 </td>
 <td style="text-align:left;">
-`var(--magenta2)`
+<code>var(--magenta2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD00CD/000000?text=+)
+<img src="https://placehold.it/50/CD00CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.magenta3`
+<code>.magenta3</code>
 </td>
 <td style="text-align:left;">
-`.bg-magenta3`
+<code>.bg-magenta3</code>
 </td>
 <td style="text-align:left;">
-`var(--magenta3)`
+<code>var(--magenta3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B008B/000000?text=+)
+<img src="https://placehold.it/50/8B008B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.magenta4`
+<code>.magenta4</code>
 </td>
 <td style="text-align:left;">
-`.bg-magenta4`
+<code>.bg-magenta4</code>
 </td>
 <td style="text-align:left;">
-`var(--magenta4)`
+<code>var(--magenta4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B03060/000000?text=+)
+<img src="https://placehold.it/50/B03060/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.maroon`
+<code>.maroon</code>
 </td>
 <td style="text-align:left;">
-`.bg-maroon`
+<code>.bg-maroon</code>
 </td>
 <td style="text-align:left;">
-`var(--maroon)`
+<code>var(--maroon)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF34B3/000000?text=+)
+<img src="https://placehold.it/50/FF34B3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.maroon1`
+<code>.maroon1</code>
 </td>
 <td style="text-align:left;">
-`.bg-maroon1`
+<code>.bg-maroon1</code>
 </td>
 <td style="text-align:left;">
-`var(--maroon1)`
+<code>var(--maroon1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE30A7/000000?text=+)
+<img src="https://placehold.it/50/EE30A7/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.maroon2`
+<code>.maroon2</code>
 </td>
 <td style="text-align:left;">
-`.bg-maroon2`
+<code>.bg-maroon2</code>
 </td>
 <td style="text-align:left;">
-`var(--maroon2)`
+<code>var(--maroon2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD2990/000000?text=+)
+<img src="https://placehold.it/50/CD2990/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.maroon3`
+<code>.maroon3</code>
 </td>
 <td style="text-align:left;">
-`.bg-maroon3`
+<code>.bg-maroon3</code>
 </td>
 <td style="text-align:left;">
-`var(--maroon3)`
+<code>var(--maroon3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B1C62/000000?text=+)
+<img src="https://placehold.it/50/8B1C62/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.maroon4`
+<code>.maroon4</code>
 </td>
 <td style="text-align:left;">
-`.bg-maroon4`
+<code>.bg-maroon4</code>
 </td>
 <td style="text-align:left;">
-`var(--maroon4)`
+<code>var(--maroon4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/66CDAA/000000?text=+)
+<img src="https://placehold.it/50/66CDAA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumaquamarine`
+<code>.mediumaquamarine</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumaquamarine`
+<code>.bg-mediumaquamarine</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumaquamarine)`
+<code>var(--mediumaquamarine)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/0000CD/000000?text=+)
+<img src="https://placehold.it/50/0000CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumblue`
+<code>.mediumblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumblue`
+<code>.bg-mediumblue</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumblue)`
+<code>var(--mediumblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BA55D3/000000?text=+)
+<img src="https://placehold.it/50/BA55D3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumorchid`
+<code>.mediumorchid</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumorchid`
+<code>.bg-mediumorchid</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumorchid)`
+<code>var(--mediumorchid)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/E066FF/000000?text=+)
+<img src="https://placehold.it/50/E066FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumorchid1`
+<code>.mediumorchid1</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumorchid1`
+<code>.bg-mediumorchid1</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumorchid1)`
+<code>var(--mediumorchid1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D15FEE/000000?text=+)
+<img src="https://placehold.it/50/D15FEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumorchid2`
+<code>.mediumorchid2</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumorchid2`
+<code>.bg-mediumorchid2</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumorchid2)`
+<code>var(--mediumorchid2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B452CD/000000?text=+)
+<img src="https://placehold.it/50/B452CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumorchid3`
+<code>.mediumorchid3</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumorchid3`
+<code>.bg-mediumorchid3</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumorchid3)`
+<code>var(--mediumorchid3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7A378B/000000?text=+)
+<img src="https://placehold.it/50/7A378B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumorchid4`
+<code>.mediumorchid4</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumorchid4`
+<code>.bg-mediumorchid4</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumorchid4)`
+<code>var(--mediumorchid4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9370DB/000000?text=+)
+<img src="https://placehold.it/50/9370DB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumpurple`
+<code>.mediumpurple</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumpurple`
+<code>.bg-mediumpurple</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumpurple)`
+<code>var(--mediumpurple)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/AB82FF/000000?text=+)
+<img src="https://placehold.it/50/AB82FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumpurple1`
+<code>.mediumpurple1</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumpurple1`
+<code>.bg-mediumpurple1</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumpurple1)`
+<code>var(--mediumpurple1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9F79EE/000000?text=+)
+<img src="https://placehold.it/50/9F79EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumpurple2`
+<code>.mediumpurple2</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumpurple2`
+<code>.bg-mediumpurple2</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumpurple2)`
+<code>var(--mediumpurple2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8968CD/000000?text=+)
+<img src="https://placehold.it/50/8968CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumpurple3`
+<code>.mediumpurple3</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumpurple3`
+<code>.bg-mediumpurple3</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumpurple3)`
+<code>var(--mediumpurple3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/5D478B/000000?text=+)
+<img src="https://placehold.it/50/5D478B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumpurple4`
+<code>.mediumpurple4</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumpurple4`
+<code>.bg-mediumpurple4</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumpurple4)`
+<code>var(--mediumpurple4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/3CB371/000000?text=+)
+<img src="https://placehold.it/50/3CB371/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumseagreen`
+<code>.mediumseagreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumseagreen`
+<code>.bg-mediumseagreen</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumseagreen)`
+<code>var(--mediumseagreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7B68EE/000000?text=+)
+<img src="https://placehold.it/50/7B68EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumslateblue`
+<code>.mediumslateblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumslateblue`
+<code>.bg-mediumslateblue</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumslateblue)`
+<code>var(--mediumslateblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00FA9A/000000?text=+)
+<img src="https://placehold.it/50/00FA9A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumspringgreen`
+<code>.mediumspringgreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumspringgreen`
+<code>.bg-mediumspringgreen</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumspringgreen)`
+<code>var(--mediumspringgreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/48D1CC/000000?text=+)
+<img src="https://placehold.it/50/48D1CC/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumturquoise`
+<code>.mediumturquoise</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumturquoise`
+<code>.bg-mediumturquoise</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumturquoise)`
+<code>var(--mediumturquoise)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C71585/000000?text=+)
+<img src="https://placehold.it/50/C71585/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mediumvioletred`
+<code>.mediumvioletred</code>
 </td>
 <td style="text-align:left;">
-`.bg-mediumvioletred`
+<code>.bg-mediumvioletred</code>
 </td>
 <td style="text-align:left;">
-`var(--mediumvioletred)`
+<code>var(--mediumvioletred)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/191970/000000?text=+)
+<img src="https://placehold.it/50/191970/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.midnightblue`
+<code>.midnightblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-midnightblue`
+<code>.bg-midnightblue</code>
 </td>
 <td style="text-align:left;">
-`var(--midnightblue)`
+<code>var(--midnightblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F5FFFA/000000?text=+)
+<img src="https://placehold.it/50/F5FFFA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mintcream`
+<code>.mintcream</code>
 </td>
 <td style="text-align:left;">
-`.bg-mintcream`
+<code>.bg-mintcream</code>
 </td>
 <td style="text-align:left;">
-`var(--mintcream)`
+<code>var(--mintcream)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFE4E1/000000?text=+)
+<img src="https://placehold.it/50/FFE4E1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mistyrose`
+<code>.mistyrose</code>
 </td>
 <td style="text-align:left;">
-`.bg-mistyrose`
+<code>.bg-mistyrose</code>
 </td>
 <td style="text-align:left;">
-`var(--mistyrose)`
+<code>var(--mistyrose)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFE4E1/000000?text=+)
+<img src="https://placehold.it/50/FFE4E1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mistyrose1`
+<code>.mistyrose1</code>
 </td>
 <td style="text-align:left;">
-`.bg-mistyrose1`
+<code>.bg-mistyrose1</code>
 </td>
 <td style="text-align:left;">
-`var(--mistyrose1)`
+<code>var(--mistyrose1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EED5D2/000000?text=+)
+<img src="https://placehold.it/50/EED5D2/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mistyrose2`
+<code>.mistyrose2</code>
 </td>
 <td style="text-align:left;">
-`.bg-mistyrose2`
+<code>.bg-mistyrose2</code>
 </td>
 <td style="text-align:left;">
-`var(--mistyrose2)`
+<code>var(--mistyrose2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDB7B5/000000?text=+)
+<img src="https://placehold.it/50/CDB7B5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mistyrose3`
+<code>.mistyrose3</code>
 </td>
 <td style="text-align:left;">
-`.bg-mistyrose3`
+<code>.bg-mistyrose3</code>
 </td>
 <td style="text-align:left;">
-`var(--mistyrose3)`
+<code>var(--mistyrose3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B7D7B/000000?text=+)
+<img src="https://placehold.it/50/8B7D7B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.mistyrose4`
+<code>.mistyrose4</code>
 </td>
 <td style="text-align:left;">
-`.bg-mistyrose4`
+<code>.bg-mistyrose4</code>
 </td>
 <td style="text-align:left;">
-`var(--mistyrose4)`
+<code>var(--mistyrose4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFE4B5/000000?text=+)
+<img src="https://placehold.it/50/FFE4B5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.moccasin`
+<code>.moccasin</code>
 </td>
 <td style="text-align:left;">
-`.bg-moccasin`
+<code>.bg-moccasin</code>
 </td>
 <td style="text-align:left;">
-`var(--moccasin)`
+<code>var(--moccasin)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFDEAD/000000?text=+)
+<img src="https://placehold.it/50/FFDEAD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.navajowhite`
+<code>.navajowhite</code>
 </td>
 <td style="text-align:left;">
-`.bg-navajowhite`
+<code>.bg-navajowhite</code>
 </td>
 <td style="text-align:left;">
-`var(--navajowhite)`
+<code>var(--navajowhite)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFDEAD/000000?text=+)
+<img src="https://placehold.it/50/FFDEAD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.navajowhite1`
+<code>.navajowhite1</code>
 </td>
 <td style="text-align:left;">
-`.bg-navajowhite1`
+<code>.bg-navajowhite1</code>
 </td>
 <td style="text-align:left;">
-`var(--navajowhite1)`
+<code>var(--navajowhite1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EECFA1/000000?text=+)
+<img src="https://placehold.it/50/EECFA1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.navajowhite2`
+<code>.navajowhite2</code>
 </td>
 <td style="text-align:left;">
-`.bg-navajowhite2`
+<code>.bg-navajowhite2</code>
 </td>
 <td style="text-align:left;">
-`var(--navajowhite2)`
+<code>var(--navajowhite2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDB38B/000000?text=+)
+<img src="https://placehold.it/50/CDB38B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.navajowhite3`
+<code>.navajowhite3</code>
 </td>
 <td style="text-align:left;">
-`.bg-navajowhite3`
+<code>.bg-navajowhite3</code>
 </td>
 <td style="text-align:left;">
-`var(--navajowhite3)`
+<code>var(--navajowhite3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B795E/000000?text=+)
+<img src="https://placehold.it/50/8B795E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.navajowhite4`
+<code>.navajowhite4</code>
 </td>
 <td style="text-align:left;">
-`.bg-navajowhite4`
+<code>.bg-navajowhite4</code>
 </td>
 <td style="text-align:left;">
-`var(--navajowhite4)`
+<code>var(--navajowhite4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/000080/000000?text=+)
+<img src="https://placehold.it/50/000080/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.navy`
+<code>.navy</code>
 </td>
 <td style="text-align:left;">
-`.bg-navy`
+<code>.bg-navy</code>
 </td>
 <td style="text-align:left;">
-`var(--navy)`
+<code>var(--navy)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/000080/000000?text=+)
+<img src="https://placehold.it/50/000080/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.navyblue`
+<code>.navyblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-navyblue`
+<code>.bg-navyblue</code>
 </td>
 <td style="text-align:left;">
-`var(--navyblue)`
+<code>var(--navyblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FDF5E6/000000?text=+)
+<img src="https://placehold.it/50/FDF5E6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.oldlace`
+<code>.oldlace</code>
 </td>
 <td style="text-align:left;">
-`.bg-oldlace`
+<code>.bg-oldlace</code>
 </td>
 <td style="text-align:left;">
-`var(--oldlace)`
+<code>var(--oldlace)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6B8E23/000000?text=+)
+<img src="https://placehold.it/50/6B8E23/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.olivedrab`
+<code>.olivedrab</code>
 </td>
 <td style="text-align:left;">
-`.bg-olivedrab`
+<code>.bg-olivedrab</code>
 </td>
 <td style="text-align:left;">
-`var(--olivedrab)`
+<code>var(--olivedrab)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C0FF3E/000000?text=+)
+<img src="https://placehold.it/50/C0FF3E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.olivedrab1`
+<code>.olivedrab1</code>
 </td>
 <td style="text-align:left;">
-`.bg-olivedrab1`
+<code>.bg-olivedrab1</code>
 </td>
 <td style="text-align:left;">
-`var(--olivedrab1)`
+<code>var(--olivedrab1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B3EE3A/000000?text=+)
+<img src="https://placehold.it/50/B3EE3A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.olivedrab2`
+<code>.olivedrab2</code>
 </td>
 <td style="text-align:left;">
-`.bg-olivedrab2`
+<code>.bg-olivedrab2</code>
 </td>
 <td style="text-align:left;">
-`var(--olivedrab2)`
+<code>var(--olivedrab2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9ACD32/000000?text=+)
+<img src="https://placehold.it/50/9ACD32/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.olivedrab3`
+<code>.olivedrab3</code>
 </td>
 <td style="text-align:left;">
-`.bg-olivedrab3`
+<code>.bg-olivedrab3</code>
 </td>
 <td style="text-align:left;">
-`var(--olivedrab3)`
+<code>var(--olivedrab3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/698B22/000000?text=+)
+<img src="https://placehold.it/50/698B22/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.olivedrab4`
+<code>.olivedrab4</code>
 </td>
 <td style="text-align:left;">
-`.bg-olivedrab4`
+<code>.bg-olivedrab4</code>
 </td>
 <td style="text-align:left;">
-`var(--olivedrab4)`
+<code>var(--olivedrab4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFA500/000000?text=+)
+<img src="https://placehold.it/50/FFA500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orange`
+<code>.orange</code>
 </td>
 <td style="text-align:left;">
-`.bg-orange`
+<code>.bg-orange</code>
 </td>
 <td style="text-align:left;">
-`var(--orange)`
+<code>var(--orange)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFA500/000000?text=+)
+<img src="https://placehold.it/50/FFA500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orange1`
+<code>.orange1</code>
 </td>
 <td style="text-align:left;">
-`.bg-orange1`
+<code>.bg-orange1</code>
 </td>
 <td style="text-align:left;">
-`var(--orange1)`
+<code>var(--orange1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE9A00/000000?text=+)
+<img src="https://placehold.it/50/EE9A00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orange2`
+<code>.orange2</code>
 </td>
 <td style="text-align:left;">
-`.bg-orange2`
+<code>.bg-orange2</code>
 </td>
 <td style="text-align:left;">
-`var(--orange2)`
+<code>var(--orange2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD8500/000000?text=+)
+<img src="https://placehold.it/50/CD8500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orange3`
+<code>.orange3</code>
 </td>
 <td style="text-align:left;">
-`.bg-orange3`
+<code>.bg-orange3</code>
 </td>
 <td style="text-align:left;">
-`var(--orange3)`
+<code>var(--orange3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B5A00/000000?text=+)
+<img src="https://placehold.it/50/8B5A00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orange4`
+<code>.orange4</code>
 </td>
 <td style="text-align:left;">
-`.bg-orange4`
+<code>.bg-orange4</code>
 </td>
 <td style="text-align:left;">
-`var(--orange4)`
+<code>var(--orange4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF4500/000000?text=+)
+<img src="https://placehold.it/50/FF4500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orangered`
+<code>.orangered</code>
 </td>
 <td style="text-align:left;">
-`.bg-orangered`
+<code>.bg-orangered</code>
 </td>
 <td style="text-align:left;">
-`var(--orangered)`
+<code>var(--orangered)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF4500/000000?text=+)
+<img src="https://placehold.it/50/FF4500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orangered1`
+<code>.orangered1</code>
 </td>
 <td style="text-align:left;">
-`.bg-orangered1`
+<code>.bg-orangered1</code>
 </td>
 <td style="text-align:left;">
-`var(--orangered1)`
+<code>var(--orangered1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE4000/000000?text=+)
+<img src="https://placehold.it/50/EE4000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orangered2`
+<code>.orangered2</code>
 </td>
 <td style="text-align:left;">
-`.bg-orangered2`
+<code>.bg-orangered2</code>
 </td>
 <td style="text-align:left;">
-`var(--orangered2)`
+<code>var(--orangered2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD3700/000000?text=+)
+<img src="https://placehold.it/50/CD3700/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orangered3`
+<code>.orangered3</code>
 </td>
 <td style="text-align:left;">
-`.bg-orangered3`
+<code>.bg-orangered3</code>
 </td>
 <td style="text-align:left;">
-`var(--orangered3)`
+<code>var(--orangered3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B2500/000000?text=+)
+<img src="https://placehold.it/50/8B2500/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orangered4`
+<code>.orangered4</code>
 </td>
 <td style="text-align:left;">
-`.bg-orangered4`
+<code>.bg-orangered4</code>
 </td>
 <td style="text-align:left;">
-`var(--orangered4)`
+<code>var(--orangered4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DA70D6/000000?text=+)
+<img src="https://placehold.it/50/DA70D6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orchid`
+<code>.orchid</code>
 </td>
 <td style="text-align:left;">
-`.bg-orchid`
+<code>.bg-orchid</code>
 </td>
 <td style="text-align:left;">
-`var(--orchid)`
+<code>var(--orchid)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF83FA/000000?text=+)
+<img src="https://placehold.it/50/FF83FA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orchid1`
+<code>.orchid1</code>
 </td>
 <td style="text-align:left;">
-`.bg-orchid1`
+<code>.bg-orchid1</code>
 </td>
 <td style="text-align:left;">
-`var(--orchid1)`
+<code>var(--orchid1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE7AE9/000000?text=+)
+<img src="https://placehold.it/50/EE7AE9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orchid2`
+<code>.orchid2</code>
 </td>
 <td style="text-align:left;">
-`.bg-orchid2`
+<code>.bg-orchid2</code>
 </td>
 <td style="text-align:left;">
-`var(--orchid2)`
+<code>var(--orchid2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD69C9/000000?text=+)
+<img src="https://placehold.it/50/CD69C9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orchid3`
+<code>.orchid3</code>
 </td>
 <td style="text-align:left;">
-`.bg-orchid3`
+<code>.bg-orchid3</code>
 </td>
 <td style="text-align:left;">
-`var(--orchid3)`
+<code>var(--orchid3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B4789/000000?text=+)
+<img src="https://placehold.it/50/8B4789/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.orchid4`
+<code>.orchid4</code>
 </td>
 <td style="text-align:left;">
-`.bg-orchid4`
+<code>.bg-orchid4</code>
 </td>
 <td style="text-align:left;">
-`var(--orchid4)`
+<code>var(--orchid4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEE8AA/000000?text=+)
+<img src="https://placehold.it/50/EEE8AA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palegoldenrod`
+<code>.palegoldenrod</code>
 </td>
 <td style="text-align:left;">
-`.bg-palegoldenrod`
+<code>.bg-palegoldenrod</code>
 </td>
 <td style="text-align:left;">
-`var(--palegoldenrod)`
+<code>var(--palegoldenrod)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/98FB98/000000?text=+)
+<img src="https://placehold.it/50/98FB98/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palegreen`
+<code>.palegreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-palegreen`
+<code>.bg-palegreen</code>
 </td>
 <td style="text-align:left;">
-`var(--palegreen)`
+<code>var(--palegreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9AFF9A/000000?text=+)
+<img src="https://placehold.it/50/9AFF9A/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palegreen1`
+<code>.palegreen1</code>
 </td>
 <td style="text-align:left;">
-`.bg-palegreen1`
+<code>.bg-palegreen1</code>
 </td>
 <td style="text-align:left;">
-`var(--palegreen1)`
+<code>var(--palegreen1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/90EE90/000000?text=+)
+<img src="https://placehold.it/50/90EE90/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palegreen2`
+<code>.palegreen2</code>
 </td>
 <td style="text-align:left;">
-`.bg-palegreen2`
+<code>.bg-palegreen2</code>
 </td>
 <td style="text-align:left;">
-`var(--palegreen2)`
+<code>var(--palegreen2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7CCD7C/000000?text=+)
+<img src="https://placehold.it/50/7CCD7C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palegreen3`
+<code>.palegreen3</code>
 </td>
 <td style="text-align:left;">
-`.bg-palegreen3`
+<code>.bg-palegreen3</code>
 </td>
 <td style="text-align:left;">
-`var(--palegreen3)`
+<code>var(--palegreen3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/548B54/000000?text=+)
+<img src="https://placehold.it/50/548B54/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palegreen4`
+<code>.palegreen4</code>
 </td>
 <td style="text-align:left;">
-`.bg-palegreen4`
+<code>.bg-palegreen4</code>
 </td>
 <td style="text-align:left;">
-`var(--palegreen4)`
+<code>var(--palegreen4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/AFEEEE/000000?text=+)
+<img src="https://placehold.it/50/AFEEEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.paleturquoise`
+<code>.paleturquoise</code>
 </td>
 <td style="text-align:left;">
-`.bg-paleturquoise`
+<code>.bg-paleturquoise</code>
 </td>
 <td style="text-align:left;">
-`var(--paleturquoise)`
+<code>var(--paleturquoise)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BBFFFF/000000?text=+)
+<img src="https://placehold.it/50/BBFFFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.paleturquoise1`
+<code>.paleturquoise1</code>
 </td>
 <td style="text-align:left;">
-`.bg-paleturquoise1`
+<code>.bg-paleturquoise1</code>
 </td>
 <td style="text-align:left;">
-`var(--paleturquoise1)`
+<code>var(--paleturquoise1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/AEEEEE/000000?text=+)
+<img src="https://placehold.it/50/AEEEEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.paleturquoise2`
+<code>.paleturquoise2</code>
 </td>
 <td style="text-align:left;">
-`.bg-paleturquoise2`
+<code>.bg-paleturquoise2</code>
 </td>
 <td style="text-align:left;">
-`var(--paleturquoise2)`
+<code>var(--paleturquoise2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/96CDCD/000000?text=+)
+<img src="https://placehold.it/50/96CDCD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.paleturquoise3`
+<code>.paleturquoise3</code>
 </td>
 <td style="text-align:left;">
-`.bg-paleturquoise3`
+<code>.bg-paleturquoise3</code>
 </td>
 <td style="text-align:left;">
-`var(--paleturquoise3)`
+<code>var(--paleturquoise3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/668B8B/000000?text=+)
+<img src="https://placehold.it/50/668B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.paleturquoise4`
+<code>.paleturquoise4</code>
 </td>
 <td style="text-align:left;">
-`.bg-paleturquoise4`
+<code>.bg-paleturquoise4</code>
 </td>
 <td style="text-align:left;">
-`var(--paleturquoise4)`
+<code>var(--paleturquoise4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DB7093/000000?text=+)
+<img src="https://placehold.it/50/DB7093/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palevioletred`
+<code>.palevioletred</code>
 </td>
 <td style="text-align:left;">
-`.bg-palevioletred`
+<code>.bg-palevioletred</code>
 </td>
 <td style="text-align:left;">
-`var(--palevioletred)`
+<code>var(--palevioletred)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF82AB/000000?text=+)
+<img src="https://placehold.it/50/FF82AB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palevioletred1`
+<code>.palevioletred1</code>
 </td>
 <td style="text-align:left;">
-`.bg-palevioletred1`
+<code>.bg-palevioletred1</code>
 </td>
 <td style="text-align:left;">
-`var(--palevioletred1)`
+<code>var(--palevioletred1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE799F/000000?text=+)
+<img src="https://placehold.it/50/EE799F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palevioletred2`
+<code>.palevioletred2</code>
 </td>
 <td style="text-align:left;">
-`.bg-palevioletred2`
+<code>.bg-palevioletred2</code>
 </td>
 <td style="text-align:left;">
-`var(--palevioletred2)`
+<code>var(--palevioletred2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD6889/000000?text=+)
+<img src="https://placehold.it/50/CD6889/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palevioletred3`
+<code>.palevioletred3</code>
 </td>
 <td style="text-align:left;">
-`.bg-palevioletred3`
+<code>.bg-palevioletred3</code>
 </td>
 <td style="text-align:left;">
-`var(--palevioletred3)`
+<code>var(--palevioletred3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B475D/000000?text=+)
+<img src="https://placehold.it/50/8B475D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.palevioletred4`
+<code>.palevioletred4</code>
 </td>
 <td style="text-align:left;">
-`.bg-palevioletred4`
+<code>.bg-palevioletred4</code>
 </td>
 <td style="text-align:left;">
-`var(--palevioletred4)`
+<code>var(--palevioletred4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFEFD5/000000?text=+)
+<img src="https://placehold.it/50/FFEFD5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.papayawhip`
+<code>.papayawhip</code>
 </td>
 <td style="text-align:left;">
-`.bg-papayawhip`
+<code>.bg-papayawhip</code>
 </td>
 <td style="text-align:left;">
-`var(--papayawhip)`
+<code>var(--papayawhip)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFDAB9/000000?text=+)
+<img src="https://placehold.it/50/FFDAB9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.peachpuff`
+<code>.peachpuff</code>
 </td>
 <td style="text-align:left;">
-`.bg-peachpuff`
+<code>.bg-peachpuff</code>
 </td>
 <td style="text-align:left;">
-`var(--peachpuff)`
+<code>var(--peachpuff)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFDAB9/000000?text=+)
+<img src="https://placehold.it/50/FFDAB9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.peachpuff1`
+<code>.peachpuff1</code>
 </td>
 <td style="text-align:left;">
-`.bg-peachpuff1`
+<code>.bg-peachpuff1</code>
 </td>
 <td style="text-align:left;">
-`var(--peachpuff1)`
+<code>var(--peachpuff1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EECBAD/000000?text=+)
+<img src="https://placehold.it/50/EECBAD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.peachpuff2`
+<code>.peachpuff2</code>
 </td>
 <td style="text-align:left;">
-`.bg-peachpuff2`
+<code>.bg-peachpuff2</code>
 </td>
 <td style="text-align:left;">
-`var(--peachpuff2)`
+<code>var(--peachpuff2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDAF95/000000?text=+)
+<img src="https://placehold.it/50/CDAF95/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.peachpuff3`
+<code>.peachpuff3</code>
 </td>
 <td style="text-align:left;">
-`.bg-peachpuff3`
+<code>.bg-peachpuff3</code>
 </td>
 <td style="text-align:left;">
-`var(--peachpuff3)`
+<code>var(--peachpuff3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B7765/000000?text=+)
+<img src="https://placehold.it/50/8B7765/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.peachpuff4`
+<code>.peachpuff4</code>
 </td>
 <td style="text-align:left;">
-`.bg-peachpuff4`
+<code>.bg-peachpuff4</code>
 </td>
 <td style="text-align:left;">
-`var(--peachpuff4)`
+<code>var(--peachpuff4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD853F/000000?text=+)
+<img src="https://placehold.it/50/CD853F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.peru`
+<code>.peru</code>
 </td>
 <td style="text-align:left;">
-`.bg-peru`
+<code>.bg-peru</code>
 </td>
 <td style="text-align:left;">
-`var(--peru)`
+<code>var(--peru)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFC0CB/000000?text=+)
+<img src="https://placehold.it/50/FFC0CB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.pink`
+<code>.pink</code>
 </td>
 <td style="text-align:left;">
-`.bg-pink`
+<code>.bg-pink</code>
 </td>
 <td style="text-align:left;">
-`var(--pink)`
+<code>var(--pink)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFB5C5/000000?text=+)
+<img src="https://placehold.it/50/FFB5C5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.pink1`
+<code>.pink1</code>
 </td>
 <td style="text-align:left;">
-`.bg-pink1`
+<code>.bg-pink1</code>
 </td>
 <td style="text-align:left;">
-`var(--pink1)`
+<code>var(--pink1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEA9B8/000000?text=+)
+<img src="https://placehold.it/50/EEA9B8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.pink2`
+<code>.pink2</code>
 </td>
 <td style="text-align:left;">
-`.bg-pink2`
+<code>.bg-pink2</code>
 </td>
 <td style="text-align:left;">
-`var(--pink2)`
+<code>var(--pink2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD919E/000000?text=+)
+<img src="https://placehold.it/50/CD919E/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.pink3`
+<code>.pink3</code>
 </td>
 <td style="text-align:left;">
-`.bg-pink3`
+<code>.bg-pink3</code>
 </td>
 <td style="text-align:left;">
-`var(--pink3)`
+<code>var(--pink3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B636C/000000?text=+)
+<img src="https://placehold.it/50/8B636C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.pink4`
+<code>.pink4</code>
 </td>
 <td style="text-align:left;">
-`.bg-pink4`
+<code>.bg-pink4</code>
 </td>
 <td style="text-align:left;">
-`var(--pink4)`
+<code>var(--pink4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/DDA0DD/000000?text=+)
+<img src="https://placehold.it/50/DDA0DD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.plum`
+<code>.plum</code>
 </td>
 <td style="text-align:left;">
-`.bg-plum`
+<code>.bg-plum</code>
 </td>
 <td style="text-align:left;">
-`var(--plum)`
+<code>var(--plum)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFBBFF/000000?text=+)
+<img src="https://placehold.it/50/FFBBFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.plum1`
+<code>.plum1</code>
 </td>
 <td style="text-align:left;">
-`.bg-plum1`
+<code>.bg-plum1</code>
 </td>
 <td style="text-align:left;">
-`var(--plum1)`
+<code>var(--plum1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEAEEE/000000?text=+)
+<img src="https://placehold.it/50/EEAEEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.plum2`
+<code>.plum2</code>
 </td>
 <td style="text-align:left;">
-`.bg-plum2`
+<code>.bg-plum2</code>
 </td>
 <td style="text-align:left;">
-`var(--plum2)`
+<code>var(--plum2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD96CD/000000?text=+)
+<img src="https://placehold.it/50/CD96CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.plum3`
+<code>.plum3</code>
 </td>
 <td style="text-align:left;">
-`.bg-plum3`
+<code>.bg-plum3</code>
 </td>
 <td style="text-align:left;">
-`var(--plum3)`
+<code>var(--plum3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B668B/000000?text=+)
+<img src="https://placehold.it/50/8B668B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.plum4`
+<code>.plum4</code>
 </td>
 <td style="text-align:left;">
-`.bg-plum4`
+<code>.bg-plum4</code>
 </td>
 <td style="text-align:left;">
-`var(--plum4)`
+<code>var(--plum4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B0E0E6/000000?text=+)
+<img src="https://placehold.it/50/B0E0E6/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.powderblue`
+<code>.powderblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-powderblue`
+<code>.bg-powderblue</code>
 </td>
 <td style="text-align:left;">
-`var(--powderblue)`
+<code>var(--powderblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A020F0/000000?text=+)
+<img src="https://placehold.it/50/A020F0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.purple`
+<code>.purple</code>
 </td>
 <td style="text-align:left;">
-`.bg-purple`
+<code>.bg-purple</code>
 </td>
 <td style="text-align:left;">
-`var(--purple)`
+<code>var(--purple)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9B30FF/000000?text=+)
+<img src="https://placehold.it/50/9B30FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.purple1`
+<code>.purple1</code>
 </td>
 <td style="text-align:left;">
-`.bg-purple1`
+<code>.bg-purple1</code>
 </td>
 <td style="text-align:left;">
-`var(--purple1)`
+<code>var(--purple1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/912CEE/000000?text=+)
+<img src="https://placehold.it/50/912CEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.purple2`
+<code>.purple2</code>
 </td>
 <td style="text-align:left;">
-`.bg-purple2`
+<code>.bg-purple2</code>
 </td>
 <td style="text-align:left;">
-`var(--purple2)`
+<code>var(--purple2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7D26CD/000000?text=+)
+<img src="https://placehold.it/50/7D26CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.purple3`
+<code>.purple3</code>
 </td>
 <td style="text-align:left;">
-`.bg-purple3`
+<code>.bg-purple3</code>
 </td>
 <td style="text-align:left;">
-`var(--purple3)`
+<code>var(--purple3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/551A8B/000000?text=+)
+<img src="https://placehold.it/50/551A8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.purple4`
+<code>.purple4</code>
 </td>
 <td style="text-align:left;">
-`.bg-purple4`
+<code>.bg-purple4</code>
 </td>
 <td style="text-align:left;">
-`var(--purple4)`
+<code>var(--purple4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF0000/000000?text=+)
+<img src="https://placehold.it/50/FF0000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.red`
+<code>.red</code>
 </td>
 <td style="text-align:left;">
-`.bg-red`
+<code>.bg-red</code>
 </td>
 <td style="text-align:left;">
-`var(--red)`
+<code>var(--red)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF0000/000000?text=+)
+<img src="https://placehold.it/50/FF0000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.red1`
+<code>.red1</code>
 </td>
 <td style="text-align:left;">
-`.bg-red1`
+<code>.bg-red1</code>
 </td>
 <td style="text-align:left;">
-`var(--red1)`
+<code>var(--red1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE0000/000000?text=+)
+<img src="https://placehold.it/50/EE0000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.red2`
+<code>.red2</code>
 </td>
 <td style="text-align:left;">
-`.bg-red2`
+<code>.bg-red2</code>
 </td>
 <td style="text-align:left;">
-`var(--red2)`
+<code>var(--red2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD0000/000000?text=+)
+<img src="https://placehold.it/50/CD0000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.red3`
+<code>.red3</code>
 </td>
 <td style="text-align:left;">
-`.bg-red3`
+<code>.bg-red3</code>
 </td>
 <td style="text-align:left;">
-`var(--red3)`
+<code>var(--red3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B0000/000000?text=+)
+<img src="https://placehold.it/50/8B0000/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.red4`
+<code>.red4</code>
 </td>
 <td style="text-align:left;">
-`.bg-red4`
+<code>.bg-red4</code>
 </td>
 <td style="text-align:left;">
-`var(--red4)`
+<code>var(--red4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/BC8F8F/000000?text=+)
+<img src="https://placehold.it/50/BC8F8F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.rosybrown`
+<code>.rosybrown</code>
 </td>
 <td style="text-align:left;">
-`.bg-rosybrown`
+<code>.bg-rosybrown</code>
 </td>
 <td style="text-align:left;">
-`var(--rosybrown)`
+<code>var(--rosybrown)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFC1C1/000000?text=+)
+<img src="https://placehold.it/50/FFC1C1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.rosybrown1`
+<code>.rosybrown1</code>
 </td>
 <td style="text-align:left;">
-`.bg-rosybrown1`
+<code>.bg-rosybrown1</code>
 </td>
 <td style="text-align:left;">
-`var(--rosybrown1)`
+<code>var(--rosybrown1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEB4B4/000000?text=+)
+<img src="https://placehold.it/50/EEB4B4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.rosybrown2`
+<code>.rosybrown2</code>
 </td>
 <td style="text-align:left;">
-`.bg-rosybrown2`
+<code>.bg-rosybrown2</code>
 </td>
 <td style="text-align:left;">
-`var(--rosybrown2)`
+<code>var(--rosybrown2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD9B9B/000000?text=+)
+<img src="https://placehold.it/50/CD9B9B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.rosybrown3`
+<code>.rosybrown3</code>
 </td>
 <td style="text-align:left;">
-`.bg-rosybrown3`
+<code>.bg-rosybrown3</code>
 </td>
 <td style="text-align:left;">
-`var(--rosybrown3)`
+<code>var(--rosybrown3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B6969/000000?text=+)
+<img src="https://placehold.it/50/8B6969/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.rosybrown4`
+<code>.rosybrown4</code>
 </td>
 <td style="text-align:left;">
-`.bg-rosybrown4`
+<code>.bg-rosybrown4</code>
 </td>
 <td style="text-align:left;">
-`var(--rosybrown4)`
+<code>var(--rosybrown4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4169E1/000000?text=+)
+<img src="https://placehold.it/50/4169E1/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.royalblue`
+<code>.royalblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-royalblue`
+<code>.bg-royalblue</code>
 </td>
 <td style="text-align:left;">
-`var(--royalblue)`
+<code>var(--royalblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4876FF/000000?text=+)
+<img src="https://placehold.it/50/4876FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.royalblue1`
+<code>.royalblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-royalblue1`
+<code>.bg-royalblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--royalblue1)`
+<code>var(--royalblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/436EEE/000000?text=+)
+<img src="https://placehold.it/50/436EEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.royalblue2`
+<code>.royalblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-royalblue2`
+<code>.bg-royalblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--royalblue2)`
+<code>var(--royalblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/3A5FCD/000000?text=+)
+<img src="https://placehold.it/50/3A5FCD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.royalblue3`
+<code>.royalblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-royalblue3`
+<code>.bg-royalblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--royalblue3)`
+<code>var(--royalblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/27408B/000000?text=+)
+<img src="https://placehold.it/50/27408B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.royalblue4`
+<code>.royalblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-royalblue4`
+<code>.bg-royalblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--royalblue4)`
+<code>var(--royalblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B4513/000000?text=+)
+<img src="https://placehold.it/50/8B4513/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.saddlebrown`
+<code>.saddlebrown</code>
 </td>
 <td style="text-align:left;">
-`.bg-saddlebrown`
+<code>.bg-saddlebrown</code>
 </td>
 <td style="text-align:left;">
-`var(--saddlebrown)`
+<code>var(--saddlebrown)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FA8072/000000?text=+)
+<img src="https://placehold.it/50/FA8072/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.salmon`
+<code>.salmon</code>
 </td>
 <td style="text-align:left;">
-`.bg-salmon`
+<code>.bg-salmon</code>
 </td>
 <td style="text-align:left;">
-`var(--salmon)`
+<code>var(--salmon)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF8C69/000000?text=+)
+<img src="https://placehold.it/50/FF8C69/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.salmon1`
+<code>.salmon1</code>
 </td>
 <td style="text-align:left;">
-`.bg-salmon1`
+<code>.bg-salmon1</code>
 </td>
 <td style="text-align:left;">
-`var(--salmon1)`
+<code>var(--salmon1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE8262/000000?text=+)
+<img src="https://placehold.it/50/EE8262/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.salmon2`
+<code>.salmon2</code>
 </td>
 <td style="text-align:left;">
-`.bg-salmon2`
+<code>.bg-salmon2</code>
 </td>
 <td style="text-align:left;">
-`var(--salmon2)`
+<code>var(--salmon2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD7054/000000?text=+)
+<img src="https://placehold.it/50/CD7054/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.salmon3`
+<code>.salmon3</code>
 </td>
 <td style="text-align:left;">
-`.bg-salmon3`
+<code>.bg-salmon3</code>
 </td>
 <td style="text-align:left;">
-`var(--salmon3)`
+<code>var(--salmon3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B4C39/000000?text=+)
+<img src="https://placehold.it/50/8B4C39/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.salmon4`
+<code>.salmon4</code>
 </td>
 <td style="text-align:left;">
-`.bg-salmon4`
+<code>.bg-salmon4</code>
 </td>
 <td style="text-align:left;">
-`var(--salmon4)`
+<code>var(--salmon4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F4A460/000000?text=+)
+<img src="https://placehold.it/50/F4A460/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.sandybrown`
+<code>.sandybrown</code>
 </td>
 <td style="text-align:left;">
-`.bg-sandybrown`
+<code>.bg-sandybrown</code>
 </td>
 <td style="text-align:left;">
-`var(--sandybrown)`
+<code>var(--sandybrown)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2E8B57/000000?text=+)
+<img src="https://placehold.it/50/2E8B57/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seagreen`
+<code>.seagreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-seagreen`
+<code>.bg-seagreen</code>
 </td>
 <td style="text-align:left;">
-`var(--seagreen)`
+<code>var(--seagreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/54FF9F/000000?text=+)
+<img src="https://placehold.it/50/54FF9F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seagreen1`
+<code>.seagreen1</code>
 </td>
 <td style="text-align:left;">
-`.bg-seagreen1`
+<code>.bg-seagreen1</code>
 </td>
 <td style="text-align:left;">
-`var(--seagreen1)`
+<code>var(--seagreen1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4EEE94/000000?text=+)
+<img src="https://placehold.it/50/4EEE94/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seagreen2`
+<code>.seagreen2</code>
 </td>
 <td style="text-align:left;">
-`.bg-seagreen2`
+<code>.bg-seagreen2</code>
 </td>
 <td style="text-align:left;">
-`var(--seagreen2)`
+<code>var(--seagreen2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/43CD80/000000?text=+)
+<img src="https://placehold.it/50/43CD80/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seagreen3`
+<code>.seagreen3</code>
 </td>
 <td style="text-align:left;">
-`.bg-seagreen3`
+<code>.bg-seagreen3</code>
 </td>
 <td style="text-align:left;">
-`var(--seagreen3)`
+<code>var(--seagreen3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/2E8B57/000000?text=+)
+<img src="https://placehold.it/50/2E8B57/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seagreen4`
+<code>.seagreen4</code>
 </td>
 <td style="text-align:left;">
-`.bg-seagreen4`
+<code>.bg-seagreen4</code>
 </td>
 <td style="text-align:left;">
-`var(--seagreen4)`
+<code>var(--seagreen4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFF5EE/000000?text=+)
+<img src="https://placehold.it/50/FFF5EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seashell`
+<code>.seashell</code>
 </td>
 <td style="text-align:left;">
-`.bg-seashell`
+<code>.bg-seashell</code>
 </td>
 <td style="text-align:left;">
-`var(--seashell)`
+<code>var(--seashell)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFF5EE/000000?text=+)
+<img src="https://placehold.it/50/FFF5EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seashell1`
+<code>.seashell1</code>
 </td>
 <td style="text-align:left;">
-`.bg-seashell1`
+<code>.bg-seashell1</code>
 </td>
 <td style="text-align:left;">
-`var(--seashell1)`
+<code>var(--seashell1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEE5DE/000000?text=+)
+<img src="https://placehold.it/50/EEE5DE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seashell2`
+<code>.seashell2</code>
 </td>
 <td style="text-align:left;">
-`.bg-seashell2`
+<code>.bg-seashell2</code>
 </td>
 <td style="text-align:left;">
-`var(--seashell2)`
+<code>var(--seashell2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDC5BF/000000?text=+)
+<img src="https://placehold.it/50/CDC5BF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seashell3`
+<code>.seashell3</code>
 </td>
 <td style="text-align:left;">
-`.bg-seashell3`
+<code>.bg-seashell3</code>
 </td>
 <td style="text-align:left;">
-`var(--seashell3)`
+<code>var(--seashell3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8682/000000?text=+)
+<img src="https://placehold.it/50/8B8682/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.seashell4`
+<code>.seashell4</code>
 </td>
 <td style="text-align:left;">
-`.bg-seashell4`
+<code>.bg-seashell4</code>
 </td>
 <td style="text-align:left;">
-`var(--seashell4)`
+<code>var(--seashell4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/A0522D/000000?text=+)
+<img src="https://placehold.it/50/A0522D/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.sienna`
+<code>.sienna</code>
 </td>
 <td style="text-align:left;">
-`.bg-sienna`
+<code>.bg-sienna</code>
 </td>
 <td style="text-align:left;">
-`var(--sienna)`
+<code>var(--sienna)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF8247/000000?text=+)
+<img src="https://placehold.it/50/FF8247/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.sienna1`
+<code>.sienna1</code>
 </td>
 <td style="text-align:left;">
-`.bg-sienna1`
+<code>.bg-sienna1</code>
 </td>
 <td style="text-align:left;">
-`var(--sienna1)`
+<code>var(--sienna1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE7942/000000?text=+)
+<img src="https://placehold.it/50/EE7942/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.sienna2`
+<code>.sienna2</code>
 </td>
 <td style="text-align:left;">
-`.bg-sienna2`
+<code>.bg-sienna2</code>
 </td>
 <td style="text-align:left;">
-`var(--sienna2)`
+<code>var(--sienna2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD6839/000000?text=+)
+<img src="https://placehold.it/50/CD6839/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.sienna3`
+<code>.sienna3</code>
 </td>
 <td style="text-align:left;">
-`.bg-sienna3`
+<code>.bg-sienna3</code>
 </td>
 <td style="text-align:left;">
-`var(--sienna3)`
+<code>var(--sienna3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B4726/000000?text=+)
+<img src="https://placehold.it/50/8B4726/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.sienna4`
+<code>.sienna4</code>
 </td>
 <td style="text-align:left;">
-`.bg-sienna4`
+<code>.bg-sienna4</code>
 </td>
 <td style="text-align:left;">
-`var(--sienna4)`
+<code>var(--sienna4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/87CEEB/000000?text=+)
+<img src="https://placehold.it/50/87CEEB/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.skyblue`
+<code>.skyblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-skyblue`
+<code>.bg-skyblue</code>
 </td>
 <td style="text-align:left;">
-`var(--skyblue)`
+<code>var(--skyblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/87CEFF/000000?text=+)
+<img src="https://placehold.it/50/87CEFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.skyblue1`
+<code>.skyblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-skyblue1`
+<code>.bg-skyblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--skyblue1)`
+<code>var(--skyblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7EC0EE/000000?text=+)
+<img src="https://placehold.it/50/7EC0EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.skyblue2`
+<code>.skyblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-skyblue2`
+<code>.bg-skyblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--skyblue2)`
+<code>var(--skyblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6CA6CD/000000?text=+)
+<img src="https://placehold.it/50/6CA6CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.skyblue3`
+<code>.skyblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-skyblue3`
+<code>.bg-skyblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--skyblue3)`
+<code>var(--skyblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4A708B/000000?text=+)
+<img src="https://placehold.it/50/4A708B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.skyblue4`
+<code>.skyblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-skyblue4`
+<code>.bg-skyblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--skyblue4)`
+<code>var(--skyblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6A5ACD/000000?text=+)
+<img src="https://placehold.it/50/6A5ACD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slateblue`
+<code>.slateblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-slateblue`
+<code>.bg-slateblue</code>
 </td>
 <td style="text-align:left;">
-`var(--slateblue)`
+<code>var(--slateblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/836FFF/000000?text=+)
+<img src="https://placehold.it/50/836FFF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slateblue1`
+<code>.slateblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-slateblue1`
+<code>.bg-slateblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--slateblue1)`
+<code>var(--slateblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/7A67EE/000000?text=+)
+<img src="https://placehold.it/50/7A67EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slateblue2`
+<code>.slateblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-slateblue2`
+<code>.bg-slateblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--slateblue2)`
+<code>var(--slateblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6959CD/000000?text=+)
+<img src="https://placehold.it/50/6959CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slateblue3`
+<code>.slateblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-slateblue3`
+<code>.bg-slateblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--slateblue3)`
+<code>var(--slateblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/473C8B/000000?text=+)
+<img src="https://placehold.it/50/473C8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slateblue4`
+<code>.slateblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-slateblue4`
+<code>.bg-slateblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--slateblue4)`
+<code>var(--slateblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/708090/000000?text=+)
+<img src="https://placehold.it/50/708090/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slategray`
+<code>.slategray</code>
 </td>
 <td style="text-align:left;">
-`.bg-slategray`
+<code>.bg-slategray</code>
 </td>
 <td style="text-align:left;">
-`var(--slategray)`
+<code>var(--slategray)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/C6E2FF/000000?text=+)
+<img src="https://placehold.it/50/C6E2FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slategray1`
+<code>.slategray1</code>
 </td>
 <td style="text-align:left;">
-`.bg-slategray1`
+<code>.bg-slategray1</code>
 </td>
 <td style="text-align:left;">
-`var(--slategray1)`
+<code>var(--slategray1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/B9D3EE/000000?text=+)
+<img src="https://placehold.it/50/B9D3EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slategray2`
+<code>.slategray2</code>
 </td>
 <td style="text-align:left;">
-`.bg-slategray2`
+<code>.bg-slategray2</code>
 </td>
 <td style="text-align:left;">
-`var(--slategray2)`
+<code>var(--slategray2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9FB6CD/000000?text=+)
+<img src="https://placehold.it/50/9FB6CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slategray3`
+<code>.slategray3</code>
 </td>
 <td style="text-align:left;">
-`.bg-slategray3`
+<code>.bg-slategray3</code>
 </td>
 <td style="text-align:left;">
-`var(--slategray3)`
+<code>var(--slategray3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/6C7B8B/000000?text=+)
+<img src="https://placehold.it/50/6C7B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slategray4`
+<code>.slategray4</code>
 </td>
 <td style="text-align:left;">
-`.bg-slategray4`
+<code>.bg-slategray4</code>
 </td>
 <td style="text-align:left;">
-`var(--slategray4)`
+<code>var(--slategray4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/708090/000000?text=+)
+<img src="https://placehold.it/50/708090/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.slategrey`
+<code>.slategrey</code>
 </td>
 <td style="text-align:left;">
-`.bg-slategrey`
+<code>.bg-slategrey</code>
 </td>
 <td style="text-align:left;">
-`var(--slategrey)`
+<code>var(--slategrey)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFAFA/000000?text=+)
+<img src="https://placehold.it/50/FFFAFA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.snow`
+<code>.snow</code>
 </td>
 <td style="text-align:left;">
-`.bg-snow`
+<code>.bg-snow</code>
 </td>
 <td style="text-align:left;">
-`var(--snow)`
+<code>var(--snow)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFAFA/000000?text=+)
+<img src="https://placehold.it/50/FFFAFA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.snow1`
+<code>.snow1</code>
 </td>
 <td style="text-align:left;">
-`.bg-snow1`
+<code>.bg-snow1</code>
 </td>
 <td style="text-align:left;">
-`var(--snow1)`
+<code>var(--snow1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEE9E9/000000?text=+)
+<img src="https://placehold.it/50/EEE9E9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.snow2`
+<code>.snow2</code>
 </td>
 <td style="text-align:left;">
-`.bg-snow2`
+<code>.bg-snow2</code>
 </td>
 <td style="text-align:left;">
-`var(--snow2)`
+<code>var(--snow2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDC9C9/000000?text=+)
+<img src="https://placehold.it/50/CDC9C9/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.snow3`
+<code>.snow3</code>
 </td>
 <td style="text-align:left;">
-`.bg-snow3`
+<code>.bg-snow3</code>
 </td>
 <td style="text-align:left;">
-`var(--snow3)`
+<code>var(--snow3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8989/000000?text=+)
+<img src="https://placehold.it/50/8B8989/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.snow4`
+<code>.snow4</code>
 </td>
 <td style="text-align:left;">
-`.bg-snow4`
+<code>.bg-snow4</code>
 </td>
 <td style="text-align:left;">
-`var(--snow4)`
+<code>var(--snow4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00FF7F/000000?text=+)
+<img src="https://placehold.it/50/00FF7F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.springgreen`
+<code>.springgreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-springgreen`
+<code>.bg-springgreen</code>
 </td>
 <td style="text-align:left;">
-`var(--springgreen)`
+<code>var(--springgreen)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00FF7F/000000?text=+)
+<img src="https://placehold.it/50/00FF7F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.springgreen1`
+<code>.springgreen1</code>
 </td>
 <td style="text-align:left;">
-`.bg-springgreen1`
+<code>.bg-springgreen1</code>
 </td>
 <td style="text-align:left;">
-`var(--springgreen1)`
+<code>var(--springgreen1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00EE76/000000?text=+)
+<img src="https://placehold.it/50/00EE76/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.springgreen2`
+<code>.springgreen2</code>
 </td>
 <td style="text-align:left;">
-`.bg-springgreen2`
+<code>.bg-springgreen2</code>
 </td>
 <td style="text-align:left;">
-`var(--springgreen2)`
+<code>var(--springgreen2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00CD66/000000?text=+)
+<img src="https://placehold.it/50/00CD66/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.springgreen3`
+<code>.springgreen3</code>
 </td>
 <td style="text-align:left;">
-`.bg-springgreen3`
+<code>.bg-springgreen3</code>
 </td>
 <td style="text-align:left;">
-`var(--springgreen3)`
+<code>var(--springgreen3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/008B45/000000?text=+)
+<img src="https://placehold.it/50/008B45/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.springgreen4`
+<code>.springgreen4</code>
 </td>
 <td style="text-align:left;">
-`.bg-springgreen4`
+<code>.bg-springgreen4</code>
 </td>
 <td style="text-align:left;">
-`var(--springgreen4)`
+<code>var(--springgreen4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4682B4/000000?text=+)
+<img src="https://placehold.it/50/4682B4/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.steelblue`
+<code>.steelblue</code>
 </td>
 <td style="text-align:left;">
-`.bg-steelblue`
+<code>.bg-steelblue</code>
 </td>
 <td style="text-align:left;">
-`var(--steelblue)`
+<code>var(--steelblue)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/63B8FF/000000?text=+)
+<img src="https://placehold.it/50/63B8FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.steelblue1`
+<code>.steelblue1</code>
 </td>
 <td style="text-align:left;">
-`.bg-steelblue1`
+<code>.bg-steelblue1</code>
 </td>
 <td style="text-align:left;">
-`var(--steelblue1)`
+<code>var(--steelblue1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/5CACEE/000000?text=+)
+<img src="https://placehold.it/50/5CACEE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.steelblue2`
+<code>.steelblue2</code>
 </td>
 <td style="text-align:left;">
-`.bg-steelblue2`
+<code>.bg-steelblue2</code>
 </td>
 <td style="text-align:left;">
-`var(--steelblue2)`
+<code>var(--steelblue2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/4F94CD/000000?text=+)
+<img src="https://placehold.it/50/4F94CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.steelblue3`
+<code>.steelblue3</code>
 </td>
 <td style="text-align:left;">
-`.bg-steelblue3`
+<code>.bg-steelblue3</code>
 </td>
 <td style="text-align:left;">
-`var(--steelblue3)`
+<code>var(--steelblue3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/36648B/000000?text=+)
+<img src="https://placehold.it/50/36648B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.steelblue4`
+<code>.steelblue4</code>
 </td>
 <td style="text-align:left;">
-`.bg-steelblue4`
+<code>.bg-steelblue4</code>
 </td>
 <td style="text-align:left;">
-`var(--steelblue4)`
+<code>var(--steelblue4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D2B48C/000000?text=+)
+<img src="https://placehold.it/50/D2B48C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tan`
+<code>.tan</code>
 </td>
 <td style="text-align:left;">
-`.bg-tan`
+<code>.bg-tan</code>
 </td>
 <td style="text-align:left;">
-`var(--tan)`
+<code>var(--tan)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFA54F/000000?text=+)
+<img src="https://placehold.it/50/FFA54F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tan1`
+<code>.tan1</code>
 </td>
 <td style="text-align:left;">
-`.bg-tan1`
+<code>.bg-tan1</code>
 </td>
 <td style="text-align:left;">
-`var(--tan1)`
+<code>var(--tan1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE9A49/000000?text=+)
+<img src="https://placehold.it/50/EE9A49/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tan2`
+<code>.tan2</code>
 </td>
 <td style="text-align:left;">
-`.bg-tan2`
+<code>.bg-tan2</code>
 </td>
 <td style="text-align:left;">
-`var(--tan2)`
+<code>var(--tan2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD853F/000000?text=+)
+<img src="https://placehold.it/50/CD853F/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tan3`
+<code>.tan3</code>
 </td>
 <td style="text-align:left;">
-`.bg-tan3`
+<code>.bg-tan3</code>
 </td>
 <td style="text-align:left;">
-`var(--tan3)`
+<code>var(--tan3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B5A2B/000000?text=+)
+<img src="https://placehold.it/50/8B5A2B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tan4`
+<code>.tan4</code>
 </td>
 <td style="text-align:left;">
-`.bg-tan4`
+<code>.bg-tan4</code>
 </td>
 <td style="text-align:left;">
-`var(--tan4)`
+<code>var(--tan4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D8BFD8/000000?text=+)
+<img src="https://placehold.it/50/D8BFD8/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.thistle`
+<code>.thistle</code>
 </td>
 <td style="text-align:left;">
-`.bg-thistle`
+<code>.bg-thistle</code>
 </td>
 <td style="text-align:left;">
-`var(--thistle)`
+<code>var(--thistle)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFE1FF/000000?text=+)
+<img src="https://placehold.it/50/FFE1FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.thistle1`
+<code>.thistle1</code>
 </td>
 <td style="text-align:left;">
-`.bg-thistle1`
+<code>.bg-thistle1</code>
 </td>
 <td style="text-align:left;">
-`var(--thistle1)`
+<code>var(--thistle1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EED2EE/000000?text=+)
+<img src="https://placehold.it/50/EED2EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.thistle2`
+<code>.thistle2</code>
 </td>
 <td style="text-align:left;">
-`.bg-thistle2`
+<code>.bg-thistle2</code>
 </td>
 <td style="text-align:left;">
-`var(--thistle2)`
+<code>var(--thistle2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDB5CD/000000?text=+)
+<img src="https://placehold.it/50/CDB5CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.thistle3`
+<code>.thistle3</code>
 </td>
 <td style="text-align:left;">
-`.bg-thistle3`
+<code>.bg-thistle3</code>
 </td>
 <td style="text-align:left;">
-`var(--thistle3)`
+<code>var(--thistle3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B7B8B/000000?text=+)
+<img src="https://placehold.it/50/8B7B8B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.thistle4`
+<code>.thistle4</code>
 </td>
 <td style="text-align:left;">
-`.bg-thistle4`
+<code>.bg-thistle4</code>
 </td>
 <td style="text-align:left;">
-`var(--thistle4)`
+<code>var(--thistle4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF6347/000000?text=+)
+<img src="https://placehold.it/50/FF6347/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tomato`
+<code>.tomato</code>
 </td>
 <td style="text-align:left;">
-`.bg-tomato`
+<code>.bg-tomato</code>
 </td>
 <td style="text-align:left;">
-`var(--tomato)`
+<code>var(--tomato)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF6347/000000?text=+)
+<img src="https://placehold.it/50/FF6347/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tomato1`
+<code>.tomato1</code>
 </td>
 <td style="text-align:left;">
-`.bg-tomato1`
+<code>.bg-tomato1</code>
 </td>
 <td style="text-align:left;">
-`var(--tomato1)`
+<code>var(--tomato1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE5C42/000000?text=+)
+<img src="https://placehold.it/50/EE5C42/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tomato2`
+<code>.tomato2</code>
 </td>
 <td style="text-align:left;">
-`.bg-tomato2`
+<code>.bg-tomato2</code>
 </td>
 <td style="text-align:left;">
-`var(--tomato2)`
+<code>var(--tomato2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD4F39/000000?text=+)
+<img src="https://placehold.it/50/CD4F39/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tomato3`
+<code>.tomato3</code>
 </td>
 <td style="text-align:left;">
-`.bg-tomato3`
+<code>.bg-tomato3</code>
 </td>
 <td style="text-align:left;">
-`var(--tomato3)`
+<code>var(--tomato3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B3626/000000?text=+)
+<img src="https://placehold.it/50/8B3626/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.tomato4`
+<code>.tomato4</code>
 </td>
 <td style="text-align:left;">
-`.bg-tomato4`
+<code>.bg-tomato4</code>
 </td>
 <td style="text-align:left;">
-`var(--tomato4)`
+<code>var(--tomato4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/40E0D0/000000?text=+)
+<img src="https://placehold.it/50/40E0D0/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.turquoise`
+<code>.turquoise</code>
 </td>
 <td style="text-align:left;">
-`.bg-turquoise`
+<code>.bg-turquoise</code>
 </td>
 <td style="text-align:left;">
-`var(--turquoise)`
+<code>var(--turquoise)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00F5FF/000000?text=+)
+<img src="https://placehold.it/50/00F5FF/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.turquoise1`
+<code>.turquoise1</code>
 </td>
 <td style="text-align:left;">
-`.bg-turquoise1`
+<code>.bg-turquoise1</code>
 </td>
 <td style="text-align:left;">
-`var(--turquoise1)`
+<code>var(--turquoise1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00E5EE/000000?text=+)
+<img src="https://placehold.it/50/00E5EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.turquoise2`
+<code>.turquoise2</code>
 </td>
 <td style="text-align:left;">
-`.bg-turquoise2`
+<code>.bg-turquoise2</code>
 </td>
 <td style="text-align:left;">
-`var(--turquoise2)`
+<code>var(--turquoise2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00C5CD/000000?text=+)
+<img src="https://placehold.it/50/00C5CD/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.turquoise3`
+<code>.turquoise3</code>
 </td>
 <td style="text-align:left;">
-`.bg-turquoise3`
+<code>.bg-turquoise3</code>
 </td>
 <td style="text-align:left;">
-`var(--turquoise3)`
+<code>var(--turquoise3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/00868B/000000?text=+)
+<img src="https://placehold.it/50/00868B/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.turquoise4`
+<code>.turquoise4</code>
 </td>
 <td style="text-align:left;">
-`.bg-turquoise4`
+<code>.bg-turquoise4</code>
 </td>
 <td style="text-align:left;">
-`var(--turquoise4)`
+<code>var(--turquoise4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE82EE/000000?text=+)
+<img src="https://placehold.it/50/EE82EE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.violet`
+<code>.violet</code>
 </td>
 <td style="text-align:left;">
-`.bg-violet`
+<code>.bg-violet</code>
 </td>
 <td style="text-align:left;">
-`var(--violet)`
+<code>var(--violet)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/D02090/000000?text=+)
+<img src="https://placehold.it/50/D02090/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.violetred`
+<code>.violetred</code>
 </td>
 <td style="text-align:left;">
-`.bg-violetred`
+<code>.bg-violetred</code>
 </td>
 <td style="text-align:left;">
-`var(--violetred)`
+<code>var(--violetred)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FF3E96/000000?text=+)
+<img src="https://placehold.it/50/FF3E96/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.violetred1`
+<code>.violetred1</code>
 </td>
 <td style="text-align:left;">
-`.bg-violetred1`
+<code>.bg-violetred1</code>
 </td>
 <td style="text-align:left;">
-`var(--violetred1)`
+<code>var(--violetred1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EE3A8C/000000?text=+)
+<img src="https://placehold.it/50/EE3A8C/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.violetred2`
+<code>.violetred2</code>
 </td>
 <td style="text-align:left;">
-`.bg-violetred2`
+<code>.bg-violetred2</code>
 </td>
 <td style="text-align:left;">
-`var(--violetred2)`
+<code>var(--violetred2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CD3278/000000?text=+)
+<img src="https://placehold.it/50/CD3278/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.violetred3`
+<code>.violetred3</code>
 </td>
 <td style="text-align:left;">
-`.bg-violetred3`
+<code>.bg-violetred3</code>
 </td>
 <td style="text-align:left;">
-`var(--violetred3)`
+<code>var(--violetred3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B2252/000000?text=+)
+<img src="https://placehold.it/50/8B2252/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.violetred4`
+<code>.violetred4</code>
 </td>
 <td style="text-align:left;">
-`.bg-violetred4`
+<code>.bg-violetred4</code>
 </td>
 <td style="text-align:left;">
-`var(--violetred4)`
+<code>var(--violetred4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F5DEB3/000000?text=+)
+<img src="https://placehold.it/50/F5DEB3/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.wheat`
+<code>.wheat</code>
 </td>
 <td style="text-align:left;">
-`.bg-wheat`
+<code>.bg-wheat</code>
 </td>
 <td style="text-align:left;">
-`var(--wheat)`
+<code>var(--wheat)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFE7BA/000000?text=+)
+<img src="https://placehold.it/50/FFE7BA/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.wheat1`
+<code>.wheat1</code>
 </td>
 <td style="text-align:left;">
-`.bg-wheat1`
+<code>.bg-wheat1</code>
 </td>
 <td style="text-align:left;">
-`var(--wheat1)`
+<code>var(--wheat1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EED8AE/000000?text=+)
+<img src="https://placehold.it/50/EED8AE/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.wheat2`
+<code>.wheat2</code>
 </td>
 <td style="text-align:left;">
-`.bg-wheat2`
+<code>.bg-wheat2</code>
 </td>
 <td style="text-align:left;">
-`var(--wheat2)`
+<code>var(--wheat2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDBA96/000000?text=+)
+<img src="https://placehold.it/50/CDBA96/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.wheat3`
+<code>.wheat3</code>
 </td>
 <td style="text-align:left;">
-`.bg-wheat3`
+<code>.bg-wheat3</code>
 </td>
 <td style="text-align:left;">
-`var(--wheat3)`
+<code>var(--wheat3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B7E66/000000?text=+)
+<img src="https://placehold.it/50/8B7E66/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.wheat4`
+<code>.wheat4</code>
 </td>
 <td style="text-align:left;">
-`.bg-wheat4`
+<code>.bg-wheat4</code>
 </td>
 <td style="text-align:left;">
-`var(--wheat4)`
+<code>var(--wheat4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/F5F5F5/000000?text=+)
+<img src="https://placehold.it/50/F5F5F5/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.whitesmoke`
+<code>.whitesmoke</code>
 </td>
 <td style="text-align:left;">
-`.bg-whitesmoke`
+<code>.bg-whitesmoke</code>
 </td>
 <td style="text-align:left;">
-`var(--whitesmoke)`
+<code>var(--whitesmoke)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFF00/000000?text=+)
+<img src="https://placehold.it/50/FFFF00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.yellow`
+<code>.yellow</code>
 </td>
 <td style="text-align:left;">
-`.bg-yellow`
+<code>.bg-yellow</code>
 </td>
 <td style="text-align:left;">
-`var(--yellow)`
+<code>var(--yellow)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/FFFF00/000000?text=+)
+<img src="https://placehold.it/50/FFFF00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.yellow1`
+<code>.yellow1</code>
 </td>
 <td style="text-align:left;">
-`.bg-yellow1`
+<code>.bg-yellow1</code>
 </td>
 <td style="text-align:left;">
-`var(--yellow1)`
+<code>var(--yellow1)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/EEEE00/000000?text=+)
+<img src="https://placehold.it/50/EEEE00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.yellow2`
+<code>.yellow2</code>
 </td>
 <td style="text-align:left;">
-`.bg-yellow2`
+<code>.bg-yellow2</code>
 </td>
 <td style="text-align:left;">
-`var(--yellow2)`
+<code>var(--yellow2)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/CDCD00/000000?text=+)
+<img src="https://placehold.it/50/CDCD00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.yellow3`
+<code>.yellow3</code>
 </td>
 <td style="text-align:left;">
-`.bg-yellow3`
+<code>.bg-yellow3</code>
 </td>
 <td style="text-align:left;">
-`var(--yellow3)`
+<code>var(--yellow3)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/8B8B00/000000?text=+)
+<img src="https://placehold.it/50/8B8B00/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.yellow4`
+<code>.yellow4</code>
 </td>
 <td style="text-align:left;">
-`.bg-yellow4`
+<code>.bg-yellow4</code>
 </td>
 <td style="text-align:left;">
-`var(--yellow4)`
+<code>var(--yellow4)</code>
 </td>
 </tr>
 <tr>
 <td style="text-align:left;">
-![](https://placehold.it/50/9ACD32/000000?text=+)
+<img src="https://placehold.it/50/9ACD32/000000?text=+)" />
 </td>
 <td style="text-align:left;">
-`.yellowgreen`
+<code>.yellowgreen</code>
 </td>
 <td style="text-align:left;">
-`.bg-yellowgreen`
+<code>.bg-yellowgreen</code>
 </td>
 <td style="text-align:left;">
-`var(--yellowgreen)`
+<code>var(--yellowgreen)</code>
 </td>
 </tr>
 </tbody>
