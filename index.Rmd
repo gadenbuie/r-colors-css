@@ -1,8 +1,9 @@
 ---
 title: R Colors in CSS
 output: 
-  html_document:
+  html_document: 
     css: r-colors.css
+    theme: yeti
 ---
 
 ```{r clipboard, echo=FALSE}
@@ -10,6 +11,12 @@ xaringanExtra::use_clipboard()
 ```
 
 ```{css echo=FALSE}
+body {
+  font-size: 18px;
+}
+pre {
+  font-size: 16px;
+}
 .background {
   display: inline-block;
   height: 30px;
@@ -27,16 +34,18 @@ xaringanExtra::use_clipboard()
 	margin-bottom: 1em;
 }
 #demo-text p { font-size: 1.5em; }
-
 #demo-text {
   transition: all 150ms linear;
 }
-
 #demo-text .mono { 
   font-size: 0.8em;
   font-family: monospace; 
 }
-
+#demo-contrast {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
 .darkmode {
   background-color: #333;
   color: #FFF;
@@ -75,6 +84,48 @@ xaringanExtra::use_clipboard()
 }
 ```
 
+```{js, echo=FALSE}
+getLuminance = function(r, g, b) {
+  r /= 255;
+  g /= 255;
+  b /= 255;
+
+  let red = r <= 0.03928 ? r / 12.92 : ((r + 0.055) / 1.055) ** 2.4;
+  let green = g <= 0.03928 ? g / 12.92 : ((g + 0.055) / 1.055) ** 2.4;
+  let blue = b <= 0.03928 ? b / 12.92 : ((b + 0.055) / 1.055) ** 2.4;
+
+  // Compute and return luminance
+  return 0.2126 * red + 0.7152 * green + 0.0722 * blue;
+}
+
+str2rgb = function(rgb) {
+  let sep = rgb.indexOf(",") > -1 ? "," : " ";
+  // Turn "rgb(r,g,b)" into [r,g,b]
+  rgb = rgb.substr(4).split(")")[0].split(sep)
+  return { r: rgb[0], g: rgb[1], b: rgb[2] }
+}
+
+getContrastRatio = function(c1, c2) {
+  c1 = str2rgb(c1)
+  c2 = str2rgb(c2)
+  let l1 = this.getLuminance(c1.r, c1.g, c1.b);
+  let l2 = this.getLuminance(c2.r, c2.g, c2.b);
+
+  return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+}
+
+formatContrastRatio = function(el) {
+  let fg = window.getComputedStyle(el).getPropertyValue('color')
+  let bg = window.getComputedStyle(el).getPropertyValue('background-color')
+  let ratio = getContrastRatio(fg, bg)
+  ratio = Math.round(ratio * 100) / 100
+  let status = '&#x2714;'
+  if (ratio < 4.5) status = '&#x203C;'
+  if (ratio < 3) status = '&#x274C;'
+  return `${status} ${ratio}`
+}
+```
+
 > All of R's [named colors](https://rdrr.io/r/grDevices/colors.html)
 > in [one CSS stylesheet](r-colors.css).
 
@@ -85,7 +136,7 @@ xaringanExtra::use_clipboard()
 
 ## Colors
 
-<div id="demo-text" class="bg-white black"><h2>Preview</h2><p>Click on a color below<p></div>
+<div id="demo-text" class="bg-white black"><h2>Preview</h2><p>Click on a color below</p><div id="demo-contrast" title="WCAG Contrast Ratio"></div></div>
 
 ::: {.table-responsive} :::
 
@@ -133,6 +184,11 @@ reactable::reactable(
       preview.querySelector('p').innerHTML = 
         `The quick brown fox jumps over the lazy dog.<br><br>
         <span class=\"mono\">class=\"${fg} ${bg}\"</span>`
+      
+      setTimeout(function() {
+        const contrast = document.getElementById('demo-contrast')
+        contrast.innerHTML = formatContrastRatio(preview)
+      }, 200)
     }
   ")
 )
