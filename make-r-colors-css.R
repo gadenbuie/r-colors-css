@@ -13,6 +13,8 @@ r_colors <- data.frame(
   stringsAsFactors = FALSE
 )
 
+saveRDS(r_colors, "r_colors.rds")
+
 r_colors_css <- c(
   ":root {",
   glue_data(r_colors, "  --{name}: {color};", .trim = FALSE),
