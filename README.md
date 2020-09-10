@@ -9,8 +9,7 @@ R Colors in CSS
 > All of R’s [named colors](https://rdrr.io/r/grDevices/colors.html) in
 > [one CSS stylesheet](r-colors.css).
 
-ℹ️
-[pkg.garrickadenbuie.com/r-colors-css](https://pkg.garrickadenbuie.com/r-colors-css)
+ℹ️ [Interactive Preview](https://pkg.garrickadenbuie.com/r-colors-css)
 
 Usage
 -----
@@ -39,15 +38,15 @@ or just about anywhere else
     htmltools::includeCSS("r-colors.css")
 
 Each of the 657 colors are available in three ways, using the color
-name. For example, the R color named `"lightcyan3"` is available
+name. For example, the R color named `"orchid4"` is available
 
-1.  as a **foreground** color-setting class: <code>.lightcyan3</code>
+1.  as a **foreground** color-setting class: <code>.orchid4</code>
 
-2.  as a **background** color-setting class: <code>.bg-lightcyan3</code>
+2.  as a **background** color-setting class: <code>.bg-orchid4</code>
 
 3.  as a [css
     variable](https://developer.mozilla.org/en-US/docs/Web/CSS/--*):
-    `var(--lightcyan3)`
+    `var(--orchid4)`
 
 Colors
 ------

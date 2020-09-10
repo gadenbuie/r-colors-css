@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 > All of R's [named colors](https://rdrr.io/r/grDevices/colors.html)
 > in [one CSS stylesheet](r-colors.css).
 
-&#x2139;&#xFE0F; [pkg.garrickadenbuie.com/r-colors-css](https://pkg.garrickadenbuie.com/r-colors-css)
+&#x2139;&#xFE0F; [Interactive Preview](https://pkg.garrickadenbuie.com/r-colors-css)
 
 ```{r child="usage.Rmd"}
 ```
