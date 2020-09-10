@@ -1,0 +1,127 @@
+---
+title: R Colors CSS
+output: 
+  html_document:
+    css: r-colors.css
+---
+
+```{css echo=FALSE}
+.background {
+  display: inline-block;
+  height: 30px;
+  width: 10vw;
+  cursor: pointer;
+}
+.foreground {
+  cursor: pointer;
+}
+#demo-text {
+	padding: 1em 2em 2em 2em;
+	position: sticky;
+	top: 0;
+	z-index: 9999;
+	margin-bottom: 1em;
+}
+#demo-text p { font-size: 1.5em; }
+
+#demo-text {
+  transition: all 150ms linear;
+}
+
+.darkmode {
+  background-color: #333;
+  color: #FFF;
+}
+#toggle-dark-mode {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+  line-height: 32px;
+}
+#toggle-dark-mode::before {
+  display: table-cell;
+  vertical-align: middle;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+  line-height: normal;
+}
+.darkmode #toggle-dark-mode {
+  background-color: white;
+}
+#toggle-dark-mode::before {
+  content: '\1F319';
+}
+.darkmode #toggle-dark-mode::before {
+  content: '\2600\FE0F';
+}
+.darkmode .ReactTable {
+	background-color: #333;
+}
+```
+
+<div id="demo-text" class="bg-white black"><h2>Preview</h2><p>Click on a color below<p></div>
+
+::: {.table-responsive} :::
+
+```{r echo=FALSE}
+library(glue)
+x <- data.frame(
+  name = glue('<span class="foreground {colors()}">{colors()}</span>'),
+  color = glue('<span class="background bg-{colors()}"></span>'),
+  foreground = glue(".{colors()}"),
+  background = glue(".bg-{colors()}")
+)
+
+reactable::reactable(
+  data = x,
+  sortable = TRUE,
+  searchable = TRUE,
+  pagination = FALSE,
+  highlight = TRUE,
+  columns = list(
+    name = reactable::colDef("Name", html = TRUE),
+    color = reactable::colDef("Color", html = TRUE),
+    foreground = reactable::colDef("Foreground Class"),
+    background = reactable::colDef("Background Class")
+  ),
+  onClick = reactable::JS("
+    function(rowInfo, colInfo) {
+      if (!['name', 'color'].includes(colInfo.id)) return
+      
+      const preview = document.getElementById('demo-text')
+      preview.querySelector('p').innerText = 'The quick brown fox jumps over the lazy dog.'
+      
+      debugger;
+      
+      const classCell = colInfo.id === 'name' ? 'foreground' : 'background'
+      let fg = [...preview.classList].filter(x => !/^bg-/.test(x))
+      let bg = [...preview.classList].filter(x => /^bg-/.test(x))
+      
+      if (classCell == 'foreground') {
+        fg = rowInfo.row.foreground.replace('.', '')
+      } else {
+        bg = rowInfo.row.background.replace('.', '')
+      }
+      
+      preview.classList = fg + ' ' + bg
+    }
+  ")
+)
+```
+
+:::
+
+<div id="toggle-dark-mode"></div>
+
+```{js, echo=FALSE}
+const toggleDarkMode = document.getElementById('toggle-dark-mode')
+toggleDarkMode.addEventListener('click', function() {
+  document.body.classList.toggle('darkmode')
+})
+```
