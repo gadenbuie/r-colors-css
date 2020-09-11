@@ -34,6 +34,7 @@ htmltools::includeCSS("r-colors.css")
 ```
 
 ```{r echo=FALSE}
+set.seed(44)
 demo_color <- sample(colors(), 1)
 ```
 
