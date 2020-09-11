@@ -14,10 +14,12 @@ R Colors in CSS
 Usage
 -----
 
-[Download the stylesheet](r-colors.css)
+For modularity, there are several stylesheets available. If you just
+want foreground and background colors, [download
+`r-colors.css`](dist/r-colors.css)
 
     download.file(
-      "https://pkg.garrickadenbuie.com/r-colors-css/r-colors.css",
+      "https://pkg.garrickadenbuie.com/r-colors-css/dist/r-colors.css",
       "r-colors.css"
     )
 
@@ -37,16 +39,21 @@ or just about anywhere else
 
     htmltools::includeCSS("r-colors.css")
 
-Each of the 657 colors are available in three ways, using the color
-name. For example, the R color named `"orchid4"` is available
+Each of the 657 colors are available in few ways, using the color name.
+For example, the R color named `"gold4"` is available
 
-1.  as a **foreground** color-setting class: <code>.orchid4</code>
+1.  as a **foreground** color-setting class: <code>.gold4</code>
 
-2.  as a **background** color-setting class: <code>.bg-orchid4</code>
+2.  as a **background** color-setting class: <code>.bg-gold4</code>
 
-3.  as a [css
+3.  [r-colors.vars.css](dist/r-colors.vars.css) provides each color as a
+    [css
     variable](https://developer.mozilla.org/en-US/docs/Web/CSS/--*):
-    `var(--orchid4)`
+    `var(--gold4)`
+
+4.  [r-colors.hover.css](dist/r-colors.hover.css) provides each color as
+    a foreground or background color-on-hover class: `.gold4-hover` or
+    `.bg-gold4-hover`
 
 Colors
 ------
