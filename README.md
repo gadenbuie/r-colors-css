@@ -7,7 +7,7 @@ R Colors in CSS
 <!-- badges: end -->
 
 > All of R’s [named colors](https://rdrr.io/r/grDevices/colors.html) in
-> [one CSS stylesheet](r-colors.css).
+> [one CSS stylesheet](dist/r-colors.css).
 
 ℹ️ [Interactive Preview](https://pkg.garrickadenbuie.com/r-colors-css)
 
