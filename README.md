@@ -40,20 +40,20 @@ or just about anywhere else
     htmltools::includeCSS("r-colors.css")
 
 Each of the 657 colors are available in few ways, using the color name.
-For example, the R color named `"gold4"` is available
+For example, the R color named `"skyblue4"` is available
 
-1.  as a **foreground** color-setting class: <code>.gold4</code>
+1.  as a **foreground** color-setting class: <code>.skyblue4</code>
 
-2.  as a **background** color-setting class: <code>.bg-gold4</code>
+2.  as a **background** color-setting class: <code>.bg-skyblue4</code>
 
 3.  [r-colors.vars.css](dist/r-colors.vars.css) provides each color as a
     [css
     variable](https://developer.mozilla.org/en-US/docs/Web/CSS/--*):
-    `var(--gold4)`
+    `var(--skyblue4)`
 
 4.  [r-colors.hover.css](dist/r-colors.hover.css) provides each color as
-    a foreground or background color-on-hover class: `.gold4-hover` or
-    `.bg-gold4-hover`
+    a foreground or background color-on-hover class: `.skyblue4-hover`
+    or `.bg-skyblue4-hover`
 
 Colors
 ------

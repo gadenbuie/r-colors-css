@@ -167,7 +167,7 @@ formatContrastRatioLink = function(el) {
 ```
 
 > All of R's [named colors](https://rdrr.io/r/grDevices/colors.html)
-> in [one CSS stylesheet](r-colors.css).
+> in [one CSS stylesheet](dist/r-colors.css).
 
 
 ```{r child="usage.Rmd"}
