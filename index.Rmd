@@ -212,6 +212,7 @@ reactable::reactable(
       if (!['name', 'color'].includes(colInfo.id)) return
       
       const preview = document.getElementById('demo-text')
+      const contrast = document.getElementById('demo-contrast')
       
       const classCell = colInfo.id === 'name' ? 'foreground' : 'background'
       let fg = [...preview.classList].filter(x => !/^bg-/.test(x))
@@ -228,14 +229,14 @@ reactable::reactable(
         `The quick brown fox jumps over the lazy dog.<br><br>
         <span class=\"mono\">class=\"${fg} ${bg}\"</span>`
       
+      let hoverClasses = preview.classList.toString().split(' ').map(s => s + '-hover')
+      hoverClasses[0] = 'bg-' + hoverClasses[0]
+      hoverClasses[1] = hoverClasses[1].replace('bg-', '')
+      contrast.classList = preview.classList + ' ' + hoverClasses.join(' ')
+      contrast.href = formatContrastRatioLink(preview)
+      
       setTimeout(function() {
-        const contrast = document.getElementById('demo-contrast')
         contrast.innerHTML = formatContrastRatio(preview)
-        let hoverClasses = preview.classList.toString().split(' ').map(s => s + '-hover')
-        hoverClasses[0] = 'bg-' + hoverClasses[0]
-        hoverClasses[1] = hoverClasses[1].replace('bg-', '')
-        contrast.classList = preview.classList + ' ' + hoverClasses.join(' ')
-        contrast.href = formatContrastRatioLink(preview)
       }, 200)
     }
   ")
