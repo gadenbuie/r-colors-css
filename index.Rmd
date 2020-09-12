@@ -233,10 +233,10 @@ reactable::reactable(
       hoverClasses[0] = 'bg-' + hoverClasses[0]
       hoverClasses[1] = hoverClasses[1].replace('bg-', '')
       contrast.classList = preview.classList + ' ' + hoverClasses.join(' ')
-      contrast.href = formatContrastRatioLink(preview)
       
       setTimeout(function() {
         contrast.innerHTML = formatContrastRatio(preview)
+        contrast.href = formatContrastRatioLink(preview)
       }, 200)
     }
   ")
