@@ -15,6 +15,7 @@ meta() %>%
     title = "R Colors in CSS",
     description = "R's named colors as CSS styles",
     url = "https://pkg.garricakdenbuie.com/r-colors-css",
+    image = "https://pkg.garrickadenbuie.com/r-colors-css/social-card.png",
     og_type = "website",
     og_author = "Garrick Aden-Buie",
     twitter_card_type = "summary",
