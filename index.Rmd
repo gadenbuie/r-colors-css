@@ -185,11 +185,14 @@ formatContrastRatioLink = function(el) {
 
 ```{r echo=FALSE}
 library(glue)
+r_colors <- readRDS("r_colors.rds")
+
 x <- data.frame(
-  name = glue('<span class="foreground {colors()}">{colors()}</span>'),
-  color = glue('<span class="background bg-{colors()}"></span>'),
-  foreground = glue(".{colors()}"),
-  background = glue(".bg-{colors()}")
+  name = glue('<span class="foreground {r_colors$name}">{r_colors$name}</span>'),
+  color = glue('<span class="background bg-{r_colors$name}"></span>'),
+  rgb = r_colors$color,
+  hex = r_colors$hex,
+  colorName = r_colors$name
 )
 ```
 
@@ -204,8 +207,9 @@ reactable::reactable(
   columns = list(
     name = reactable::colDef("Name", html = TRUE),
     color = reactable::colDef("Color", html = TRUE),
-    foreground = reactable::colDef("Foreground Class"),
-    background = reactable::colDef("Background Class")
+    rgb = reactable::colDef("RGB Value"),
+    hex = reactable::colDef("Hex Value"),
+    colorName = reactable::colDef(show = FALSE)
   ),
   defaultColDef = reactable::colDef(minWidth = 185),
   onClick = reactable::JS("
@@ -218,11 +222,11 @@ reactable::reactable(
       const classCell = colInfo.id === 'name' ? 'foreground' : 'background'
       let fg = [...preview.classList].filter(x => !/^bg-/.test(x))
       let bg = [...preview.classList].filter(x => /^bg-/.test(x))
-      
+      debugger;
       if (classCell == 'foreground') {
-        fg = rowInfo.row.foreground.replace('.', '')
+        fg = rowInfo.row.colorName
       } else {
-        bg = rowInfo.row.background.replace('.', '')
+        bg = 'bg-' + rowInfo.row.colorName
       }
       
       preview.classList = fg + ' ' + bg

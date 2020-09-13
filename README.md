@@ -65,13 +65,13 @@ Colors
 Color
 </th>
 <th style="text-align:left;">
-Foreground Class
+Name
 </th>
 <th style="text-align:left;">
-Background Class
+RGB Value
 </th>
 <th style="text-align:left;">
-CSS Variable
+Hex Value
 </th>
 </tr>
 </thead>
@@ -81,13 +81,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.white</code>
+white
 </td>
 <td style="text-align:left;">
-<code>.bg-white</code>
+rgb(255,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--white)</code>
+\#FFFFFF
 </td>
 </tr>
 <tr>
@@ -95,13 +95,13 @@ CSS Variable
 <img src="https://placehold.it/50/F0F8FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.aliceblue</code>
+aliceblue
 </td>
 <td style="text-align:left;">
-<code>.bg-aliceblue</code>
+rgb(240,248,255)
 </td>
 <td style="text-align:left;">
-<code>var(--aliceblue)</code>
+\#F0F8FF
 </td>
 </tr>
 <tr>
@@ -109,13 +109,13 @@ CSS Variable
 <img src="https://placehold.it/50/FAEBD7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.antiquewhite</code>
+antiquewhite
 </td>
 <td style="text-align:left;">
-<code>.bg-antiquewhite</code>
+rgb(250,235,215)
 </td>
 <td style="text-align:left;">
-<code>var(--antiquewhite)</code>
+\#FAEBD7
 </td>
 </tr>
 <tr>
@@ -123,13 +123,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFEFDB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.antiquewhite1</code>
+antiquewhite1
 </td>
 <td style="text-align:left;">
-<code>.bg-antiquewhite1</code>
+rgb(255,239,219)
 </td>
 <td style="text-align:left;">
-<code>var(--antiquewhite1)</code>
+\#FFEFDB
 </td>
 </tr>
 <tr>
@@ -137,13 +137,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEDFCC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.antiquewhite2</code>
+antiquewhite2
 </td>
 <td style="text-align:left;">
-<code>.bg-antiquewhite2</code>
+rgb(238,223,204)
 </td>
 <td style="text-align:left;">
-<code>var(--antiquewhite2)</code>
+\#EEDFCC
 </td>
 </tr>
 <tr>
@@ -151,13 +151,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDC0B0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.antiquewhite3</code>
+antiquewhite3
 </td>
 <td style="text-align:left;">
-<code>.bg-antiquewhite3</code>
+rgb(205,192,176)
 </td>
 <td style="text-align:left;">
-<code>var(--antiquewhite3)</code>
+\#CDC0B0
 </td>
 </tr>
 <tr>
@@ -165,27 +165,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8378/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.antiquewhite4</code>
+antiquewhite4
 </td>
 <td style="text-align:left;">
-<code>.bg-antiquewhite4</code>
+rgb(139,131,120)
 </td>
 <td style="text-align:left;">
-<code>var(--antiquewhite4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/7FFFD4/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.aquamarine</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-aquamarine</code>
-</td>
-<td style="text-align:left;">
-<code>var(--aquamarine)</code>
+\#8B8378
 </td>
 </tr>
 <tr>
@@ -193,13 +179,27 @@ CSS Variable
 <img src="https://placehold.it/50/7FFFD4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.aquamarine1</code>
+aquamarine
 </td>
 <td style="text-align:left;">
-<code>.bg-aquamarine1</code>
+rgb(127,255,212)
 </td>
 <td style="text-align:left;">
-<code>var(--aquamarine1)</code>
+\#7FFFD4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/7FFFD4/000000?text=+" />
+</td>
+<td style="text-align:left;">
+aquamarine1
+</td>
+<td style="text-align:left;">
+rgb(127,255,212)
+</td>
+<td style="text-align:left;">
+\#7FFFD4
 </td>
 </tr>
 <tr>
@@ -207,13 +207,13 @@ CSS Variable
 <img src="https://placehold.it/50/76EEC6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.aquamarine2</code>
+aquamarine2
 </td>
 <td style="text-align:left;">
-<code>.bg-aquamarine2</code>
+rgb(118,238,198)
 </td>
 <td style="text-align:left;">
-<code>var(--aquamarine2)</code>
+\#76EEC6
 </td>
 </tr>
 <tr>
@@ -221,13 +221,13 @@ CSS Variable
 <img src="https://placehold.it/50/66CDAA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.aquamarine3</code>
+aquamarine3
 </td>
 <td style="text-align:left;">
-<code>.bg-aquamarine3</code>
+rgb(102,205,170)
 </td>
 <td style="text-align:left;">
-<code>var(--aquamarine3)</code>
+\#66CDAA
 </td>
 </tr>
 <tr>
@@ -235,27 +235,13 @@ CSS Variable
 <img src="https://placehold.it/50/458B74/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.aquamarine4</code>
+aquamarine4
 </td>
 <td style="text-align:left;">
-<code>.bg-aquamarine4</code>
+rgb(69,139,116)
 </td>
 <td style="text-align:left;">
-<code>var(--aquamarine4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/F0FFFF/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.azure</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-azure</code>
-</td>
-<td style="text-align:left;">
-<code>var(--azure)</code>
+\#458B74
 </td>
 </tr>
 <tr>
@@ -263,13 +249,27 @@ CSS Variable
 <img src="https://placehold.it/50/F0FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.azure1</code>
+azure
 </td>
 <td style="text-align:left;">
-<code>.bg-azure1</code>
+rgb(240,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--azure1)</code>
+\#F0FFFF
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/F0FFFF/000000?text=+" />
+</td>
+<td style="text-align:left;">
+azure1
+</td>
+<td style="text-align:left;">
+rgb(240,255,255)
+</td>
+<td style="text-align:left;">
+\#F0FFFF
 </td>
 </tr>
 <tr>
@@ -277,13 +277,13 @@ CSS Variable
 <img src="https://placehold.it/50/E0EEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.azure2</code>
+azure2
 </td>
 <td style="text-align:left;">
-<code>.bg-azure2</code>
+rgb(224,238,238)
 </td>
 <td style="text-align:left;">
-<code>var(--azure2)</code>
+\#E0EEEE
 </td>
 </tr>
 <tr>
@@ -291,13 +291,13 @@ CSS Variable
 <img src="https://placehold.it/50/C1CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.azure3</code>
+azure3
 </td>
 <td style="text-align:left;">
-<code>.bg-azure3</code>
+rgb(193,205,205)
 </td>
 <td style="text-align:left;">
-<code>var(--azure3)</code>
+\#C1CDCD
 </td>
 </tr>
 <tr>
@@ -305,13 +305,13 @@ CSS Variable
 <img src="https://placehold.it/50/838B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.azure4</code>
+azure4
 </td>
 <td style="text-align:left;">
-<code>.bg-azure4</code>
+rgb(131,139,139)
 </td>
 <td style="text-align:left;">
-<code>var(--azure4)</code>
+\#838B8B
 </td>
 </tr>
 <tr>
@@ -319,27 +319,13 @@ CSS Variable
 <img src="https://placehold.it/50/F5F5DC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.beige</code>
+beige
 </td>
 <td style="text-align:left;">
-<code>.bg-beige</code>
+rgb(245,245,220)
 </td>
 <td style="text-align:left;">
-<code>var(--beige)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFE4C4/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.bisque</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-bisque</code>
-</td>
-<td style="text-align:left;">
-<code>var(--bisque)</code>
+\#F5F5DC
 </td>
 </tr>
 <tr>
@@ -347,13 +333,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFE4C4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.bisque1</code>
+bisque
 </td>
 <td style="text-align:left;">
-<code>.bg-bisque1</code>
+rgb(255,228,196)
 </td>
 <td style="text-align:left;">
-<code>var(--bisque1)</code>
+\#FFE4C4
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFE4C4/000000?text=+" />
+</td>
+<td style="text-align:left;">
+bisque1
+</td>
+<td style="text-align:left;">
+rgb(255,228,196)
+</td>
+<td style="text-align:left;">
+\#FFE4C4
 </td>
 </tr>
 <tr>
@@ -361,13 +361,13 @@ CSS Variable
 <img src="https://placehold.it/50/EED5B7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.bisque2</code>
+bisque2
 </td>
 <td style="text-align:left;">
-<code>.bg-bisque2</code>
+rgb(238,213,183)
 </td>
 <td style="text-align:left;">
-<code>var(--bisque2)</code>
+\#EED5B7
 </td>
 </tr>
 <tr>
@@ -375,13 +375,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDB79E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.bisque3</code>
+bisque3
 </td>
 <td style="text-align:left;">
-<code>.bg-bisque3</code>
+rgb(205,183,158)
 </td>
 <td style="text-align:left;">
-<code>var(--bisque3)</code>
+\#CDB79E
 </td>
 </tr>
 <tr>
@@ -389,13 +389,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B7D6B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.bisque4</code>
+bisque4
 </td>
 <td style="text-align:left;">
-<code>.bg-bisque4</code>
+rgb(139,125,107)
 </td>
 <td style="text-align:left;">
-<code>var(--bisque4)</code>
+\#8B7D6B
 </td>
 </tr>
 <tr>
@@ -403,13 +403,13 @@ CSS Variable
 <img src="https://placehold.it/50/000000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.black</code>
+black
 </td>
 <td style="text-align:left;">
-<code>.bg-black</code>
+rgb(0,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--black)</code>
+\#000000
 </td>
 </tr>
 <tr>
@@ -417,27 +417,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFEBCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.blanchedalmond</code>
+blanchedalmond
 </td>
 <td style="text-align:left;">
-<code>.bg-blanchedalmond</code>
+rgb(255,235,205)
 </td>
 <td style="text-align:left;">
-<code>var(--blanchedalmond)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/0000FF/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.blue</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-blue</code>
-</td>
-<td style="text-align:left;">
-<code>var(--blue)</code>
+\#FFEBCD
 </td>
 </tr>
 <tr>
@@ -445,13 +431,27 @@ CSS Variable
 <img src="https://placehold.it/50/0000FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.blue1</code>
+blue
 </td>
 <td style="text-align:left;">
-<code>.bg-blue1</code>
+rgb(0,0,255)
 </td>
 <td style="text-align:left;">
-<code>var(--blue1)</code>
+\#0000FF
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/0000FF/000000?text=+" />
+</td>
+<td style="text-align:left;">
+blue1
+</td>
+<td style="text-align:left;">
+rgb(0,0,255)
+</td>
+<td style="text-align:left;">
+\#0000FF
 </td>
 </tr>
 <tr>
@@ -459,13 +459,13 @@ CSS Variable
 <img src="https://placehold.it/50/0000EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.blue2</code>
+blue2
 </td>
 <td style="text-align:left;">
-<code>.bg-blue2</code>
+rgb(0,0,238)
 </td>
 <td style="text-align:left;">
-<code>var(--blue2)</code>
+\#0000EE
 </td>
 </tr>
 <tr>
@@ -473,13 +473,13 @@ CSS Variable
 <img src="https://placehold.it/50/0000CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.blue3</code>
+blue3
 </td>
 <td style="text-align:left;">
-<code>.bg-blue3</code>
+rgb(0,0,205)
 </td>
 <td style="text-align:left;">
-<code>var(--blue3)</code>
+\#0000CD
 </td>
 </tr>
 <tr>
@@ -487,13 +487,13 @@ CSS Variable
 <img src="https://placehold.it/50/00008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.blue4</code>
+blue4
 </td>
 <td style="text-align:left;">
-<code>.bg-blue4</code>
+rgb(0,0,139)
 </td>
 <td style="text-align:left;">
-<code>var(--blue4)</code>
+\#00008B
 </td>
 </tr>
 <tr>
@@ -501,13 +501,13 @@ CSS Variable
 <img src="https://placehold.it/50/8A2BE2/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.blueviolet</code>
+blueviolet
 </td>
 <td style="text-align:left;">
-<code>.bg-blueviolet</code>
+rgb(138,43,226)
 </td>
 <td style="text-align:left;">
-<code>var(--blueviolet)</code>
+\#8A2BE2
 </td>
 </tr>
 <tr>
@@ -515,13 +515,13 @@ CSS Variable
 <img src="https://placehold.it/50/A52A2A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.brown</code>
+brown
 </td>
 <td style="text-align:left;">
-<code>.bg-brown</code>
+rgb(165,42,42)
 </td>
 <td style="text-align:left;">
-<code>var(--brown)</code>
+\#A52A2A
 </td>
 </tr>
 <tr>
@@ -529,13 +529,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF4040/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.brown1</code>
+brown1
 </td>
 <td style="text-align:left;">
-<code>.bg-brown1</code>
+rgb(255,64,64)
 </td>
 <td style="text-align:left;">
-<code>var(--brown1)</code>
+\#FF4040
 </td>
 </tr>
 <tr>
@@ -543,13 +543,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE3B3B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.brown2</code>
+brown2
 </td>
 <td style="text-align:left;">
-<code>.bg-brown2</code>
+rgb(238,59,59)
 </td>
 <td style="text-align:left;">
-<code>var(--brown2)</code>
+\#EE3B3B
 </td>
 </tr>
 <tr>
@@ -557,13 +557,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD3333/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.brown3</code>
+brown3
 </td>
 <td style="text-align:left;">
-<code>.bg-brown3</code>
+rgb(205,51,51)
 </td>
 <td style="text-align:left;">
-<code>var(--brown3)</code>
+\#CD3333
 </td>
 </tr>
 <tr>
@@ -571,13 +571,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B2323/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.brown4</code>
+brown4
 </td>
 <td style="text-align:left;">
-<code>.bg-brown4</code>
+rgb(139,35,35)
 </td>
 <td style="text-align:left;">
-<code>var(--brown4)</code>
+\#8B2323
 </td>
 </tr>
 <tr>
@@ -585,13 +585,13 @@ CSS Variable
 <img src="https://placehold.it/50/DEB887/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.burlywood</code>
+burlywood
 </td>
 <td style="text-align:left;">
-<code>.bg-burlywood</code>
+rgb(222,184,135)
 </td>
 <td style="text-align:left;">
-<code>var(--burlywood)</code>
+\#DEB887
 </td>
 </tr>
 <tr>
@@ -599,13 +599,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFD39B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.burlywood1</code>
+burlywood1
 </td>
 <td style="text-align:left;">
-<code>.bg-burlywood1</code>
+rgb(255,211,155)
 </td>
 <td style="text-align:left;">
-<code>var(--burlywood1)</code>
+\#FFD39B
 </td>
 </tr>
 <tr>
@@ -613,13 +613,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEC591/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.burlywood2</code>
+burlywood2
 </td>
 <td style="text-align:left;">
-<code>.bg-burlywood2</code>
+rgb(238,197,145)
 </td>
 <td style="text-align:left;">
-<code>var(--burlywood2)</code>
+\#EEC591
 </td>
 </tr>
 <tr>
@@ -627,13 +627,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDAA7D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.burlywood3</code>
+burlywood3
 </td>
 <td style="text-align:left;">
-<code>.bg-burlywood3</code>
+rgb(205,170,125)
 </td>
 <td style="text-align:left;">
-<code>var(--burlywood3)</code>
+\#CDAA7D
 </td>
 </tr>
 <tr>
@@ -641,13 +641,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B7355/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.burlywood4</code>
+burlywood4
 </td>
 <td style="text-align:left;">
-<code>.bg-burlywood4</code>
+rgb(139,115,85)
 </td>
 <td style="text-align:left;">
-<code>var(--burlywood4)</code>
+\#8B7355
 </td>
 </tr>
 <tr>
@@ -655,13 +655,13 @@ CSS Variable
 <img src="https://placehold.it/50/5F9EA0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cadetblue</code>
+cadetblue
 </td>
 <td style="text-align:left;">
-<code>.bg-cadetblue</code>
+rgb(95,158,160)
 </td>
 <td style="text-align:left;">
-<code>var(--cadetblue)</code>
+\#5F9EA0
 </td>
 </tr>
 <tr>
@@ -669,13 +669,13 @@ CSS Variable
 <img src="https://placehold.it/50/98F5FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cadetblue1</code>
+cadetblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-cadetblue1</code>
+rgb(152,245,255)
 </td>
 <td style="text-align:left;">
-<code>var(--cadetblue1)</code>
+\#98F5FF
 </td>
 </tr>
 <tr>
@@ -683,13 +683,13 @@ CSS Variable
 <img src="https://placehold.it/50/8EE5EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cadetblue2</code>
+cadetblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-cadetblue2</code>
+rgb(142,229,238)
 </td>
 <td style="text-align:left;">
-<code>var(--cadetblue2)</code>
+\#8EE5EE
 </td>
 </tr>
 <tr>
@@ -697,13 +697,13 @@ CSS Variable
 <img src="https://placehold.it/50/7AC5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cadetblue3</code>
+cadetblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-cadetblue3</code>
+rgb(122,197,205)
 </td>
 <td style="text-align:left;">
-<code>var(--cadetblue3)</code>
+\#7AC5CD
 </td>
 </tr>
 <tr>
@@ -711,27 +711,13 @@ CSS Variable
 <img src="https://placehold.it/50/53868B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cadetblue4</code>
+cadetblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-cadetblue4</code>
+rgb(83,134,139)
 </td>
 <td style="text-align:left;">
-<code>var(--cadetblue4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/7FFF00/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.chartreuse</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-chartreuse</code>
-</td>
-<td style="text-align:left;">
-<code>var(--chartreuse)</code>
+\#53868B
 </td>
 </tr>
 <tr>
@@ -739,13 +725,27 @@ CSS Variable
 <img src="https://placehold.it/50/7FFF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chartreuse1</code>
+chartreuse
 </td>
 <td style="text-align:left;">
-<code>.bg-chartreuse1</code>
+rgb(127,255,0)
 </td>
 <td style="text-align:left;">
-<code>var(--chartreuse1)</code>
+\#7FFF00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/7FFF00/000000?text=+" />
+</td>
+<td style="text-align:left;">
+chartreuse1
+</td>
+<td style="text-align:left;">
+rgb(127,255,0)
+</td>
+<td style="text-align:left;">
+\#7FFF00
 </td>
 </tr>
 <tr>
@@ -753,13 +753,13 @@ CSS Variable
 <img src="https://placehold.it/50/76EE00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chartreuse2</code>
+chartreuse2
 </td>
 <td style="text-align:left;">
-<code>.bg-chartreuse2</code>
+rgb(118,238,0)
 </td>
 <td style="text-align:left;">
-<code>var(--chartreuse2)</code>
+\#76EE00
 </td>
 </tr>
 <tr>
@@ -767,13 +767,13 @@ CSS Variable
 <img src="https://placehold.it/50/66CD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chartreuse3</code>
+chartreuse3
 </td>
 <td style="text-align:left;">
-<code>.bg-chartreuse3</code>
+rgb(102,205,0)
 </td>
 <td style="text-align:left;">
-<code>var(--chartreuse3)</code>
+\#66CD00
 </td>
 </tr>
 <tr>
@@ -781,13 +781,13 @@ CSS Variable
 <img src="https://placehold.it/50/458B00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chartreuse4</code>
+chartreuse4
 </td>
 <td style="text-align:left;">
-<code>.bg-chartreuse4</code>
+rgb(69,139,0)
 </td>
 <td style="text-align:left;">
-<code>var(--chartreuse4)</code>
+\#458B00
 </td>
 </tr>
 <tr>
@@ -795,13 +795,13 @@ CSS Variable
 <img src="https://placehold.it/50/D2691E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chocolate</code>
+chocolate
 </td>
 <td style="text-align:left;">
-<code>.bg-chocolate</code>
+rgb(210,105,30)
 </td>
 <td style="text-align:left;">
-<code>var(--chocolate)</code>
+\#D2691E
 </td>
 </tr>
 <tr>
@@ -809,13 +809,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF7F24/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chocolate1</code>
+chocolate1
 </td>
 <td style="text-align:left;">
-<code>.bg-chocolate1</code>
+rgb(255,127,36)
 </td>
 <td style="text-align:left;">
-<code>var(--chocolate1)</code>
+\#FF7F24
 </td>
 </tr>
 <tr>
@@ -823,13 +823,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE7621/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chocolate2</code>
+chocolate2
 </td>
 <td style="text-align:left;">
-<code>.bg-chocolate2</code>
+rgb(238,118,33)
 </td>
 <td style="text-align:left;">
-<code>var(--chocolate2)</code>
+\#EE7621
 </td>
 </tr>
 <tr>
@@ -837,13 +837,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD661D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chocolate3</code>
+chocolate3
 </td>
 <td style="text-align:left;">
-<code>.bg-chocolate3</code>
+rgb(205,102,29)
 </td>
 <td style="text-align:left;">
-<code>var(--chocolate3)</code>
+\#CD661D
 </td>
 </tr>
 <tr>
@@ -851,13 +851,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B4513/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.chocolate4</code>
+chocolate4
 </td>
 <td style="text-align:left;">
-<code>.bg-chocolate4</code>
+rgb(139,69,19)
 </td>
 <td style="text-align:left;">
-<code>var(--chocolate4)</code>
+\#8B4513
 </td>
 </tr>
 <tr>
@@ -865,13 +865,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF7F50/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.coral</code>
+coral
 </td>
 <td style="text-align:left;">
-<code>.bg-coral</code>
+rgb(255,127,80)
 </td>
 <td style="text-align:left;">
-<code>var(--coral)</code>
+\#FF7F50
 </td>
 </tr>
 <tr>
@@ -879,13 +879,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF7256/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.coral1</code>
+coral1
 </td>
 <td style="text-align:left;">
-<code>.bg-coral1</code>
+rgb(255,114,86)
 </td>
 <td style="text-align:left;">
-<code>var(--coral1)</code>
+\#FF7256
 </td>
 </tr>
 <tr>
@@ -893,13 +893,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE6A50/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.coral2</code>
+coral2
 </td>
 <td style="text-align:left;">
-<code>.bg-coral2</code>
+rgb(238,106,80)
 </td>
 <td style="text-align:left;">
-<code>var(--coral2)</code>
+\#EE6A50
 </td>
 </tr>
 <tr>
@@ -907,13 +907,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD5B45/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.coral3</code>
+coral3
 </td>
 <td style="text-align:left;">
-<code>.bg-coral3</code>
+rgb(205,91,69)
 </td>
 <td style="text-align:left;">
-<code>var(--coral3)</code>
+\#CD5B45
 </td>
 </tr>
 <tr>
@@ -921,13 +921,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B3E2F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.coral4</code>
+coral4
 </td>
 <td style="text-align:left;">
-<code>.bg-coral4</code>
+rgb(139,62,47)
 </td>
 <td style="text-align:left;">
-<code>var(--coral4)</code>
+\#8B3E2F
 </td>
 </tr>
 <tr>
@@ -935,27 +935,13 @@ CSS Variable
 <img src="https://placehold.it/50/6495ED/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cornflowerblue</code>
+cornflowerblue
 </td>
 <td style="text-align:left;">
-<code>.bg-cornflowerblue</code>
+rgb(100,149,237)
 </td>
 <td style="text-align:left;">
-<code>var(--cornflowerblue)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFF8DC/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.cornsilk</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-cornsilk</code>
-</td>
-<td style="text-align:left;">
-<code>var(--cornsilk)</code>
+\#6495ED
 </td>
 </tr>
 <tr>
@@ -963,13 +949,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFF8DC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cornsilk1</code>
+cornsilk
 </td>
 <td style="text-align:left;">
-<code>.bg-cornsilk1</code>
+rgb(255,248,220)
 </td>
 <td style="text-align:left;">
-<code>var(--cornsilk1)</code>
+\#FFF8DC
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFF8DC/000000?text=+" />
+</td>
+<td style="text-align:left;">
+cornsilk1
+</td>
+<td style="text-align:left;">
+rgb(255,248,220)
+</td>
+<td style="text-align:left;">
+\#FFF8DC
 </td>
 </tr>
 <tr>
@@ -977,13 +977,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEE8CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cornsilk2</code>
+cornsilk2
 </td>
 <td style="text-align:left;">
-<code>.bg-cornsilk2</code>
+rgb(238,232,205)
 </td>
 <td style="text-align:left;">
-<code>var(--cornsilk2)</code>
+\#EEE8CD
 </td>
 </tr>
 <tr>
@@ -991,13 +991,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDC8B1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cornsilk3</code>
+cornsilk3
 </td>
 <td style="text-align:left;">
-<code>.bg-cornsilk3</code>
+rgb(205,200,177)
 </td>
 <td style="text-align:left;">
-<code>var(--cornsilk3)</code>
+\#CDC8B1
 </td>
 </tr>
 <tr>
@@ -1005,27 +1005,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8878/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cornsilk4</code>
+cornsilk4
 </td>
 <td style="text-align:left;">
-<code>.bg-cornsilk4</code>
+rgb(139,136,120)
 </td>
 <td style="text-align:left;">
-<code>var(--cornsilk4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/00FFFF/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.cyan</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-cyan</code>
-</td>
-<td style="text-align:left;">
-<code>var(--cyan)</code>
+\#8B8878
 </td>
 </tr>
 <tr>
@@ -1033,13 +1019,27 @@ CSS Variable
 <img src="https://placehold.it/50/00FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cyan1</code>
+cyan
 </td>
 <td style="text-align:left;">
-<code>.bg-cyan1</code>
+rgb(0,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--cyan1)</code>
+\#00FFFF
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/00FFFF/000000?text=+" />
+</td>
+<td style="text-align:left;">
+cyan1
+</td>
+<td style="text-align:left;">
+rgb(0,255,255)
+</td>
+<td style="text-align:left;">
+\#00FFFF
 </td>
 </tr>
 <tr>
@@ -1047,13 +1047,13 @@ CSS Variable
 <img src="https://placehold.it/50/00EEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cyan2</code>
+cyan2
 </td>
 <td style="text-align:left;">
-<code>.bg-cyan2</code>
+rgb(0,238,238)
 </td>
 <td style="text-align:left;">
-<code>var(--cyan2)</code>
+\#00EEEE
 </td>
 </tr>
 <tr>
@@ -1061,13 +1061,13 @@ CSS Variable
 <img src="https://placehold.it/50/00CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cyan3</code>
+cyan3
 </td>
 <td style="text-align:left;">
-<code>.bg-cyan3</code>
+rgb(0,205,205)
 </td>
 <td style="text-align:left;">
-<code>var(--cyan3)</code>
+\#00CDCD
 </td>
 </tr>
 <tr>
@@ -1075,13 +1075,13 @@ CSS Variable
 <img src="https://placehold.it/50/008B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.cyan4</code>
+cyan4
 </td>
 <td style="text-align:left;">
-<code>.bg-cyan4</code>
+rgb(0,139,139)
 </td>
 <td style="text-align:left;">
-<code>var(--cyan4)</code>
+\#008B8B
 </td>
 </tr>
 <tr>
@@ -1089,13 +1089,13 @@ CSS Variable
 <img src="https://placehold.it/50/00008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkblue</code>
+darkblue
 </td>
 <td style="text-align:left;">
-<code>.bg-darkblue</code>
+rgb(0,0,139)
 </td>
 <td style="text-align:left;">
-<code>var(--darkblue)</code>
+\#00008B
 </td>
 </tr>
 <tr>
@@ -1103,13 +1103,13 @@ CSS Variable
 <img src="https://placehold.it/50/008B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkcyan</code>
+darkcyan
 </td>
 <td style="text-align:left;">
-<code>.bg-darkcyan</code>
+rgb(0,139,139)
 </td>
 <td style="text-align:left;">
-<code>var(--darkcyan)</code>
+\#008B8B
 </td>
 </tr>
 <tr>
@@ -1117,13 +1117,13 @@ CSS Variable
 <img src="https://placehold.it/50/B8860B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgoldenrod</code>
+darkgoldenrod
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgoldenrod</code>
+rgb(184,134,11)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgoldenrod)</code>
+\#B8860B
 </td>
 </tr>
 <tr>
@@ -1131,13 +1131,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFB90F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgoldenrod1</code>
+darkgoldenrod1
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgoldenrod1</code>
+rgb(255,185,15)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgoldenrod1)</code>
+\#FFB90F
 </td>
 </tr>
 <tr>
@@ -1145,13 +1145,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEAD0E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgoldenrod2</code>
+darkgoldenrod2
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgoldenrod2</code>
+rgb(238,173,14)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgoldenrod2)</code>
+\#EEAD0E
 </td>
 </tr>
 <tr>
@@ -1159,13 +1159,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD950C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgoldenrod3</code>
+darkgoldenrod3
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgoldenrod3</code>
+rgb(205,149,12)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgoldenrod3)</code>
+\#CD950C
 </td>
 </tr>
 <tr>
@@ -1173,13 +1173,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B6508/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgoldenrod4</code>
+darkgoldenrod4
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgoldenrod4</code>
+rgb(139,101,8)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgoldenrod4)</code>
+\#8B6508
 </td>
 </tr>
 <tr>
@@ -1187,13 +1187,13 @@ CSS Variable
 <img src="https://placehold.it/50/A9A9A9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgray</code>
+darkgray
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgray</code>
+rgb(169,169,169)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgray)</code>
+\#A9A9A9
 </td>
 </tr>
 <tr>
@@ -1201,13 +1201,13 @@ CSS Variable
 <img src="https://placehold.it/50/006400/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgreen</code>
+darkgreen
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgreen</code>
+rgb(0,100,0)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgreen)</code>
+\#006400
 </td>
 </tr>
 <tr>
@@ -1215,13 +1215,13 @@ CSS Variable
 <img src="https://placehold.it/50/A9A9A9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkgrey</code>
+darkgrey
 </td>
 <td style="text-align:left;">
-<code>.bg-darkgrey</code>
+rgb(169,169,169)
 </td>
 <td style="text-align:left;">
-<code>var(--darkgrey)</code>
+\#A9A9A9
 </td>
 </tr>
 <tr>
@@ -1229,13 +1229,13 @@ CSS Variable
 <img src="https://placehold.it/50/BDB76B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkkhaki</code>
+darkkhaki
 </td>
 <td style="text-align:left;">
-<code>.bg-darkkhaki</code>
+rgb(189,183,107)
 </td>
 <td style="text-align:left;">
-<code>var(--darkkhaki)</code>
+\#BDB76B
 </td>
 </tr>
 <tr>
@@ -1243,13 +1243,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkmagenta</code>
+darkmagenta
 </td>
 <td style="text-align:left;">
-<code>.bg-darkmagenta</code>
+rgb(139,0,139)
 </td>
 <td style="text-align:left;">
-<code>var(--darkmagenta)</code>
+\#8B008B
 </td>
 </tr>
 <tr>
@@ -1257,13 +1257,13 @@ CSS Variable
 <img src="https://placehold.it/50/556B2F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkolivegreen</code>
+darkolivegreen
 </td>
 <td style="text-align:left;">
-<code>.bg-darkolivegreen</code>
+rgb(85,107,47)
 </td>
 <td style="text-align:left;">
-<code>var(--darkolivegreen)</code>
+\#556B2F
 </td>
 </tr>
 <tr>
@@ -1271,13 +1271,13 @@ CSS Variable
 <img src="https://placehold.it/50/CAFF70/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkolivegreen1</code>
+darkolivegreen1
 </td>
 <td style="text-align:left;">
-<code>.bg-darkolivegreen1</code>
+rgb(202,255,112)
 </td>
 <td style="text-align:left;">
-<code>var(--darkolivegreen1)</code>
+\#CAFF70
 </td>
 </tr>
 <tr>
@@ -1285,13 +1285,13 @@ CSS Variable
 <img src="https://placehold.it/50/BCEE68/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkolivegreen2</code>
+darkolivegreen2
 </td>
 <td style="text-align:left;">
-<code>.bg-darkolivegreen2</code>
+rgb(188,238,104)
 </td>
 <td style="text-align:left;">
-<code>var(--darkolivegreen2)</code>
+\#BCEE68
 </td>
 </tr>
 <tr>
@@ -1299,13 +1299,13 @@ CSS Variable
 <img src="https://placehold.it/50/A2CD5A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkolivegreen3</code>
+darkolivegreen3
 </td>
 <td style="text-align:left;">
-<code>.bg-darkolivegreen3</code>
+rgb(162,205,90)
 </td>
 <td style="text-align:left;">
-<code>var(--darkolivegreen3)</code>
+\#A2CD5A
 </td>
 </tr>
 <tr>
@@ -1313,13 +1313,13 @@ CSS Variable
 <img src="https://placehold.it/50/6E8B3D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkolivegreen4</code>
+darkolivegreen4
 </td>
 <td style="text-align:left;">
-<code>.bg-darkolivegreen4</code>
+rgb(110,139,61)
 </td>
 <td style="text-align:left;">
-<code>var(--darkolivegreen4)</code>
+\#6E8B3D
 </td>
 </tr>
 <tr>
@@ -1327,13 +1327,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF8C00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorange</code>
+darkorange
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorange</code>
+rgb(255,140,0)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorange)</code>
+\#FF8C00
 </td>
 </tr>
 <tr>
@@ -1341,13 +1341,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF7F00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorange1</code>
+darkorange1
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorange1</code>
+rgb(255,127,0)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorange1)</code>
+\#FF7F00
 </td>
 </tr>
 <tr>
@@ -1355,13 +1355,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE7600/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorange2</code>
+darkorange2
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorange2</code>
+rgb(238,118,0)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorange2)</code>
+\#EE7600
 </td>
 </tr>
 <tr>
@@ -1369,13 +1369,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD6600/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorange3</code>
+darkorange3
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorange3</code>
+rgb(205,102,0)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorange3)</code>
+\#CD6600
 </td>
 </tr>
 <tr>
@@ -1383,13 +1383,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B4500/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorange4</code>
+darkorange4
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorange4</code>
+rgb(139,69,0)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorange4)</code>
+\#8B4500
 </td>
 </tr>
 <tr>
@@ -1397,13 +1397,13 @@ CSS Variable
 <img src="https://placehold.it/50/9932CC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorchid</code>
+darkorchid
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorchid</code>
+rgb(153,50,204)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorchid)</code>
+\#9932CC
 </td>
 </tr>
 <tr>
@@ -1411,13 +1411,13 @@ CSS Variable
 <img src="https://placehold.it/50/BF3EFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorchid1</code>
+darkorchid1
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorchid1</code>
+rgb(191,62,255)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorchid1)</code>
+\#BF3EFF
 </td>
 </tr>
 <tr>
@@ -1425,13 +1425,13 @@ CSS Variable
 <img src="https://placehold.it/50/B23AEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorchid2</code>
+darkorchid2
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorchid2</code>
+rgb(178,58,238)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorchid2)</code>
+\#B23AEE
 </td>
 </tr>
 <tr>
@@ -1439,13 +1439,13 @@ CSS Variable
 <img src="https://placehold.it/50/9A32CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorchid3</code>
+darkorchid3
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorchid3</code>
+rgb(154,50,205)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorchid3)</code>
+\#9A32CD
 </td>
 </tr>
 <tr>
@@ -1453,13 +1453,13 @@ CSS Variable
 <img src="https://placehold.it/50/68228B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkorchid4</code>
+darkorchid4
 </td>
 <td style="text-align:left;">
-<code>.bg-darkorchid4</code>
+rgb(104,34,139)
 </td>
 <td style="text-align:left;">
-<code>var(--darkorchid4)</code>
+\#68228B
 </td>
 </tr>
 <tr>
@@ -1467,13 +1467,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkred</code>
+darkred
 </td>
 <td style="text-align:left;">
-<code>.bg-darkred</code>
+rgb(139,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--darkred)</code>
+\#8B0000
 </td>
 </tr>
 <tr>
@@ -1481,13 +1481,13 @@ CSS Variable
 <img src="https://placehold.it/50/E9967A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darksalmon</code>
+darksalmon
 </td>
 <td style="text-align:left;">
-<code>.bg-darksalmon</code>
+rgb(233,150,122)
 </td>
 <td style="text-align:left;">
-<code>var(--darksalmon)</code>
+\#E9967A
 </td>
 </tr>
 <tr>
@@ -1495,13 +1495,13 @@ CSS Variable
 <img src="https://placehold.it/50/8FBC8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkseagreen</code>
+darkseagreen
 </td>
 <td style="text-align:left;">
-<code>.bg-darkseagreen</code>
+rgb(143,188,143)
 </td>
 <td style="text-align:left;">
-<code>var(--darkseagreen)</code>
+\#8FBC8F
 </td>
 </tr>
 <tr>
@@ -1509,13 +1509,13 @@ CSS Variable
 <img src="https://placehold.it/50/C1FFC1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkseagreen1</code>
+darkseagreen1
 </td>
 <td style="text-align:left;">
-<code>.bg-darkseagreen1</code>
+rgb(193,255,193)
 </td>
 <td style="text-align:left;">
-<code>var(--darkseagreen1)</code>
+\#C1FFC1
 </td>
 </tr>
 <tr>
@@ -1523,13 +1523,13 @@ CSS Variable
 <img src="https://placehold.it/50/B4EEB4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkseagreen2</code>
+darkseagreen2
 </td>
 <td style="text-align:left;">
-<code>.bg-darkseagreen2</code>
+rgb(180,238,180)
 </td>
 <td style="text-align:left;">
-<code>var(--darkseagreen2)</code>
+\#B4EEB4
 </td>
 </tr>
 <tr>
@@ -1537,13 +1537,13 @@ CSS Variable
 <img src="https://placehold.it/50/9BCD9B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkseagreen3</code>
+darkseagreen3
 </td>
 <td style="text-align:left;">
-<code>.bg-darkseagreen3</code>
+rgb(155,205,155)
 </td>
 <td style="text-align:left;">
-<code>var(--darkseagreen3)</code>
+\#9BCD9B
 </td>
 </tr>
 <tr>
@@ -1551,13 +1551,13 @@ CSS Variable
 <img src="https://placehold.it/50/698B69/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkseagreen4</code>
+darkseagreen4
 </td>
 <td style="text-align:left;">
-<code>.bg-darkseagreen4</code>
+rgb(105,139,105)
 </td>
 <td style="text-align:left;">
-<code>var(--darkseagreen4)</code>
+\#698B69
 </td>
 </tr>
 <tr>
@@ -1565,13 +1565,13 @@ CSS Variable
 <img src="https://placehold.it/50/483D8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkslateblue</code>
+darkslateblue
 </td>
 <td style="text-align:left;">
-<code>.bg-darkslateblue</code>
+rgb(72,61,139)
 </td>
 <td style="text-align:left;">
-<code>var(--darkslateblue)</code>
+\#483D8B
 </td>
 </tr>
 <tr>
@@ -1579,13 +1579,13 @@ CSS Variable
 <img src="https://placehold.it/50/2F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkslategray</code>
+darkslategray
 </td>
 <td style="text-align:left;">
-<code>.bg-darkslategray</code>
+rgb(47,79,79)
 </td>
 <td style="text-align:left;">
-<code>var(--darkslategray)</code>
+\#2F4F4F
 </td>
 </tr>
 <tr>
@@ -1593,13 +1593,13 @@ CSS Variable
 <img src="https://placehold.it/50/97FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkslategray1</code>
+darkslategray1
 </td>
 <td style="text-align:left;">
-<code>.bg-darkslategray1</code>
+rgb(151,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--darkslategray1)</code>
+\#97FFFF
 </td>
 </tr>
 <tr>
@@ -1607,13 +1607,13 @@ CSS Variable
 <img src="https://placehold.it/50/8DEEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkslategray2</code>
+darkslategray2
 </td>
 <td style="text-align:left;">
-<code>.bg-darkslategray2</code>
+rgb(141,238,238)
 </td>
 <td style="text-align:left;">
-<code>var(--darkslategray2)</code>
+\#8DEEEE
 </td>
 </tr>
 <tr>
@@ -1621,13 +1621,13 @@ CSS Variable
 <img src="https://placehold.it/50/79CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkslategray3</code>
+darkslategray3
 </td>
 <td style="text-align:left;">
-<code>.bg-darkslategray3</code>
+rgb(121,205,205)
 </td>
 <td style="text-align:left;">
-<code>var(--darkslategray3)</code>
+\#79CDCD
 </td>
 </tr>
 <tr>
@@ -1635,13 +1635,13 @@ CSS Variable
 <img src="https://placehold.it/50/528B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkslategray4</code>
+darkslategray4
 </td>
 <td style="text-align:left;">
-<code>.bg-darkslategray4</code>
+rgb(82,139,139)
 </td>
 <td style="text-align:left;">
-<code>var(--darkslategray4)</code>
+\#528B8B
 </td>
 </tr>
 <tr>
@@ -1649,13 +1649,13 @@ CSS Variable
 <img src="https://placehold.it/50/2F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkslategrey</code>
+darkslategrey
 </td>
 <td style="text-align:left;">
-<code>.bg-darkslategrey</code>
+rgb(47,79,79)
 </td>
 <td style="text-align:left;">
-<code>var(--darkslategrey)</code>
+\#2F4F4F
 </td>
 </tr>
 <tr>
@@ -1663,13 +1663,13 @@ CSS Variable
 <img src="https://placehold.it/50/00CED1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkturquoise</code>
+darkturquoise
 </td>
 <td style="text-align:left;">
-<code>.bg-darkturquoise</code>
+rgb(0,206,209)
 </td>
 <td style="text-align:left;">
-<code>var(--darkturquoise)</code>
+\#00CED1
 </td>
 </tr>
 <tr>
@@ -1677,27 +1677,13 @@ CSS Variable
 <img src="https://placehold.it/50/9400D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.darkviolet</code>
+darkviolet
 </td>
 <td style="text-align:left;">
-<code>.bg-darkviolet</code>
+rgb(148,0,211)
 </td>
 <td style="text-align:left;">
-<code>var(--darkviolet)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FF1493/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.deeppink</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-deeppink</code>
-</td>
-<td style="text-align:left;">
-<code>var(--deeppink)</code>
+\#9400D3
 </td>
 </tr>
 <tr>
@@ -1705,13 +1691,27 @@ CSS Variable
 <img src="https://placehold.it/50/FF1493/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deeppink1</code>
+deeppink
 </td>
 <td style="text-align:left;">
-<code>.bg-deeppink1</code>
+rgb(255,20,147)
 </td>
 <td style="text-align:left;">
-<code>var(--deeppink1)</code>
+\#FF1493
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FF1493/000000?text=+" />
+</td>
+<td style="text-align:left;">
+deeppink1
+</td>
+<td style="text-align:left;">
+rgb(255,20,147)
+</td>
+<td style="text-align:left;">
+\#FF1493
 </td>
 </tr>
 <tr>
@@ -1719,13 +1719,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE1289/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deeppink2</code>
+deeppink2
 </td>
 <td style="text-align:left;">
-<code>.bg-deeppink2</code>
+rgb(238,18,137)
 </td>
 <td style="text-align:left;">
-<code>var(--deeppink2)</code>
+\#EE1289
 </td>
 </tr>
 <tr>
@@ -1733,13 +1733,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD1076/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deeppink3</code>
+deeppink3
 </td>
 <td style="text-align:left;">
-<code>.bg-deeppink3</code>
+rgb(205,16,118)
 </td>
 <td style="text-align:left;">
-<code>var(--deeppink3)</code>
+\#CD1076
 </td>
 </tr>
 <tr>
@@ -1747,27 +1747,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B0A50/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deeppink4</code>
+deeppink4
 </td>
 <td style="text-align:left;">
-<code>.bg-deeppink4</code>
+rgb(139,10,80)
 </td>
 <td style="text-align:left;">
-<code>var(--deeppink4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/00BFFF/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.deepskyblue</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-deepskyblue</code>
-</td>
-<td style="text-align:left;">
-<code>var(--deepskyblue)</code>
+\#8B0A50
 </td>
 </tr>
 <tr>
@@ -1775,13 +1761,27 @@ CSS Variable
 <img src="https://placehold.it/50/00BFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deepskyblue1</code>
+deepskyblue
 </td>
 <td style="text-align:left;">
-<code>.bg-deepskyblue1</code>
+rgb(0,191,255)
 </td>
 <td style="text-align:left;">
-<code>var(--deepskyblue1)</code>
+\#00BFFF
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/00BFFF/000000?text=+" />
+</td>
+<td style="text-align:left;">
+deepskyblue1
+</td>
+<td style="text-align:left;">
+rgb(0,191,255)
+</td>
+<td style="text-align:left;">
+\#00BFFF
 </td>
 </tr>
 <tr>
@@ -1789,13 +1789,13 @@ CSS Variable
 <img src="https://placehold.it/50/00B2EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deepskyblue2</code>
+deepskyblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-deepskyblue2</code>
+rgb(0,178,238)
 </td>
 <td style="text-align:left;">
-<code>var(--deepskyblue2)</code>
+\#00B2EE
 </td>
 </tr>
 <tr>
@@ -1803,13 +1803,13 @@ CSS Variable
 <img src="https://placehold.it/50/009ACD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deepskyblue3</code>
+deepskyblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-deepskyblue3</code>
+rgb(0,154,205)
 </td>
 <td style="text-align:left;">
-<code>var(--deepskyblue3)</code>
+\#009ACD
 </td>
 </tr>
 <tr>
@@ -1817,27 +1817,13 @@ CSS Variable
 <img src="https://placehold.it/50/00688B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.deepskyblue4</code>
+deepskyblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-deepskyblue4</code>
+rgb(0,104,139)
 </td>
 <td style="text-align:left;">
-<code>var(--deepskyblue4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/696969/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.dimgray</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-dimgray</code>
-</td>
-<td style="text-align:left;">
-<code>var(--dimgray)</code>
+\#00688B
 </td>
 </tr>
 <tr>
@@ -1845,13 +1831,27 @@ CSS Variable
 <img src="https://placehold.it/50/696969/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.dimgrey</code>
+dimgray
 </td>
 <td style="text-align:left;">
-<code>.bg-dimgrey</code>
+rgb(105,105,105)
 </td>
 <td style="text-align:left;">
-<code>var(--dimgrey)</code>
+\#696969
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/696969/000000?text=+" />
+</td>
+<td style="text-align:left;">
+dimgrey
+</td>
+<td style="text-align:left;">
+rgb(105,105,105)
+</td>
+<td style="text-align:left;">
+\#696969
 </td>
 </tr>
 <tr>
@@ -1859,13 +1859,13 @@ CSS Variable
 <img src="https://placehold.it/50/1E90FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.dodgerblue</code>
+dodgerblue
 </td>
 <td style="text-align:left;">
-<code>.bg-dodgerblue</code>
+rgb(30,144,255)
 </td>
 <td style="text-align:left;">
-<code>var(--dodgerblue)</code>
+\#1E90FF
 </td>
 </tr>
 <tr>
@@ -1873,13 +1873,13 @@ CSS Variable
 <img src="https://placehold.it/50/1E90FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.dodgerblue1</code>
+dodgerblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-dodgerblue1</code>
+rgb(30,144,255)
 </td>
 <td style="text-align:left;">
-<code>var(--dodgerblue1)</code>
+\#1E90FF
 </td>
 </tr>
 <tr>
@@ -1887,13 +1887,13 @@ CSS Variable
 <img src="https://placehold.it/50/1C86EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.dodgerblue2</code>
+dodgerblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-dodgerblue2</code>
+rgb(28,134,238)
 </td>
 <td style="text-align:left;">
-<code>var(--dodgerblue2)</code>
+\#1C86EE
 </td>
 </tr>
 <tr>
@@ -1901,13 +1901,13 @@ CSS Variable
 <img src="https://placehold.it/50/1874CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.dodgerblue3</code>
+dodgerblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-dodgerblue3</code>
+rgb(24,116,205)
 </td>
 <td style="text-align:left;">
-<code>var(--dodgerblue3)</code>
+\#1874CD
 </td>
 </tr>
 <tr>
@@ -1915,13 +1915,13 @@ CSS Variable
 <img src="https://placehold.it/50/104E8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.dodgerblue4</code>
+dodgerblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-dodgerblue4</code>
+rgb(16,78,139)
 </td>
 <td style="text-align:left;">
-<code>var(--dodgerblue4)</code>
+\#104E8B
 </td>
 </tr>
 <tr>
@@ -1929,13 +1929,13 @@ CSS Variable
 <img src="https://placehold.it/50/B22222/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.firebrick</code>
+firebrick
 </td>
 <td style="text-align:left;">
-<code>.bg-firebrick</code>
+rgb(178,34,34)
 </td>
 <td style="text-align:left;">
-<code>var(--firebrick)</code>
+\#B22222
 </td>
 </tr>
 <tr>
@@ -1943,13 +1943,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF3030/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.firebrick1</code>
+firebrick1
 </td>
 <td style="text-align:left;">
-<code>.bg-firebrick1</code>
+rgb(255,48,48)
 </td>
 <td style="text-align:left;">
-<code>var(--firebrick1)</code>
+\#FF3030
 </td>
 </tr>
 <tr>
@@ -1957,13 +1957,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE2C2C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.firebrick2</code>
+firebrick2
 </td>
 <td style="text-align:left;">
-<code>.bg-firebrick2</code>
+rgb(238,44,44)
 </td>
 <td style="text-align:left;">
-<code>var(--firebrick2)</code>
+\#EE2C2C
 </td>
 </tr>
 <tr>
@@ -1971,13 +1971,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD2626/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.firebrick3</code>
+firebrick3
 </td>
 <td style="text-align:left;">
-<code>.bg-firebrick3</code>
+rgb(205,38,38)
 </td>
 <td style="text-align:left;">
-<code>var(--firebrick3)</code>
+\#CD2626
 </td>
 </tr>
 <tr>
@@ -1985,13 +1985,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B1A1A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.firebrick4</code>
+firebrick4
 </td>
 <td style="text-align:left;">
-<code>.bg-firebrick4</code>
+rgb(139,26,26)
 </td>
 <td style="text-align:left;">
-<code>var(--firebrick4)</code>
+\#8B1A1A
 </td>
 </tr>
 <tr>
@@ -1999,13 +1999,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFFAF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.floralwhite</code>
+floralwhite
 </td>
 <td style="text-align:left;">
-<code>.bg-floralwhite</code>
+rgb(255,250,240)
 </td>
 <td style="text-align:left;">
-<code>var(--floralwhite)</code>
+\#FFFAF0
 </td>
 </tr>
 <tr>
@@ -2013,13 +2013,13 @@ CSS Variable
 <img src="https://placehold.it/50/228B22/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.forestgreen</code>
+forestgreen
 </td>
 <td style="text-align:left;">
-<code>.bg-forestgreen</code>
+rgb(34,139,34)
 </td>
 <td style="text-align:left;">
-<code>var(--forestgreen)</code>
+\#228B22
 </td>
 </tr>
 <tr>
@@ -2027,13 +2027,13 @@ CSS Variable
 <img src="https://placehold.it/50/DCDCDC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gainsboro</code>
+gainsboro
 </td>
 <td style="text-align:left;">
-<code>.bg-gainsboro</code>
+rgb(220,220,220)
 </td>
 <td style="text-align:left;">
-<code>var(--gainsboro)</code>
+\#DCDCDC
 </td>
 </tr>
 <tr>
@@ -2041,27 +2041,13 @@ CSS Variable
 <img src="https://placehold.it/50/F8F8FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.ghostwhite</code>
+ghostwhite
 </td>
 <td style="text-align:left;">
-<code>.bg-ghostwhite</code>
+rgb(248,248,255)
 </td>
 <td style="text-align:left;">
-<code>var(--ghostwhite)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFD700/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.gold</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-gold</code>
-</td>
-<td style="text-align:left;">
-<code>var(--gold)</code>
+\#F8F8FF
 </td>
 </tr>
 <tr>
@@ -2069,13 +2055,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFD700/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gold1</code>
+gold
 </td>
 <td style="text-align:left;">
-<code>.bg-gold1</code>
+rgb(255,215,0)
 </td>
 <td style="text-align:left;">
-<code>var(--gold1)</code>
+\#FFD700
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFD700/000000?text=+" />
+</td>
+<td style="text-align:left;">
+gold1
+</td>
+<td style="text-align:left;">
+rgb(255,215,0)
+</td>
+<td style="text-align:left;">
+\#FFD700
 </td>
 </tr>
 <tr>
@@ -2083,13 +2083,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEC900/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gold2</code>
+gold2
 </td>
 <td style="text-align:left;">
-<code>.bg-gold2</code>
+rgb(238,201,0)
 </td>
 <td style="text-align:left;">
-<code>var(--gold2)</code>
+\#EEC900
 </td>
 </tr>
 <tr>
@@ -2097,13 +2097,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDAD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gold3</code>
+gold3
 </td>
 <td style="text-align:left;">
-<code>.bg-gold3</code>
+rgb(205,173,0)
 </td>
 <td style="text-align:left;">
-<code>var(--gold3)</code>
+\#CDAD00
 </td>
 </tr>
 <tr>
@@ -2111,13 +2111,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B7500/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gold4</code>
+gold4
 </td>
 <td style="text-align:left;">
-<code>.bg-gold4</code>
+rgb(139,117,0)
 </td>
 <td style="text-align:left;">
-<code>var(--gold4)</code>
+\#8B7500
 </td>
 </tr>
 <tr>
@@ -2125,13 +2125,13 @@ CSS Variable
 <img src="https://placehold.it/50/DAA520/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.goldenrod</code>
+goldenrod
 </td>
 <td style="text-align:left;">
-<code>.bg-goldenrod</code>
+rgb(218,165,32)
 </td>
 <td style="text-align:left;">
-<code>var(--goldenrod)</code>
+\#DAA520
 </td>
 </tr>
 <tr>
@@ -2139,13 +2139,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFC125/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.goldenrod1</code>
+goldenrod1
 </td>
 <td style="text-align:left;">
-<code>.bg-goldenrod1</code>
+rgb(255,193,37)
 </td>
 <td style="text-align:left;">
-<code>var(--goldenrod1)</code>
+\#FFC125
 </td>
 </tr>
 <tr>
@@ -2153,13 +2153,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEB422/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.goldenrod2</code>
+goldenrod2
 </td>
 <td style="text-align:left;">
-<code>.bg-goldenrod2</code>
+rgb(238,180,34)
 </td>
 <td style="text-align:left;">
-<code>var(--goldenrod2)</code>
+\#EEB422
 </td>
 </tr>
 <tr>
@@ -2167,13 +2167,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD9B1D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.goldenrod3</code>
+goldenrod3
 </td>
 <td style="text-align:left;">
-<code>.bg-goldenrod3</code>
+rgb(205,155,29)
 </td>
 <td style="text-align:left;">
-<code>var(--goldenrod3)</code>
+\#CD9B1D
 </td>
 </tr>
 <tr>
@@ -2181,13 +2181,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B6914/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.goldenrod4</code>
+goldenrod4
 </td>
 <td style="text-align:left;">
-<code>.bg-goldenrod4</code>
+rgb(139,105,20)
 </td>
 <td style="text-align:left;">
-<code>var(--goldenrod4)</code>
+\#8B6914
 </td>
 </tr>
 <tr>
@@ -2195,13 +2195,13 @@ CSS Variable
 <img src="https://placehold.it/50/BEBEBE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray</code>
+gray
 </td>
 <td style="text-align:left;">
-<code>.bg-gray</code>
+rgb(190,190,190)
 </td>
 <td style="text-align:left;">
-<code>var(--gray)</code>
+\#BEBEBE
 </td>
 </tr>
 <tr>
@@ -2209,13 +2209,13 @@ CSS Variable
 <img src="https://placehold.it/50/000000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray0</code>
+gray0
 </td>
 <td style="text-align:left;">
-<code>.bg-gray0</code>
+rgb(0,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--gray0)</code>
+\#000000
 </td>
 </tr>
 <tr>
@@ -2223,13 +2223,13 @@ CSS Variable
 <img src="https://placehold.it/50/030303/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray1</code>
+gray1
 </td>
 <td style="text-align:left;">
-<code>.bg-gray1</code>
+rgb(3,3,3)
 </td>
 <td style="text-align:left;">
-<code>var(--gray1)</code>
+\#030303
 </td>
 </tr>
 <tr>
@@ -2237,13 +2237,13 @@ CSS Variable
 <img src="https://placehold.it/50/050505/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray2</code>
+gray2
 </td>
 <td style="text-align:left;">
-<code>.bg-gray2</code>
+rgb(5,5,5)
 </td>
 <td style="text-align:left;">
-<code>var(--gray2)</code>
+\#050505
 </td>
 </tr>
 <tr>
@@ -2251,13 +2251,13 @@ CSS Variable
 <img src="https://placehold.it/50/080808/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray3</code>
+gray3
 </td>
 <td style="text-align:left;">
-<code>.bg-gray3</code>
+rgb(8,8,8)
 </td>
 <td style="text-align:left;">
-<code>var(--gray3)</code>
+\#080808
 </td>
 </tr>
 <tr>
@@ -2265,13 +2265,13 @@ CSS Variable
 <img src="https://placehold.it/50/0A0A0A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray4</code>
+gray4
 </td>
 <td style="text-align:left;">
-<code>.bg-gray4</code>
+rgb(10,10,10)
 </td>
 <td style="text-align:left;">
-<code>var(--gray4)</code>
+\#0A0A0A
 </td>
 </tr>
 <tr>
@@ -2279,13 +2279,13 @@ CSS Variable
 <img src="https://placehold.it/50/0D0D0D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray5</code>
+gray5
 </td>
 <td style="text-align:left;">
-<code>.bg-gray5</code>
+rgb(13,13,13)
 </td>
 <td style="text-align:left;">
-<code>var(--gray5)</code>
+\#0D0D0D
 </td>
 </tr>
 <tr>
@@ -2293,13 +2293,13 @@ CSS Variable
 <img src="https://placehold.it/50/0F0F0F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray6</code>
+gray6
 </td>
 <td style="text-align:left;">
-<code>.bg-gray6</code>
+rgb(15,15,15)
 </td>
 <td style="text-align:left;">
-<code>var(--gray6)</code>
+\#0F0F0F
 </td>
 </tr>
 <tr>
@@ -2307,13 +2307,13 @@ CSS Variable
 <img src="https://placehold.it/50/121212/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray7</code>
+gray7
 </td>
 <td style="text-align:left;">
-<code>.bg-gray7</code>
+rgb(18,18,18)
 </td>
 <td style="text-align:left;">
-<code>var(--gray7)</code>
+\#121212
 </td>
 </tr>
 <tr>
@@ -2321,13 +2321,13 @@ CSS Variable
 <img src="https://placehold.it/50/141414/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray8</code>
+gray8
 </td>
 <td style="text-align:left;">
-<code>.bg-gray8</code>
+rgb(20,20,20)
 </td>
 <td style="text-align:left;">
-<code>var(--gray8)</code>
+\#141414
 </td>
 </tr>
 <tr>
@@ -2335,13 +2335,13 @@ CSS Variable
 <img src="https://placehold.it/50/171717/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray9</code>
+gray9
 </td>
 <td style="text-align:left;">
-<code>.bg-gray9</code>
+rgb(23,23,23)
 </td>
 <td style="text-align:left;">
-<code>var(--gray9)</code>
+\#171717
 </td>
 </tr>
 <tr>
@@ -2349,13 +2349,13 @@ CSS Variable
 <img src="https://placehold.it/50/1A1A1A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray10</code>
+gray10
 </td>
 <td style="text-align:left;">
-<code>.bg-gray10</code>
+rgb(26,26,26)
 </td>
 <td style="text-align:left;">
-<code>var(--gray10)</code>
+\#1A1A1A
 </td>
 </tr>
 <tr>
@@ -2363,13 +2363,13 @@ CSS Variable
 <img src="https://placehold.it/50/1C1C1C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray11</code>
+gray11
 </td>
 <td style="text-align:left;">
-<code>.bg-gray11</code>
+rgb(28,28,28)
 </td>
 <td style="text-align:left;">
-<code>var(--gray11)</code>
+\#1C1C1C
 </td>
 </tr>
 <tr>
@@ -2377,13 +2377,13 @@ CSS Variable
 <img src="https://placehold.it/50/1F1F1F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray12</code>
+gray12
 </td>
 <td style="text-align:left;">
-<code>.bg-gray12</code>
+rgb(31,31,31)
 </td>
 <td style="text-align:left;">
-<code>var(--gray12)</code>
+\#1F1F1F
 </td>
 </tr>
 <tr>
@@ -2391,13 +2391,13 @@ CSS Variable
 <img src="https://placehold.it/50/212121/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray13</code>
+gray13
 </td>
 <td style="text-align:left;">
-<code>.bg-gray13</code>
+rgb(33,33,33)
 </td>
 <td style="text-align:left;">
-<code>var(--gray13)</code>
+\#212121
 </td>
 </tr>
 <tr>
@@ -2405,13 +2405,13 @@ CSS Variable
 <img src="https://placehold.it/50/242424/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray14</code>
+gray14
 </td>
 <td style="text-align:left;">
-<code>.bg-gray14</code>
+rgb(36,36,36)
 </td>
 <td style="text-align:left;">
-<code>var(--gray14)</code>
+\#242424
 </td>
 </tr>
 <tr>
@@ -2419,13 +2419,13 @@ CSS Variable
 <img src="https://placehold.it/50/262626/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray15</code>
+gray15
 </td>
 <td style="text-align:left;">
-<code>.bg-gray15</code>
+rgb(38,38,38)
 </td>
 <td style="text-align:left;">
-<code>var(--gray15)</code>
+\#262626
 </td>
 </tr>
 <tr>
@@ -2433,13 +2433,13 @@ CSS Variable
 <img src="https://placehold.it/50/292929/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray16</code>
+gray16
 </td>
 <td style="text-align:left;">
-<code>.bg-gray16</code>
+rgb(41,41,41)
 </td>
 <td style="text-align:left;">
-<code>var(--gray16)</code>
+\#292929
 </td>
 </tr>
 <tr>
@@ -2447,13 +2447,13 @@ CSS Variable
 <img src="https://placehold.it/50/2B2B2B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray17</code>
+gray17
 </td>
 <td style="text-align:left;">
-<code>.bg-gray17</code>
+rgb(43,43,43)
 </td>
 <td style="text-align:left;">
-<code>var(--gray17)</code>
+\#2B2B2B
 </td>
 </tr>
 <tr>
@@ -2461,13 +2461,13 @@ CSS Variable
 <img src="https://placehold.it/50/2E2E2E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray18</code>
+gray18
 </td>
 <td style="text-align:left;">
-<code>.bg-gray18</code>
+rgb(46,46,46)
 </td>
 <td style="text-align:left;">
-<code>var(--gray18)</code>
+\#2E2E2E
 </td>
 </tr>
 <tr>
@@ -2475,13 +2475,13 @@ CSS Variable
 <img src="https://placehold.it/50/303030/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray19</code>
+gray19
 </td>
 <td style="text-align:left;">
-<code>.bg-gray19</code>
+rgb(48,48,48)
 </td>
 <td style="text-align:left;">
-<code>var(--gray19)</code>
+\#303030
 </td>
 </tr>
 <tr>
@@ -2489,13 +2489,13 @@ CSS Variable
 <img src="https://placehold.it/50/333333/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray20</code>
+gray20
 </td>
 <td style="text-align:left;">
-<code>.bg-gray20</code>
+rgb(51,51,51)
 </td>
 <td style="text-align:left;">
-<code>var(--gray20)</code>
+\#333333
 </td>
 </tr>
 <tr>
@@ -2503,13 +2503,13 @@ CSS Variable
 <img src="https://placehold.it/50/363636/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray21</code>
+gray21
 </td>
 <td style="text-align:left;">
-<code>.bg-gray21</code>
+rgb(54,54,54)
 </td>
 <td style="text-align:left;">
-<code>var(--gray21)</code>
+\#363636
 </td>
 </tr>
 <tr>
@@ -2517,13 +2517,13 @@ CSS Variable
 <img src="https://placehold.it/50/383838/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray22</code>
+gray22
 </td>
 <td style="text-align:left;">
-<code>.bg-gray22</code>
+rgb(56,56,56)
 </td>
 <td style="text-align:left;">
-<code>var(--gray22)</code>
+\#383838
 </td>
 </tr>
 <tr>
@@ -2531,13 +2531,13 @@ CSS Variable
 <img src="https://placehold.it/50/3B3B3B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray23</code>
+gray23
 </td>
 <td style="text-align:left;">
-<code>.bg-gray23</code>
+rgb(59,59,59)
 </td>
 <td style="text-align:left;">
-<code>var(--gray23)</code>
+\#3B3B3B
 </td>
 </tr>
 <tr>
@@ -2545,13 +2545,13 @@ CSS Variable
 <img src="https://placehold.it/50/3D3D3D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray24</code>
+gray24
 </td>
 <td style="text-align:left;">
-<code>.bg-gray24</code>
+rgb(61,61,61)
 </td>
 <td style="text-align:left;">
-<code>var(--gray24)</code>
+\#3D3D3D
 </td>
 </tr>
 <tr>
@@ -2559,13 +2559,13 @@ CSS Variable
 <img src="https://placehold.it/50/404040/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray25</code>
+gray25
 </td>
 <td style="text-align:left;">
-<code>.bg-gray25</code>
+rgb(64,64,64)
 </td>
 <td style="text-align:left;">
-<code>var(--gray25)</code>
+\#404040
 </td>
 </tr>
 <tr>
@@ -2573,13 +2573,13 @@ CSS Variable
 <img src="https://placehold.it/50/424242/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray26</code>
+gray26
 </td>
 <td style="text-align:left;">
-<code>.bg-gray26</code>
+rgb(66,66,66)
 </td>
 <td style="text-align:left;">
-<code>var(--gray26)</code>
+\#424242
 </td>
 </tr>
 <tr>
@@ -2587,13 +2587,13 @@ CSS Variable
 <img src="https://placehold.it/50/454545/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray27</code>
+gray27
 </td>
 <td style="text-align:left;">
-<code>.bg-gray27</code>
+rgb(69,69,69)
 </td>
 <td style="text-align:left;">
-<code>var(--gray27)</code>
+\#454545
 </td>
 </tr>
 <tr>
@@ -2601,13 +2601,13 @@ CSS Variable
 <img src="https://placehold.it/50/474747/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray28</code>
+gray28
 </td>
 <td style="text-align:left;">
-<code>.bg-gray28</code>
+rgb(71,71,71)
 </td>
 <td style="text-align:left;">
-<code>var(--gray28)</code>
+\#474747
 </td>
 </tr>
 <tr>
@@ -2615,13 +2615,13 @@ CSS Variable
 <img src="https://placehold.it/50/4A4A4A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray29</code>
+gray29
 </td>
 <td style="text-align:left;">
-<code>.bg-gray29</code>
+rgb(74,74,74)
 </td>
 <td style="text-align:left;">
-<code>var(--gray29)</code>
+\#4A4A4A
 </td>
 </tr>
 <tr>
@@ -2629,13 +2629,13 @@ CSS Variable
 <img src="https://placehold.it/50/4D4D4D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray30</code>
+gray30
 </td>
 <td style="text-align:left;">
-<code>.bg-gray30</code>
+rgb(77,77,77)
 </td>
 <td style="text-align:left;">
-<code>var(--gray30)</code>
+\#4D4D4D
 </td>
 </tr>
 <tr>
@@ -2643,13 +2643,13 @@ CSS Variable
 <img src="https://placehold.it/50/4F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray31</code>
+gray31
 </td>
 <td style="text-align:left;">
-<code>.bg-gray31</code>
+rgb(79,79,79)
 </td>
 <td style="text-align:left;">
-<code>var(--gray31)</code>
+\#4F4F4F
 </td>
 </tr>
 <tr>
@@ -2657,13 +2657,13 @@ CSS Variable
 <img src="https://placehold.it/50/525252/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray32</code>
+gray32
 </td>
 <td style="text-align:left;">
-<code>.bg-gray32</code>
+rgb(82,82,82)
 </td>
 <td style="text-align:left;">
-<code>var(--gray32)</code>
+\#525252
 </td>
 </tr>
 <tr>
@@ -2671,13 +2671,13 @@ CSS Variable
 <img src="https://placehold.it/50/545454/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray33</code>
+gray33
 </td>
 <td style="text-align:left;">
-<code>.bg-gray33</code>
+rgb(84,84,84)
 </td>
 <td style="text-align:left;">
-<code>var(--gray33)</code>
+\#545454
 </td>
 </tr>
 <tr>
@@ -2685,13 +2685,13 @@ CSS Variable
 <img src="https://placehold.it/50/575757/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray34</code>
+gray34
 </td>
 <td style="text-align:left;">
-<code>.bg-gray34</code>
+rgb(87,87,87)
 </td>
 <td style="text-align:left;">
-<code>var(--gray34)</code>
+\#575757
 </td>
 </tr>
 <tr>
@@ -2699,13 +2699,13 @@ CSS Variable
 <img src="https://placehold.it/50/595959/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray35</code>
+gray35
 </td>
 <td style="text-align:left;">
-<code>.bg-gray35</code>
+rgb(89,89,89)
 </td>
 <td style="text-align:left;">
-<code>var(--gray35)</code>
+\#595959
 </td>
 </tr>
 <tr>
@@ -2713,13 +2713,13 @@ CSS Variable
 <img src="https://placehold.it/50/5C5C5C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray36</code>
+gray36
 </td>
 <td style="text-align:left;">
-<code>.bg-gray36</code>
+rgb(92,92,92)
 </td>
 <td style="text-align:left;">
-<code>var(--gray36)</code>
+\#5C5C5C
 </td>
 </tr>
 <tr>
@@ -2727,13 +2727,13 @@ CSS Variable
 <img src="https://placehold.it/50/5E5E5E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray37</code>
+gray37
 </td>
 <td style="text-align:left;">
-<code>.bg-gray37</code>
+rgb(94,94,94)
 </td>
 <td style="text-align:left;">
-<code>var(--gray37)</code>
+\#5E5E5E
 </td>
 </tr>
 <tr>
@@ -2741,13 +2741,13 @@ CSS Variable
 <img src="https://placehold.it/50/616161/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray38</code>
+gray38
 </td>
 <td style="text-align:left;">
-<code>.bg-gray38</code>
+rgb(97,97,97)
 </td>
 <td style="text-align:left;">
-<code>var(--gray38)</code>
+\#616161
 </td>
 </tr>
 <tr>
@@ -2755,13 +2755,13 @@ CSS Variable
 <img src="https://placehold.it/50/636363/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray39</code>
+gray39
 </td>
 <td style="text-align:left;">
-<code>.bg-gray39</code>
+rgb(99,99,99)
 </td>
 <td style="text-align:left;">
-<code>var(--gray39)</code>
+\#636363
 </td>
 </tr>
 <tr>
@@ -2769,13 +2769,13 @@ CSS Variable
 <img src="https://placehold.it/50/666666/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray40</code>
+gray40
 </td>
 <td style="text-align:left;">
-<code>.bg-gray40</code>
+rgb(102,102,102)
 </td>
 <td style="text-align:left;">
-<code>var(--gray40)</code>
+\#666666
 </td>
 </tr>
 <tr>
@@ -2783,13 +2783,13 @@ CSS Variable
 <img src="https://placehold.it/50/696969/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray41</code>
+gray41
 </td>
 <td style="text-align:left;">
-<code>.bg-gray41</code>
+rgb(105,105,105)
 </td>
 <td style="text-align:left;">
-<code>var(--gray41)</code>
+\#696969
 </td>
 </tr>
 <tr>
@@ -2797,13 +2797,13 @@ CSS Variable
 <img src="https://placehold.it/50/6B6B6B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray42</code>
+gray42
 </td>
 <td style="text-align:left;">
-<code>.bg-gray42</code>
+rgb(107,107,107)
 </td>
 <td style="text-align:left;">
-<code>var(--gray42)</code>
+\#6B6B6B
 </td>
 </tr>
 <tr>
@@ -2811,13 +2811,13 @@ CSS Variable
 <img src="https://placehold.it/50/6E6E6E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray43</code>
+gray43
 </td>
 <td style="text-align:left;">
-<code>.bg-gray43</code>
+rgb(110,110,110)
 </td>
 <td style="text-align:left;">
-<code>var(--gray43)</code>
+\#6E6E6E
 </td>
 </tr>
 <tr>
@@ -2825,13 +2825,13 @@ CSS Variable
 <img src="https://placehold.it/50/707070/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray44</code>
+gray44
 </td>
 <td style="text-align:left;">
-<code>.bg-gray44</code>
+rgb(112,112,112)
 </td>
 <td style="text-align:left;">
-<code>var(--gray44)</code>
+\#707070
 </td>
 </tr>
 <tr>
@@ -2839,13 +2839,13 @@ CSS Variable
 <img src="https://placehold.it/50/737373/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray45</code>
+gray45
 </td>
 <td style="text-align:left;">
-<code>.bg-gray45</code>
+rgb(115,115,115)
 </td>
 <td style="text-align:left;">
-<code>var(--gray45)</code>
+\#737373
 </td>
 </tr>
 <tr>
@@ -2853,13 +2853,13 @@ CSS Variable
 <img src="https://placehold.it/50/757575/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray46</code>
+gray46
 </td>
 <td style="text-align:left;">
-<code>.bg-gray46</code>
+rgb(117,117,117)
 </td>
 <td style="text-align:left;">
-<code>var(--gray46)</code>
+\#757575
 </td>
 </tr>
 <tr>
@@ -2867,13 +2867,13 @@ CSS Variable
 <img src="https://placehold.it/50/787878/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray47</code>
+gray47
 </td>
 <td style="text-align:left;">
-<code>.bg-gray47</code>
+rgb(120,120,120)
 </td>
 <td style="text-align:left;">
-<code>var(--gray47)</code>
+\#787878
 </td>
 </tr>
 <tr>
@@ -2881,13 +2881,13 @@ CSS Variable
 <img src="https://placehold.it/50/7A7A7A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray48</code>
+gray48
 </td>
 <td style="text-align:left;">
-<code>.bg-gray48</code>
+rgb(122,122,122)
 </td>
 <td style="text-align:left;">
-<code>var(--gray48)</code>
+\#7A7A7A
 </td>
 </tr>
 <tr>
@@ -2895,13 +2895,13 @@ CSS Variable
 <img src="https://placehold.it/50/7D7D7D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray49</code>
+gray49
 </td>
 <td style="text-align:left;">
-<code>.bg-gray49</code>
+rgb(125,125,125)
 </td>
 <td style="text-align:left;">
-<code>var(--gray49)</code>
+\#7D7D7D
 </td>
 </tr>
 <tr>
@@ -2909,13 +2909,13 @@ CSS Variable
 <img src="https://placehold.it/50/7F7F7F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray50</code>
+gray50
 </td>
 <td style="text-align:left;">
-<code>.bg-gray50</code>
+rgb(127,127,127)
 </td>
 <td style="text-align:left;">
-<code>var(--gray50)</code>
+\#7F7F7F
 </td>
 </tr>
 <tr>
@@ -2923,13 +2923,13 @@ CSS Variable
 <img src="https://placehold.it/50/828282/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray51</code>
+gray51
 </td>
 <td style="text-align:left;">
-<code>.bg-gray51</code>
+rgb(130,130,130)
 </td>
 <td style="text-align:left;">
-<code>var(--gray51)</code>
+\#828282
 </td>
 </tr>
 <tr>
@@ -2937,13 +2937,13 @@ CSS Variable
 <img src="https://placehold.it/50/858585/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray52</code>
+gray52
 </td>
 <td style="text-align:left;">
-<code>.bg-gray52</code>
+rgb(133,133,133)
 </td>
 <td style="text-align:left;">
-<code>var(--gray52)</code>
+\#858585
 </td>
 </tr>
 <tr>
@@ -2951,13 +2951,13 @@ CSS Variable
 <img src="https://placehold.it/50/878787/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray53</code>
+gray53
 </td>
 <td style="text-align:left;">
-<code>.bg-gray53</code>
+rgb(135,135,135)
 </td>
 <td style="text-align:left;">
-<code>var(--gray53)</code>
+\#878787
 </td>
 </tr>
 <tr>
@@ -2965,13 +2965,13 @@ CSS Variable
 <img src="https://placehold.it/50/8A8A8A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray54</code>
+gray54
 </td>
 <td style="text-align:left;">
-<code>.bg-gray54</code>
+rgb(138,138,138)
 </td>
 <td style="text-align:left;">
-<code>var(--gray54)</code>
+\#8A8A8A
 </td>
 </tr>
 <tr>
@@ -2979,13 +2979,13 @@ CSS Variable
 <img src="https://placehold.it/50/8C8C8C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray55</code>
+gray55
 </td>
 <td style="text-align:left;">
-<code>.bg-gray55</code>
+rgb(140,140,140)
 </td>
 <td style="text-align:left;">
-<code>var(--gray55)</code>
+\#8C8C8C
 </td>
 </tr>
 <tr>
@@ -2993,13 +2993,13 @@ CSS Variable
 <img src="https://placehold.it/50/8F8F8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray56</code>
+gray56
 </td>
 <td style="text-align:left;">
-<code>.bg-gray56</code>
+rgb(143,143,143)
 </td>
 <td style="text-align:left;">
-<code>var(--gray56)</code>
+\#8F8F8F
 </td>
 </tr>
 <tr>
@@ -3007,13 +3007,13 @@ CSS Variable
 <img src="https://placehold.it/50/919191/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray57</code>
+gray57
 </td>
 <td style="text-align:left;">
-<code>.bg-gray57</code>
+rgb(145,145,145)
 </td>
 <td style="text-align:left;">
-<code>var(--gray57)</code>
+\#919191
 </td>
 </tr>
 <tr>
@@ -3021,13 +3021,13 @@ CSS Variable
 <img src="https://placehold.it/50/949494/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray58</code>
+gray58
 </td>
 <td style="text-align:left;">
-<code>.bg-gray58</code>
+rgb(148,148,148)
 </td>
 <td style="text-align:left;">
-<code>var(--gray58)</code>
+\#949494
 </td>
 </tr>
 <tr>
@@ -3035,13 +3035,13 @@ CSS Variable
 <img src="https://placehold.it/50/969696/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray59</code>
+gray59
 </td>
 <td style="text-align:left;">
-<code>.bg-gray59</code>
+rgb(150,150,150)
 </td>
 <td style="text-align:left;">
-<code>var(--gray59)</code>
+\#969696
 </td>
 </tr>
 <tr>
@@ -3049,13 +3049,13 @@ CSS Variable
 <img src="https://placehold.it/50/999999/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray60</code>
+gray60
 </td>
 <td style="text-align:left;">
-<code>.bg-gray60</code>
+rgb(153,153,153)
 </td>
 <td style="text-align:left;">
-<code>var(--gray60)</code>
+\#999999
 </td>
 </tr>
 <tr>
@@ -3063,13 +3063,13 @@ CSS Variable
 <img src="https://placehold.it/50/9C9C9C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray61</code>
+gray61
 </td>
 <td style="text-align:left;">
-<code>.bg-gray61</code>
+rgb(156,156,156)
 </td>
 <td style="text-align:left;">
-<code>var(--gray61)</code>
+\#9C9C9C
 </td>
 </tr>
 <tr>
@@ -3077,13 +3077,13 @@ CSS Variable
 <img src="https://placehold.it/50/9E9E9E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray62</code>
+gray62
 </td>
 <td style="text-align:left;">
-<code>.bg-gray62</code>
+rgb(158,158,158)
 </td>
 <td style="text-align:left;">
-<code>var(--gray62)</code>
+\#9E9E9E
 </td>
 </tr>
 <tr>
@@ -3091,13 +3091,13 @@ CSS Variable
 <img src="https://placehold.it/50/A1A1A1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray63</code>
+gray63
 </td>
 <td style="text-align:left;">
-<code>.bg-gray63</code>
+rgb(161,161,161)
 </td>
 <td style="text-align:left;">
-<code>var(--gray63)</code>
+\#A1A1A1
 </td>
 </tr>
 <tr>
@@ -3105,13 +3105,13 @@ CSS Variable
 <img src="https://placehold.it/50/A3A3A3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray64</code>
+gray64
 </td>
 <td style="text-align:left;">
-<code>.bg-gray64</code>
+rgb(163,163,163)
 </td>
 <td style="text-align:left;">
-<code>var(--gray64)</code>
+\#A3A3A3
 </td>
 </tr>
 <tr>
@@ -3119,13 +3119,13 @@ CSS Variable
 <img src="https://placehold.it/50/A6A6A6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray65</code>
+gray65
 </td>
 <td style="text-align:left;">
-<code>.bg-gray65</code>
+rgb(166,166,166)
 </td>
 <td style="text-align:left;">
-<code>var(--gray65)</code>
+\#A6A6A6
 </td>
 </tr>
 <tr>
@@ -3133,13 +3133,13 @@ CSS Variable
 <img src="https://placehold.it/50/A8A8A8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray66</code>
+gray66
 </td>
 <td style="text-align:left;">
-<code>.bg-gray66</code>
+rgb(168,168,168)
 </td>
 <td style="text-align:left;">
-<code>var(--gray66)</code>
+\#A8A8A8
 </td>
 </tr>
 <tr>
@@ -3147,13 +3147,13 @@ CSS Variable
 <img src="https://placehold.it/50/ABABAB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray67</code>
+gray67
 </td>
 <td style="text-align:left;">
-<code>.bg-gray67</code>
+rgb(171,171,171)
 </td>
 <td style="text-align:left;">
-<code>var(--gray67)</code>
+\#ABABAB
 </td>
 </tr>
 <tr>
@@ -3161,13 +3161,13 @@ CSS Variable
 <img src="https://placehold.it/50/ADADAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray68</code>
+gray68
 </td>
 <td style="text-align:left;">
-<code>.bg-gray68</code>
+rgb(173,173,173)
 </td>
 <td style="text-align:left;">
-<code>var(--gray68)</code>
+\#ADADAD
 </td>
 </tr>
 <tr>
@@ -3175,13 +3175,13 @@ CSS Variable
 <img src="https://placehold.it/50/B0B0B0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray69</code>
+gray69
 </td>
 <td style="text-align:left;">
-<code>.bg-gray69</code>
+rgb(176,176,176)
 </td>
 <td style="text-align:left;">
-<code>var(--gray69)</code>
+\#B0B0B0
 </td>
 </tr>
 <tr>
@@ -3189,13 +3189,13 @@ CSS Variable
 <img src="https://placehold.it/50/B3B3B3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray70</code>
+gray70
 </td>
 <td style="text-align:left;">
-<code>.bg-gray70</code>
+rgb(179,179,179)
 </td>
 <td style="text-align:left;">
-<code>var(--gray70)</code>
+\#B3B3B3
 </td>
 </tr>
 <tr>
@@ -3203,13 +3203,13 @@ CSS Variable
 <img src="https://placehold.it/50/B5B5B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray71</code>
+gray71
 </td>
 <td style="text-align:left;">
-<code>.bg-gray71</code>
+rgb(181,181,181)
 </td>
 <td style="text-align:left;">
-<code>var(--gray71)</code>
+\#B5B5B5
 </td>
 </tr>
 <tr>
@@ -3217,13 +3217,13 @@ CSS Variable
 <img src="https://placehold.it/50/B8B8B8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray72</code>
+gray72
 </td>
 <td style="text-align:left;">
-<code>.bg-gray72</code>
+rgb(184,184,184)
 </td>
 <td style="text-align:left;">
-<code>var(--gray72)</code>
+\#B8B8B8
 </td>
 </tr>
 <tr>
@@ -3231,13 +3231,13 @@ CSS Variable
 <img src="https://placehold.it/50/BABABA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray73</code>
+gray73
 </td>
 <td style="text-align:left;">
-<code>.bg-gray73</code>
+rgb(186,186,186)
 </td>
 <td style="text-align:left;">
-<code>var(--gray73)</code>
+\#BABABA
 </td>
 </tr>
 <tr>
@@ -3245,13 +3245,13 @@ CSS Variable
 <img src="https://placehold.it/50/BDBDBD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray74</code>
+gray74
 </td>
 <td style="text-align:left;">
-<code>.bg-gray74</code>
+rgb(189,189,189)
 </td>
 <td style="text-align:left;">
-<code>var(--gray74)</code>
+\#BDBDBD
 </td>
 </tr>
 <tr>
@@ -3259,13 +3259,13 @@ CSS Variable
 <img src="https://placehold.it/50/BFBFBF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray75</code>
+gray75
 </td>
 <td style="text-align:left;">
-<code>.bg-gray75</code>
+rgb(191,191,191)
 </td>
 <td style="text-align:left;">
-<code>var(--gray75)</code>
+\#BFBFBF
 </td>
 </tr>
 <tr>
@@ -3273,13 +3273,13 @@ CSS Variable
 <img src="https://placehold.it/50/C2C2C2/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray76</code>
+gray76
 </td>
 <td style="text-align:left;">
-<code>.bg-gray76</code>
+rgb(194,194,194)
 </td>
 <td style="text-align:left;">
-<code>var(--gray76)</code>
+\#C2C2C2
 </td>
 </tr>
 <tr>
@@ -3287,13 +3287,13 @@ CSS Variable
 <img src="https://placehold.it/50/C4C4C4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray77</code>
+gray77
 </td>
 <td style="text-align:left;">
-<code>.bg-gray77</code>
+rgb(196,196,196)
 </td>
 <td style="text-align:left;">
-<code>var(--gray77)</code>
+\#C4C4C4
 </td>
 </tr>
 <tr>
@@ -3301,13 +3301,13 @@ CSS Variable
 <img src="https://placehold.it/50/C7C7C7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray78</code>
+gray78
 </td>
 <td style="text-align:left;">
-<code>.bg-gray78</code>
+rgb(199,199,199)
 </td>
 <td style="text-align:left;">
-<code>var(--gray78)</code>
+\#C7C7C7
 </td>
 </tr>
 <tr>
@@ -3315,13 +3315,13 @@ CSS Variable
 <img src="https://placehold.it/50/C9C9C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray79</code>
+gray79
 </td>
 <td style="text-align:left;">
-<code>.bg-gray79</code>
+rgb(201,201,201)
 </td>
 <td style="text-align:left;">
-<code>var(--gray79)</code>
+\#C9C9C9
 </td>
 </tr>
 <tr>
@@ -3329,13 +3329,13 @@ CSS Variable
 <img src="https://placehold.it/50/CCCCCC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray80</code>
+gray80
 </td>
 <td style="text-align:left;">
-<code>.bg-gray80</code>
+rgb(204,204,204)
 </td>
 <td style="text-align:left;">
-<code>var(--gray80)</code>
+\#CCCCCC
 </td>
 </tr>
 <tr>
@@ -3343,13 +3343,13 @@ CSS Variable
 <img src="https://placehold.it/50/CFCFCF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray81</code>
+gray81
 </td>
 <td style="text-align:left;">
-<code>.bg-gray81</code>
+rgb(207,207,207)
 </td>
 <td style="text-align:left;">
-<code>var(--gray81)</code>
+\#CFCFCF
 </td>
 </tr>
 <tr>
@@ -3357,13 +3357,13 @@ CSS Variable
 <img src="https://placehold.it/50/D1D1D1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray82</code>
+gray82
 </td>
 <td style="text-align:left;">
-<code>.bg-gray82</code>
+rgb(209,209,209)
 </td>
 <td style="text-align:left;">
-<code>var(--gray82)</code>
+\#D1D1D1
 </td>
 </tr>
 <tr>
@@ -3371,13 +3371,13 @@ CSS Variable
 <img src="https://placehold.it/50/D4D4D4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray83</code>
+gray83
 </td>
 <td style="text-align:left;">
-<code>.bg-gray83</code>
+rgb(212,212,212)
 </td>
 <td style="text-align:left;">
-<code>var(--gray83)</code>
+\#D4D4D4
 </td>
 </tr>
 <tr>
@@ -3385,13 +3385,13 @@ CSS Variable
 <img src="https://placehold.it/50/D6D6D6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray84</code>
+gray84
 </td>
 <td style="text-align:left;">
-<code>.bg-gray84</code>
+rgb(214,214,214)
 </td>
 <td style="text-align:left;">
-<code>var(--gray84)</code>
+\#D6D6D6
 </td>
 </tr>
 <tr>
@@ -3399,13 +3399,13 @@ CSS Variable
 <img src="https://placehold.it/50/D9D9D9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray85</code>
+gray85
 </td>
 <td style="text-align:left;">
-<code>.bg-gray85</code>
+rgb(217,217,217)
 </td>
 <td style="text-align:left;">
-<code>var(--gray85)</code>
+\#D9D9D9
 </td>
 </tr>
 <tr>
@@ -3413,13 +3413,13 @@ CSS Variable
 <img src="https://placehold.it/50/DBDBDB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray86</code>
+gray86
 </td>
 <td style="text-align:left;">
-<code>.bg-gray86</code>
+rgb(219,219,219)
 </td>
 <td style="text-align:left;">
-<code>var(--gray86)</code>
+\#DBDBDB
 </td>
 </tr>
 <tr>
@@ -3427,13 +3427,13 @@ CSS Variable
 <img src="https://placehold.it/50/DEDEDE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray87</code>
+gray87
 </td>
 <td style="text-align:left;">
-<code>.bg-gray87</code>
+rgb(222,222,222)
 </td>
 <td style="text-align:left;">
-<code>var(--gray87)</code>
+\#DEDEDE
 </td>
 </tr>
 <tr>
@@ -3441,13 +3441,13 @@ CSS Variable
 <img src="https://placehold.it/50/E0E0E0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray88</code>
+gray88
 </td>
 <td style="text-align:left;">
-<code>.bg-gray88</code>
+rgb(224,224,224)
 </td>
 <td style="text-align:left;">
-<code>var(--gray88)</code>
+\#E0E0E0
 </td>
 </tr>
 <tr>
@@ -3455,13 +3455,13 @@ CSS Variable
 <img src="https://placehold.it/50/E3E3E3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray89</code>
+gray89
 </td>
 <td style="text-align:left;">
-<code>.bg-gray89</code>
+rgb(227,227,227)
 </td>
 <td style="text-align:left;">
-<code>var(--gray89)</code>
+\#E3E3E3
 </td>
 </tr>
 <tr>
@@ -3469,13 +3469,13 @@ CSS Variable
 <img src="https://placehold.it/50/E5E5E5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray90</code>
+gray90
 </td>
 <td style="text-align:left;">
-<code>.bg-gray90</code>
+rgb(229,229,229)
 </td>
 <td style="text-align:left;">
-<code>var(--gray90)</code>
+\#E5E5E5
 </td>
 </tr>
 <tr>
@@ -3483,13 +3483,13 @@ CSS Variable
 <img src="https://placehold.it/50/E8E8E8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray91</code>
+gray91
 </td>
 <td style="text-align:left;">
-<code>.bg-gray91</code>
+rgb(232,232,232)
 </td>
 <td style="text-align:left;">
-<code>var(--gray91)</code>
+\#E8E8E8
 </td>
 </tr>
 <tr>
@@ -3497,13 +3497,13 @@ CSS Variable
 <img src="https://placehold.it/50/EBEBEB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray92</code>
+gray92
 </td>
 <td style="text-align:left;">
-<code>.bg-gray92</code>
+rgb(235,235,235)
 </td>
 <td style="text-align:left;">
-<code>var(--gray92)</code>
+\#EBEBEB
 </td>
 </tr>
 <tr>
@@ -3511,13 +3511,13 @@ CSS Variable
 <img src="https://placehold.it/50/EDEDED/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray93</code>
+gray93
 </td>
 <td style="text-align:left;">
-<code>.bg-gray93</code>
+rgb(237,237,237)
 </td>
 <td style="text-align:left;">
-<code>var(--gray93)</code>
+\#EDEDED
 </td>
 </tr>
 <tr>
@@ -3525,13 +3525,13 @@ CSS Variable
 <img src="https://placehold.it/50/F0F0F0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray94</code>
+gray94
 </td>
 <td style="text-align:left;">
-<code>.bg-gray94</code>
+rgb(240,240,240)
 </td>
 <td style="text-align:left;">
-<code>var(--gray94)</code>
+\#F0F0F0
 </td>
 </tr>
 <tr>
@@ -3539,13 +3539,13 @@ CSS Variable
 <img src="https://placehold.it/50/F2F2F2/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray95</code>
+gray95
 </td>
 <td style="text-align:left;">
-<code>.bg-gray95</code>
+rgb(242,242,242)
 </td>
 <td style="text-align:left;">
-<code>var(--gray95)</code>
+\#F2F2F2
 </td>
 </tr>
 <tr>
@@ -3553,13 +3553,13 @@ CSS Variable
 <img src="https://placehold.it/50/F5F5F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray96</code>
+gray96
 </td>
 <td style="text-align:left;">
-<code>.bg-gray96</code>
+rgb(245,245,245)
 </td>
 <td style="text-align:left;">
-<code>var(--gray96)</code>
+\#F5F5F5
 </td>
 </tr>
 <tr>
@@ -3567,13 +3567,13 @@ CSS Variable
 <img src="https://placehold.it/50/F7F7F7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray97</code>
+gray97
 </td>
 <td style="text-align:left;">
-<code>.bg-gray97</code>
+rgb(247,247,247)
 </td>
 <td style="text-align:left;">
-<code>var(--gray97)</code>
+\#F7F7F7
 </td>
 </tr>
 <tr>
@@ -3581,13 +3581,13 @@ CSS Variable
 <img src="https://placehold.it/50/FAFAFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray98</code>
+gray98
 </td>
 <td style="text-align:left;">
-<code>.bg-gray98</code>
+rgb(250,250,250)
 </td>
 <td style="text-align:left;">
-<code>var(--gray98)</code>
+\#FAFAFA
 </td>
 </tr>
 <tr>
@@ -3595,13 +3595,13 @@ CSS Variable
 <img src="https://placehold.it/50/FCFCFC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray99</code>
+gray99
 </td>
 <td style="text-align:left;">
-<code>.bg-gray99</code>
+rgb(252,252,252)
 </td>
 <td style="text-align:left;">
-<code>var(--gray99)</code>
+\#FCFCFC
 </td>
 </tr>
 <tr>
@@ -3609,27 +3609,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.gray100</code>
+gray100
 </td>
 <td style="text-align:left;">
-<code>.bg-gray100</code>
+rgb(255,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--gray100)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/00FF00/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.green</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-green</code>
-</td>
-<td style="text-align:left;">
-<code>var(--green)</code>
+\#FFFFFF
 </td>
 </tr>
 <tr>
@@ -3637,13 +3623,27 @@ CSS Variable
 <img src="https://placehold.it/50/00FF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.green1</code>
+green
 </td>
 <td style="text-align:left;">
-<code>.bg-green1</code>
+rgb(0,255,0)
 </td>
 <td style="text-align:left;">
-<code>var(--green1)</code>
+\#00FF00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/00FF00/000000?text=+" />
+</td>
+<td style="text-align:left;">
+green1
+</td>
+<td style="text-align:left;">
+rgb(0,255,0)
+</td>
+<td style="text-align:left;">
+\#00FF00
 </td>
 </tr>
 <tr>
@@ -3651,13 +3651,13 @@ CSS Variable
 <img src="https://placehold.it/50/00EE00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.green2</code>
+green2
 </td>
 <td style="text-align:left;">
-<code>.bg-green2</code>
+rgb(0,238,0)
 </td>
 <td style="text-align:left;">
-<code>var(--green2)</code>
+\#00EE00
 </td>
 </tr>
 <tr>
@@ -3665,13 +3665,13 @@ CSS Variable
 <img src="https://placehold.it/50/00CD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.green3</code>
+green3
 </td>
 <td style="text-align:left;">
-<code>.bg-green3</code>
+rgb(0,205,0)
 </td>
 <td style="text-align:left;">
-<code>var(--green3)</code>
+\#00CD00
 </td>
 </tr>
 <tr>
@@ -3679,13 +3679,13 @@ CSS Variable
 <img src="https://placehold.it/50/008B00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.green4</code>
+green4
 </td>
 <td style="text-align:left;">
-<code>.bg-green4</code>
+rgb(0,139,0)
 </td>
 <td style="text-align:left;">
-<code>var(--green4)</code>
+\#008B00
 </td>
 </tr>
 <tr>
@@ -3693,13 +3693,13 @@ CSS Variable
 <img src="https://placehold.it/50/ADFF2F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.greenyellow</code>
+greenyellow
 </td>
 <td style="text-align:left;">
-<code>.bg-greenyellow</code>
+rgb(173,255,47)
 </td>
 <td style="text-align:left;">
-<code>var(--greenyellow)</code>
+\#ADFF2F
 </td>
 </tr>
 <tr>
@@ -3707,13 +3707,13 @@ CSS Variable
 <img src="https://placehold.it/50/BEBEBE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey</code>
+grey
 </td>
 <td style="text-align:left;">
-<code>.bg-grey</code>
+rgb(190,190,190)
 </td>
 <td style="text-align:left;">
-<code>var(--grey)</code>
+\#BEBEBE
 </td>
 </tr>
 <tr>
@@ -3721,13 +3721,13 @@ CSS Variable
 <img src="https://placehold.it/50/000000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey0</code>
+grey0
 </td>
 <td style="text-align:left;">
-<code>.bg-grey0</code>
+rgb(0,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--grey0)</code>
+\#000000
 </td>
 </tr>
 <tr>
@@ -3735,13 +3735,13 @@ CSS Variable
 <img src="https://placehold.it/50/030303/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey1</code>
+grey1
 </td>
 <td style="text-align:left;">
-<code>.bg-grey1</code>
+rgb(3,3,3)
 </td>
 <td style="text-align:left;">
-<code>var(--grey1)</code>
+\#030303
 </td>
 </tr>
 <tr>
@@ -3749,13 +3749,13 @@ CSS Variable
 <img src="https://placehold.it/50/050505/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey2</code>
+grey2
 </td>
 <td style="text-align:left;">
-<code>.bg-grey2</code>
+rgb(5,5,5)
 </td>
 <td style="text-align:left;">
-<code>var(--grey2)</code>
+\#050505
 </td>
 </tr>
 <tr>
@@ -3763,13 +3763,13 @@ CSS Variable
 <img src="https://placehold.it/50/080808/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey3</code>
+grey3
 </td>
 <td style="text-align:left;">
-<code>.bg-grey3</code>
+rgb(8,8,8)
 </td>
 <td style="text-align:left;">
-<code>var(--grey3)</code>
+\#080808
 </td>
 </tr>
 <tr>
@@ -3777,13 +3777,13 @@ CSS Variable
 <img src="https://placehold.it/50/0A0A0A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey4</code>
+grey4
 </td>
 <td style="text-align:left;">
-<code>.bg-grey4</code>
+rgb(10,10,10)
 </td>
 <td style="text-align:left;">
-<code>var(--grey4)</code>
+\#0A0A0A
 </td>
 </tr>
 <tr>
@@ -3791,13 +3791,13 @@ CSS Variable
 <img src="https://placehold.it/50/0D0D0D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey5</code>
+grey5
 </td>
 <td style="text-align:left;">
-<code>.bg-grey5</code>
+rgb(13,13,13)
 </td>
 <td style="text-align:left;">
-<code>var(--grey5)</code>
+\#0D0D0D
 </td>
 </tr>
 <tr>
@@ -3805,13 +3805,13 @@ CSS Variable
 <img src="https://placehold.it/50/0F0F0F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey6</code>
+grey6
 </td>
 <td style="text-align:left;">
-<code>.bg-grey6</code>
+rgb(15,15,15)
 </td>
 <td style="text-align:left;">
-<code>var(--grey6)</code>
+\#0F0F0F
 </td>
 </tr>
 <tr>
@@ -3819,13 +3819,13 @@ CSS Variable
 <img src="https://placehold.it/50/121212/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey7</code>
+grey7
 </td>
 <td style="text-align:left;">
-<code>.bg-grey7</code>
+rgb(18,18,18)
 </td>
 <td style="text-align:left;">
-<code>var(--grey7)</code>
+\#121212
 </td>
 </tr>
 <tr>
@@ -3833,13 +3833,13 @@ CSS Variable
 <img src="https://placehold.it/50/141414/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey8</code>
+grey8
 </td>
 <td style="text-align:left;">
-<code>.bg-grey8</code>
+rgb(20,20,20)
 </td>
 <td style="text-align:left;">
-<code>var(--grey8)</code>
+\#141414
 </td>
 </tr>
 <tr>
@@ -3847,13 +3847,13 @@ CSS Variable
 <img src="https://placehold.it/50/171717/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey9</code>
+grey9
 </td>
 <td style="text-align:left;">
-<code>.bg-grey9</code>
+rgb(23,23,23)
 </td>
 <td style="text-align:left;">
-<code>var(--grey9)</code>
+\#171717
 </td>
 </tr>
 <tr>
@@ -3861,13 +3861,13 @@ CSS Variable
 <img src="https://placehold.it/50/1A1A1A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey10</code>
+grey10
 </td>
 <td style="text-align:left;">
-<code>.bg-grey10</code>
+rgb(26,26,26)
 </td>
 <td style="text-align:left;">
-<code>var(--grey10)</code>
+\#1A1A1A
 </td>
 </tr>
 <tr>
@@ -3875,13 +3875,13 @@ CSS Variable
 <img src="https://placehold.it/50/1C1C1C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey11</code>
+grey11
 </td>
 <td style="text-align:left;">
-<code>.bg-grey11</code>
+rgb(28,28,28)
 </td>
 <td style="text-align:left;">
-<code>var(--grey11)</code>
+\#1C1C1C
 </td>
 </tr>
 <tr>
@@ -3889,13 +3889,13 @@ CSS Variable
 <img src="https://placehold.it/50/1F1F1F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey12</code>
+grey12
 </td>
 <td style="text-align:left;">
-<code>.bg-grey12</code>
+rgb(31,31,31)
 </td>
 <td style="text-align:left;">
-<code>var(--grey12)</code>
+\#1F1F1F
 </td>
 </tr>
 <tr>
@@ -3903,13 +3903,13 @@ CSS Variable
 <img src="https://placehold.it/50/212121/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey13</code>
+grey13
 </td>
 <td style="text-align:left;">
-<code>.bg-grey13</code>
+rgb(33,33,33)
 </td>
 <td style="text-align:left;">
-<code>var(--grey13)</code>
+\#212121
 </td>
 </tr>
 <tr>
@@ -3917,13 +3917,13 @@ CSS Variable
 <img src="https://placehold.it/50/242424/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey14</code>
+grey14
 </td>
 <td style="text-align:left;">
-<code>.bg-grey14</code>
+rgb(36,36,36)
 </td>
 <td style="text-align:left;">
-<code>var(--grey14)</code>
+\#242424
 </td>
 </tr>
 <tr>
@@ -3931,13 +3931,13 @@ CSS Variable
 <img src="https://placehold.it/50/262626/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey15</code>
+grey15
 </td>
 <td style="text-align:left;">
-<code>.bg-grey15</code>
+rgb(38,38,38)
 </td>
 <td style="text-align:left;">
-<code>var(--grey15)</code>
+\#262626
 </td>
 </tr>
 <tr>
@@ -3945,13 +3945,13 @@ CSS Variable
 <img src="https://placehold.it/50/292929/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey16</code>
+grey16
 </td>
 <td style="text-align:left;">
-<code>.bg-grey16</code>
+rgb(41,41,41)
 </td>
 <td style="text-align:left;">
-<code>var(--grey16)</code>
+\#292929
 </td>
 </tr>
 <tr>
@@ -3959,13 +3959,13 @@ CSS Variable
 <img src="https://placehold.it/50/2B2B2B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey17</code>
+grey17
 </td>
 <td style="text-align:left;">
-<code>.bg-grey17</code>
+rgb(43,43,43)
 </td>
 <td style="text-align:left;">
-<code>var(--grey17)</code>
+\#2B2B2B
 </td>
 </tr>
 <tr>
@@ -3973,13 +3973,13 @@ CSS Variable
 <img src="https://placehold.it/50/2E2E2E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey18</code>
+grey18
 </td>
 <td style="text-align:left;">
-<code>.bg-grey18</code>
+rgb(46,46,46)
 </td>
 <td style="text-align:left;">
-<code>var(--grey18)</code>
+\#2E2E2E
 </td>
 </tr>
 <tr>
@@ -3987,13 +3987,13 @@ CSS Variable
 <img src="https://placehold.it/50/303030/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey19</code>
+grey19
 </td>
 <td style="text-align:left;">
-<code>.bg-grey19</code>
+rgb(48,48,48)
 </td>
 <td style="text-align:left;">
-<code>var(--grey19)</code>
+\#303030
 </td>
 </tr>
 <tr>
@@ -4001,13 +4001,13 @@ CSS Variable
 <img src="https://placehold.it/50/333333/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey20</code>
+grey20
 </td>
 <td style="text-align:left;">
-<code>.bg-grey20</code>
+rgb(51,51,51)
 </td>
 <td style="text-align:left;">
-<code>var(--grey20)</code>
+\#333333
 </td>
 </tr>
 <tr>
@@ -4015,13 +4015,13 @@ CSS Variable
 <img src="https://placehold.it/50/363636/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey21</code>
+grey21
 </td>
 <td style="text-align:left;">
-<code>.bg-grey21</code>
+rgb(54,54,54)
 </td>
 <td style="text-align:left;">
-<code>var(--grey21)</code>
+\#363636
 </td>
 </tr>
 <tr>
@@ -4029,13 +4029,13 @@ CSS Variable
 <img src="https://placehold.it/50/383838/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey22</code>
+grey22
 </td>
 <td style="text-align:left;">
-<code>.bg-grey22</code>
+rgb(56,56,56)
 </td>
 <td style="text-align:left;">
-<code>var(--grey22)</code>
+\#383838
 </td>
 </tr>
 <tr>
@@ -4043,13 +4043,13 @@ CSS Variable
 <img src="https://placehold.it/50/3B3B3B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey23</code>
+grey23
 </td>
 <td style="text-align:left;">
-<code>.bg-grey23</code>
+rgb(59,59,59)
 </td>
 <td style="text-align:left;">
-<code>var(--grey23)</code>
+\#3B3B3B
 </td>
 </tr>
 <tr>
@@ -4057,13 +4057,13 @@ CSS Variable
 <img src="https://placehold.it/50/3D3D3D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey24</code>
+grey24
 </td>
 <td style="text-align:left;">
-<code>.bg-grey24</code>
+rgb(61,61,61)
 </td>
 <td style="text-align:left;">
-<code>var(--grey24)</code>
+\#3D3D3D
 </td>
 </tr>
 <tr>
@@ -4071,13 +4071,13 @@ CSS Variable
 <img src="https://placehold.it/50/404040/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey25</code>
+grey25
 </td>
 <td style="text-align:left;">
-<code>.bg-grey25</code>
+rgb(64,64,64)
 </td>
 <td style="text-align:left;">
-<code>var(--grey25)</code>
+\#404040
 </td>
 </tr>
 <tr>
@@ -4085,13 +4085,13 @@ CSS Variable
 <img src="https://placehold.it/50/424242/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey26</code>
+grey26
 </td>
 <td style="text-align:left;">
-<code>.bg-grey26</code>
+rgb(66,66,66)
 </td>
 <td style="text-align:left;">
-<code>var(--grey26)</code>
+\#424242
 </td>
 </tr>
 <tr>
@@ -4099,13 +4099,13 @@ CSS Variable
 <img src="https://placehold.it/50/454545/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey27</code>
+grey27
 </td>
 <td style="text-align:left;">
-<code>.bg-grey27</code>
+rgb(69,69,69)
 </td>
 <td style="text-align:left;">
-<code>var(--grey27)</code>
+\#454545
 </td>
 </tr>
 <tr>
@@ -4113,13 +4113,13 @@ CSS Variable
 <img src="https://placehold.it/50/474747/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey28</code>
+grey28
 </td>
 <td style="text-align:left;">
-<code>.bg-grey28</code>
+rgb(71,71,71)
 </td>
 <td style="text-align:left;">
-<code>var(--grey28)</code>
+\#474747
 </td>
 </tr>
 <tr>
@@ -4127,13 +4127,13 @@ CSS Variable
 <img src="https://placehold.it/50/4A4A4A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey29</code>
+grey29
 </td>
 <td style="text-align:left;">
-<code>.bg-grey29</code>
+rgb(74,74,74)
 </td>
 <td style="text-align:left;">
-<code>var(--grey29)</code>
+\#4A4A4A
 </td>
 </tr>
 <tr>
@@ -4141,13 +4141,13 @@ CSS Variable
 <img src="https://placehold.it/50/4D4D4D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey30</code>
+grey30
 </td>
 <td style="text-align:left;">
-<code>.bg-grey30</code>
+rgb(77,77,77)
 </td>
 <td style="text-align:left;">
-<code>var(--grey30)</code>
+\#4D4D4D
 </td>
 </tr>
 <tr>
@@ -4155,13 +4155,13 @@ CSS Variable
 <img src="https://placehold.it/50/4F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey31</code>
+grey31
 </td>
 <td style="text-align:left;">
-<code>.bg-grey31</code>
+rgb(79,79,79)
 </td>
 <td style="text-align:left;">
-<code>var(--grey31)</code>
+\#4F4F4F
 </td>
 </tr>
 <tr>
@@ -4169,13 +4169,13 @@ CSS Variable
 <img src="https://placehold.it/50/525252/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey32</code>
+grey32
 </td>
 <td style="text-align:left;">
-<code>.bg-grey32</code>
+rgb(82,82,82)
 </td>
 <td style="text-align:left;">
-<code>var(--grey32)</code>
+\#525252
 </td>
 </tr>
 <tr>
@@ -4183,13 +4183,13 @@ CSS Variable
 <img src="https://placehold.it/50/545454/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey33</code>
+grey33
 </td>
 <td style="text-align:left;">
-<code>.bg-grey33</code>
+rgb(84,84,84)
 </td>
 <td style="text-align:left;">
-<code>var(--grey33)</code>
+\#545454
 </td>
 </tr>
 <tr>
@@ -4197,13 +4197,13 @@ CSS Variable
 <img src="https://placehold.it/50/575757/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey34</code>
+grey34
 </td>
 <td style="text-align:left;">
-<code>.bg-grey34</code>
+rgb(87,87,87)
 </td>
 <td style="text-align:left;">
-<code>var(--grey34)</code>
+\#575757
 </td>
 </tr>
 <tr>
@@ -4211,13 +4211,13 @@ CSS Variable
 <img src="https://placehold.it/50/595959/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey35</code>
+grey35
 </td>
 <td style="text-align:left;">
-<code>.bg-grey35</code>
+rgb(89,89,89)
 </td>
 <td style="text-align:left;">
-<code>var(--grey35)</code>
+\#595959
 </td>
 </tr>
 <tr>
@@ -4225,13 +4225,13 @@ CSS Variable
 <img src="https://placehold.it/50/5C5C5C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey36</code>
+grey36
 </td>
 <td style="text-align:left;">
-<code>.bg-grey36</code>
+rgb(92,92,92)
 </td>
 <td style="text-align:left;">
-<code>var(--grey36)</code>
+\#5C5C5C
 </td>
 </tr>
 <tr>
@@ -4239,13 +4239,13 @@ CSS Variable
 <img src="https://placehold.it/50/5E5E5E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey37</code>
+grey37
 </td>
 <td style="text-align:left;">
-<code>.bg-grey37</code>
+rgb(94,94,94)
 </td>
 <td style="text-align:left;">
-<code>var(--grey37)</code>
+\#5E5E5E
 </td>
 </tr>
 <tr>
@@ -4253,13 +4253,13 @@ CSS Variable
 <img src="https://placehold.it/50/616161/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey38</code>
+grey38
 </td>
 <td style="text-align:left;">
-<code>.bg-grey38</code>
+rgb(97,97,97)
 </td>
 <td style="text-align:left;">
-<code>var(--grey38)</code>
+\#616161
 </td>
 </tr>
 <tr>
@@ -4267,13 +4267,13 @@ CSS Variable
 <img src="https://placehold.it/50/636363/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey39</code>
+grey39
 </td>
 <td style="text-align:left;">
-<code>.bg-grey39</code>
+rgb(99,99,99)
 </td>
 <td style="text-align:left;">
-<code>var(--grey39)</code>
+\#636363
 </td>
 </tr>
 <tr>
@@ -4281,13 +4281,13 @@ CSS Variable
 <img src="https://placehold.it/50/666666/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey40</code>
+grey40
 </td>
 <td style="text-align:left;">
-<code>.bg-grey40</code>
+rgb(102,102,102)
 </td>
 <td style="text-align:left;">
-<code>var(--grey40)</code>
+\#666666
 </td>
 </tr>
 <tr>
@@ -4295,13 +4295,13 @@ CSS Variable
 <img src="https://placehold.it/50/696969/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey41</code>
+grey41
 </td>
 <td style="text-align:left;">
-<code>.bg-grey41</code>
+rgb(105,105,105)
 </td>
 <td style="text-align:left;">
-<code>var(--grey41)</code>
+\#696969
 </td>
 </tr>
 <tr>
@@ -4309,13 +4309,13 @@ CSS Variable
 <img src="https://placehold.it/50/6B6B6B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey42</code>
+grey42
 </td>
 <td style="text-align:left;">
-<code>.bg-grey42</code>
+rgb(107,107,107)
 </td>
 <td style="text-align:left;">
-<code>var(--grey42)</code>
+\#6B6B6B
 </td>
 </tr>
 <tr>
@@ -4323,13 +4323,13 @@ CSS Variable
 <img src="https://placehold.it/50/6E6E6E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey43</code>
+grey43
 </td>
 <td style="text-align:left;">
-<code>.bg-grey43</code>
+rgb(110,110,110)
 </td>
 <td style="text-align:left;">
-<code>var(--grey43)</code>
+\#6E6E6E
 </td>
 </tr>
 <tr>
@@ -4337,13 +4337,13 @@ CSS Variable
 <img src="https://placehold.it/50/707070/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey44</code>
+grey44
 </td>
 <td style="text-align:left;">
-<code>.bg-grey44</code>
+rgb(112,112,112)
 </td>
 <td style="text-align:left;">
-<code>var(--grey44)</code>
+\#707070
 </td>
 </tr>
 <tr>
@@ -4351,13 +4351,13 @@ CSS Variable
 <img src="https://placehold.it/50/737373/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey45</code>
+grey45
 </td>
 <td style="text-align:left;">
-<code>.bg-grey45</code>
+rgb(115,115,115)
 </td>
 <td style="text-align:left;">
-<code>var(--grey45)</code>
+\#737373
 </td>
 </tr>
 <tr>
@@ -4365,13 +4365,13 @@ CSS Variable
 <img src="https://placehold.it/50/757575/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey46</code>
+grey46
 </td>
 <td style="text-align:left;">
-<code>.bg-grey46</code>
+rgb(117,117,117)
 </td>
 <td style="text-align:left;">
-<code>var(--grey46)</code>
+\#757575
 </td>
 </tr>
 <tr>
@@ -4379,13 +4379,13 @@ CSS Variable
 <img src="https://placehold.it/50/787878/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey47</code>
+grey47
 </td>
 <td style="text-align:left;">
-<code>.bg-grey47</code>
+rgb(120,120,120)
 </td>
 <td style="text-align:left;">
-<code>var(--grey47)</code>
+\#787878
 </td>
 </tr>
 <tr>
@@ -4393,13 +4393,13 @@ CSS Variable
 <img src="https://placehold.it/50/7A7A7A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey48</code>
+grey48
 </td>
 <td style="text-align:left;">
-<code>.bg-grey48</code>
+rgb(122,122,122)
 </td>
 <td style="text-align:left;">
-<code>var(--grey48)</code>
+\#7A7A7A
 </td>
 </tr>
 <tr>
@@ -4407,13 +4407,13 @@ CSS Variable
 <img src="https://placehold.it/50/7D7D7D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey49</code>
+grey49
 </td>
 <td style="text-align:left;">
-<code>.bg-grey49</code>
+rgb(125,125,125)
 </td>
 <td style="text-align:left;">
-<code>var(--grey49)</code>
+\#7D7D7D
 </td>
 </tr>
 <tr>
@@ -4421,13 +4421,13 @@ CSS Variable
 <img src="https://placehold.it/50/7F7F7F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey50</code>
+grey50
 </td>
 <td style="text-align:left;">
-<code>.bg-grey50</code>
+rgb(127,127,127)
 </td>
 <td style="text-align:left;">
-<code>var(--grey50)</code>
+\#7F7F7F
 </td>
 </tr>
 <tr>
@@ -4435,13 +4435,13 @@ CSS Variable
 <img src="https://placehold.it/50/828282/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey51</code>
+grey51
 </td>
 <td style="text-align:left;">
-<code>.bg-grey51</code>
+rgb(130,130,130)
 </td>
 <td style="text-align:left;">
-<code>var(--grey51)</code>
+\#828282
 </td>
 </tr>
 <tr>
@@ -4449,13 +4449,13 @@ CSS Variable
 <img src="https://placehold.it/50/858585/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey52</code>
+grey52
 </td>
 <td style="text-align:left;">
-<code>.bg-grey52</code>
+rgb(133,133,133)
 </td>
 <td style="text-align:left;">
-<code>var(--grey52)</code>
+\#858585
 </td>
 </tr>
 <tr>
@@ -4463,13 +4463,13 @@ CSS Variable
 <img src="https://placehold.it/50/878787/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey53</code>
+grey53
 </td>
 <td style="text-align:left;">
-<code>.bg-grey53</code>
+rgb(135,135,135)
 </td>
 <td style="text-align:left;">
-<code>var(--grey53)</code>
+\#878787
 </td>
 </tr>
 <tr>
@@ -4477,13 +4477,13 @@ CSS Variable
 <img src="https://placehold.it/50/8A8A8A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey54</code>
+grey54
 </td>
 <td style="text-align:left;">
-<code>.bg-grey54</code>
+rgb(138,138,138)
 </td>
 <td style="text-align:left;">
-<code>var(--grey54)</code>
+\#8A8A8A
 </td>
 </tr>
 <tr>
@@ -4491,13 +4491,13 @@ CSS Variable
 <img src="https://placehold.it/50/8C8C8C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey55</code>
+grey55
 </td>
 <td style="text-align:left;">
-<code>.bg-grey55</code>
+rgb(140,140,140)
 </td>
 <td style="text-align:left;">
-<code>var(--grey55)</code>
+\#8C8C8C
 </td>
 </tr>
 <tr>
@@ -4505,13 +4505,13 @@ CSS Variable
 <img src="https://placehold.it/50/8F8F8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey56</code>
+grey56
 </td>
 <td style="text-align:left;">
-<code>.bg-grey56</code>
+rgb(143,143,143)
 </td>
 <td style="text-align:left;">
-<code>var(--grey56)</code>
+\#8F8F8F
 </td>
 </tr>
 <tr>
@@ -4519,13 +4519,13 @@ CSS Variable
 <img src="https://placehold.it/50/919191/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey57</code>
+grey57
 </td>
 <td style="text-align:left;">
-<code>.bg-grey57</code>
+rgb(145,145,145)
 </td>
 <td style="text-align:left;">
-<code>var(--grey57)</code>
+\#919191
 </td>
 </tr>
 <tr>
@@ -4533,13 +4533,13 @@ CSS Variable
 <img src="https://placehold.it/50/949494/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey58</code>
+grey58
 </td>
 <td style="text-align:left;">
-<code>.bg-grey58</code>
+rgb(148,148,148)
 </td>
 <td style="text-align:left;">
-<code>var(--grey58)</code>
+\#949494
 </td>
 </tr>
 <tr>
@@ -4547,13 +4547,13 @@ CSS Variable
 <img src="https://placehold.it/50/969696/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey59</code>
+grey59
 </td>
 <td style="text-align:left;">
-<code>.bg-grey59</code>
+rgb(150,150,150)
 </td>
 <td style="text-align:left;">
-<code>var(--grey59)</code>
+\#969696
 </td>
 </tr>
 <tr>
@@ -4561,13 +4561,13 @@ CSS Variable
 <img src="https://placehold.it/50/999999/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey60</code>
+grey60
 </td>
 <td style="text-align:left;">
-<code>.bg-grey60</code>
+rgb(153,153,153)
 </td>
 <td style="text-align:left;">
-<code>var(--grey60)</code>
+\#999999
 </td>
 </tr>
 <tr>
@@ -4575,13 +4575,13 @@ CSS Variable
 <img src="https://placehold.it/50/9C9C9C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey61</code>
+grey61
 </td>
 <td style="text-align:left;">
-<code>.bg-grey61</code>
+rgb(156,156,156)
 </td>
 <td style="text-align:left;">
-<code>var(--grey61)</code>
+\#9C9C9C
 </td>
 </tr>
 <tr>
@@ -4589,13 +4589,13 @@ CSS Variable
 <img src="https://placehold.it/50/9E9E9E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey62</code>
+grey62
 </td>
 <td style="text-align:left;">
-<code>.bg-grey62</code>
+rgb(158,158,158)
 </td>
 <td style="text-align:left;">
-<code>var(--grey62)</code>
+\#9E9E9E
 </td>
 </tr>
 <tr>
@@ -4603,13 +4603,13 @@ CSS Variable
 <img src="https://placehold.it/50/A1A1A1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey63</code>
+grey63
 </td>
 <td style="text-align:left;">
-<code>.bg-grey63</code>
+rgb(161,161,161)
 </td>
 <td style="text-align:left;">
-<code>var(--grey63)</code>
+\#A1A1A1
 </td>
 </tr>
 <tr>
@@ -4617,13 +4617,13 @@ CSS Variable
 <img src="https://placehold.it/50/A3A3A3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey64</code>
+grey64
 </td>
 <td style="text-align:left;">
-<code>.bg-grey64</code>
+rgb(163,163,163)
 </td>
 <td style="text-align:left;">
-<code>var(--grey64)</code>
+\#A3A3A3
 </td>
 </tr>
 <tr>
@@ -4631,13 +4631,13 @@ CSS Variable
 <img src="https://placehold.it/50/A6A6A6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey65</code>
+grey65
 </td>
 <td style="text-align:left;">
-<code>.bg-grey65</code>
+rgb(166,166,166)
 </td>
 <td style="text-align:left;">
-<code>var(--grey65)</code>
+\#A6A6A6
 </td>
 </tr>
 <tr>
@@ -4645,13 +4645,13 @@ CSS Variable
 <img src="https://placehold.it/50/A8A8A8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey66</code>
+grey66
 </td>
 <td style="text-align:left;">
-<code>.bg-grey66</code>
+rgb(168,168,168)
 </td>
 <td style="text-align:left;">
-<code>var(--grey66)</code>
+\#A8A8A8
 </td>
 </tr>
 <tr>
@@ -4659,13 +4659,13 @@ CSS Variable
 <img src="https://placehold.it/50/ABABAB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey67</code>
+grey67
 </td>
 <td style="text-align:left;">
-<code>.bg-grey67</code>
+rgb(171,171,171)
 </td>
 <td style="text-align:left;">
-<code>var(--grey67)</code>
+\#ABABAB
 </td>
 </tr>
 <tr>
@@ -4673,13 +4673,13 @@ CSS Variable
 <img src="https://placehold.it/50/ADADAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey68</code>
+grey68
 </td>
 <td style="text-align:left;">
-<code>.bg-grey68</code>
+rgb(173,173,173)
 </td>
 <td style="text-align:left;">
-<code>var(--grey68)</code>
+\#ADADAD
 </td>
 </tr>
 <tr>
@@ -4687,13 +4687,13 @@ CSS Variable
 <img src="https://placehold.it/50/B0B0B0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey69</code>
+grey69
 </td>
 <td style="text-align:left;">
-<code>.bg-grey69</code>
+rgb(176,176,176)
 </td>
 <td style="text-align:left;">
-<code>var(--grey69)</code>
+\#B0B0B0
 </td>
 </tr>
 <tr>
@@ -4701,13 +4701,13 @@ CSS Variable
 <img src="https://placehold.it/50/B3B3B3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey70</code>
+grey70
 </td>
 <td style="text-align:left;">
-<code>.bg-grey70</code>
+rgb(179,179,179)
 </td>
 <td style="text-align:left;">
-<code>var(--grey70)</code>
+\#B3B3B3
 </td>
 </tr>
 <tr>
@@ -4715,13 +4715,13 @@ CSS Variable
 <img src="https://placehold.it/50/B5B5B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey71</code>
+grey71
 </td>
 <td style="text-align:left;">
-<code>.bg-grey71</code>
+rgb(181,181,181)
 </td>
 <td style="text-align:left;">
-<code>var(--grey71)</code>
+\#B5B5B5
 </td>
 </tr>
 <tr>
@@ -4729,13 +4729,13 @@ CSS Variable
 <img src="https://placehold.it/50/B8B8B8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey72</code>
+grey72
 </td>
 <td style="text-align:left;">
-<code>.bg-grey72</code>
+rgb(184,184,184)
 </td>
 <td style="text-align:left;">
-<code>var(--grey72)</code>
+\#B8B8B8
 </td>
 </tr>
 <tr>
@@ -4743,13 +4743,13 @@ CSS Variable
 <img src="https://placehold.it/50/BABABA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey73</code>
+grey73
 </td>
 <td style="text-align:left;">
-<code>.bg-grey73</code>
+rgb(186,186,186)
 </td>
 <td style="text-align:left;">
-<code>var(--grey73)</code>
+\#BABABA
 </td>
 </tr>
 <tr>
@@ -4757,13 +4757,13 @@ CSS Variable
 <img src="https://placehold.it/50/BDBDBD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey74</code>
+grey74
 </td>
 <td style="text-align:left;">
-<code>.bg-grey74</code>
+rgb(189,189,189)
 </td>
 <td style="text-align:left;">
-<code>var(--grey74)</code>
+\#BDBDBD
 </td>
 </tr>
 <tr>
@@ -4771,13 +4771,13 @@ CSS Variable
 <img src="https://placehold.it/50/BFBFBF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey75</code>
+grey75
 </td>
 <td style="text-align:left;">
-<code>.bg-grey75</code>
+rgb(191,191,191)
 </td>
 <td style="text-align:left;">
-<code>var(--grey75)</code>
+\#BFBFBF
 </td>
 </tr>
 <tr>
@@ -4785,13 +4785,13 @@ CSS Variable
 <img src="https://placehold.it/50/C2C2C2/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey76</code>
+grey76
 </td>
 <td style="text-align:left;">
-<code>.bg-grey76</code>
+rgb(194,194,194)
 </td>
 <td style="text-align:left;">
-<code>var(--grey76)</code>
+\#C2C2C2
 </td>
 </tr>
 <tr>
@@ -4799,13 +4799,13 @@ CSS Variable
 <img src="https://placehold.it/50/C4C4C4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey77</code>
+grey77
 </td>
 <td style="text-align:left;">
-<code>.bg-grey77</code>
+rgb(196,196,196)
 </td>
 <td style="text-align:left;">
-<code>var(--grey77)</code>
+\#C4C4C4
 </td>
 </tr>
 <tr>
@@ -4813,13 +4813,13 @@ CSS Variable
 <img src="https://placehold.it/50/C7C7C7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey78</code>
+grey78
 </td>
 <td style="text-align:left;">
-<code>.bg-grey78</code>
+rgb(199,199,199)
 </td>
 <td style="text-align:left;">
-<code>var(--grey78)</code>
+\#C7C7C7
 </td>
 </tr>
 <tr>
@@ -4827,13 +4827,13 @@ CSS Variable
 <img src="https://placehold.it/50/C9C9C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey79</code>
+grey79
 </td>
 <td style="text-align:left;">
-<code>.bg-grey79</code>
+rgb(201,201,201)
 </td>
 <td style="text-align:left;">
-<code>var(--grey79)</code>
+\#C9C9C9
 </td>
 </tr>
 <tr>
@@ -4841,13 +4841,13 @@ CSS Variable
 <img src="https://placehold.it/50/CCCCCC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey80</code>
+grey80
 </td>
 <td style="text-align:left;">
-<code>.bg-grey80</code>
+rgb(204,204,204)
 </td>
 <td style="text-align:left;">
-<code>var(--grey80)</code>
+\#CCCCCC
 </td>
 </tr>
 <tr>
@@ -4855,13 +4855,13 @@ CSS Variable
 <img src="https://placehold.it/50/CFCFCF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey81</code>
+grey81
 </td>
 <td style="text-align:left;">
-<code>.bg-grey81</code>
+rgb(207,207,207)
 </td>
 <td style="text-align:left;">
-<code>var(--grey81)</code>
+\#CFCFCF
 </td>
 </tr>
 <tr>
@@ -4869,13 +4869,13 @@ CSS Variable
 <img src="https://placehold.it/50/D1D1D1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey82</code>
+grey82
 </td>
 <td style="text-align:left;">
-<code>.bg-grey82</code>
+rgb(209,209,209)
 </td>
 <td style="text-align:left;">
-<code>var(--grey82)</code>
+\#D1D1D1
 </td>
 </tr>
 <tr>
@@ -4883,13 +4883,13 @@ CSS Variable
 <img src="https://placehold.it/50/D4D4D4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey83</code>
+grey83
 </td>
 <td style="text-align:left;">
-<code>.bg-grey83</code>
+rgb(212,212,212)
 </td>
 <td style="text-align:left;">
-<code>var(--grey83)</code>
+\#D4D4D4
 </td>
 </tr>
 <tr>
@@ -4897,13 +4897,13 @@ CSS Variable
 <img src="https://placehold.it/50/D6D6D6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey84</code>
+grey84
 </td>
 <td style="text-align:left;">
-<code>.bg-grey84</code>
+rgb(214,214,214)
 </td>
 <td style="text-align:left;">
-<code>var(--grey84)</code>
+\#D6D6D6
 </td>
 </tr>
 <tr>
@@ -4911,13 +4911,13 @@ CSS Variable
 <img src="https://placehold.it/50/D9D9D9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey85</code>
+grey85
 </td>
 <td style="text-align:left;">
-<code>.bg-grey85</code>
+rgb(217,217,217)
 </td>
 <td style="text-align:left;">
-<code>var(--grey85)</code>
+\#D9D9D9
 </td>
 </tr>
 <tr>
@@ -4925,13 +4925,13 @@ CSS Variable
 <img src="https://placehold.it/50/DBDBDB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey86</code>
+grey86
 </td>
 <td style="text-align:left;">
-<code>.bg-grey86</code>
+rgb(219,219,219)
 </td>
 <td style="text-align:left;">
-<code>var(--grey86)</code>
+\#DBDBDB
 </td>
 </tr>
 <tr>
@@ -4939,13 +4939,13 @@ CSS Variable
 <img src="https://placehold.it/50/DEDEDE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey87</code>
+grey87
 </td>
 <td style="text-align:left;">
-<code>.bg-grey87</code>
+rgb(222,222,222)
 </td>
 <td style="text-align:left;">
-<code>var(--grey87)</code>
+\#DEDEDE
 </td>
 </tr>
 <tr>
@@ -4953,13 +4953,13 @@ CSS Variable
 <img src="https://placehold.it/50/E0E0E0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey88</code>
+grey88
 </td>
 <td style="text-align:left;">
-<code>.bg-grey88</code>
+rgb(224,224,224)
 </td>
 <td style="text-align:left;">
-<code>var(--grey88)</code>
+\#E0E0E0
 </td>
 </tr>
 <tr>
@@ -4967,13 +4967,13 @@ CSS Variable
 <img src="https://placehold.it/50/E3E3E3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey89</code>
+grey89
 </td>
 <td style="text-align:left;">
-<code>.bg-grey89</code>
+rgb(227,227,227)
 </td>
 <td style="text-align:left;">
-<code>var(--grey89)</code>
+\#E3E3E3
 </td>
 </tr>
 <tr>
@@ -4981,13 +4981,13 @@ CSS Variable
 <img src="https://placehold.it/50/E5E5E5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey90</code>
+grey90
 </td>
 <td style="text-align:left;">
-<code>.bg-grey90</code>
+rgb(229,229,229)
 </td>
 <td style="text-align:left;">
-<code>var(--grey90)</code>
+\#E5E5E5
 </td>
 </tr>
 <tr>
@@ -4995,13 +4995,13 @@ CSS Variable
 <img src="https://placehold.it/50/E8E8E8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey91</code>
+grey91
 </td>
 <td style="text-align:left;">
-<code>.bg-grey91</code>
+rgb(232,232,232)
 </td>
 <td style="text-align:left;">
-<code>var(--grey91)</code>
+\#E8E8E8
 </td>
 </tr>
 <tr>
@@ -5009,13 +5009,13 @@ CSS Variable
 <img src="https://placehold.it/50/EBEBEB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey92</code>
+grey92
 </td>
 <td style="text-align:left;">
-<code>.bg-grey92</code>
+rgb(235,235,235)
 </td>
 <td style="text-align:left;">
-<code>var(--grey92)</code>
+\#EBEBEB
 </td>
 </tr>
 <tr>
@@ -5023,13 +5023,13 @@ CSS Variable
 <img src="https://placehold.it/50/EDEDED/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey93</code>
+grey93
 </td>
 <td style="text-align:left;">
-<code>.bg-grey93</code>
+rgb(237,237,237)
 </td>
 <td style="text-align:left;">
-<code>var(--grey93)</code>
+\#EDEDED
 </td>
 </tr>
 <tr>
@@ -5037,13 +5037,13 @@ CSS Variable
 <img src="https://placehold.it/50/F0F0F0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey94</code>
+grey94
 </td>
 <td style="text-align:left;">
-<code>.bg-grey94</code>
+rgb(240,240,240)
 </td>
 <td style="text-align:left;">
-<code>var(--grey94)</code>
+\#F0F0F0
 </td>
 </tr>
 <tr>
@@ -5051,13 +5051,13 @@ CSS Variable
 <img src="https://placehold.it/50/F2F2F2/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey95</code>
+grey95
 </td>
 <td style="text-align:left;">
-<code>.bg-grey95</code>
+rgb(242,242,242)
 </td>
 <td style="text-align:left;">
-<code>var(--grey95)</code>
+\#F2F2F2
 </td>
 </tr>
 <tr>
@@ -5065,13 +5065,13 @@ CSS Variable
 <img src="https://placehold.it/50/F5F5F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey96</code>
+grey96
 </td>
 <td style="text-align:left;">
-<code>.bg-grey96</code>
+rgb(245,245,245)
 </td>
 <td style="text-align:left;">
-<code>var(--grey96)</code>
+\#F5F5F5
 </td>
 </tr>
 <tr>
@@ -5079,13 +5079,13 @@ CSS Variable
 <img src="https://placehold.it/50/F7F7F7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey97</code>
+grey97
 </td>
 <td style="text-align:left;">
-<code>.bg-grey97</code>
+rgb(247,247,247)
 </td>
 <td style="text-align:left;">
-<code>var(--grey97)</code>
+\#F7F7F7
 </td>
 </tr>
 <tr>
@@ -5093,13 +5093,13 @@ CSS Variable
 <img src="https://placehold.it/50/FAFAFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey98</code>
+grey98
 </td>
 <td style="text-align:left;">
-<code>.bg-grey98</code>
+rgb(250,250,250)
 </td>
 <td style="text-align:left;">
-<code>var(--grey98)</code>
+\#FAFAFA
 </td>
 </tr>
 <tr>
@@ -5107,13 +5107,13 @@ CSS Variable
 <img src="https://placehold.it/50/FCFCFC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey99</code>
+grey99
 </td>
 <td style="text-align:left;">
-<code>.bg-grey99</code>
+rgb(252,252,252)
 </td>
 <td style="text-align:left;">
-<code>var(--grey99)</code>
+\#FCFCFC
 </td>
 </tr>
 <tr>
@@ -5121,27 +5121,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.grey100</code>
+grey100
 </td>
 <td style="text-align:left;">
-<code>.bg-grey100</code>
+rgb(255,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--grey100)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/F0FFF0/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.honeydew</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-honeydew</code>
-</td>
-<td style="text-align:left;">
-<code>var(--honeydew)</code>
+\#FFFFFF
 </td>
 </tr>
 <tr>
@@ -5149,13 +5135,27 @@ CSS Variable
 <img src="https://placehold.it/50/F0FFF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.honeydew1</code>
+honeydew
 </td>
 <td style="text-align:left;">
-<code>.bg-honeydew1</code>
+rgb(240,255,240)
 </td>
 <td style="text-align:left;">
-<code>var(--honeydew1)</code>
+\#F0FFF0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/F0FFF0/000000?text=+" />
+</td>
+<td style="text-align:left;">
+honeydew1
+</td>
+<td style="text-align:left;">
+rgb(240,255,240)
+</td>
+<td style="text-align:left;">
+\#F0FFF0
 </td>
 </tr>
 <tr>
@@ -5163,13 +5163,13 @@ CSS Variable
 <img src="https://placehold.it/50/E0EEE0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.honeydew2</code>
+honeydew2
 </td>
 <td style="text-align:left;">
-<code>.bg-honeydew2</code>
+rgb(224,238,224)
 </td>
 <td style="text-align:left;">
-<code>var(--honeydew2)</code>
+\#E0EEE0
 </td>
 </tr>
 <tr>
@@ -5177,13 +5177,13 @@ CSS Variable
 <img src="https://placehold.it/50/C1CDC1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.honeydew3</code>
+honeydew3
 </td>
 <td style="text-align:left;">
-<code>.bg-honeydew3</code>
+rgb(193,205,193)
 </td>
 <td style="text-align:left;">
-<code>var(--honeydew3)</code>
+\#C1CDC1
 </td>
 </tr>
 <tr>
@@ -5191,13 +5191,13 @@ CSS Variable
 <img src="https://placehold.it/50/838B83/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.honeydew4</code>
+honeydew4
 </td>
 <td style="text-align:left;">
-<code>.bg-honeydew4</code>
+rgb(131,139,131)
 </td>
 <td style="text-align:left;">
-<code>var(--honeydew4)</code>
+\#838B83
 </td>
 </tr>
 <tr>
@@ -5205,13 +5205,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF69B4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.hotpink</code>
+hotpink
 </td>
 <td style="text-align:left;">
-<code>.bg-hotpink</code>
+rgb(255,105,180)
 </td>
 <td style="text-align:left;">
-<code>var(--hotpink)</code>
+\#FF69B4
 </td>
 </tr>
 <tr>
@@ -5219,13 +5219,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF6EB4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.hotpink1</code>
+hotpink1
 </td>
 <td style="text-align:left;">
-<code>.bg-hotpink1</code>
+rgb(255,110,180)
 </td>
 <td style="text-align:left;">
-<code>var(--hotpink1)</code>
+\#FF6EB4
 </td>
 </tr>
 <tr>
@@ -5233,13 +5233,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE6AA7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.hotpink2</code>
+hotpink2
 </td>
 <td style="text-align:left;">
-<code>.bg-hotpink2</code>
+rgb(238,106,167)
 </td>
 <td style="text-align:left;">
-<code>var(--hotpink2)</code>
+\#EE6AA7
 </td>
 </tr>
 <tr>
@@ -5247,13 +5247,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD6090/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.hotpink3</code>
+hotpink3
 </td>
 <td style="text-align:left;">
-<code>.bg-hotpink3</code>
+rgb(205,96,144)
 </td>
 <td style="text-align:left;">
-<code>var(--hotpink3)</code>
+\#CD6090
 </td>
 </tr>
 <tr>
@@ -5261,13 +5261,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B3A62/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.hotpink4</code>
+hotpink4
 </td>
 <td style="text-align:left;">
-<code>.bg-hotpink4</code>
+rgb(139,58,98)
 </td>
 <td style="text-align:left;">
-<code>var(--hotpink4)</code>
+\#8B3A62
 </td>
 </tr>
 <tr>
@@ -5275,13 +5275,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD5C5C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.indianred</code>
+indianred
 </td>
 <td style="text-align:left;">
-<code>.bg-indianred</code>
+rgb(205,92,92)
 </td>
 <td style="text-align:left;">
-<code>var(--indianred)</code>
+\#CD5C5C
 </td>
 </tr>
 <tr>
@@ -5289,13 +5289,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF6A6A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.indianred1</code>
+indianred1
 </td>
 <td style="text-align:left;">
-<code>.bg-indianred1</code>
+rgb(255,106,106)
 </td>
 <td style="text-align:left;">
-<code>var(--indianred1)</code>
+\#FF6A6A
 </td>
 </tr>
 <tr>
@@ -5303,13 +5303,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE6363/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.indianred2</code>
+indianred2
 </td>
 <td style="text-align:left;">
-<code>.bg-indianred2</code>
+rgb(238,99,99)
 </td>
 <td style="text-align:left;">
-<code>var(--indianred2)</code>
+\#EE6363
 </td>
 </tr>
 <tr>
@@ -5317,13 +5317,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD5555/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.indianred3</code>
+indianred3
 </td>
 <td style="text-align:left;">
-<code>.bg-indianred3</code>
+rgb(205,85,85)
 </td>
 <td style="text-align:left;">
-<code>var(--indianred3)</code>
+\#CD5555
 </td>
 </tr>
 <tr>
@@ -5331,27 +5331,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B3A3A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.indianred4</code>
+indianred4
 </td>
 <td style="text-align:left;">
-<code>.bg-indianred4</code>
+rgb(139,58,58)
 </td>
 <td style="text-align:left;">
-<code>var(--indianred4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFF0/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.ivory</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-ivory</code>
-</td>
-<td style="text-align:left;">
-<code>var(--ivory)</code>
+\#8B3A3A
 </td>
 </tr>
 <tr>
@@ -5359,13 +5345,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFFFF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.ivory1</code>
+ivory
 </td>
 <td style="text-align:left;">
-<code>.bg-ivory1</code>
+rgb(255,255,240)
 </td>
 <td style="text-align:left;">
-<code>var(--ivory1)</code>
+\#FFFFF0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFFFF0/000000?text=+" />
+</td>
+<td style="text-align:left;">
+ivory1
+</td>
+<td style="text-align:left;">
+rgb(255,255,240)
+</td>
+<td style="text-align:left;">
+\#FFFFF0
 </td>
 </tr>
 <tr>
@@ -5373,13 +5373,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEEEE0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.ivory2</code>
+ivory2
 </td>
 <td style="text-align:left;">
-<code>.bg-ivory2</code>
+rgb(238,238,224)
 </td>
 <td style="text-align:left;">
-<code>var(--ivory2)</code>
+\#EEEEE0
 </td>
 </tr>
 <tr>
@@ -5387,13 +5387,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDCDC1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.ivory3</code>
+ivory3
 </td>
 <td style="text-align:left;">
-<code>.bg-ivory3</code>
+rgb(205,205,193)
 </td>
 <td style="text-align:left;">
-<code>var(--ivory3)</code>
+\#CDCDC1
 </td>
 </tr>
 <tr>
@@ -5401,13 +5401,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8B83/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.ivory4</code>
+ivory4
 </td>
 <td style="text-align:left;">
-<code>.bg-ivory4</code>
+rgb(139,139,131)
 </td>
 <td style="text-align:left;">
-<code>var(--ivory4)</code>
+\#8B8B83
 </td>
 </tr>
 <tr>
@@ -5415,13 +5415,13 @@ CSS Variable
 <img src="https://placehold.it/50/F0E68C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.khaki</code>
+khaki
 </td>
 <td style="text-align:left;">
-<code>.bg-khaki</code>
+rgb(240,230,140)
 </td>
 <td style="text-align:left;">
-<code>var(--khaki)</code>
+\#F0E68C
 </td>
 </tr>
 <tr>
@@ -5429,13 +5429,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFF68F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.khaki1</code>
+khaki1
 </td>
 <td style="text-align:left;">
-<code>.bg-khaki1</code>
+rgb(255,246,143)
 </td>
 <td style="text-align:left;">
-<code>var(--khaki1)</code>
+\#FFF68F
 </td>
 </tr>
 <tr>
@@ -5443,13 +5443,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEE685/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.khaki2</code>
+khaki2
 </td>
 <td style="text-align:left;">
-<code>.bg-khaki2</code>
+rgb(238,230,133)
 </td>
 <td style="text-align:left;">
-<code>var(--khaki2)</code>
+\#EEE685
 </td>
 </tr>
 <tr>
@@ -5457,13 +5457,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDC673/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.khaki3</code>
+khaki3
 </td>
 <td style="text-align:left;">
-<code>.bg-khaki3</code>
+rgb(205,198,115)
 </td>
 <td style="text-align:left;">
-<code>var(--khaki3)</code>
+\#CDC673
 </td>
 </tr>
 <tr>
@@ -5471,13 +5471,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B864E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.khaki4</code>
+khaki4
 </td>
 <td style="text-align:left;">
-<code>.bg-khaki4</code>
+rgb(139,134,78)
 </td>
 <td style="text-align:left;">
-<code>var(--khaki4)</code>
+\#8B864E
 </td>
 </tr>
 <tr>
@@ -5485,27 +5485,13 @@ CSS Variable
 <img src="https://placehold.it/50/E6E6FA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lavender</code>
+lavender
 </td>
 <td style="text-align:left;">
-<code>.bg-lavender</code>
+rgb(230,230,250)
 </td>
 <td style="text-align:left;">
-<code>var(--lavender)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFF0F5/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.lavenderblush</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-lavenderblush</code>
-</td>
-<td style="text-align:left;">
-<code>var(--lavenderblush)</code>
+\#E6E6FA
 </td>
 </tr>
 <tr>
@@ -5513,13 +5499,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFF0F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lavenderblush1</code>
+lavenderblush
 </td>
 <td style="text-align:left;">
-<code>.bg-lavenderblush1</code>
+rgb(255,240,245)
 </td>
 <td style="text-align:left;">
-<code>var(--lavenderblush1)</code>
+\#FFF0F5
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFF0F5/000000?text=+" />
+</td>
+<td style="text-align:left;">
+lavenderblush1
+</td>
+<td style="text-align:left;">
+rgb(255,240,245)
+</td>
+<td style="text-align:left;">
+\#FFF0F5
 </td>
 </tr>
 <tr>
@@ -5527,13 +5527,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEE0E5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lavenderblush2</code>
+lavenderblush2
 </td>
 <td style="text-align:left;">
-<code>.bg-lavenderblush2</code>
+rgb(238,224,229)
 </td>
 <td style="text-align:left;">
-<code>var(--lavenderblush2)</code>
+\#EEE0E5
 </td>
 </tr>
 <tr>
@@ -5541,13 +5541,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDC1C5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lavenderblush3</code>
+lavenderblush3
 </td>
 <td style="text-align:left;">
-<code>.bg-lavenderblush3</code>
+rgb(205,193,197)
 </td>
 <td style="text-align:left;">
-<code>var(--lavenderblush3)</code>
+\#CDC1C5
 </td>
 </tr>
 <tr>
@@ -5555,13 +5555,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8386/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lavenderblush4</code>
+lavenderblush4
 </td>
 <td style="text-align:left;">
-<code>.bg-lavenderblush4</code>
+rgb(139,131,134)
 </td>
 <td style="text-align:left;">
-<code>var(--lavenderblush4)</code>
+\#8B8386
 </td>
 </tr>
 <tr>
@@ -5569,27 +5569,13 @@ CSS Variable
 <img src="https://placehold.it/50/7CFC00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lawngreen</code>
+lawngreen
 </td>
 <td style="text-align:left;">
-<code>.bg-lawngreen</code>
+rgb(124,252,0)
 </td>
 <td style="text-align:left;">
-<code>var(--lawngreen)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFFACD/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.lemonchiffon</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-lemonchiffon</code>
-</td>
-<td style="text-align:left;">
-<code>var(--lemonchiffon)</code>
+\#7CFC00
 </td>
 </tr>
 <tr>
@@ -5597,13 +5583,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFFACD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lemonchiffon1</code>
+lemonchiffon
 </td>
 <td style="text-align:left;">
-<code>.bg-lemonchiffon1</code>
+rgb(255,250,205)
 </td>
 <td style="text-align:left;">
-<code>var(--lemonchiffon1)</code>
+\#FFFACD
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFFACD/000000?text=+" />
+</td>
+<td style="text-align:left;">
+lemonchiffon1
+</td>
+<td style="text-align:left;">
+rgb(255,250,205)
+</td>
+<td style="text-align:left;">
+\#FFFACD
 </td>
 </tr>
 <tr>
@@ -5611,13 +5611,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEE9BF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lemonchiffon2</code>
+lemonchiffon2
 </td>
 <td style="text-align:left;">
-<code>.bg-lemonchiffon2</code>
+rgb(238,233,191)
 </td>
 <td style="text-align:left;">
-<code>var(--lemonchiffon2)</code>
+\#EEE9BF
 </td>
 </tr>
 <tr>
@@ -5625,13 +5625,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDC9A5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lemonchiffon3</code>
+lemonchiffon3
 </td>
 <td style="text-align:left;">
-<code>.bg-lemonchiffon3</code>
+rgb(205,201,165)
 </td>
 <td style="text-align:left;">
-<code>var(--lemonchiffon3)</code>
+\#CDC9A5
 </td>
 </tr>
 <tr>
@@ -5639,13 +5639,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8970/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lemonchiffon4</code>
+lemonchiffon4
 </td>
 <td style="text-align:left;">
-<code>.bg-lemonchiffon4</code>
+rgb(139,137,112)
 </td>
 <td style="text-align:left;">
-<code>var(--lemonchiffon4)</code>
+\#8B8970
 </td>
 </tr>
 <tr>
@@ -5653,13 +5653,13 @@ CSS Variable
 <img src="https://placehold.it/50/ADD8E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightblue</code>
+lightblue
 </td>
 <td style="text-align:left;">
-<code>.bg-lightblue</code>
+rgb(173,216,230)
 </td>
 <td style="text-align:left;">
-<code>var(--lightblue)</code>
+\#ADD8E6
 </td>
 </tr>
 <tr>
@@ -5667,13 +5667,13 @@ CSS Variable
 <img src="https://placehold.it/50/BFEFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightblue1</code>
+lightblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-lightblue1</code>
+rgb(191,239,255)
 </td>
 <td style="text-align:left;">
-<code>var(--lightblue1)</code>
+\#BFEFFF
 </td>
 </tr>
 <tr>
@@ -5681,13 +5681,13 @@ CSS Variable
 <img src="https://placehold.it/50/B2DFEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightblue2</code>
+lightblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightblue2</code>
+rgb(178,223,238)
 </td>
 <td style="text-align:left;">
-<code>var(--lightblue2)</code>
+\#B2DFEE
 </td>
 </tr>
 <tr>
@@ -5695,13 +5695,13 @@ CSS Variable
 <img src="https://placehold.it/50/9AC0CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightblue3</code>
+lightblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightblue3</code>
+rgb(154,192,205)
 </td>
 <td style="text-align:left;">
-<code>var(--lightblue3)</code>
+\#9AC0CD
 </td>
 </tr>
 <tr>
@@ -5709,13 +5709,13 @@ CSS Variable
 <img src="https://placehold.it/50/68838B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightblue4</code>
+lightblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightblue4</code>
+rgb(104,131,139)
 </td>
 <td style="text-align:left;">
-<code>var(--lightblue4)</code>
+\#68838B
 </td>
 </tr>
 <tr>
@@ -5723,27 +5723,13 @@ CSS Variable
 <img src="https://placehold.it/50/F08080/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightcoral</code>
+lightcoral
 </td>
 <td style="text-align:left;">
-<code>.bg-lightcoral</code>
+rgb(240,128,128)
 </td>
 <td style="text-align:left;">
-<code>var(--lightcoral)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/E0FFFF/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.lightcyan</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-lightcyan</code>
-</td>
-<td style="text-align:left;">
-<code>var(--lightcyan)</code>
+\#F08080
 </td>
 </tr>
 <tr>
@@ -5751,13 +5737,27 @@ CSS Variable
 <img src="https://placehold.it/50/E0FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightcyan1</code>
+lightcyan
 </td>
 <td style="text-align:left;">
-<code>.bg-lightcyan1</code>
+rgb(224,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--lightcyan1)</code>
+\#E0FFFF
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/E0FFFF/000000?text=+" />
+</td>
+<td style="text-align:left;">
+lightcyan1
+</td>
+<td style="text-align:left;">
+rgb(224,255,255)
+</td>
+<td style="text-align:left;">
+\#E0FFFF
 </td>
 </tr>
 <tr>
@@ -5765,13 +5765,13 @@ CSS Variable
 <img src="https://placehold.it/50/D1EEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightcyan2</code>
+lightcyan2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightcyan2</code>
+rgb(209,238,238)
 </td>
 <td style="text-align:left;">
-<code>var(--lightcyan2)</code>
+\#D1EEEE
 </td>
 </tr>
 <tr>
@@ -5779,13 +5779,13 @@ CSS Variable
 <img src="https://placehold.it/50/B4CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightcyan3</code>
+lightcyan3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightcyan3</code>
+rgb(180,205,205)
 </td>
 <td style="text-align:left;">
-<code>var(--lightcyan3)</code>
+\#B4CDCD
 </td>
 </tr>
 <tr>
@@ -5793,13 +5793,13 @@ CSS Variable
 <img src="https://placehold.it/50/7A8B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightcyan4</code>
+lightcyan4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightcyan4</code>
+rgb(122,139,139)
 </td>
 <td style="text-align:left;">
-<code>var(--lightcyan4)</code>
+\#7A8B8B
 </td>
 </tr>
 <tr>
@@ -5807,13 +5807,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEDD82/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgoldenrod</code>
+lightgoldenrod
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgoldenrod</code>
+rgb(238,221,130)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgoldenrod)</code>
+\#EEDD82
 </td>
 </tr>
 <tr>
@@ -5821,13 +5821,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFEC8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgoldenrod1</code>
+lightgoldenrod1
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgoldenrod1</code>
+rgb(255,236,139)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgoldenrod1)</code>
+\#FFEC8B
 </td>
 </tr>
 <tr>
@@ -5835,13 +5835,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEDC82/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgoldenrod2</code>
+lightgoldenrod2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgoldenrod2</code>
+rgb(238,220,130)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgoldenrod2)</code>
+\#EEDC82
 </td>
 </tr>
 <tr>
@@ -5849,13 +5849,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDBE70/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgoldenrod3</code>
+lightgoldenrod3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgoldenrod3</code>
+rgb(205,190,112)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgoldenrod3)</code>
+\#CDBE70
 </td>
 </tr>
 <tr>
@@ -5863,13 +5863,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B814C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgoldenrod4</code>
+lightgoldenrod4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgoldenrod4</code>
+rgb(139,129,76)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgoldenrod4)</code>
+\#8B814C
 </td>
 </tr>
 <tr>
@@ -5877,13 +5877,13 @@ CSS Variable
 <img src="https://placehold.it/50/FAFAD2/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgoldenrodyellow</code>
+lightgoldenrodyellow
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgoldenrodyellow</code>
+rgb(250,250,210)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgoldenrodyellow)</code>
+\#FAFAD2
 </td>
 </tr>
 <tr>
@@ -5891,13 +5891,13 @@ CSS Variable
 <img src="https://placehold.it/50/D3D3D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgray</code>
+lightgray
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgray</code>
+rgb(211,211,211)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgray)</code>
+\#D3D3D3
 </td>
 </tr>
 <tr>
@@ -5905,13 +5905,13 @@ CSS Variable
 <img src="https://placehold.it/50/90EE90/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgreen</code>
+lightgreen
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgreen</code>
+rgb(144,238,144)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgreen)</code>
+\#90EE90
 </td>
 </tr>
 <tr>
@@ -5919,13 +5919,13 @@ CSS Variable
 <img src="https://placehold.it/50/D3D3D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightgrey</code>
+lightgrey
 </td>
 <td style="text-align:left;">
-<code>.bg-lightgrey</code>
+rgb(211,211,211)
 </td>
 <td style="text-align:left;">
-<code>var(--lightgrey)</code>
+\#D3D3D3
 </td>
 </tr>
 <tr>
@@ -5933,13 +5933,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFB6C1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightpink</code>
+lightpink
 </td>
 <td style="text-align:left;">
-<code>.bg-lightpink</code>
+rgb(255,182,193)
 </td>
 <td style="text-align:left;">
-<code>var(--lightpink)</code>
+\#FFB6C1
 </td>
 </tr>
 <tr>
@@ -5947,13 +5947,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFAEB9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightpink1</code>
+lightpink1
 </td>
 <td style="text-align:left;">
-<code>.bg-lightpink1</code>
+rgb(255,174,185)
 </td>
 <td style="text-align:left;">
-<code>var(--lightpink1)</code>
+\#FFAEB9
 </td>
 </tr>
 <tr>
@@ -5961,13 +5961,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEA2AD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightpink2</code>
+lightpink2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightpink2</code>
+rgb(238,162,173)
 </td>
 <td style="text-align:left;">
-<code>var(--lightpink2)</code>
+\#EEA2AD
 </td>
 </tr>
 <tr>
@@ -5975,13 +5975,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD8C95/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightpink3</code>
+lightpink3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightpink3</code>
+rgb(205,140,149)
 </td>
 <td style="text-align:left;">
-<code>var(--lightpink3)</code>
+\#CD8C95
 </td>
 </tr>
 <tr>
@@ -5989,27 +5989,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B5F65/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightpink4</code>
+lightpink4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightpink4</code>
+rgb(139,95,101)
 </td>
 <td style="text-align:left;">
-<code>var(--lightpink4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFA07A/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.lightsalmon</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-lightsalmon</code>
-</td>
-<td style="text-align:left;">
-<code>var(--lightsalmon)</code>
+\#8B5F65
 </td>
 </tr>
 <tr>
@@ -6017,13 +6003,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFA07A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsalmon1</code>
+lightsalmon
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsalmon1</code>
+rgb(255,160,122)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsalmon1)</code>
+\#FFA07A
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFA07A/000000?text=+" />
+</td>
+<td style="text-align:left;">
+lightsalmon1
+</td>
+<td style="text-align:left;">
+rgb(255,160,122)
+</td>
+<td style="text-align:left;">
+\#FFA07A
 </td>
 </tr>
 <tr>
@@ -6031,13 +6031,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE9572/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsalmon2</code>
+lightsalmon2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsalmon2</code>
+rgb(238,149,114)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsalmon2)</code>
+\#EE9572
 </td>
 </tr>
 <tr>
@@ -6045,13 +6045,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD8162/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsalmon3</code>
+lightsalmon3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsalmon3</code>
+rgb(205,129,98)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsalmon3)</code>
+\#CD8162
 </td>
 </tr>
 <tr>
@@ -6059,13 +6059,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B5742/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsalmon4</code>
+lightsalmon4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsalmon4</code>
+rgb(139,87,66)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsalmon4)</code>
+\#8B5742
 </td>
 </tr>
 <tr>
@@ -6073,13 +6073,13 @@ CSS Variable
 <img src="https://placehold.it/50/20B2AA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightseagreen</code>
+lightseagreen
 </td>
 <td style="text-align:left;">
-<code>.bg-lightseagreen</code>
+rgb(32,178,170)
 </td>
 <td style="text-align:left;">
-<code>var(--lightseagreen)</code>
+\#20B2AA
 </td>
 </tr>
 <tr>
@@ -6087,13 +6087,13 @@ CSS Variable
 <img src="https://placehold.it/50/87CEFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightskyblue</code>
+lightskyblue
 </td>
 <td style="text-align:left;">
-<code>.bg-lightskyblue</code>
+rgb(135,206,250)
 </td>
 <td style="text-align:left;">
-<code>var(--lightskyblue)</code>
+\#87CEFA
 </td>
 </tr>
 <tr>
@@ -6101,13 +6101,13 @@ CSS Variable
 <img src="https://placehold.it/50/B0E2FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightskyblue1</code>
+lightskyblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-lightskyblue1</code>
+rgb(176,226,255)
 </td>
 <td style="text-align:left;">
-<code>var(--lightskyblue1)</code>
+\#B0E2FF
 </td>
 </tr>
 <tr>
@@ -6115,13 +6115,13 @@ CSS Variable
 <img src="https://placehold.it/50/A4D3EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightskyblue2</code>
+lightskyblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightskyblue2</code>
+rgb(164,211,238)
 </td>
 <td style="text-align:left;">
-<code>var(--lightskyblue2)</code>
+\#A4D3EE
 </td>
 </tr>
 <tr>
@@ -6129,13 +6129,13 @@ CSS Variable
 <img src="https://placehold.it/50/8DB6CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightskyblue3</code>
+lightskyblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightskyblue3</code>
+rgb(141,182,205)
 </td>
 <td style="text-align:left;">
-<code>var(--lightskyblue3)</code>
+\#8DB6CD
 </td>
 </tr>
 <tr>
@@ -6143,13 +6143,13 @@ CSS Variable
 <img src="https://placehold.it/50/607B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightskyblue4</code>
+lightskyblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightskyblue4</code>
+rgb(96,123,139)
 </td>
 <td style="text-align:left;">
-<code>var(--lightskyblue4)</code>
+\#607B8B
 </td>
 </tr>
 <tr>
@@ -6157,27 +6157,13 @@ CSS Variable
 <img src="https://placehold.it/50/8470FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightslateblue</code>
+lightslateblue
 </td>
 <td style="text-align:left;">
-<code>.bg-lightslateblue</code>
+rgb(132,112,255)
 </td>
 <td style="text-align:left;">
-<code>var(--lightslateblue)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/778899/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.lightslategray</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-lightslategray</code>
-</td>
-<td style="text-align:left;">
-<code>var(--lightslategray)</code>
+\#8470FF
 </td>
 </tr>
 <tr>
@@ -6185,13 +6171,27 @@ CSS Variable
 <img src="https://placehold.it/50/778899/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightslategrey</code>
+lightslategray
 </td>
 <td style="text-align:left;">
-<code>.bg-lightslategrey</code>
+rgb(119,136,153)
 </td>
 <td style="text-align:left;">
-<code>var(--lightslategrey)</code>
+\#778899
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/778899/000000?text=+" />
+</td>
+<td style="text-align:left;">
+lightslategrey
+</td>
+<td style="text-align:left;">
+rgb(119,136,153)
+</td>
+<td style="text-align:left;">
+\#778899
 </td>
 </tr>
 <tr>
@@ -6199,13 +6199,13 @@ CSS Variable
 <img src="https://placehold.it/50/B0C4DE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsteelblue</code>
+lightsteelblue
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsteelblue</code>
+rgb(176,196,222)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsteelblue)</code>
+\#B0C4DE
 </td>
 </tr>
 <tr>
@@ -6213,13 +6213,13 @@ CSS Variable
 <img src="https://placehold.it/50/CAE1FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsteelblue1</code>
+lightsteelblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsteelblue1</code>
+rgb(202,225,255)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsteelblue1)</code>
+\#CAE1FF
 </td>
 </tr>
 <tr>
@@ -6227,13 +6227,13 @@ CSS Variable
 <img src="https://placehold.it/50/BCD2EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsteelblue2</code>
+lightsteelblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsteelblue2</code>
+rgb(188,210,238)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsteelblue2)</code>
+\#BCD2EE
 </td>
 </tr>
 <tr>
@@ -6241,13 +6241,13 @@ CSS Variable
 <img src="https://placehold.it/50/A2B5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsteelblue3</code>
+lightsteelblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsteelblue3</code>
+rgb(162,181,205)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsteelblue3)</code>
+\#A2B5CD
 </td>
 </tr>
 <tr>
@@ -6255,27 +6255,13 @@ CSS Variable
 <img src="https://placehold.it/50/6E7B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightsteelblue4</code>
+lightsteelblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightsteelblue4</code>
+rgb(110,123,139)
 </td>
 <td style="text-align:left;">
-<code>var(--lightsteelblue4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFE0/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.lightyellow</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-lightyellow</code>
-</td>
-<td style="text-align:left;">
-<code>var(--lightyellow)</code>
+\#6E7B8B
 </td>
 </tr>
 <tr>
@@ -6283,13 +6269,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFFFE0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightyellow1</code>
+lightyellow
 </td>
 <td style="text-align:left;">
-<code>.bg-lightyellow1</code>
+rgb(255,255,224)
 </td>
 <td style="text-align:left;">
-<code>var(--lightyellow1)</code>
+\#FFFFE0
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFFFE0/000000?text=+" />
+</td>
+<td style="text-align:left;">
+lightyellow1
+</td>
+<td style="text-align:left;">
+rgb(255,255,224)
+</td>
+<td style="text-align:left;">
+\#FFFFE0
 </td>
 </tr>
 <tr>
@@ -6297,13 +6297,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEEED1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightyellow2</code>
+lightyellow2
 </td>
 <td style="text-align:left;">
-<code>.bg-lightyellow2</code>
+rgb(238,238,209)
 </td>
 <td style="text-align:left;">
-<code>var(--lightyellow2)</code>
+\#EEEED1
 </td>
 </tr>
 <tr>
@@ -6311,13 +6311,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDCDB4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightyellow3</code>
+lightyellow3
 </td>
 <td style="text-align:left;">
-<code>.bg-lightyellow3</code>
+rgb(205,205,180)
 </td>
 <td style="text-align:left;">
-<code>var(--lightyellow3)</code>
+\#CDCDB4
 </td>
 </tr>
 <tr>
@@ -6325,13 +6325,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8B7A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.lightyellow4</code>
+lightyellow4
 </td>
 <td style="text-align:left;">
-<code>.bg-lightyellow4</code>
+rgb(139,139,122)
 </td>
 <td style="text-align:left;">
-<code>var(--lightyellow4)</code>
+\#8B8B7A
 </td>
 </tr>
 <tr>
@@ -6339,13 +6339,13 @@ CSS Variable
 <img src="https://placehold.it/50/32CD32/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.limegreen</code>
+limegreen
 </td>
 <td style="text-align:left;">
-<code>.bg-limegreen</code>
+rgb(50,205,50)
 </td>
 <td style="text-align:left;">
-<code>var(--limegreen)</code>
+\#32CD32
 </td>
 </tr>
 <tr>
@@ -6353,27 +6353,13 @@ CSS Variable
 <img src="https://placehold.it/50/FAF0E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.linen</code>
+linen
 </td>
 <td style="text-align:left;">
-<code>.bg-linen</code>
+rgb(250,240,230)
 </td>
 <td style="text-align:left;">
-<code>var(--linen)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FF00FF/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.magenta</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-magenta</code>
-</td>
-<td style="text-align:left;">
-<code>var(--magenta)</code>
+\#FAF0E6
 </td>
 </tr>
 <tr>
@@ -6381,13 +6367,27 @@ CSS Variable
 <img src="https://placehold.it/50/FF00FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.magenta1</code>
+magenta
 </td>
 <td style="text-align:left;">
-<code>.bg-magenta1</code>
+rgb(255,0,255)
 </td>
 <td style="text-align:left;">
-<code>var(--magenta1)</code>
+\#FF00FF
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FF00FF/000000?text=+" />
+</td>
+<td style="text-align:left;">
+magenta1
+</td>
+<td style="text-align:left;">
+rgb(255,0,255)
+</td>
+<td style="text-align:left;">
+\#FF00FF
 </td>
 </tr>
 <tr>
@@ -6395,13 +6395,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE00EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.magenta2</code>
+magenta2
 </td>
 <td style="text-align:left;">
-<code>.bg-magenta2</code>
+rgb(238,0,238)
 </td>
 <td style="text-align:left;">
-<code>var(--magenta2)</code>
+\#EE00EE
 </td>
 </tr>
 <tr>
@@ -6409,13 +6409,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD00CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.magenta3</code>
+magenta3
 </td>
 <td style="text-align:left;">
-<code>.bg-magenta3</code>
+rgb(205,0,205)
 </td>
 <td style="text-align:left;">
-<code>var(--magenta3)</code>
+\#CD00CD
 </td>
 </tr>
 <tr>
@@ -6423,13 +6423,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.magenta4</code>
+magenta4
 </td>
 <td style="text-align:left;">
-<code>.bg-magenta4</code>
+rgb(139,0,139)
 </td>
 <td style="text-align:left;">
-<code>var(--magenta4)</code>
+\#8B008B
 </td>
 </tr>
 <tr>
@@ -6437,13 +6437,13 @@ CSS Variable
 <img src="https://placehold.it/50/B03060/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.maroon</code>
+maroon
 </td>
 <td style="text-align:left;">
-<code>.bg-maroon</code>
+rgb(176,48,96)
 </td>
 <td style="text-align:left;">
-<code>var(--maroon)</code>
+\#B03060
 </td>
 </tr>
 <tr>
@@ -6451,13 +6451,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF34B3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.maroon1</code>
+maroon1
 </td>
 <td style="text-align:left;">
-<code>.bg-maroon1</code>
+rgb(255,52,179)
 </td>
 <td style="text-align:left;">
-<code>var(--maroon1)</code>
+\#FF34B3
 </td>
 </tr>
 <tr>
@@ -6465,13 +6465,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE30A7/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.maroon2</code>
+maroon2
 </td>
 <td style="text-align:left;">
-<code>.bg-maroon2</code>
+rgb(238,48,167)
 </td>
 <td style="text-align:left;">
-<code>var(--maroon2)</code>
+\#EE30A7
 </td>
 </tr>
 <tr>
@@ -6479,13 +6479,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD2990/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.maroon3</code>
+maroon3
 </td>
 <td style="text-align:left;">
-<code>.bg-maroon3</code>
+rgb(205,41,144)
 </td>
 <td style="text-align:left;">
-<code>var(--maroon3)</code>
+\#CD2990
 </td>
 </tr>
 <tr>
@@ -6493,13 +6493,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B1C62/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.maroon4</code>
+maroon4
 </td>
 <td style="text-align:left;">
-<code>.bg-maroon4</code>
+rgb(139,28,98)
 </td>
 <td style="text-align:left;">
-<code>var(--maroon4)</code>
+\#8B1C62
 </td>
 </tr>
 <tr>
@@ -6507,13 +6507,13 @@ CSS Variable
 <img src="https://placehold.it/50/66CDAA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumaquamarine</code>
+mediumaquamarine
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumaquamarine</code>
+rgb(102,205,170)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumaquamarine)</code>
+\#66CDAA
 </td>
 </tr>
 <tr>
@@ -6521,13 +6521,13 @@ CSS Variable
 <img src="https://placehold.it/50/0000CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumblue</code>
+mediumblue
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumblue</code>
+rgb(0,0,205)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumblue)</code>
+\#0000CD
 </td>
 </tr>
 <tr>
@@ -6535,13 +6535,13 @@ CSS Variable
 <img src="https://placehold.it/50/BA55D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumorchid</code>
+mediumorchid
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumorchid</code>
+rgb(186,85,211)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumorchid)</code>
+\#BA55D3
 </td>
 </tr>
 <tr>
@@ -6549,13 +6549,13 @@ CSS Variable
 <img src="https://placehold.it/50/E066FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumorchid1</code>
+mediumorchid1
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumorchid1</code>
+rgb(224,102,255)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumorchid1)</code>
+\#E066FF
 </td>
 </tr>
 <tr>
@@ -6563,13 +6563,13 @@ CSS Variable
 <img src="https://placehold.it/50/D15FEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumorchid2</code>
+mediumorchid2
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumorchid2</code>
+rgb(209,95,238)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumorchid2)</code>
+\#D15FEE
 </td>
 </tr>
 <tr>
@@ -6577,13 +6577,13 @@ CSS Variable
 <img src="https://placehold.it/50/B452CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumorchid3</code>
+mediumorchid3
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumorchid3</code>
+rgb(180,82,205)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumorchid3)</code>
+\#B452CD
 </td>
 </tr>
 <tr>
@@ -6591,13 +6591,13 @@ CSS Variable
 <img src="https://placehold.it/50/7A378B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumorchid4</code>
+mediumorchid4
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumorchid4</code>
+rgb(122,55,139)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumorchid4)</code>
+\#7A378B
 </td>
 </tr>
 <tr>
@@ -6605,13 +6605,13 @@ CSS Variable
 <img src="https://placehold.it/50/9370DB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumpurple</code>
+mediumpurple
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumpurple</code>
+rgb(147,112,219)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumpurple)</code>
+\#9370DB
 </td>
 </tr>
 <tr>
@@ -6619,13 +6619,13 @@ CSS Variable
 <img src="https://placehold.it/50/AB82FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumpurple1</code>
+mediumpurple1
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumpurple1</code>
+rgb(171,130,255)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumpurple1)</code>
+\#AB82FF
 </td>
 </tr>
 <tr>
@@ -6633,13 +6633,13 @@ CSS Variable
 <img src="https://placehold.it/50/9F79EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumpurple2</code>
+mediumpurple2
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumpurple2</code>
+rgb(159,121,238)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumpurple2)</code>
+\#9F79EE
 </td>
 </tr>
 <tr>
@@ -6647,13 +6647,13 @@ CSS Variable
 <img src="https://placehold.it/50/8968CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumpurple3</code>
+mediumpurple3
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumpurple3</code>
+rgb(137,104,205)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumpurple3)</code>
+\#8968CD
 </td>
 </tr>
 <tr>
@@ -6661,13 +6661,13 @@ CSS Variable
 <img src="https://placehold.it/50/5D478B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumpurple4</code>
+mediumpurple4
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumpurple4</code>
+rgb(93,71,139)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumpurple4)</code>
+\#5D478B
 </td>
 </tr>
 <tr>
@@ -6675,13 +6675,13 @@ CSS Variable
 <img src="https://placehold.it/50/3CB371/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumseagreen</code>
+mediumseagreen
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumseagreen</code>
+rgb(60,179,113)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumseagreen)</code>
+\#3CB371
 </td>
 </tr>
 <tr>
@@ -6689,13 +6689,13 @@ CSS Variable
 <img src="https://placehold.it/50/7B68EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumslateblue</code>
+mediumslateblue
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumslateblue</code>
+rgb(123,104,238)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumslateblue)</code>
+\#7B68EE
 </td>
 </tr>
 <tr>
@@ -6703,13 +6703,13 @@ CSS Variable
 <img src="https://placehold.it/50/00FA9A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumspringgreen</code>
+mediumspringgreen
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumspringgreen</code>
+rgb(0,250,154)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumspringgreen)</code>
+\#00FA9A
 </td>
 </tr>
 <tr>
@@ -6717,13 +6717,13 @@ CSS Variable
 <img src="https://placehold.it/50/48D1CC/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumturquoise</code>
+mediumturquoise
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumturquoise</code>
+rgb(72,209,204)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumturquoise)</code>
+\#48D1CC
 </td>
 </tr>
 <tr>
@@ -6731,13 +6731,13 @@ CSS Variable
 <img src="https://placehold.it/50/C71585/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mediumvioletred</code>
+mediumvioletred
 </td>
 <td style="text-align:left;">
-<code>.bg-mediumvioletred</code>
+rgb(199,21,133)
 </td>
 <td style="text-align:left;">
-<code>var(--mediumvioletred)</code>
+\#C71585
 </td>
 </tr>
 <tr>
@@ -6745,13 +6745,13 @@ CSS Variable
 <img src="https://placehold.it/50/191970/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.midnightblue</code>
+midnightblue
 </td>
 <td style="text-align:left;">
-<code>.bg-midnightblue</code>
+rgb(25,25,112)
 </td>
 <td style="text-align:left;">
-<code>var(--midnightblue)</code>
+\#191970
 </td>
 </tr>
 <tr>
@@ -6759,27 +6759,13 @@ CSS Variable
 <img src="https://placehold.it/50/F5FFFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mintcream</code>
+mintcream
 </td>
 <td style="text-align:left;">
-<code>.bg-mintcream</code>
+rgb(245,255,250)
 </td>
 <td style="text-align:left;">
-<code>var(--mintcream)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFE4E1/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.mistyrose</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-mistyrose</code>
-</td>
-<td style="text-align:left;">
-<code>var(--mistyrose)</code>
+\#F5FFFA
 </td>
 </tr>
 <tr>
@@ -6787,13 +6773,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFE4E1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mistyrose1</code>
+mistyrose
 </td>
 <td style="text-align:left;">
-<code>.bg-mistyrose1</code>
+rgb(255,228,225)
 </td>
 <td style="text-align:left;">
-<code>var(--mistyrose1)</code>
+\#FFE4E1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFE4E1/000000?text=+" />
+</td>
+<td style="text-align:left;">
+mistyrose1
+</td>
+<td style="text-align:left;">
+rgb(255,228,225)
+</td>
+<td style="text-align:left;">
+\#FFE4E1
 </td>
 </tr>
 <tr>
@@ -6801,13 +6801,13 @@ CSS Variable
 <img src="https://placehold.it/50/EED5D2/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mistyrose2</code>
+mistyrose2
 </td>
 <td style="text-align:left;">
-<code>.bg-mistyrose2</code>
+rgb(238,213,210)
 </td>
 <td style="text-align:left;">
-<code>var(--mistyrose2)</code>
+\#EED5D2
 </td>
 </tr>
 <tr>
@@ -6815,13 +6815,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDB7B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mistyrose3</code>
+mistyrose3
 </td>
 <td style="text-align:left;">
-<code>.bg-mistyrose3</code>
+rgb(205,183,181)
 </td>
 <td style="text-align:left;">
-<code>var(--mistyrose3)</code>
+\#CDB7B5
 </td>
 </tr>
 <tr>
@@ -6829,13 +6829,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B7D7B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.mistyrose4</code>
+mistyrose4
 </td>
 <td style="text-align:left;">
-<code>.bg-mistyrose4</code>
+rgb(139,125,123)
 </td>
 <td style="text-align:left;">
-<code>var(--mistyrose4)</code>
+\#8B7D7B
 </td>
 </tr>
 <tr>
@@ -6843,27 +6843,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFE4B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.moccasin</code>
+moccasin
 </td>
 <td style="text-align:left;">
-<code>.bg-moccasin</code>
+rgb(255,228,181)
 </td>
 <td style="text-align:left;">
-<code>var(--moccasin)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFDEAD/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.navajowhite</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-navajowhite</code>
-</td>
-<td style="text-align:left;">
-<code>var(--navajowhite)</code>
+\#FFE4B5
 </td>
 </tr>
 <tr>
@@ -6871,13 +6857,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFDEAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.navajowhite1</code>
+navajowhite
 </td>
 <td style="text-align:left;">
-<code>.bg-navajowhite1</code>
+rgb(255,222,173)
 </td>
 <td style="text-align:left;">
-<code>var(--navajowhite1)</code>
+\#FFDEAD
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFDEAD/000000?text=+" />
+</td>
+<td style="text-align:left;">
+navajowhite1
+</td>
+<td style="text-align:left;">
+rgb(255,222,173)
+</td>
+<td style="text-align:left;">
+\#FFDEAD
 </td>
 </tr>
 <tr>
@@ -6885,13 +6885,13 @@ CSS Variable
 <img src="https://placehold.it/50/EECFA1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.navajowhite2</code>
+navajowhite2
 </td>
 <td style="text-align:left;">
-<code>.bg-navajowhite2</code>
+rgb(238,207,161)
 </td>
 <td style="text-align:left;">
-<code>var(--navajowhite2)</code>
+\#EECFA1
 </td>
 </tr>
 <tr>
@@ -6899,13 +6899,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDB38B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.navajowhite3</code>
+navajowhite3
 </td>
 <td style="text-align:left;">
-<code>.bg-navajowhite3</code>
+rgb(205,179,139)
 </td>
 <td style="text-align:left;">
-<code>var(--navajowhite3)</code>
+\#CDB38B
 </td>
 </tr>
 <tr>
@@ -6913,27 +6913,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B795E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.navajowhite4</code>
+navajowhite4
 </td>
 <td style="text-align:left;">
-<code>.bg-navajowhite4</code>
+rgb(139,121,94)
 </td>
 <td style="text-align:left;">
-<code>var(--navajowhite4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/000080/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.navy</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-navy</code>
-</td>
-<td style="text-align:left;">
-<code>var(--navy)</code>
+\#8B795E
 </td>
 </tr>
 <tr>
@@ -6941,13 +6927,27 @@ CSS Variable
 <img src="https://placehold.it/50/000080/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.navyblue</code>
+navy
 </td>
 <td style="text-align:left;">
-<code>.bg-navyblue</code>
+rgb(0,0,128)
 </td>
 <td style="text-align:left;">
-<code>var(--navyblue)</code>
+\#000080
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/000080/000000?text=+" />
+</td>
+<td style="text-align:left;">
+navyblue
+</td>
+<td style="text-align:left;">
+rgb(0,0,128)
+</td>
+<td style="text-align:left;">
+\#000080
 </td>
 </tr>
 <tr>
@@ -6955,13 +6955,13 @@ CSS Variable
 <img src="https://placehold.it/50/FDF5E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.oldlace</code>
+oldlace
 </td>
 <td style="text-align:left;">
-<code>.bg-oldlace</code>
+rgb(253,245,230)
 </td>
 <td style="text-align:left;">
-<code>var(--oldlace)</code>
+\#FDF5E6
 </td>
 </tr>
 <tr>
@@ -6969,13 +6969,13 @@ CSS Variable
 <img src="https://placehold.it/50/6B8E23/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.olivedrab</code>
+olivedrab
 </td>
 <td style="text-align:left;">
-<code>.bg-olivedrab</code>
+rgb(107,142,35)
 </td>
 <td style="text-align:left;">
-<code>var(--olivedrab)</code>
+\#6B8E23
 </td>
 </tr>
 <tr>
@@ -6983,13 +6983,13 @@ CSS Variable
 <img src="https://placehold.it/50/C0FF3E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.olivedrab1</code>
+olivedrab1
 </td>
 <td style="text-align:left;">
-<code>.bg-olivedrab1</code>
+rgb(192,255,62)
 </td>
 <td style="text-align:left;">
-<code>var(--olivedrab1)</code>
+\#C0FF3E
 </td>
 </tr>
 <tr>
@@ -6997,13 +6997,13 @@ CSS Variable
 <img src="https://placehold.it/50/B3EE3A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.olivedrab2</code>
+olivedrab2
 </td>
 <td style="text-align:left;">
-<code>.bg-olivedrab2</code>
+rgb(179,238,58)
 </td>
 <td style="text-align:left;">
-<code>var(--olivedrab2)</code>
+\#B3EE3A
 </td>
 </tr>
 <tr>
@@ -7011,13 +7011,13 @@ CSS Variable
 <img src="https://placehold.it/50/9ACD32/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.olivedrab3</code>
+olivedrab3
 </td>
 <td style="text-align:left;">
-<code>.bg-olivedrab3</code>
+rgb(154,205,50)
 </td>
 <td style="text-align:left;">
-<code>var(--olivedrab3)</code>
+\#9ACD32
 </td>
 </tr>
 <tr>
@@ -7025,27 +7025,13 @@ CSS Variable
 <img src="https://placehold.it/50/698B22/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.olivedrab4</code>
+olivedrab4
 </td>
 <td style="text-align:left;">
-<code>.bg-olivedrab4</code>
+rgb(105,139,34)
 </td>
 <td style="text-align:left;">
-<code>var(--olivedrab4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFA500/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.orange</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-orange</code>
-</td>
-<td style="text-align:left;">
-<code>var(--orange)</code>
+\#698B22
 </td>
 </tr>
 <tr>
@@ -7053,13 +7039,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFA500/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orange1</code>
+orange
 </td>
 <td style="text-align:left;">
-<code>.bg-orange1</code>
+rgb(255,165,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orange1)</code>
+\#FFA500
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFA500/000000?text=+" />
+</td>
+<td style="text-align:left;">
+orange1
+</td>
+<td style="text-align:left;">
+rgb(255,165,0)
+</td>
+<td style="text-align:left;">
+\#FFA500
 </td>
 </tr>
 <tr>
@@ -7067,13 +7067,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE9A00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orange2</code>
+orange2
 </td>
 <td style="text-align:left;">
-<code>.bg-orange2</code>
+rgb(238,154,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orange2)</code>
+\#EE9A00
 </td>
 </tr>
 <tr>
@@ -7081,13 +7081,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD8500/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orange3</code>
+orange3
 </td>
 <td style="text-align:left;">
-<code>.bg-orange3</code>
+rgb(205,133,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orange3)</code>
+\#CD8500
 </td>
 </tr>
 <tr>
@@ -7095,27 +7095,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B5A00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orange4</code>
+orange4
 </td>
 <td style="text-align:left;">
-<code>.bg-orange4</code>
+rgb(139,90,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orange4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FF4500/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.orangered</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-orangered</code>
-</td>
-<td style="text-align:left;">
-<code>var(--orangered)</code>
+\#8B5A00
 </td>
 </tr>
 <tr>
@@ -7123,13 +7109,27 @@ CSS Variable
 <img src="https://placehold.it/50/FF4500/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orangered1</code>
+orangered
 </td>
 <td style="text-align:left;">
-<code>.bg-orangered1</code>
+rgb(255,69,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orangered1)</code>
+\#FF4500
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FF4500/000000?text=+" />
+</td>
+<td style="text-align:left;">
+orangered1
+</td>
+<td style="text-align:left;">
+rgb(255,69,0)
+</td>
+<td style="text-align:left;">
+\#FF4500
 </td>
 </tr>
 <tr>
@@ -7137,13 +7137,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE4000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orangered2</code>
+orangered2
 </td>
 <td style="text-align:left;">
-<code>.bg-orangered2</code>
+rgb(238,64,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orangered2)</code>
+\#EE4000
 </td>
 </tr>
 <tr>
@@ -7151,13 +7151,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD3700/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orangered3</code>
+orangered3
 </td>
 <td style="text-align:left;">
-<code>.bg-orangered3</code>
+rgb(205,55,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orangered3)</code>
+\#CD3700
 </td>
 </tr>
 <tr>
@@ -7165,13 +7165,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B2500/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orangered4</code>
+orangered4
 </td>
 <td style="text-align:left;">
-<code>.bg-orangered4</code>
+rgb(139,37,0)
 </td>
 <td style="text-align:left;">
-<code>var(--orangered4)</code>
+\#8B2500
 </td>
 </tr>
 <tr>
@@ -7179,13 +7179,13 @@ CSS Variable
 <img src="https://placehold.it/50/DA70D6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orchid</code>
+orchid
 </td>
 <td style="text-align:left;">
-<code>.bg-orchid</code>
+rgb(218,112,214)
 </td>
 <td style="text-align:left;">
-<code>var(--orchid)</code>
+\#DA70D6
 </td>
 </tr>
 <tr>
@@ -7193,13 +7193,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF83FA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orchid1</code>
+orchid1
 </td>
 <td style="text-align:left;">
-<code>.bg-orchid1</code>
+rgb(255,131,250)
 </td>
 <td style="text-align:left;">
-<code>var(--orchid1)</code>
+\#FF83FA
 </td>
 </tr>
 <tr>
@@ -7207,13 +7207,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE7AE9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orchid2</code>
+orchid2
 </td>
 <td style="text-align:left;">
-<code>.bg-orchid2</code>
+rgb(238,122,233)
 </td>
 <td style="text-align:left;">
-<code>var(--orchid2)</code>
+\#EE7AE9
 </td>
 </tr>
 <tr>
@@ -7221,13 +7221,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD69C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orchid3</code>
+orchid3
 </td>
 <td style="text-align:left;">
-<code>.bg-orchid3</code>
+rgb(205,105,201)
 </td>
 <td style="text-align:left;">
-<code>var(--orchid3)</code>
+\#CD69C9
 </td>
 </tr>
 <tr>
@@ -7235,13 +7235,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B4789/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.orchid4</code>
+orchid4
 </td>
 <td style="text-align:left;">
-<code>.bg-orchid4</code>
+rgb(139,71,137)
 </td>
 <td style="text-align:left;">
-<code>var(--orchid4)</code>
+\#8B4789
 </td>
 </tr>
 <tr>
@@ -7249,13 +7249,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEE8AA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palegoldenrod</code>
+palegoldenrod
 </td>
 <td style="text-align:left;">
-<code>.bg-palegoldenrod</code>
+rgb(238,232,170)
 </td>
 <td style="text-align:left;">
-<code>var(--palegoldenrod)</code>
+\#EEE8AA
 </td>
 </tr>
 <tr>
@@ -7263,13 +7263,13 @@ CSS Variable
 <img src="https://placehold.it/50/98FB98/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palegreen</code>
+palegreen
 </td>
 <td style="text-align:left;">
-<code>.bg-palegreen</code>
+rgb(152,251,152)
 </td>
 <td style="text-align:left;">
-<code>var(--palegreen)</code>
+\#98FB98
 </td>
 </tr>
 <tr>
@@ -7277,13 +7277,13 @@ CSS Variable
 <img src="https://placehold.it/50/9AFF9A/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palegreen1</code>
+palegreen1
 </td>
 <td style="text-align:left;">
-<code>.bg-palegreen1</code>
+rgb(154,255,154)
 </td>
 <td style="text-align:left;">
-<code>var(--palegreen1)</code>
+\#9AFF9A
 </td>
 </tr>
 <tr>
@@ -7291,13 +7291,13 @@ CSS Variable
 <img src="https://placehold.it/50/90EE90/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palegreen2</code>
+palegreen2
 </td>
 <td style="text-align:left;">
-<code>.bg-palegreen2</code>
+rgb(144,238,144)
 </td>
 <td style="text-align:left;">
-<code>var(--palegreen2)</code>
+\#90EE90
 </td>
 </tr>
 <tr>
@@ -7305,13 +7305,13 @@ CSS Variable
 <img src="https://placehold.it/50/7CCD7C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palegreen3</code>
+palegreen3
 </td>
 <td style="text-align:left;">
-<code>.bg-palegreen3</code>
+rgb(124,205,124)
 </td>
 <td style="text-align:left;">
-<code>var(--palegreen3)</code>
+\#7CCD7C
 </td>
 </tr>
 <tr>
@@ -7319,13 +7319,13 @@ CSS Variable
 <img src="https://placehold.it/50/548B54/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palegreen4</code>
+palegreen4
 </td>
 <td style="text-align:left;">
-<code>.bg-palegreen4</code>
+rgb(84,139,84)
 </td>
 <td style="text-align:left;">
-<code>var(--palegreen4)</code>
+\#548B54
 </td>
 </tr>
 <tr>
@@ -7333,13 +7333,13 @@ CSS Variable
 <img src="https://placehold.it/50/AFEEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.paleturquoise</code>
+paleturquoise
 </td>
 <td style="text-align:left;">
-<code>.bg-paleturquoise</code>
+rgb(175,238,238)
 </td>
 <td style="text-align:left;">
-<code>var(--paleturquoise)</code>
+\#AFEEEE
 </td>
 </tr>
 <tr>
@@ -7347,13 +7347,13 @@ CSS Variable
 <img src="https://placehold.it/50/BBFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.paleturquoise1</code>
+paleturquoise1
 </td>
 <td style="text-align:left;">
-<code>.bg-paleturquoise1</code>
+rgb(187,255,255)
 </td>
 <td style="text-align:left;">
-<code>var(--paleturquoise1)</code>
+\#BBFFFF
 </td>
 </tr>
 <tr>
@@ -7361,13 +7361,13 @@ CSS Variable
 <img src="https://placehold.it/50/AEEEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.paleturquoise2</code>
+paleturquoise2
 </td>
 <td style="text-align:left;">
-<code>.bg-paleturquoise2</code>
+rgb(174,238,238)
 </td>
 <td style="text-align:left;">
-<code>var(--paleturquoise2)</code>
+\#AEEEEE
 </td>
 </tr>
 <tr>
@@ -7375,13 +7375,13 @@ CSS Variable
 <img src="https://placehold.it/50/96CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.paleturquoise3</code>
+paleturquoise3
 </td>
 <td style="text-align:left;">
-<code>.bg-paleturquoise3</code>
+rgb(150,205,205)
 </td>
 <td style="text-align:left;">
-<code>var(--paleturquoise3)</code>
+\#96CDCD
 </td>
 </tr>
 <tr>
@@ -7389,13 +7389,13 @@ CSS Variable
 <img src="https://placehold.it/50/668B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.paleturquoise4</code>
+paleturquoise4
 </td>
 <td style="text-align:left;">
-<code>.bg-paleturquoise4</code>
+rgb(102,139,139)
 </td>
 <td style="text-align:left;">
-<code>var(--paleturquoise4)</code>
+\#668B8B
 </td>
 </tr>
 <tr>
@@ -7403,13 +7403,13 @@ CSS Variable
 <img src="https://placehold.it/50/DB7093/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palevioletred</code>
+palevioletred
 </td>
 <td style="text-align:left;">
-<code>.bg-palevioletred</code>
+rgb(219,112,147)
 </td>
 <td style="text-align:left;">
-<code>var(--palevioletred)</code>
+\#DB7093
 </td>
 </tr>
 <tr>
@@ -7417,13 +7417,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF82AB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palevioletred1</code>
+palevioletred1
 </td>
 <td style="text-align:left;">
-<code>.bg-palevioletred1</code>
+rgb(255,130,171)
 </td>
 <td style="text-align:left;">
-<code>var(--palevioletred1)</code>
+\#FF82AB
 </td>
 </tr>
 <tr>
@@ -7431,13 +7431,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE799F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palevioletred2</code>
+palevioletred2
 </td>
 <td style="text-align:left;">
-<code>.bg-palevioletred2</code>
+rgb(238,121,159)
 </td>
 <td style="text-align:left;">
-<code>var(--palevioletred2)</code>
+\#EE799F
 </td>
 </tr>
 <tr>
@@ -7445,13 +7445,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD6889/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palevioletred3</code>
+palevioletred3
 </td>
 <td style="text-align:left;">
-<code>.bg-palevioletred3</code>
+rgb(205,104,137)
 </td>
 <td style="text-align:left;">
-<code>var(--palevioletred3)</code>
+\#CD6889
 </td>
 </tr>
 <tr>
@@ -7459,13 +7459,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B475D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.palevioletred4</code>
+palevioletred4
 </td>
 <td style="text-align:left;">
-<code>.bg-palevioletred4</code>
+rgb(139,71,93)
 </td>
 <td style="text-align:left;">
-<code>var(--palevioletred4)</code>
+\#8B475D
 </td>
 </tr>
 <tr>
@@ -7473,27 +7473,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFEFD5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.papayawhip</code>
+papayawhip
 </td>
 <td style="text-align:left;">
-<code>.bg-papayawhip</code>
+rgb(255,239,213)
 </td>
 <td style="text-align:left;">
-<code>var(--papayawhip)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFDAB9/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.peachpuff</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-peachpuff</code>
-</td>
-<td style="text-align:left;">
-<code>var(--peachpuff)</code>
+\#FFEFD5
 </td>
 </tr>
 <tr>
@@ -7501,13 +7487,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFDAB9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.peachpuff1</code>
+peachpuff
 </td>
 <td style="text-align:left;">
-<code>.bg-peachpuff1</code>
+rgb(255,218,185)
 </td>
 <td style="text-align:left;">
-<code>var(--peachpuff1)</code>
+\#FFDAB9
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFDAB9/000000?text=+" />
+</td>
+<td style="text-align:left;">
+peachpuff1
+</td>
+<td style="text-align:left;">
+rgb(255,218,185)
+</td>
+<td style="text-align:left;">
+\#FFDAB9
 </td>
 </tr>
 <tr>
@@ -7515,13 +7515,13 @@ CSS Variable
 <img src="https://placehold.it/50/EECBAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.peachpuff2</code>
+peachpuff2
 </td>
 <td style="text-align:left;">
-<code>.bg-peachpuff2</code>
+rgb(238,203,173)
 </td>
 <td style="text-align:left;">
-<code>var(--peachpuff2)</code>
+\#EECBAD
 </td>
 </tr>
 <tr>
@@ -7529,13 +7529,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDAF95/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.peachpuff3</code>
+peachpuff3
 </td>
 <td style="text-align:left;">
-<code>.bg-peachpuff3</code>
+rgb(205,175,149)
 </td>
 <td style="text-align:left;">
-<code>var(--peachpuff3)</code>
+\#CDAF95
 </td>
 </tr>
 <tr>
@@ -7543,13 +7543,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B7765/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.peachpuff4</code>
+peachpuff4
 </td>
 <td style="text-align:left;">
-<code>.bg-peachpuff4</code>
+rgb(139,119,101)
 </td>
 <td style="text-align:left;">
-<code>var(--peachpuff4)</code>
+\#8B7765
 </td>
 </tr>
 <tr>
@@ -7557,13 +7557,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD853F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.peru</code>
+peru
 </td>
 <td style="text-align:left;">
-<code>.bg-peru</code>
+rgb(205,133,63)
 </td>
 <td style="text-align:left;">
-<code>var(--peru)</code>
+\#CD853F
 </td>
 </tr>
 <tr>
@@ -7571,13 +7571,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFC0CB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.pink</code>
+pink
 </td>
 <td style="text-align:left;">
-<code>.bg-pink</code>
+rgb(255,192,203)
 </td>
 <td style="text-align:left;">
-<code>var(--pink)</code>
+\#FFC0CB
 </td>
 </tr>
 <tr>
@@ -7585,13 +7585,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFB5C5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.pink1</code>
+pink1
 </td>
 <td style="text-align:left;">
-<code>.bg-pink1</code>
+rgb(255,181,197)
 </td>
 <td style="text-align:left;">
-<code>var(--pink1)</code>
+\#FFB5C5
 </td>
 </tr>
 <tr>
@@ -7599,13 +7599,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEA9B8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.pink2</code>
+pink2
 </td>
 <td style="text-align:left;">
-<code>.bg-pink2</code>
+rgb(238,169,184)
 </td>
 <td style="text-align:left;">
-<code>var(--pink2)</code>
+\#EEA9B8
 </td>
 </tr>
 <tr>
@@ -7613,13 +7613,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD919E/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.pink3</code>
+pink3
 </td>
 <td style="text-align:left;">
-<code>.bg-pink3</code>
+rgb(205,145,158)
 </td>
 <td style="text-align:left;">
-<code>var(--pink3)</code>
+\#CD919E
 </td>
 </tr>
 <tr>
@@ -7627,13 +7627,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B636C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.pink4</code>
+pink4
 </td>
 <td style="text-align:left;">
-<code>.bg-pink4</code>
+rgb(139,99,108)
 </td>
 <td style="text-align:left;">
-<code>var(--pink4)</code>
+\#8B636C
 </td>
 </tr>
 <tr>
@@ -7641,13 +7641,13 @@ CSS Variable
 <img src="https://placehold.it/50/DDA0DD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.plum</code>
+plum
 </td>
 <td style="text-align:left;">
-<code>.bg-plum</code>
+rgb(221,160,221)
 </td>
 <td style="text-align:left;">
-<code>var(--plum)</code>
+\#DDA0DD
 </td>
 </tr>
 <tr>
@@ -7655,13 +7655,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFBBFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.plum1</code>
+plum1
 </td>
 <td style="text-align:left;">
-<code>.bg-plum1</code>
+rgb(255,187,255)
 </td>
 <td style="text-align:left;">
-<code>var(--plum1)</code>
+\#FFBBFF
 </td>
 </tr>
 <tr>
@@ -7669,13 +7669,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEAEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.plum2</code>
+plum2
 </td>
 <td style="text-align:left;">
-<code>.bg-plum2</code>
+rgb(238,174,238)
 </td>
 <td style="text-align:left;">
-<code>var(--plum2)</code>
+\#EEAEEE
 </td>
 </tr>
 <tr>
@@ -7683,13 +7683,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD96CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.plum3</code>
+plum3
 </td>
 <td style="text-align:left;">
-<code>.bg-plum3</code>
+rgb(205,150,205)
 </td>
 <td style="text-align:left;">
-<code>var(--plum3)</code>
+\#CD96CD
 </td>
 </tr>
 <tr>
@@ -7697,13 +7697,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B668B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.plum4</code>
+plum4
 </td>
 <td style="text-align:left;">
-<code>.bg-plum4</code>
+rgb(139,102,139)
 </td>
 <td style="text-align:left;">
-<code>var(--plum4)</code>
+\#8B668B
 </td>
 </tr>
 <tr>
@@ -7711,13 +7711,13 @@ CSS Variable
 <img src="https://placehold.it/50/B0E0E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.powderblue</code>
+powderblue
 </td>
 <td style="text-align:left;">
-<code>.bg-powderblue</code>
+rgb(176,224,230)
 </td>
 <td style="text-align:left;">
-<code>var(--powderblue)</code>
+\#B0E0E6
 </td>
 </tr>
 <tr>
@@ -7725,13 +7725,13 @@ CSS Variable
 <img src="https://placehold.it/50/A020F0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.purple</code>
+purple
 </td>
 <td style="text-align:left;">
-<code>.bg-purple</code>
+rgb(160,32,240)
 </td>
 <td style="text-align:left;">
-<code>var(--purple)</code>
+\#A020F0
 </td>
 </tr>
 <tr>
@@ -7739,13 +7739,13 @@ CSS Variable
 <img src="https://placehold.it/50/9B30FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.purple1</code>
+purple1
 </td>
 <td style="text-align:left;">
-<code>.bg-purple1</code>
+rgb(155,48,255)
 </td>
 <td style="text-align:left;">
-<code>var(--purple1)</code>
+\#9B30FF
 </td>
 </tr>
 <tr>
@@ -7753,13 +7753,13 @@ CSS Variable
 <img src="https://placehold.it/50/912CEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.purple2</code>
+purple2
 </td>
 <td style="text-align:left;">
-<code>.bg-purple2</code>
+rgb(145,44,238)
 </td>
 <td style="text-align:left;">
-<code>var(--purple2)</code>
+\#912CEE
 </td>
 </tr>
 <tr>
@@ -7767,13 +7767,13 @@ CSS Variable
 <img src="https://placehold.it/50/7D26CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.purple3</code>
+purple3
 </td>
 <td style="text-align:left;">
-<code>.bg-purple3</code>
+rgb(125,38,205)
 </td>
 <td style="text-align:left;">
-<code>var(--purple3)</code>
+\#7D26CD
 </td>
 </tr>
 <tr>
@@ -7781,27 +7781,13 @@ CSS Variable
 <img src="https://placehold.it/50/551A8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.purple4</code>
+purple4
 </td>
 <td style="text-align:left;">
-<code>.bg-purple4</code>
+rgb(85,26,139)
 </td>
 <td style="text-align:left;">
-<code>var(--purple4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FF0000/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.red</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-red</code>
-</td>
-<td style="text-align:left;">
-<code>var(--red)</code>
+\#551A8B
 </td>
 </tr>
 <tr>
@@ -7809,13 +7795,27 @@ CSS Variable
 <img src="https://placehold.it/50/FF0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.red1</code>
+red
 </td>
 <td style="text-align:left;">
-<code>.bg-red1</code>
+rgb(255,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--red1)</code>
+\#FF0000
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FF0000/000000?text=+" />
+</td>
+<td style="text-align:left;">
+red1
+</td>
+<td style="text-align:left;">
+rgb(255,0,0)
+</td>
+<td style="text-align:left;">
+\#FF0000
 </td>
 </tr>
 <tr>
@@ -7823,13 +7823,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.red2</code>
+red2
 </td>
 <td style="text-align:left;">
-<code>.bg-red2</code>
+rgb(238,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--red2)</code>
+\#EE0000
 </td>
 </tr>
 <tr>
@@ -7837,13 +7837,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.red3</code>
+red3
 </td>
 <td style="text-align:left;">
-<code>.bg-red3</code>
+rgb(205,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--red3)</code>
+\#CD0000
 </td>
 </tr>
 <tr>
@@ -7851,13 +7851,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.red4</code>
+red4
 </td>
 <td style="text-align:left;">
-<code>.bg-red4</code>
+rgb(139,0,0)
 </td>
 <td style="text-align:left;">
-<code>var(--red4)</code>
+\#8B0000
 </td>
 </tr>
 <tr>
@@ -7865,13 +7865,13 @@ CSS Variable
 <img src="https://placehold.it/50/BC8F8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.rosybrown</code>
+rosybrown
 </td>
 <td style="text-align:left;">
-<code>.bg-rosybrown</code>
+rgb(188,143,143)
 </td>
 <td style="text-align:left;">
-<code>var(--rosybrown)</code>
+\#BC8F8F
 </td>
 </tr>
 <tr>
@@ -7879,13 +7879,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFC1C1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.rosybrown1</code>
+rosybrown1
 </td>
 <td style="text-align:left;">
-<code>.bg-rosybrown1</code>
+rgb(255,193,193)
 </td>
 <td style="text-align:left;">
-<code>var(--rosybrown1)</code>
+\#FFC1C1
 </td>
 </tr>
 <tr>
@@ -7893,13 +7893,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEB4B4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.rosybrown2</code>
+rosybrown2
 </td>
 <td style="text-align:left;">
-<code>.bg-rosybrown2</code>
+rgb(238,180,180)
 </td>
 <td style="text-align:left;">
-<code>var(--rosybrown2)</code>
+\#EEB4B4
 </td>
 </tr>
 <tr>
@@ -7907,13 +7907,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD9B9B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.rosybrown3</code>
+rosybrown3
 </td>
 <td style="text-align:left;">
-<code>.bg-rosybrown3</code>
+rgb(205,155,155)
 </td>
 <td style="text-align:left;">
-<code>var(--rosybrown3)</code>
+\#CD9B9B
 </td>
 </tr>
 <tr>
@@ -7921,13 +7921,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B6969/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.rosybrown4</code>
+rosybrown4
 </td>
 <td style="text-align:left;">
-<code>.bg-rosybrown4</code>
+rgb(139,105,105)
 </td>
 <td style="text-align:left;">
-<code>var(--rosybrown4)</code>
+\#8B6969
 </td>
 </tr>
 <tr>
@@ -7935,13 +7935,13 @@ CSS Variable
 <img src="https://placehold.it/50/4169E1/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.royalblue</code>
+royalblue
 </td>
 <td style="text-align:left;">
-<code>.bg-royalblue</code>
+rgb(65,105,225)
 </td>
 <td style="text-align:left;">
-<code>var(--royalblue)</code>
+\#4169E1
 </td>
 </tr>
 <tr>
@@ -7949,13 +7949,13 @@ CSS Variable
 <img src="https://placehold.it/50/4876FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.royalblue1</code>
+royalblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-royalblue1</code>
+rgb(72,118,255)
 </td>
 <td style="text-align:left;">
-<code>var(--royalblue1)</code>
+\#4876FF
 </td>
 </tr>
 <tr>
@@ -7963,13 +7963,13 @@ CSS Variable
 <img src="https://placehold.it/50/436EEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.royalblue2</code>
+royalblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-royalblue2</code>
+rgb(67,110,238)
 </td>
 <td style="text-align:left;">
-<code>var(--royalblue2)</code>
+\#436EEE
 </td>
 </tr>
 <tr>
@@ -7977,13 +7977,13 @@ CSS Variable
 <img src="https://placehold.it/50/3A5FCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.royalblue3</code>
+royalblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-royalblue3</code>
+rgb(58,95,205)
 </td>
 <td style="text-align:left;">
-<code>var(--royalblue3)</code>
+\#3A5FCD
 </td>
 </tr>
 <tr>
@@ -7991,13 +7991,13 @@ CSS Variable
 <img src="https://placehold.it/50/27408B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.royalblue4</code>
+royalblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-royalblue4</code>
+rgb(39,64,139)
 </td>
 <td style="text-align:left;">
-<code>var(--royalblue4)</code>
+\#27408B
 </td>
 </tr>
 <tr>
@@ -8005,13 +8005,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B4513/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.saddlebrown</code>
+saddlebrown
 </td>
 <td style="text-align:left;">
-<code>.bg-saddlebrown</code>
+rgb(139,69,19)
 </td>
 <td style="text-align:left;">
-<code>var(--saddlebrown)</code>
+\#8B4513
 </td>
 </tr>
 <tr>
@@ -8019,13 +8019,13 @@ CSS Variable
 <img src="https://placehold.it/50/FA8072/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.salmon</code>
+salmon
 </td>
 <td style="text-align:left;">
-<code>.bg-salmon</code>
+rgb(250,128,114)
 </td>
 <td style="text-align:left;">
-<code>var(--salmon)</code>
+\#FA8072
 </td>
 </tr>
 <tr>
@@ -8033,13 +8033,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF8C69/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.salmon1</code>
+salmon1
 </td>
 <td style="text-align:left;">
-<code>.bg-salmon1</code>
+rgb(255,140,105)
 </td>
 <td style="text-align:left;">
-<code>var(--salmon1)</code>
+\#FF8C69
 </td>
 </tr>
 <tr>
@@ -8047,13 +8047,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE8262/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.salmon2</code>
+salmon2
 </td>
 <td style="text-align:left;">
-<code>.bg-salmon2</code>
+rgb(238,130,98)
 </td>
 <td style="text-align:left;">
-<code>var(--salmon2)</code>
+\#EE8262
 </td>
 </tr>
 <tr>
@@ -8061,13 +8061,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD7054/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.salmon3</code>
+salmon3
 </td>
 <td style="text-align:left;">
-<code>.bg-salmon3</code>
+rgb(205,112,84)
 </td>
 <td style="text-align:left;">
-<code>var(--salmon3)</code>
+\#CD7054
 </td>
 </tr>
 <tr>
@@ -8075,13 +8075,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B4C39/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.salmon4</code>
+salmon4
 </td>
 <td style="text-align:left;">
-<code>.bg-salmon4</code>
+rgb(139,76,57)
 </td>
 <td style="text-align:left;">
-<code>var(--salmon4)</code>
+\#8B4C39
 </td>
 </tr>
 <tr>
@@ -8089,13 +8089,13 @@ CSS Variable
 <img src="https://placehold.it/50/F4A460/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.sandybrown</code>
+sandybrown
 </td>
 <td style="text-align:left;">
-<code>.bg-sandybrown</code>
+rgb(244,164,96)
 </td>
 <td style="text-align:left;">
-<code>var(--sandybrown)</code>
+\#F4A460
 </td>
 </tr>
 <tr>
@@ -8103,13 +8103,13 @@ CSS Variable
 <img src="https://placehold.it/50/2E8B57/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seagreen</code>
+seagreen
 </td>
 <td style="text-align:left;">
-<code>.bg-seagreen</code>
+rgb(46,139,87)
 </td>
 <td style="text-align:left;">
-<code>var(--seagreen)</code>
+\#2E8B57
 </td>
 </tr>
 <tr>
@@ -8117,13 +8117,13 @@ CSS Variable
 <img src="https://placehold.it/50/54FF9F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seagreen1</code>
+seagreen1
 </td>
 <td style="text-align:left;">
-<code>.bg-seagreen1</code>
+rgb(84,255,159)
 </td>
 <td style="text-align:left;">
-<code>var(--seagreen1)</code>
+\#54FF9F
 </td>
 </tr>
 <tr>
@@ -8131,13 +8131,13 @@ CSS Variable
 <img src="https://placehold.it/50/4EEE94/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seagreen2</code>
+seagreen2
 </td>
 <td style="text-align:left;">
-<code>.bg-seagreen2</code>
+rgb(78,238,148)
 </td>
 <td style="text-align:left;">
-<code>var(--seagreen2)</code>
+\#4EEE94
 </td>
 </tr>
 <tr>
@@ -8145,13 +8145,13 @@ CSS Variable
 <img src="https://placehold.it/50/43CD80/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seagreen3</code>
+seagreen3
 </td>
 <td style="text-align:left;">
-<code>.bg-seagreen3</code>
+rgb(67,205,128)
 </td>
 <td style="text-align:left;">
-<code>var(--seagreen3)</code>
+\#43CD80
 </td>
 </tr>
 <tr>
@@ -8159,27 +8159,13 @@ CSS Variable
 <img src="https://placehold.it/50/2E8B57/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seagreen4</code>
+seagreen4
 </td>
 <td style="text-align:left;">
-<code>.bg-seagreen4</code>
+rgb(46,139,87)
 </td>
 <td style="text-align:left;">
-<code>var(--seagreen4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFF5EE/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.seashell</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-seashell</code>
-</td>
-<td style="text-align:left;">
-<code>var(--seashell)</code>
+\#2E8B57
 </td>
 </tr>
 <tr>
@@ -8187,13 +8173,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFF5EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seashell1</code>
+seashell
 </td>
 <td style="text-align:left;">
-<code>.bg-seashell1</code>
+rgb(255,245,238)
 </td>
 <td style="text-align:left;">
-<code>var(--seashell1)</code>
+\#FFF5EE
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFF5EE/000000?text=+" />
+</td>
+<td style="text-align:left;">
+seashell1
+</td>
+<td style="text-align:left;">
+rgb(255,245,238)
+</td>
+<td style="text-align:left;">
+\#FFF5EE
 </td>
 </tr>
 <tr>
@@ -8201,13 +8201,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEE5DE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seashell2</code>
+seashell2
 </td>
 <td style="text-align:left;">
-<code>.bg-seashell2</code>
+rgb(238,229,222)
 </td>
 <td style="text-align:left;">
-<code>var(--seashell2)</code>
+\#EEE5DE
 </td>
 </tr>
 <tr>
@@ -8215,13 +8215,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDC5BF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seashell3</code>
+seashell3
 </td>
 <td style="text-align:left;">
-<code>.bg-seashell3</code>
+rgb(205,197,191)
 </td>
 <td style="text-align:left;">
-<code>var(--seashell3)</code>
+\#CDC5BF
 </td>
 </tr>
 <tr>
@@ -8229,13 +8229,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8682/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.seashell4</code>
+seashell4
 </td>
 <td style="text-align:left;">
-<code>.bg-seashell4</code>
+rgb(139,134,130)
 </td>
 <td style="text-align:left;">
-<code>var(--seashell4)</code>
+\#8B8682
 </td>
 </tr>
 <tr>
@@ -8243,13 +8243,13 @@ CSS Variable
 <img src="https://placehold.it/50/A0522D/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.sienna</code>
+sienna
 </td>
 <td style="text-align:left;">
-<code>.bg-sienna</code>
+rgb(160,82,45)
 </td>
 <td style="text-align:left;">
-<code>var(--sienna)</code>
+\#A0522D
 </td>
 </tr>
 <tr>
@@ -8257,13 +8257,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF8247/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.sienna1</code>
+sienna1
 </td>
 <td style="text-align:left;">
-<code>.bg-sienna1</code>
+rgb(255,130,71)
 </td>
 <td style="text-align:left;">
-<code>var(--sienna1)</code>
+\#FF8247
 </td>
 </tr>
 <tr>
@@ -8271,13 +8271,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE7942/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.sienna2</code>
+sienna2
 </td>
 <td style="text-align:left;">
-<code>.bg-sienna2</code>
+rgb(238,121,66)
 </td>
 <td style="text-align:left;">
-<code>var(--sienna2)</code>
+\#EE7942
 </td>
 </tr>
 <tr>
@@ -8285,13 +8285,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD6839/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.sienna3</code>
+sienna3
 </td>
 <td style="text-align:left;">
-<code>.bg-sienna3</code>
+rgb(205,104,57)
 </td>
 <td style="text-align:left;">
-<code>var(--sienna3)</code>
+\#CD6839
 </td>
 </tr>
 <tr>
@@ -8299,13 +8299,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B4726/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.sienna4</code>
+sienna4
 </td>
 <td style="text-align:left;">
-<code>.bg-sienna4</code>
+rgb(139,71,38)
 </td>
 <td style="text-align:left;">
-<code>var(--sienna4)</code>
+\#8B4726
 </td>
 </tr>
 <tr>
@@ -8313,13 +8313,13 @@ CSS Variable
 <img src="https://placehold.it/50/87CEEB/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.skyblue</code>
+skyblue
 </td>
 <td style="text-align:left;">
-<code>.bg-skyblue</code>
+rgb(135,206,235)
 </td>
 <td style="text-align:left;">
-<code>var(--skyblue)</code>
+\#87CEEB
 </td>
 </tr>
 <tr>
@@ -8327,13 +8327,13 @@ CSS Variable
 <img src="https://placehold.it/50/87CEFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.skyblue1</code>
+skyblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-skyblue1</code>
+rgb(135,206,255)
 </td>
 <td style="text-align:left;">
-<code>var(--skyblue1)</code>
+\#87CEFF
 </td>
 </tr>
 <tr>
@@ -8341,13 +8341,13 @@ CSS Variable
 <img src="https://placehold.it/50/7EC0EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.skyblue2</code>
+skyblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-skyblue2</code>
+rgb(126,192,238)
 </td>
 <td style="text-align:left;">
-<code>var(--skyblue2)</code>
+\#7EC0EE
 </td>
 </tr>
 <tr>
@@ -8355,13 +8355,13 @@ CSS Variable
 <img src="https://placehold.it/50/6CA6CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.skyblue3</code>
+skyblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-skyblue3</code>
+rgb(108,166,205)
 </td>
 <td style="text-align:left;">
-<code>var(--skyblue3)</code>
+\#6CA6CD
 </td>
 </tr>
 <tr>
@@ -8369,13 +8369,13 @@ CSS Variable
 <img src="https://placehold.it/50/4A708B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.skyblue4</code>
+skyblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-skyblue4</code>
+rgb(74,112,139)
 </td>
 <td style="text-align:left;">
-<code>var(--skyblue4)</code>
+\#4A708B
 </td>
 </tr>
 <tr>
@@ -8383,13 +8383,13 @@ CSS Variable
 <img src="https://placehold.it/50/6A5ACD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slateblue</code>
+slateblue
 </td>
 <td style="text-align:left;">
-<code>.bg-slateblue</code>
+rgb(106,90,205)
 </td>
 <td style="text-align:left;">
-<code>var(--slateblue)</code>
+\#6A5ACD
 </td>
 </tr>
 <tr>
@@ -8397,13 +8397,13 @@ CSS Variable
 <img src="https://placehold.it/50/836FFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slateblue1</code>
+slateblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-slateblue1</code>
+rgb(131,111,255)
 </td>
 <td style="text-align:left;">
-<code>var(--slateblue1)</code>
+\#836FFF
 </td>
 </tr>
 <tr>
@@ -8411,13 +8411,13 @@ CSS Variable
 <img src="https://placehold.it/50/7A67EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slateblue2</code>
+slateblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-slateblue2</code>
+rgb(122,103,238)
 </td>
 <td style="text-align:left;">
-<code>var(--slateblue2)</code>
+\#7A67EE
 </td>
 </tr>
 <tr>
@@ -8425,13 +8425,13 @@ CSS Variable
 <img src="https://placehold.it/50/6959CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slateblue3</code>
+slateblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-slateblue3</code>
+rgb(105,89,205)
 </td>
 <td style="text-align:left;">
-<code>var(--slateblue3)</code>
+\#6959CD
 </td>
 </tr>
 <tr>
@@ -8439,13 +8439,13 @@ CSS Variable
 <img src="https://placehold.it/50/473C8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slateblue4</code>
+slateblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-slateblue4</code>
+rgb(71,60,139)
 </td>
 <td style="text-align:left;">
-<code>var(--slateblue4)</code>
+\#473C8B
 </td>
 </tr>
 <tr>
@@ -8453,13 +8453,13 @@ CSS Variable
 <img src="https://placehold.it/50/708090/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slategray</code>
+slategray
 </td>
 <td style="text-align:left;">
-<code>.bg-slategray</code>
+rgb(112,128,144)
 </td>
 <td style="text-align:left;">
-<code>var(--slategray)</code>
+\#708090
 </td>
 </tr>
 <tr>
@@ -8467,13 +8467,13 @@ CSS Variable
 <img src="https://placehold.it/50/C6E2FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slategray1</code>
+slategray1
 </td>
 <td style="text-align:left;">
-<code>.bg-slategray1</code>
+rgb(198,226,255)
 </td>
 <td style="text-align:left;">
-<code>var(--slategray1)</code>
+\#C6E2FF
 </td>
 </tr>
 <tr>
@@ -8481,13 +8481,13 @@ CSS Variable
 <img src="https://placehold.it/50/B9D3EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slategray2</code>
+slategray2
 </td>
 <td style="text-align:left;">
-<code>.bg-slategray2</code>
+rgb(185,211,238)
 </td>
 <td style="text-align:left;">
-<code>var(--slategray2)</code>
+\#B9D3EE
 </td>
 </tr>
 <tr>
@@ -8495,13 +8495,13 @@ CSS Variable
 <img src="https://placehold.it/50/9FB6CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slategray3</code>
+slategray3
 </td>
 <td style="text-align:left;">
-<code>.bg-slategray3</code>
+rgb(159,182,205)
 </td>
 <td style="text-align:left;">
-<code>var(--slategray3)</code>
+\#9FB6CD
 </td>
 </tr>
 <tr>
@@ -8509,13 +8509,13 @@ CSS Variable
 <img src="https://placehold.it/50/6C7B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slategray4</code>
+slategray4
 </td>
 <td style="text-align:left;">
-<code>.bg-slategray4</code>
+rgb(108,123,139)
 </td>
 <td style="text-align:left;">
-<code>var(--slategray4)</code>
+\#6C7B8B
 </td>
 </tr>
 <tr>
@@ -8523,27 +8523,13 @@ CSS Variable
 <img src="https://placehold.it/50/708090/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.slategrey</code>
+slategrey
 </td>
 <td style="text-align:left;">
-<code>.bg-slategrey</code>
+rgb(112,128,144)
 </td>
 <td style="text-align:left;">
-<code>var(--slategrey)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFFAFA/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.snow</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-snow</code>
-</td>
-<td style="text-align:left;">
-<code>var(--snow)</code>
+\#708090
 </td>
 </tr>
 <tr>
@@ -8551,13 +8537,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFFAFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.snow1</code>
+snow
 </td>
 <td style="text-align:left;">
-<code>.bg-snow1</code>
+rgb(255,250,250)
 </td>
 <td style="text-align:left;">
-<code>var(--snow1)</code>
+\#FFFAFA
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFFAFA/000000?text=+" />
+</td>
+<td style="text-align:left;">
+snow1
+</td>
+<td style="text-align:left;">
+rgb(255,250,250)
+</td>
+<td style="text-align:left;">
+\#FFFAFA
 </td>
 </tr>
 <tr>
@@ -8565,13 +8565,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEE9E9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.snow2</code>
+snow2
 </td>
 <td style="text-align:left;">
-<code>.bg-snow2</code>
+rgb(238,233,233)
 </td>
 <td style="text-align:left;">
-<code>var(--snow2)</code>
+\#EEE9E9
 </td>
 </tr>
 <tr>
@@ -8579,13 +8579,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDC9C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.snow3</code>
+snow3
 </td>
 <td style="text-align:left;">
-<code>.bg-snow3</code>
+rgb(205,201,201)
 </td>
 <td style="text-align:left;">
-<code>var(--snow3)</code>
+\#CDC9C9
 </td>
 </tr>
 <tr>
@@ -8593,27 +8593,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8989/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.snow4</code>
+snow4
 </td>
 <td style="text-align:left;">
-<code>.bg-snow4</code>
+rgb(139,137,137)
 </td>
 <td style="text-align:left;">
-<code>var(--snow4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/00FF7F/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.springgreen</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-springgreen</code>
-</td>
-<td style="text-align:left;">
-<code>var(--springgreen)</code>
+\#8B8989
 </td>
 </tr>
 <tr>
@@ -8621,13 +8607,27 @@ CSS Variable
 <img src="https://placehold.it/50/00FF7F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.springgreen1</code>
+springgreen
 </td>
 <td style="text-align:left;">
-<code>.bg-springgreen1</code>
+rgb(0,255,127)
 </td>
 <td style="text-align:left;">
-<code>var(--springgreen1)</code>
+\#00FF7F
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/00FF7F/000000?text=+" />
+</td>
+<td style="text-align:left;">
+springgreen1
+</td>
+<td style="text-align:left;">
+rgb(0,255,127)
+</td>
+<td style="text-align:left;">
+\#00FF7F
 </td>
 </tr>
 <tr>
@@ -8635,13 +8635,13 @@ CSS Variable
 <img src="https://placehold.it/50/00EE76/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.springgreen2</code>
+springgreen2
 </td>
 <td style="text-align:left;">
-<code>.bg-springgreen2</code>
+rgb(0,238,118)
 </td>
 <td style="text-align:left;">
-<code>var(--springgreen2)</code>
+\#00EE76
 </td>
 </tr>
 <tr>
@@ -8649,13 +8649,13 @@ CSS Variable
 <img src="https://placehold.it/50/00CD66/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.springgreen3</code>
+springgreen3
 </td>
 <td style="text-align:left;">
-<code>.bg-springgreen3</code>
+rgb(0,205,102)
 </td>
 <td style="text-align:left;">
-<code>var(--springgreen3)</code>
+\#00CD66
 </td>
 </tr>
 <tr>
@@ -8663,13 +8663,13 @@ CSS Variable
 <img src="https://placehold.it/50/008B45/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.springgreen4</code>
+springgreen4
 </td>
 <td style="text-align:left;">
-<code>.bg-springgreen4</code>
+rgb(0,139,69)
 </td>
 <td style="text-align:left;">
-<code>var(--springgreen4)</code>
+\#008B45
 </td>
 </tr>
 <tr>
@@ -8677,13 +8677,13 @@ CSS Variable
 <img src="https://placehold.it/50/4682B4/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.steelblue</code>
+steelblue
 </td>
 <td style="text-align:left;">
-<code>.bg-steelblue</code>
+rgb(70,130,180)
 </td>
 <td style="text-align:left;">
-<code>var(--steelblue)</code>
+\#4682B4
 </td>
 </tr>
 <tr>
@@ -8691,13 +8691,13 @@ CSS Variable
 <img src="https://placehold.it/50/63B8FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.steelblue1</code>
+steelblue1
 </td>
 <td style="text-align:left;">
-<code>.bg-steelblue1</code>
+rgb(99,184,255)
 </td>
 <td style="text-align:left;">
-<code>var(--steelblue1)</code>
+\#63B8FF
 </td>
 </tr>
 <tr>
@@ -8705,13 +8705,13 @@ CSS Variable
 <img src="https://placehold.it/50/5CACEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.steelblue2</code>
+steelblue2
 </td>
 <td style="text-align:left;">
-<code>.bg-steelblue2</code>
+rgb(92,172,238)
 </td>
 <td style="text-align:left;">
-<code>var(--steelblue2)</code>
+\#5CACEE
 </td>
 </tr>
 <tr>
@@ -8719,13 +8719,13 @@ CSS Variable
 <img src="https://placehold.it/50/4F94CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.steelblue3</code>
+steelblue3
 </td>
 <td style="text-align:left;">
-<code>.bg-steelblue3</code>
+rgb(79,148,205)
 </td>
 <td style="text-align:left;">
-<code>var(--steelblue3)</code>
+\#4F94CD
 </td>
 </tr>
 <tr>
@@ -8733,13 +8733,13 @@ CSS Variable
 <img src="https://placehold.it/50/36648B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.steelblue4</code>
+steelblue4
 </td>
 <td style="text-align:left;">
-<code>.bg-steelblue4</code>
+rgb(54,100,139)
 </td>
 <td style="text-align:left;">
-<code>var(--steelblue4)</code>
+\#36648B
 </td>
 </tr>
 <tr>
@@ -8747,13 +8747,13 @@ CSS Variable
 <img src="https://placehold.it/50/D2B48C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tan</code>
+tan
 </td>
 <td style="text-align:left;">
-<code>.bg-tan</code>
+rgb(210,180,140)
 </td>
 <td style="text-align:left;">
-<code>var(--tan)</code>
+\#D2B48C
 </td>
 </tr>
 <tr>
@@ -8761,13 +8761,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFA54F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tan1</code>
+tan1
 </td>
 <td style="text-align:left;">
-<code>.bg-tan1</code>
+rgb(255,165,79)
 </td>
 <td style="text-align:left;">
-<code>var(--tan1)</code>
+\#FFA54F
 </td>
 </tr>
 <tr>
@@ -8775,13 +8775,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE9A49/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tan2</code>
+tan2
 </td>
 <td style="text-align:left;">
-<code>.bg-tan2</code>
+rgb(238,154,73)
 </td>
 <td style="text-align:left;">
-<code>var(--tan2)</code>
+\#EE9A49
 </td>
 </tr>
 <tr>
@@ -8789,13 +8789,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD853F/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tan3</code>
+tan3
 </td>
 <td style="text-align:left;">
-<code>.bg-tan3</code>
+rgb(205,133,63)
 </td>
 <td style="text-align:left;">
-<code>var(--tan3)</code>
+\#CD853F
 </td>
 </tr>
 <tr>
@@ -8803,13 +8803,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B5A2B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tan4</code>
+tan4
 </td>
 <td style="text-align:left;">
-<code>.bg-tan4</code>
+rgb(139,90,43)
 </td>
 <td style="text-align:left;">
-<code>var(--tan4)</code>
+\#8B5A2B
 </td>
 </tr>
 <tr>
@@ -8817,13 +8817,13 @@ CSS Variable
 <img src="https://placehold.it/50/D8BFD8/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.thistle</code>
+thistle
 </td>
 <td style="text-align:left;">
-<code>.bg-thistle</code>
+rgb(216,191,216)
 </td>
 <td style="text-align:left;">
-<code>var(--thistle)</code>
+\#D8BFD8
 </td>
 </tr>
 <tr>
@@ -8831,13 +8831,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFE1FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.thistle1</code>
+thistle1
 </td>
 <td style="text-align:left;">
-<code>.bg-thistle1</code>
+rgb(255,225,255)
 </td>
 <td style="text-align:left;">
-<code>var(--thistle1)</code>
+\#FFE1FF
 </td>
 </tr>
 <tr>
@@ -8845,13 +8845,13 @@ CSS Variable
 <img src="https://placehold.it/50/EED2EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.thistle2</code>
+thistle2
 </td>
 <td style="text-align:left;">
-<code>.bg-thistle2</code>
+rgb(238,210,238)
 </td>
 <td style="text-align:left;">
-<code>var(--thistle2)</code>
+\#EED2EE
 </td>
 </tr>
 <tr>
@@ -8859,13 +8859,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDB5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.thistle3</code>
+thistle3
 </td>
 <td style="text-align:left;">
-<code>.bg-thistle3</code>
+rgb(205,181,205)
 </td>
 <td style="text-align:left;">
-<code>var(--thistle3)</code>
+\#CDB5CD
 </td>
 </tr>
 <tr>
@@ -8873,27 +8873,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B7B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.thistle4</code>
+thistle4
 </td>
 <td style="text-align:left;">
-<code>.bg-thistle4</code>
+rgb(139,123,139)
 </td>
 <td style="text-align:left;">
-<code>var(--thistle4)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FF6347/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.tomato</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-tomato</code>
-</td>
-<td style="text-align:left;">
-<code>var(--tomato)</code>
+\#8B7B8B
 </td>
 </tr>
 <tr>
@@ -8901,13 +8887,27 @@ CSS Variable
 <img src="https://placehold.it/50/FF6347/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tomato1</code>
+tomato
 </td>
 <td style="text-align:left;">
-<code>.bg-tomato1</code>
+rgb(255,99,71)
 </td>
 <td style="text-align:left;">
-<code>var(--tomato1)</code>
+\#FF6347
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FF6347/000000?text=+" />
+</td>
+<td style="text-align:left;">
+tomato1
+</td>
+<td style="text-align:left;">
+rgb(255,99,71)
+</td>
+<td style="text-align:left;">
+\#FF6347
 </td>
 </tr>
 <tr>
@@ -8915,13 +8915,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE5C42/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tomato2</code>
+tomato2
 </td>
 <td style="text-align:left;">
-<code>.bg-tomato2</code>
+rgb(238,92,66)
 </td>
 <td style="text-align:left;">
-<code>var(--tomato2)</code>
+\#EE5C42
 </td>
 </tr>
 <tr>
@@ -8929,13 +8929,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD4F39/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tomato3</code>
+tomato3
 </td>
 <td style="text-align:left;">
-<code>.bg-tomato3</code>
+rgb(205,79,57)
 </td>
 <td style="text-align:left;">
-<code>var(--tomato3)</code>
+\#CD4F39
 </td>
 </tr>
 <tr>
@@ -8943,13 +8943,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B3626/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.tomato4</code>
+tomato4
 </td>
 <td style="text-align:left;">
-<code>.bg-tomato4</code>
+rgb(139,54,38)
 </td>
 <td style="text-align:left;">
-<code>var(--tomato4)</code>
+\#8B3626
 </td>
 </tr>
 <tr>
@@ -8957,13 +8957,13 @@ CSS Variable
 <img src="https://placehold.it/50/40E0D0/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.turquoise</code>
+turquoise
 </td>
 <td style="text-align:left;">
-<code>.bg-turquoise</code>
+rgb(64,224,208)
 </td>
 <td style="text-align:left;">
-<code>var(--turquoise)</code>
+\#40E0D0
 </td>
 </tr>
 <tr>
@@ -8971,13 +8971,13 @@ CSS Variable
 <img src="https://placehold.it/50/00F5FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.turquoise1</code>
+turquoise1
 </td>
 <td style="text-align:left;">
-<code>.bg-turquoise1</code>
+rgb(0,245,255)
 </td>
 <td style="text-align:left;">
-<code>var(--turquoise1)</code>
+\#00F5FF
 </td>
 </tr>
 <tr>
@@ -8985,13 +8985,13 @@ CSS Variable
 <img src="https://placehold.it/50/00E5EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.turquoise2</code>
+turquoise2
 </td>
 <td style="text-align:left;">
-<code>.bg-turquoise2</code>
+rgb(0,229,238)
 </td>
 <td style="text-align:left;">
-<code>var(--turquoise2)</code>
+\#00E5EE
 </td>
 </tr>
 <tr>
@@ -8999,13 +8999,13 @@ CSS Variable
 <img src="https://placehold.it/50/00C5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.turquoise3</code>
+turquoise3
 </td>
 <td style="text-align:left;">
-<code>.bg-turquoise3</code>
+rgb(0,197,205)
 </td>
 <td style="text-align:left;">
-<code>var(--turquoise3)</code>
+\#00C5CD
 </td>
 </tr>
 <tr>
@@ -9013,13 +9013,13 @@ CSS Variable
 <img src="https://placehold.it/50/00868B/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.turquoise4</code>
+turquoise4
 </td>
 <td style="text-align:left;">
-<code>.bg-turquoise4</code>
+rgb(0,134,139)
 </td>
 <td style="text-align:left;">
-<code>var(--turquoise4)</code>
+\#00868B
 </td>
 </tr>
 <tr>
@@ -9027,13 +9027,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE82EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.violet</code>
+violet
 </td>
 <td style="text-align:left;">
-<code>.bg-violet</code>
+rgb(238,130,238)
 </td>
 <td style="text-align:left;">
-<code>var(--violet)</code>
+\#EE82EE
 </td>
 </tr>
 <tr>
@@ -9041,13 +9041,13 @@ CSS Variable
 <img src="https://placehold.it/50/D02090/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.violetred</code>
+violetred
 </td>
 <td style="text-align:left;">
-<code>.bg-violetred</code>
+rgb(208,32,144)
 </td>
 <td style="text-align:left;">
-<code>var(--violetred)</code>
+\#D02090
 </td>
 </tr>
 <tr>
@@ -9055,13 +9055,13 @@ CSS Variable
 <img src="https://placehold.it/50/FF3E96/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.violetred1</code>
+violetred1
 </td>
 <td style="text-align:left;">
-<code>.bg-violetred1</code>
+rgb(255,62,150)
 </td>
 <td style="text-align:left;">
-<code>var(--violetred1)</code>
+\#FF3E96
 </td>
 </tr>
 <tr>
@@ -9069,13 +9069,13 @@ CSS Variable
 <img src="https://placehold.it/50/EE3A8C/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.violetred2</code>
+violetred2
 </td>
 <td style="text-align:left;">
-<code>.bg-violetred2</code>
+rgb(238,58,140)
 </td>
 <td style="text-align:left;">
-<code>var(--violetred2)</code>
+\#EE3A8C
 </td>
 </tr>
 <tr>
@@ -9083,13 +9083,13 @@ CSS Variable
 <img src="https://placehold.it/50/CD3278/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.violetred3</code>
+violetred3
 </td>
 <td style="text-align:left;">
-<code>.bg-violetred3</code>
+rgb(205,50,120)
 </td>
 <td style="text-align:left;">
-<code>var(--violetred3)</code>
+\#CD3278
 </td>
 </tr>
 <tr>
@@ -9097,13 +9097,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B2252/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.violetred4</code>
+violetred4
 </td>
 <td style="text-align:left;">
-<code>.bg-violetred4</code>
+rgb(139,34,82)
 </td>
 <td style="text-align:left;">
-<code>var(--violetred4)</code>
+\#8B2252
 </td>
 </tr>
 <tr>
@@ -9111,13 +9111,13 @@ CSS Variable
 <img src="https://placehold.it/50/F5DEB3/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.wheat</code>
+wheat
 </td>
 <td style="text-align:left;">
-<code>.bg-wheat</code>
+rgb(245,222,179)
 </td>
 <td style="text-align:left;">
-<code>var(--wheat)</code>
+\#F5DEB3
 </td>
 </tr>
 <tr>
@@ -9125,13 +9125,13 @@ CSS Variable
 <img src="https://placehold.it/50/FFE7BA/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.wheat1</code>
+wheat1
 </td>
 <td style="text-align:left;">
-<code>.bg-wheat1</code>
+rgb(255,231,186)
 </td>
 <td style="text-align:left;">
-<code>var(--wheat1)</code>
+\#FFE7BA
 </td>
 </tr>
 <tr>
@@ -9139,13 +9139,13 @@ CSS Variable
 <img src="https://placehold.it/50/EED8AE/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.wheat2</code>
+wheat2
 </td>
 <td style="text-align:left;">
-<code>.bg-wheat2</code>
+rgb(238,216,174)
 </td>
 <td style="text-align:left;">
-<code>var(--wheat2)</code>
+\#EED8AE
 </td>
 </tr>
 <tr>
@@ -9153,13 +9153,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDBA96/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.wheat3</code>
+wheat3
 </td>
 <td style="text-align:left;">
-<code>.bg-wheat3</code>
+rgb(205,186,150)
 </td>
 <td style="text-align:left;">
-<code>var(--wheat3)</code>
+\#CDBA96
 </td>
 </tr>
 <tr>
@@ -9167,13 +9167,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B7E66/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.wheat4</code>
+wheat4
 </td>
 <td style="text-align:left;">
-<code>.bg-wheat4</code>
+rgb(139,126,102)
 </td>
 <td style="text-align:left;">
-<code>var(--wheat4)</code>
+\#8B7E66
 </td>
 </tr>
 <tr>
@@ -9181,27 +9181,13 @@ CSS Variable
 <img src="https://placehold.it/50/F5F5F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.whitesmoke</code>
+whitesmoke
 </td>
 <td style="text-align:left;">
-<code>.bg-whitesmoke</code>
+rgb(245,245,245)
 </td>
 <td style="text-align:left;">
-<code>var(--whitesmoke)</code>
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-<img src="https://placehold.it/50/FFFF00/000000?text=+" />
-</td>
-<td style="text-align:left;">
-<code>.yellow</code>
-</td>
-<td style="text-align:left;">
-<code>.bg-yellow</code>
-</td>
-<td style="text-align:left;">
-<code>var(--yellow)</code>
+\#F5F5F5
 </td>
 </tr>
 <tr>
@@ -9209,13 +9195,27 @@ CSS Variable
 <img src="https://placehold.it/50/FFFF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.yellow1</code>
+yellow
 </td>
 <td style="text-align:left;">
-<code>.bg-yellow1</code>
+rgb(255,255,0)
 </td>
 <td style="text-align:left;">
-<code>var(--yellow1)</code>
+\#FFFF00
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<img src="https://placehold.it/50/FFFF00/000000?text=+" />
+</td>
+<td style="text-align:left;">
+yellow1
+</td>
+<td style="text-align:left;">
+rgb(255,255,0)
+</td>
+<td style="text-align:left;">
+\#FFFF00
 </td>
 </tr>
 <tr>
@@ -9223,13 +9223,13 @@ CSS Variable
 <img src="https://placehold.it/50/EEEE00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.yellow2</code>
+yellow2
 </td>
 <td style="text-align:left;">
-<code>.bg-yellow2</code>
+rgb(238,238,0)
 </td>
 <td style="text-align:left;">
-<code>var(--yellow2)</code>
+\#EEEE00
 </td>
 </tr>
 <tr>
@@ -9237,13 +9237,13 @@ CSS Variable
 <img src="https://placehold.it/50/CDCD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.yellow3</code>
+yellow3
 </td>
 <td style="text-align:left;">
-<code>.bg-yellow3</code>
+rgb(205,205,0)
 </td>
 <td style="text-align:left;">
-<code>var(--yellow3)</code>
+\#CDCD00
 </td>
 </tr>
 <tr>
@@ -9251,13 +9251,13 @@ CSS Variable
 <img src="https://placehold.it/50/8B8B00/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.yellow4</code>
+yellow4
 </td>
 <td style="text-align:left;">
-<code>.bg-yellow4</code>
+rgb(139,139,0)
 </td>
 <td style="text-align:left;">
-<code>var(--yellow4)</code>
+\#8B8B00
 </td>
 </tr>
 <tr>
@@ -9265,13 +9265,13 @@ CSS Variable
 <img src="https://placehold.it/50/9ACD32/000000?text=+" />
 </td>
 <td style="text-align:left;">
-<code>.yellowgreen</code>
+yellowgreen
 </td>
 <td style="text-align:left;">
-<code>.bg-yellowgreen</code>
+rgb(154,205,50)
 </td>
 <td style="text-align:left;">
-<code>var(--yellowgreen)</code>
+\#9ACD32
 </td>
 </tr>
 </tbody>
