@@ -31,7 +31,7 @@ library(glue)
 
 r_colors <- readRDS("r_colors.rds")
 
-r_colors$preview <- glue_data(r_colors, '<img src="https://placehold.it/50/{sub("#", "", hex)}/000000?text=+" />')
+r_colors$preview <- glue_data(r_colors, '<img src="http://placehold.it/50/{sub("#", "", hex)}/000000?text=+" />')
 
 knitr::kable(
   r_colors[c("preview", "name", "color", "hex")],

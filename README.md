@@ -1,7 +1,6 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-R Colors in CSS
-===============
+# R Colors in CSS
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -11,8 +10,7 @@ R Colors in CSS
 
 ℹ️ [Interactive Preview](https://pkg.garrickadenbuie.com/r-colors-css)
 
-Usage
------
+## Usage
 
 For modularity, there are several stylesheets available. If you just
 want foreground and background colors, [download
@@ -55,8 +53,7 @@ For example, the R color named `"skyblue4"` is available
     a foreground or background color-on-hover class: `.skyblue4-hover`
     or `.bg-skyblue4-hover`
 
-Colors
-------
+## Colors
 
 <table>
 <thead>
@@ -78,7 +75,7 @@ Hex Value
 <tbody>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFFF/000000?text=+" />
+<img src="http://placehold.it/50/FFFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 white
@@ -92,7 +89,7 @@ rgb(255,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0F8FF/000000?text=+" />
+<img src="http://placehold.it/50/F0F8FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 aliceblue
@@ -106,7 +103,7 @@ rgb(240,248,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FAEBD7/000000?text=+" />
+<img src="http://placehold.it/50/FAEBD7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 antiquewhite
@@ -120,7 +117,7 @@ rgb(250,235,215)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFEFDB/000000?text=+" />
+<img src="http://placehold.it/50/FFEFDB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 antiquewhite1
@@ -134,7 +131,7 @@ rgb(255,239,219)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEDFCC/000000?text=+" />
+<img src="http://placehold.it/50/EEDFCC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 antiquewhite2
@@ -148,7 +145,7 @@ rgb(238,223,204)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDC0B0/000000?text=+" />
+<img src="http://placehold.it/50/CDC0B0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 antiquewhite3
@@ -162,7 +159,7 @@ rgb(205,192,176)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8378/000000?text=+" />
+<img src="http://placehold.it/50/8B8378/000000?text=+" />
 </td>
 <td style="text-align:left;">
 antiquewhite4
@@ -176,7 +173,7 @@ rgb(139,131,120)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7FFFD4/000000?text=+" />
+<img src="http://placehold.it/50/7FFFD4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 aquamarine
@@ -190,7 +187,7 @@ rgb(127,255,212)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7FFFD4/000000?text=+" />
+<img src="http://placehold.it/50/7FFFD4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 aquamarine1
@@ -204,7 +201,7 @@ rgb(127,255,212)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/76EEC6/000000?text=+" />
+<img src="http://placehold.it/50/76EEC6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 aquamarine2
@@ -218,7 +215,7 @@ rgb(118,238,198)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/66CDAA/000000?text=+" />
+<img src="http://placehold.it/50/66CDAA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 aquamarine3
@@ -232,7 +229,7 @@ rgb(102,205,170)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/458B74/000000?text=+" />
+<img src="http://placehold.it/50/458B74/000000?text=+" />
 </td>
 <td style="text-align:left;">
 aquamarine4
@@ -246,7 +243,7 @@ rgb(69,139,116)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0FFFF/000000?text=+" />
+<img src="http://placehold.it/50/F0FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 azure
@@ -260,7 +257,7 @@ rgb(240,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0FFFF/000000?text=+" />
+<img src="http://placehold.it/50/F0FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 azure1
@@ -274,7 +271,7 @@ rgb(240,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E0EEEE/000000?text=+" />
+<img src="http://placehold.it/50/E0EEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 azure2
@@ -288,7 +285,7 @@ rgb(224,238,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C1CDCD/000000?text=+" />
+<img src="http://placehold.it/50/C1CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 azure3
@@ -302,7 +299,7 @@ rgb(193,205,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/838B8B/000000?text=+" />
+<img src="http://placehold.it/50/838B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 azure4
@@ -316,7 +313,7 @@ rgb(131,139,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F5F5DC/000000?text=+" />
+<img src="http://placehold.it/50/F5F5DC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 beige
@@ -330,7 +327,7 @@ rgb(245,245,220)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFE4C4/000000?text=+" />
+<img src="http://placehold.it/50/FFE4C4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 bisque
@@ -344,7 +341,7 @@ rgb(255,228,196)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFE4C4/000000?text=+" />
+<img src="http://placehold.it/50/FFE4C4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 bisque1
@@ -358,7 +355,7 @@ rgb(255,228,196)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EED5B7/000000?text=+" />
+<img src="http://placehold.it/50/EED5B7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 bisque2
@@ -372,7 +369,7 @@ rgb(238,213,183)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDB79E/000000?text=+" />
+<img src="http://placehold.it/50/CDB79E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 bisque3
@@ -386,7 +383,7 @@ rgb(205,183,158)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B7D6B/000000?text=+" />
+<img src="http://placehold.it/50/8B7D6B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 bisque4
@@ -400,7 +397,7 @@ rgb(139,125,107)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/000000/000000?text=+" />
+<img src="http://placehold.it/50/000000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 black
@@ -414,7 +411,7 @@ rgb(0,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFEBCD/000000?text=+" />
+<img src="http://placehold.it/50/FFEBCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 blanchedalmond
@@ -428,7 +425,7 @@ rgb(255,235,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0000FF/000000?text=+" />
+<img src="http://placehold.it/50/0000FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 blue
@@ -442,7 +439,7 @@ rgb(0,0,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0000FF/000000?text=+" />
+<img src="http://placehold.it/50/0000FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 blue1
@@ -456,7 +453,7 @@ rgb(0,0,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0000EE/000000?text=+" />
+<img src="http://placehold.it/50/0000EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 blue2
@@ -470,7 +467,7 @@ rgb(0,0,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0000CD/000000?text=+" />
+<img src="http://placehold.it/50/0000CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 blue3
@@ -484,7 +481,7 @@ rgb(0,0,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00008B/000000?text=+" />
+<img src="http://placehold.it/50/00008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 blue4
@@ -498,7 +495,7 @@ rgb(0,0,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8A2BE2/000000?text=+" />
+<img src="http://placehold.it/50/8A2BE2/000000?text=+" />
 </td>
 <td style="text-align:left;">
 blueviolet
@@ -512,7 +509,7 @@ rgb(138,43,226)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A52A2A/000000?text=+" />
+<img src="http://placehold.it/50/A52A2A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 brown
@@ -526,7 +523,7 @@ rgb(165,42,42)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF4040/000000?text=+" />
+<img src="http://placehold.it/50/FF4040/000000?text=+" />
 </td>
 <td style="text-align:left;">
 brown1
@@ -540,7 +537,7 @@ rgb(255,64,64)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE3B3B/000000?text=+" />
+<img src="http://placehold.it/50/EE3B3B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 brown2
@@ -554,7 +551,7 @@ rgb(238,59,59)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD3333/000000?text=+" />
+<img src="http://placehold.it/50/CD3333/000000?text=+" />
 </td>
 <td style="text-align:left;">
 brown3
@@ -568,7 +565,7 @@ rgb(205,51,51)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B2323/000000?text=+" />
+<img src="http://placehold.it/50/8B2323/000000?text=+" />
 </td>
 <td style="text-align:left;">
 brown4
@@ -582,7 +579,7 @@ rgb(139,35,35)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DEB887/000000?text=+" />
+<img src="http://placehold.it/50/DEB887/000000?text=+" />
 </td>
 <td style="text-align:left;">
 burlywood
@@ -596,7 +593,7 @@ rgb(222,184,135)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFD39B/000000?text=+" />
+<img src="http://placehold.it/50/FFD39B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 burlywood1
@@ -610,7 +607,7 @@ rgb(255,211,155)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEC591/000000?text=+" />
+<img src="http://placehold.it/50/EEC591/000000?text=+" />
 </td>
 <td style="text-align:left;">
 burlywood2
@@ -624,7 +621,7 @@ rgb(238,197,145)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDAA7D/000000?text=+" />
+<img src="http://placehold.it/50/CDAA7D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 burlywood3
@@ -638,7 +635,7 @@ rgb(205,170,125)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B7355/000000?text=+" />
+<img src="http://placehold.it/50/8B7355/000000?text=+" />
 </td>
 <td style="text-align:left;">
 burlywood4
@@ -652,7 +649,7 @@ rgb(139,115,85)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/5F9EA0/000000?text=+" />
+<img src="http://placehold.it/50/5F9EA0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cadetblue
@@ -666,7 +663,7 @@ rgb(95,158,160)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/98F5FF/000000?text=+" />
+<img src="http://placehold.it/50/98F5FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cadetblue1
@@ -680,7 +677,7 @@ rgb(152,245,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8EE5EE/000000?text=+" />
+<img src="http://placehold.it/50/8EE5EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cadetblue2
@@ -694,7 +691,7 @@ rgb(142,229,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7AC5CD/000000?text=+" />
+<img src="http://placehold.it/50/7AC5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cadetblue3
@@ -708,7 +705,7 @@ rgb(122,197,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/53868B/000000?text=+" />
+<img src="http://placehold.it/50/53868B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cadetblue4
@@ -722,7 +719,7 @@ rgb(83,134,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7FFF00/000000?text=+" />
+<img src="http://placehold.it/50/7FFF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chartreuse
@@ -736,7 +733,7 @@ rgb(127,255,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7FFF00/000000?text=+" />
+<img src="http://placehold.it/50/7FFF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chartreuse1
@@ -750,7 +747,7 @@ rgb(127,255,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/76EE00/000000?text=+" />
+<img src="http://placehold.it/50/76EE00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chartreuse2
@@ -764,7 +761,7 @@ rgb(118,238,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/66CD00/000000?text=+" />
+<img src="http://placehold.it/50/66CD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chartreuse3
@@ -778,7 +775,7 @@ rgb(102,205,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/458B00/000000?text=+" />
+<img src="http://placehold.it/50/458B00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chartreuse4
@@ -792,7 +789,7 @@ rgb(69,139,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D2691E/000000?text=+" />
+<img src="http://placehold.it/50/D2691E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chocolate
@@ -806,7 +803,7 @@ rgb(210,105,30)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF7F24/000000?text=+" />
+<img src="http://placehold.it/50/FF7F24/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chocolate1
@@ -820,7 +817,7 @@ rgb(255,127,36)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE7621/000000?text=+" />
+<img src="http://placehold.it/50/EE7621/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chocolate2
@@ -834,7 +831,7 @@ rgb(238,118,33)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD661D/000000?text=+" />
+<img src="http://placehold.it/50/CD661D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chocolate3
@@ -848,7 +845,7 @@ rgb(205,102,29)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B4513/000000?text=+" />
+<img src="http://placehold.it/50/8B4513/000000?text=+" />
 </td>
 <td style="text-align:left;">
 chocolate4
@@ -862,7 +859,7 @@ rgb(139,69,19)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF7F50/000000?text=+" />
+<img src="http://placehold.it/50/FF7F50/000000?text=+" />
 </td>
 <td style="text-align:left;">
 coral
@@ -876,7 +873,7 @@ rgb(255,127,80)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF7256/000000?text=+" />
+<img src="http://placehold.it/50/FF7256/000000?text=+" />
 </td>
 <td style="text-align:left;">
 coral1
@@ -890,7 +887,7 @@ rgb(255,114,86)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE6A50/000000?text=+" />
+<img src="http://placehold.it/50/EE6A50/000000?text=+" />
 </td>
 <td style="text-align:left;">
 coral2
@@ -904,7 +901,7 @@ rgb(238,106,80)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD5B45/000000?text=+" />
+<img src="http://placehold.it/50/CD5B45/000000?text=+" />
 </td>
 <td style="text-align:left;">
 coral3
@@ -918,7 +915,7 @@ rgb(205,91,69)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B3E2F/000000?text=+" />
+<img src="http://placehold.it/50/8B3E2F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 coral4
@@ -932,7 +929,7 @@ rgb(139,62,47)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6495ED/000000?text=+" />
+<img src="http://placehold.it/50/6495ED/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cornflowerblue
@@ -946,7 +943,7 @@ rgb(100,149,237)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFF8DC/000000?text=+" />
+<img src="http://placehold.it/50/FFF8DC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cornsilk
@@ -960,7 +957,7 @@ rgb(255,248,220)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFF8DC/000000?text=+" />
+<img src="http://placehold.it/50/FFF8DC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cornsilk1
@@ -974,7 +971,7 @@ rgb(255,248,220)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEE8CD/000000?text=+" />
+<img src="http://placehold.it/50/EEE8CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cornsilk2
@@ -988,7 +985,7 @@ rgb(238,232,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDC8B1/000000?text=+" />
+<img src="http://placehold.it/50/CDC8B1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cornsilk3
@@ -1002,7 +999,7 @@ rgb(205,200,177)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8878/000000?text=+" />
+<img src="http://placehold.it/50/8B8878/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cornsilk4
@@ -1016,7 +1013,7 @@ rgb(139,136,120)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00FFFF/000000?text=+" />
+<img src="http://placehold.it/50/00FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cyan
@@ -1030,7 +1027,7 @@ rgb(0,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00FFFF/000000?text=+" />
+<img src="http://placehold.it/50/00FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cyan1
@@ -1044,7 +1041,7 @@ rgb(0,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00EEEE/000000?text=+" />
+<img src="http://placehold.it/50/00EEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cyan2
@@ -1058,7 +1055,7 @@ rgb(0,238,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00CDCD/000000?text=+" />
+<img src="http://placehold.it/50/00CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cyan3
@@ -1072,7 +1069,7 @@ rgb(0,205,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/008B8B/000000?text=+" />
+<img src="http://placehold.it/50/008B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 cyan4
@@ -1086,7 +1083,7 @@ rgb(0,139,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00008B/000000?text=+" />
+<img src="http://placehold.it/50/00008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkblue
@@ -1100,7 +1097,7 @@ rgb(0,0,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/008B8B/000000?text=+" />
+<img src="http://placehold.it/50/008B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkcyan
@@ -1114,7 +1111,7 @@ rgb(0,139,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B8860B/000000?text=+" />
+<img src="http://placehold.it/50/B8860B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgoldenrod
@@ -1128,7 +1125,7 @@ rgb(184,134,11)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFB90F/000000?text=+" />
+<img src="http://placehold.it/50/FFB90F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgoldenrod1
@@ -1142,7 +1139,7 @@ rgb(255,185,15)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEAD0E/000000?text=+" />
+<img src="http://placehold.it/50/EEAD0E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgoldenrod2
@@ -1156,7 +1153,7 @@ rgb(238,173,14)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD950C/000000?text=+" />
+<img src="http://placehold.it/50/CD950C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgoldenrod3
@@ -1170,7 +1167,7 @@ rgb(205,149,12)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B6508/000000?text=+" />
+<img src="http://placehold.it/50/8B6508/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgoldenrod4
@@ -1184,7 +1181,7 @@ rgb(139,101,8)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A9A9A9/000000?text=+" />
+<img src="http://placehold.it/50/A9A9A9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgray
@@ -1198,7 +1195,7 @@ rgb(169,169,169)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/006400/000000?text=+" />
+<img src="http://placehold.it/50/006400/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgreen
@@ -1212,7 +1209,7 @@ rgb(0,100,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A9A9A9/000000?text=+" />
+<img src="http://placehold.it/50/A9A9A9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkgrey
@@ -1226,7 +1223,7 @@ rgb(169,169,169)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BDB76B/000000?text=+" />
+<img src="http://placehold.it/50/BDB76B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkkhaki
@@ -1240,7 +1237,7 @@ rgb(189,183,107)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B008B/000000?text=+" />
+<img src="http://placehold.it/50/8B008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkmagenta
@@ -1254,7 +1251,7 @@ rgb(139,0,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/556B2F/000000?text=+" />
+<img src="http://placehold.it/50/556B2F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkolivegreen
@@ -1268,7 +1265,7 @@ rgb(85,107,47)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CAFF70/000000?text=+" />
+<img src="http://placehold.it/50/CAFF70/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkolivegreen1
@@ -1282,7 +1279,7 @@ rgb(202,255,112)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BCEE68/000000?text=+" />
+<img src="http://placehold.it/50/BCEE68/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkolivegreen2
@@ -1296,7 +1293,7 @@ rgb(188,238,104)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A2CD5A/000000?text=+" />
+<img src="http://placehold.it/50/A2CD5A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkolivegreen3
@@ -1310,7 +1307,7 @@ rgb(162,205,90)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6E8B3D/000000?text=+" />
+<img src="http://placehold.it/50/6E8B3D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkolivegreen4
@@ -1324,7 +1321,7 @@ rgb(110,139,61)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF8C00/000000?text=+" />
+<img src="http://placehold.it/50/FF8C00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorange
@@ -1338,7 +1335,7 @@ rgb(255,140,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF7F00/000000?text=+" />
+<img src="http://placehold.it/50/FF7F00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorange1
@@ -1352,7 +1349,7 @@ rgb(255,127,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE7600/000000?text=+" />
+<img src="http://placehold.it/50/EE7600/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorange2
@@ -1366,7 +1363,7 @@ rgb(238,118,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD6600/000000?text=+" />
+<img src="http://placehold.it/50/CD6600/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorange3
@@ -1380,7 +1377,7 @@ rgb(205,102,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B4500/000000?text=+" />
+<img src="http://placehold.it/50/8B4500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorange4
@@ -1394,7 +1391,7 @@ rgb(139,69,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9932CC/000000?text=+" />
+<img src="http://placehold.it/50/9932CC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorchid
@@ -1408,7 +1405,7 @@ rgb(153,50,204)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BF3EFF/000000?text=+" />
+<img src="http://placehold.it/50/BF3EFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorchid1
@@ -1422,7 +1419,7 @@ rgb(191,62,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B23AEE/000000?text=+" />
+<img src="http://placehold.it/50/B23AEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorchid2
@@ -1436,7 +1433,7 @@ rgb(178,58,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9A32CD/000000?text=+" />
+<img src="http://placehold.it/50/9A32CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorchid3
@@ -1450,7 +1447,7 @@ rgb(154,50,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/68228B/000000?text=+" />
+<img src="http://placehold.it/50/68228B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkorchid4
@@ -1464,7 +1461,7 @@ rgb(104,34,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B0000/000000?text=+" />
+<img src="http://placehold.it/50/8B0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkred
@@ -1478,7 +1475,7 @@ rgb(139,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E9967A/000000?text=+" />
+<img src="http://placehold.it/50/E9967A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darksalmon
@@ -1492,7 +1489,7 @@ rgb(233,150,122)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8FBC8F/000000?text=+" />
+<img src="http://placehold.it/50/8FBC8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkseagreen
@@ -1506,7 +1503,7 @@ rgb(143,188,143)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C1FFC1/000000?text=+" />
+<img src="http://placehold.it/50/C1FFC1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkseagreen1
@@ -1520,7 +1517,7 @@ rgb(193,255,193)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B4EEB4/000000?text=+" />
+<img src="http://placehold.it/50/B4EEB4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkseagreen2
@@ -1534,7 +1531,7 @@ rgb(180,238,180)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9BCD9B/000000?text=+" />
+<img src="http://placehold.it/50/9BCD9B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkseagreen3
@@ -1548,7 +1545,7 @@ rgb(155,205,155)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/698B69/000000?text=+" />
+<img src="http://placehold.it/50/698B69/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkseagreen4
@@ -1562,7 +1559,7 @@ rgb(105,139,105)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/483D8B/000000?text=+" />
+<img src="http://placehold.it/50/483D8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkslateblue
@@ -1576,7 +1573,7 @@ rgb(72,61,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2F4F4F/000000?text=+" />
+<img src="http://placehold.it/50/2F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkslategray
@@ -1590,7 +1587,7 @@ rgb(47,79,79)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/97FFFF/000000?text=+" />
+<img src="http://placehold.it/50/97FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkslategray1
@@ -1604,7 +1601,7 @@ rgb(151,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8DEEEE/000000?text=+" />
+<img src="http://placehold.it/50/8DEEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkslategray2
@@ -1618,7 +1615,7 @@ rgb(141,238,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/79CDCD/000000?text=+" />
+<img src="http://placehold.it/50/79CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkslategray3
@@ -1632,7 +1629,7 @@ rgb(121,205,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/528B8B/000000?text=+" />
+<img src="http://placehold.it/50/528B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkslategray4
@@ -1646,7 +1643,7 @@ rgb(82,139,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2F4F4F/000000?text=+" />
+<img src="http://placehold.it/50/2F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkslategrey
@@ -1660,7 +1657,7 @@ rgb(47,79,79)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00CED1/000000?text=+" />
+<img src="http://placehold.it/50/00CED1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkturquoise
@@ -1674,7 +1671,7 @@ rgb(0,206,209)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9400D3/000000?text=+" />
+<img src="http://placehold.it/50/9400D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 darkviolet
@@ -1688,7 +1685,7 @@ rgb(148,0,211)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF1493/000000?text=+" />
+<img src="http://placehold.it/50/FF1493/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deeppink
@@ -1702,7 +1699,7 @@ rgb(255,20,147)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF1493/000000?text=+" />
+<img src="http://placehold.it/50/FF1493/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deeppink1
@@ -1716,7 +1713,7 @@ rgb(255,20,147)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE1289/000000?text=+" />
+<img src="http://placehold.it/50/EE1289/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deeppink2
@@ -1730,7 +1727,7 @@ rgb(238,18,137)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD1076/000000?text=+" />
+<img src="http://placehold.it/50/CD1076/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deeppink3
@@ -1744,7 +1741,7 @@ rgb(205,16,118)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B0A50/000000?text=+" />
+<img src="http://placehold.it/50/8B0A50/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deeppink4
@@ -1758,7 +1755,7 @@ rgb(139,10,80)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00BFFF/000000?text=+" />
+<img src="http://placehold.it/50/00BFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deepskyblue
@@ -1772,7 +1769,7 @@ rgb(0,191,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00BFFF/000000?text=+" />
+<img src="http://placehold.it/50/00BFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deepskyblue1
@@ -1786,7 +1783,7 @@ rgb(0,191,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00B2EE/000000?text=+" />
+<img src="http://placehold.it/50/00B2EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deepskyblue2
@@ -1800,7 +1797,7 @@ rgb(0,178,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/009ACD/000000?text=+" />
+<img src="http://placehold.it/50/009ACD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deepskyblue3
@@ -1814,7 +1811,7 @@ rgb(0,154,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00688B/000000?text=+" />
+<img src="http://placehold.it/50/00688B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 deepskyblue4
@@ -1828,7 +1825,7 @@ rgb(0,104,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/696969/000000?text=+" />
+<img src="http://placehold.it/50/696969/000000?text=+" />
 </td>
 <td style="text-align:left;">
 dimgray
@@ -1842,7 +1839,7 @@ rgb(105,105,105)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/696969/000000?text=+" />
+<img src="http://placehold.it/50/696969/000000?text=+" />
 </td>
 <td style="text-align:left;">
 dimgrey
@@ -1856,7 +1853,7 @@ rgb(105,105,105)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1E90FF/000000?text=+" />
+<img src="http://placehold.it/50/1E90FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 dodgerblue
@@ -1870,7 +1867,7 @@ rgb(30,144,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1E90FF/000000?text=+" />
+<img src="http://placehold.it/50/1E90FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 dodgerblue1
@@ -1884,7 +1881,7 @@ rgb(30,144,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1C86EE/000000?text=+" />
+<img src="http://placehold.it/50/1C86EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 dodgerblue2
@@ -1898,7 +1895,7 @@ rgb(28,134,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1874CD/000000?text=+" />
+<img src="http://placehold.it/50/1874CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 dodgerblue3
@@ -1912,7 +1909,7 @@ rgb(24,116,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/104E8B/000000?text=+" />
+<img src="http://placehold.it/50/104E8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 dodgerblue4
@@ -1926,7 +1923,7 @@ rgb(16,78,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B22222/000000?text=+" />
+<img src="http://placehold.it/50/B22222/000000?text=+" />
 </td>
 <td style="text-align:left;">
 firebrick
@@ -1940,7 +1937,7 @@ rgb(178,34,34)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF3030/000000?text=+" />
+<img src="http://placehold.it/50/FF3030/000000?text=+" />
 </td>
 <td style="text-align:left;">
 firebrick1
@@ -1954,7 +1951,7 @@ rgb(255,48,48)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE2C2C/000000?text=+" />
+<img src="http://placehold.it/50/EE2C2C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 firebrick2
@@ -1968,7 +1965,7 @@ rgb(238,44,44)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD2626/000000?text=+" />
+<img src="http://placehold.it/50/CD2626/000000?text=+" />
 </td>
 <td style="text-align:left;">
 firebrick3
@@ -1982,7 +1979,7 @@ rgb(205,38,38)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B1A1A/000000?text=+" />
+<img src="http://placehold.it/50/8B1A1A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 firebrick4
@@ -1996,7 +1993,7 @@ rgb(139,26,26)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFAF0/000000?text=+" />
+<img src="http://placehold.it/50/FFFAF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 floralwhite
@@ -2010,7 +2007,7 @@ rgb(255,250,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/228B22/000000?text=+" />
+<img src="http://placehold.it/50/228B22/000000?text=+" />
 </td>
 <td style="text-align:left;">
 forestgreen
@@ -2024,7 +2021,7 @@ rgb(34,139,34)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DCDCDC/000000?text=+" />
+<img src="http://placehold.it/50/DCDCDC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gainsboro
@@ -2038,7 +2035,7 @@ rgb(220,220,220)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F8F8FF/000000?text=+" />
+<img src="http://placehold.it/50/F8F8FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 ghostwhite
@@ -2052,7 +2049,7 @@ rgb(248,248,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFD700/000000?text=+" />
+<img src="http://placehold.it/50/FFD700/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gold
@@ -2066,7 +2063,7 @@ rgb(255,215,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFD700/000000?text=+" />
+<img src="http://placehold.it/50/FFD700/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gold1
@@ -2080,7 +2077,7 @@ rgb(255,215,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEC900/000000?text=+" />
+<img src="http://placehold.it/50/EEC900/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gold2
@@ -2094,7 +2091,7 @@ rgb(238,201,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDAD00/000000?text=+" />
+<img src="http://placehold.it/50/CDAD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gold3
@@ -2108,7 +2105,7 @@ rgb(205,173,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B7500/000000?text=+" />
+<img src="http://placehold.it/50/8B7500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gold4
@@ -2122,7 +2119,7 @@ rgb(139,117,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DAA520/000000?text=+" />
+<img src="http://placehold.it/50/DAA520/000000?text=+" />
 </td>
 <td style="text-align:left;">
 goldenrod
@@ -2136,7 +2133,7 @@ rgb(218,165,32)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFC125/000000?text=+" />
+<img src="http://placehold.it/50/FFC125/000000?text=+" />
 </td>
 <td style="text-align:left;">
 goldenrod1
@@ -2150,7 +2147,7 @@ rgb(255,193,37)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEB422/000000?text=+" />
+<img src="http://placehold.it/50/EEB422/000000?text=+" />
 </td>
 <td style="text-align:left;">
 goldenrod2
@@ -2164,7 +2161,7 @@ rgb(238,180,34)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD9B1D/000000?text=+" />
+<img src="http://placehold.it/50/CD9B1D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 goldenrod3
@@ -2178,7 +2175,7 @@ rgb(205,155,29)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B6914/000000?text=+" />
+<img src="http://placehold.it/50/8B6914/000000?text=+" />
 </td>
 <td style="text-align:left;">
 goldenrod4
@@ -2192,7 +2189,7 @@ rgb(139,105,20)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BEBEBE/000000?text=+" />
+<img src="http://placehold.it/50/BEBEBE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray
@@ -2206,7 +2203,7 @@ rgb(190,190,190)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/000000/000000?text=+" />
+<img src="http://placehold.it/50/000000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray0
@@ -2220,7 +2217,7 @@ rgb(0,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/030303/000000?text=+" />
+<img src="http://placehold.it/50/030303/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray1
@@ -2234,7 +2231,7 @@ rgb(3,3,3)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/050505/000000?text=+" />
+<img src="http://placehold.it/50/050505/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray2
@@ -2248,7 +2245,7 @@ rgb(5,5,5)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/080808/000000?text=+" />
+<img src="http://placehold.it/50/080808/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray3
@@ -2262,7 +2259,7 @@ rgb(8,8,8)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0A0A0A/000000?text=+" />
+<img src="http://placehold.it/50/0A0A0A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray4
@@ -2276,7 +2273,7 @@ rgb(10,10,10)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0D0D0D/000000?text=+" />
+<img src="http://placehold.it/50/0D0D0D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray5
@@ -2290,7 +2287,7 @@ rgb(13,13,13)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0F0F0F/000000?text=+" />
+<img src="http://placehold.it/50/0F0F0F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray6
@@ -2304,7 +2301,7 @@ rgb(15,15,15)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/121212/000000?text=+" />
+<img src="http://placehold.it/50/121212/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray7
@@ -2318,7 +2315,7 @@ rgb(18,18,18)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/141414/000000?text=+" />
+<img src="http://placehold.it/50/141414/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray8
@@ -2332,7 +2329,7 @@ rgb(20,20,20)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/171717/000000?text=+" />
+<img src="http://placehold.it/50/171717/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray9
@@ -2346,7 +2343,7 @@ rgb(23,23,23)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1A1A1A/000000?text=+" />
+<img src="http://placehold.it/50/1A1A1A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray10
@@ -2360,7 +2357,7 @@ rgb(26,26,26)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1C1C1C/000000?text=+" />
+<img src="http://placehold.it/50/1C1C1C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray11
@@ -2374,7 +2371,7 @@ rgb(28,28,28)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1F1F1F/000000?text=+" />
+<img src="http://placehold.it/50/1F1F1F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray12
@@ -2388,7 +2385,7 @@ rgb(31,31,31)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/212121/000000?text=+" />
+<img src="http://placehold.it/50/212121/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray13
@@ -2402,7 +2399,7 @@ rgb(33,33,33)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/242424/000000?text=+" />
+<img src="http://placehold.it/50/242424/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray14
@@ -2416,7 +2413,7 @@ rgb(36,36,36)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/262626/000000?text=+" />
+<img src="http://placehold.it/50/262626/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray15
@@ -2430,7 +2427,7 @@ rgb(38,38,38)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/292929/000000?text=+" />
+<img src="http://placehold.it/50/292929/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray16
@@ -2444,7 +2441,7 @@ rgb(41,41,41)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2B2B2B/000000?text=+" />
+<img src="http://placehold.it/50/2B2B2B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray17
@@ -2458,7 +2455,7 @@ rgb(43,43,43)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2E2E2E/000000?text=+" />
+<img src="http://placehold.it/50/2E2E2E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray18
@@ -2472,7 +2469,7 @@ rgb(46,46,46)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/303030/000000?text=+" />
+<img src="http://placehold.it/50/303030/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray19
@@ -2486,7 +2483,7 @@ rgb(48,48,48)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/333333/000000?text=+" />
+<img src="http://placehold.it/50/333333/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray20
@@ -2500,7 +2497,7 @@ rgb(51,51,51)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/363636/000000?text=+" />
+<img src="http://placehold.it/50/363636/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray21
@@ -2514,7 +2511,7 @@ rgb(54,54,54)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/383838/000000?text=+" />
+<img src="http://placehold.it/50/383838/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray22
@@ -2528,7 +2525,7 @@ rgb(56,56,56)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/3B3B3B/000000?text=+" />
+<img src="http://placehold.it/50/3B3B3B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray23
@@ -2542,7 +2539,7 @@ rgb(59,59,59)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/3D3D3D/000000?text=+" />
+<img src="http://placehold.it/50/3D3D3D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray24
@@ -2556,7 +2553,7 @@ rgb(61,61,61)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/404040/000000?text=+" />
+<img src="http://placehold.it/50/404040/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray25
@@ -2570,7 +2567,7 @@ rgb(64,64,64)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/424242/000000?text=+" />
+<img src="http://placehold.it/50/424242/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray26
@@ -2584,7 +2581,7 @@ rgb(66,66,66)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/454545/000000?text=+" />
+<img src="http://placehold.it/50/454545/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray27
@@ -2598,7 +2595,7 @@ rgb(69,69,69)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/474747/000000?text=+" />
+<img src="http://placehold.it/50/474747/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray28
@@ -2612,7 +2609,7 @@ rgb(71,71,71)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4A4A4A/000000?text=+" />
+<img src="http://placehold.it/50/4A4A4A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray29
@@ -2626,7 +2623,7 @@ rgb(74,74,74)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4D4D4D/000000?text=+" />
+<img src="http://placehold.it/50/4D4D4D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray30
@@ -2640,7 +2637,7 @@ rgb(77,77,77)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4F4F4F/000000?text=+" />
+<img src="http://placehold.it/50/4F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray31
@@ -2654,7 +2651,7 @@ rgb(79,79,79)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/525252/000000?text=+" />
+<img src="http://placehold.it/50/525252/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray32
@@ -2668,7 +2665,7 @@ rgb(82,82,82)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/545454/000000?text=+" />
+<img src="http://placehold.it/50/545454/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray33
@@ -2682,7 +2679,7 @@ rgb(84,84,84)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/575757/000000?text=+" />
+<img src="http://placehold.it/50/575757/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray34
@@ -2696,7 +2693,7 @@ rgb(87,87,87)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/595959/000000?text=+" />
+<img src="http://placehold.it/50/595959/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray35
@@ -2710,7 +2707,7 @@ rgb(89,89,89)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/5C5C5C/000000?text=+" />
+<img src="http://placehold.it/50/5C5C5C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray36
@@ -2724,7 +2721,7 @@ rgb(92,92,92)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/5E5E5E/000000?text=+" />
+<img src="http://placehold.it/50/5E5E5E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray37
@@ -2738,7 +2735,7 @@ rgb(94,94,94)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/616161/000000?text=+" />
+<img src="http://placehold.it/50/616161/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray38
@@ -2752,7 +2749,7 @@ rgb(97,97,97)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/636363/000000?text=+" />
+<img src="http://placehold.it/50/636363/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray39
@@ -2766,7 +2763,7 @@ rgb(99,99,99)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/666666/000000?text=+" />
+<img src="http://placehold.it/50/666666/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray40
@@ -2780,7 +2777,7 @@ rgb(102,102,102)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/696969/000000?text=+" />
+<img src="http://placehold.it/50/696969/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray41
@@ -2794,7 +2791,7 @@ rgb(105,105,105)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6B6B6B/000000?text=+" />
+<img src="http://placehold.it/50/6B6B6B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray42
@@ -2808,7 +2805,7 @@ rgb(107,107,107)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6E6E6E/000000?text=+" />
+<img src="http://placehold.it/50/6E6E6E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray43
@@ -2822,7 +2819,7 @@ rgb(110,110,110)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/707070/000000?text=+" />
+<img src="http://placehold.it/50/707070/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray44
@@ -2836,7 +2833,7 @@ rgb(112,112,112)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/737373/000000?text=+" />
+<img src="http://placehold.it/50/737373/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray45
@@ -2850,7 +2847,7 @@ rgb(115,115,115)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/757575/000000?text=+" />
+<img src="http://placehold.it/50/757575/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray46
@@ -2864,7 +2861,7 @@ rgb(117,117,117)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/787878/000000?text=+" />
+<img src="http://placehold.it/50/787878/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray47
@@ -2878,7 +2875,7 @@ rgb(120,120,120)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7A7A7A/000000?text=+" />
+<img src="http://placehold.it/50/7A7A7A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray48
@@ -2892,7 +2889,7 @@ rgb(122,122,122)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7D7D7D/000000?text=+" />
+<img src="http://placehold.it/50/7D7D7D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray49
@@ -2906,7 +2903,7 @@ rgb(125,125,125)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7F7F7F/000000?text=+" />
+<img src="http://placehold.it/50/7F7F7F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray50
@@ -2920,7 +2917,7 @@ rgb(127,127,127)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/828282/000000?text=+" />
+<img src="http://placehold.it/50/828282/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray51
@@ -2934,7 +2931,7 @@ rgb(130,130,130)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/858585/000000?text=+" />
+<img src="http://placehold.it/50/858585/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray52
@@ -2948,7 +2945,7 @@ rgb(133,133,133)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/878787/000000?text=+" />
+<img src="http://placehold.it/50/878787/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray53
@@ -2962,7 +2959,7 @@ rgb(135,135,135)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8A8A8A/000000?text=+" />
+<img src="http://placehold.it/50/8A8A8A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray54
@@ -2976,7 +2973,7 @@ rgb(138,138,138)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8C8C8C/000000?text=+" />
+<img src="http://placehold.it/50/8C8C8C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray55
@@ -2990,7 +2987,7 @@ rgb(140,140,140)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8F8F8F/000000?text=+" />
+<img src="http://placehold.it/50/8F8F8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray56
@@ -3004,7 +3001,7 @@ rgb(143,143,143)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/919191/000000?text=+" />
+<img src="http://placehold.it/50/919191/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray57
@@ -3018,7 +3015,7 @@ rgb(145,145,145)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/949494/000000?text=+" />
+<img src="http://placehold.it/50/949494/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray58
@@ -3032,7 +3029,7 @@ rgb(148,148,148)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/969696/000000?text=+" />
+<img src="http://placehold.it/50/969696/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray59
@@ -3046,7 +3043,7 @@ rgb(150,150,150)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/999999/000000?text=+" />
+<img src="http://placehold.it/50/999999/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray60
@@ -3060,7 +3057,7 @@ rgb(153,153,153)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9C9C9C/000000?text=+" />
+<img src="http://placehold.it/50/9C9C9C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray61
@@ -3074,7 +3071,7 @@ rgb(156,156,156)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9E9E9E/000000?text=+" />
+<img src="http://placehold.it/50/9E9E9E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray62
@@ -3088,7 +3085,7 @@ rgb(158,158,158)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A1A1A1/000000?text=+" />
+<img src="http://placehold.it/50/A1A1A1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray63
@@ -3102,7 +3099,7 @@ rgb(161,161,161)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A3A3A3/000000?text=+" />
+<img src="http://placehold.it/50/A3A3A3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray64
@@ -3116,7 +3113,7 @@ rgb(163,163,163)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A6A6A6/000000?text=+" />
+<img src="http://placehold.it/50/A6A6A6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray65
@@ -3130,7 +3127,7 @@ rgb(166,166,166)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A8A8A8/000000?text=+" />
+<img src="http://placehold.it/50/A8A8A8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray66
@@ -3144,7 +3141,7 @@ rgb(168,168,168)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/ABABAB/000000?text=+" />
+<img src="http://placehold.it/50/ABABAB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray67
@@ -3158,7 +3155,7 @@ rgb(171,171,171)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/ADADAD/000000?text=+" />
+<img src="http://placehold.it/50/ADADAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray68
@@ -3172,7 +3169,7 @@ rgb(173,173,173)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B0B0B0/000000?text=+" />
+<img src="http://placehold.it/50/B0B0B0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray69
@@ -3186,7 +3183,7 @@ rgb(176,176,176)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B3B3B3/000000?text=+" />
+<img src="http://placehold.it/50/B3B3B3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray70
@@ -3200,7 +3197,7 @@ rgb(179,179,179)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B5B5B5/000000?text=+" />
+<img src="http://placehold.it/50/B5B5B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray71
@@ -3214,7 +3211,7 @@ rgb(181,181,181)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B8B8B8/000000?text=+" />
+<img src="http://placehold.it/50/B8B8B8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray72
@@ -3228,7 +3225,7 @@ rgb(184,184,184)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BABABA/000000?text=+" />
+<img src="http://placehold.it/50/BABABA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray73
@@ -3242,7 +3239,7 @@ rgb(186,186,186)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BDBDBD/000000?text=+" />
+<img src="http://placehold.it/50/BDBDBD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray74
@@ -3256,7 +3253,7 @@ rgb(189,189,189)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BFBFBF/000000?text=+" />
+<img src="http://placehold.it/50/BFBFBF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray75
@@ -3270,7 +3267,7 @@ rgb(191,191,191)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C2C2C2/000000?text=+" />
+<img src="http://placehold.it/50/C2C2C2/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray76
@@ -3284,7 +3281,7 @@ rgb(194,194,194)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C4C4C4/000000?text=+" />
+<img src="http://placehold.it/50/C4C4C4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray77
@@ -3298,7 +3295,7 @@ rgb(196,196,196)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C7C7C7/000000?text=+" />
+<img src="http://placehold.it/50/C7C7C7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray78
@@ -3312,7 +3309,7 @@ rgb(199,199,199)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C9C9C9/000000?text=+" />
+<img src="http://placehold.it/50/C9C9C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray79
@@ -3326,7 +3323,7 @@ rgb(201,201,201)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CCCCCC/000000?text=+" />
+<img src="http://placehold.it/50/CCCCCC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray80
@@ -3340,7 +3337,7 @@ rgb(204,204,204)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CFCFCF/000000?text=+" />
+<img src="http://placehold.it/50/CFCFCF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray81
@@ -3354,7 +3351,7 @@ rgb(207,207,207)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D1D1D1/000000?text=+" />
+<img src="http://placehold.it/50/D1D1D1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray82
@@ -3368,7 +3365,7 @@ rgb(209,209,209)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D4D4D4/000000?text=+" />
+<img src="http://placehold.it/50/D4D4D4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray83
@@ -3382,7 +3379,7 @@ rgb(212,212,212)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D6D6D6/000000?text=+" />
+<img src="http://placehold.it/50/D6D6D6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray84
@@ -3396,7 +3393,7 @@ rgb(214,214,214)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D9D9D9/000000?text=+" />
+<img src="http://placehold.it/50/D9D9D9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray85
@@ -3410,7 +3407,7 @@ rgb(217,217,217)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DBDBDB/000000?text=+" />
+<img src="http://placehold.it/50/DBDBDB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray86
@@ -3424,7 +3421,7 @@ rgb(219,219,219)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DEDEDE/000000?text=+" />
+<img src="http://placehold.it/50/DEDEDE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray87
@@ -3438,7 +3435,7 @@ rgb(222,222,222)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E0E0E0/000000?text=+" />
+<img src="http://placehold.it/50/E0E0E0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray88
@@ -3452,7 +3449,7 @@ rgb(224,224,224)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E3E3E3/000000?text=+" />
+<img src="http://placehold.it/50/E3E3E3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray89
@@ -3466,7 +3463,7 @@ rgb(227,227,227)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E5E5E5/000000?text=+" />
+<img src="http://placehold.it/50/E5E5E5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray90
@@ -3480,7 +3477,7 @@ rgb(229,229,229)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E8E8E8/000000?text=+" />
+<img src="http://placehold.it/50/E8E8E8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray91
@@ -3494,7 +3491,7 @@ rgb(232,232,232)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EBEBEB/000000?text=+" />
+<img src="http://placehold.it/50/EBEBEB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray92
@@ -3508,7 +3505,7 @@ rgb(235,235,235)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EDEDED/000000?text=+" />
+<img src="http://placehold.it/50/EDEDED/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray93
@@ -3522,7 +3519,7 @@ rgb(237,237,237)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0F0F0/000000?text=+" />
+<img src="http://placehold.it/50/F0F0F0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray94
@@ -3536,7 +3533,7 @@ rgb(240,240,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F2F2F2/000000?text=+" />
+<img src="http://placehold.it/50/F2F2F2/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray95
@@ -3550,7 +3547,7 @@ rgb(242,242,242)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F5F5F5/000000?text=+" />
+<img src="http://placehold.it/50/F5F5F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray96
@@ -3564,7 +3561,7 @@ rgb(245,245,245)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F7F7F7/000000?text=+" />
+<img src="http://placehold.it/50/F7F7F7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray97
@@ -3578,7 +3575,7 @@ rgb(247,247,247)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FAFAFA/000000?text=+" />
+<img src="http://placehold.it/50/FAFAFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray98
@@ -3592,7 +3589,7 @@ rgb(250,250,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FCFCFC/000000?text=+" />
+<img src="http://placehold.it/50/FCFCFC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray99
@@ -3606,7 +3603,7 @@ rgb(252,252,252)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFFF/000000?text=+" />
+<img src="http://placehold.it/50/FFFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 gray100
@@ -3620,7 +3617,7 @@ rgb(255,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00FF00/000000?text=+" />
+<img src="http://placehold.it/50/00FF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 green
@@ -3634,7 +3631,7 @@ rgb(0,255,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00FF00/000000?text=+" />
+<img src="http://placehold.it/50/00FF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 green1
@@ -3648,7 +3645,7 @@ rgb(0,255,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00EE00/000000?text=+" />
+<img src="http://placehold.it/50/00EE00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 green2
@@ -3662,7 +3659,7 @@ rgb(0,238,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00CD00/000000?text=+" />
+<img src="http://placehold.it/50/00CD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 green3
@@ -3676,7 +3673,7 @@ rgb(0,205,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/008B00/000000?text=+" />
+<img src="http://placehold.it/50/008B00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 green4
@@ -3690,7 +3687,7 @@ rgb(0,139,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/ADFF2F/000000?text=+" />
+<img src="http://placehold.it/50/ADFF2F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 greenyellow
@@ -3704,7 +3701,7 @@ rgb(173,255,47)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BEBEBE/000000?text=+" />
+<img src="http://placehold.it/50/BEBEBE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey
@@ -3718,7 +3715,7 @@ rgb(190,190,190)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/000000/000000?text=+" />
+<img src="http://placehold.it/50/000000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey0
@@ -3732,7 +3729,7 @@ rgb(0,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/030303/000000?text=+" />
+<img src="http://placehold.it/50/030303/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey1
@@ -3746,7 +3743,7 @@ rgb(3,3,3)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/050505/000000?text=+" />
+<img src="http://placehold.it/50/050505/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey2
@@ -3760,7 +3757,7 @@ rgb(5,5,5)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/080808/000000?text=+" />
+<img src="http://placehold.it/50/080808/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey3
@@ -3774,7 +3771,7 @@ rgb(8,8,8)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0A0A0A/000000?text=+" />
+<img src="http://placehold.it/50/0A0A0A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey4
@@ -3788,7 +3785,7 @@ rgb(10,10,10)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0D0D0D/000000?text=+" />
+<img src="http://placehold.it/50/0D0D0D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey5
@@ -3802,7 +3799,7 @@ rgb(13,13,13)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0F0F0F/000000?text=+" />
+<img src="http://placehold.it/50/0F0F0F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey6
@@ -3816,7 +3813,7 @@ rgb(15,15,15)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/121212/000000?text=+" />
+<img src="http://placehold.it/50/121212/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey7
@@ -3830,7 +3827,7 @@ rgb(18,18,18)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/141414/000000?text=+" />
+<img src="http://placehold.it/50/141414/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey8
@@ -3844,7 +3841,7 @@ rgb(20,20,20)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/171717/000000?text=+" />
+<img src="http://placehold.it/50/171717/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey9
@@ -3858,7 +3855,7 @@ rgb(23,23,23)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1A1A1A/000000?text=+" />
+<img src="http://placehold.it/50/1A1A1A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey10
@@ -3872,7 +3869,7 @@ rgb(26,26,26)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1C1C1C/000000?text=+" />
+<img src="http://placehold.it/50/1C1C1C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey11
@@ -3886,7 +3883,7 @@ rgb(28,28,28)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/1F1F1F/000000?text=+" />
+<img src="http://placehold.it/50/1F1F1F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey12
@@ -3900,7 +3897,7 @@ rgb(31,31,31)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/212121/000000?text=+" />
+<img src="http://placehold.it/50/212121/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey13
@@ -3914,7 +3911,7 @@ rgb(33,33,33)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/242424/000000?text=+" />
+<img src="http://placehold.it/50/242424/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey14
@@ -3928,7 +3925,7 @@ rgb(36,36,36)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/262626/000000?text=+" />
+<img src="http://placehold.it/50/262626/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey15
@@ -3942,7 +3939,7 @@ rgb(38,38,38)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/292929/000000?text=+" />
+<img src="http://placehold.it/50/292929/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey16
@@ -3956,7 +3953,7 @@ rgb(41,41,41)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2B2B2B/000000?text=+" />
+<img src="http://placehold.it/50/2B2B2B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey17
@@ -3970,7 +3967,7 @@ rgb(43,43,43)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2E2E2E/000000?text=+" />
+<img src="http://placehold.it/50/2E2E2E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey18
@@ -3984,7 +3981,7 @@ rgb(46,46,46)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/303030/000000?text=+" />
+<img src="http://placehold.it/50/303030/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey19
@@ -3998,7 +3995,7 @@ rgb(48,48,48)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/333333/000000?text=+" />
+<img src="http://placehold.it/50/333333/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey20
@@ -4012,7 +4009,7 @@ rgb(51,51,51)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/363636/000000?text=+" />
+<img src="http://placehold.it/50/363636/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey21
@@ -4026,7 +4023,7 @@ rgb(54,54,54)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/383838/000000?text=+" />
+<img src="http://placehold.it/50/383838/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey22
@@ -4040,7 +4037,7 @@ rgb(56,56,56)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/3B3B3B/000000?text=+" />
+<img src="http://placehold.it/50/3B3B3B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey23
@@ -4054,7 +4051,7 @@ rgb(59,59,59)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/3D3D3D/000000?text=+" />
+<img src="http://placehold.it/50/3D3D3D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey24
@@ -4068,7 +4065,7 @@ rgb(61,61,61)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/404040/000000?text=+" />
+<img src="http://placehold.it/50/404040/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey25
@@ -4082,7 +4079,7 @@ rgb(64,64,64)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/424242/000000?text=+" />
+<img src="http://placehold.it/50/424242/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey26
@@ -4096,7 +4093,7 @@ rgb(66,66,66)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/454545/000000?text=+" />
+<img src="http://placehold.it/50/454545/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey27
@@ -4110,7 +4107,7 @@ rgb(69,69,69)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/474747/000000?text=+" />
+<img src="http://placehold.it/50/474747/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey28
@@ -4124,7 +4121,7 @@ rgb(71,71,71)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4A4A4A/000000?text=+" />
+<img src="http://placehold.it/50/4A4A4A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey29
@@ -4138,7 +4135,7 @@ rgb(74,74,74)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4D4D4D/000000?text=+" />
+<img src="http://placehold.it/50/4D4D4D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey30
@@ -4152,7 +4149,7 @@ rgb(77,77,77)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4F4F4F/000000?text=+" />
+<img src="http://placehold.it/50/4F4F4F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey31
@@ -4166,7 +4163,7 @@ rgb(79,79,79)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/525252/000000?text=+" />
+<img src="http://placehold.it/50/525252/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey32
@@ -4180,7 +4177,7 @@ rgb(82,82,82)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/545454/000000?text=+" />
+<img src="http://placehold.it/50/545454/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey33
@@ -4194,7 +4191,7 @@ rgb(84,84,84)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/575757/000000?text=+" />
+<img src="http://placehold.it/50/575757/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey34
@@ -4208,7 +4205,7 @@ rgb(87,87,87)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/595959/000000?text=+" />
+<img src="http://placehold.it/50/595959/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey35
@@ -4222,7 +4219,7 @@ rgb(89,89,89)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/5C5C5C/000000?text=+" />
+<img src="http://placehold.it/50/5C5C5C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey36
@@ -4236,7 +4233,7 @@ rgb(92,92,92)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/5E5E5E/000000?text=+" />
+<img src="http://placehold.it/50/5E5E5E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey37
@@ -4250,7 +4247,7 @@ rgb(94,94,94)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/616161/000000?text=+" />
+<img src="http://placehold.it/50/616161/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey38
@@ -4264,7 +4261,7 @@ rgb(97,97,97)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/636363/000000?text=+" />
+<img src="http://placehold.it/50/636363/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey39
@@ -4278,7 +4275,7 @@ rgb(99,99,99)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/666666/000000?text=+" />
+<img src="http://placehold.it/50/666666/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey40
@@ -4292,7 +4289,7 @@ rgb(102,102,102)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/696969/000000?text=+" />
+<img src="http://placehold.it/50/696969/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey41
@@ -4306,7 +4303,7 @@ rgb(105,105,105)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6B6B6B/000000?text=+" />
+<img src="http://placehold.it/50/6B6B6B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey42
@@ -4320,7 +4317,7 @@ rgb(107,107,107)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6E6E6E/000000?text=+" />
+<img src="http://placehold.it/50/6E6E6E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey43
@@ -4334,7 +4331,7 @@ rgb(110,110,110)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/707070/000000?text=+" />
+<img src="http://placehold.it/50/707070/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey44
@@ -4348,7 +4345,7 @@ rgb(112,112,112)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/737373/000000?text=+" />
+<img src="http://placehold.it/50/737373/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey45
@@ -4362,7 +4359,7 @@ rgb(115,115,115)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/757575/000000?text=+" />
+<img src="http://placehold.it/50/757575/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey46
@@ -4376,7 +4373,7 @@ rgb(117,117,117)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/787878/000000?text=+" />
+<img src="http://placehold.it/50/787878/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey47
@@ -4390,7 +4387,7 @@ rgb(120,120,120)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7A7A7A/000000?text=+" />
+<img src="http://placehold.it/50/7A7A7A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey48
@@ -4404,7 +4401,7 @@ rgb(122,122,122)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7D7D7D/000000?text=+" />
+<img src="http://placehold.it/50/7D7D7D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey49
@@ -4418,7 +4415,7 @@ rgb(125,125,125)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7F7F7F/000000?text=+" />
+<img src="http://placehold.it/50/7F7F7F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey50
@@ -4432,7 +4429,7 @@ rgb(127,127,127)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/828282/000000?text=+" />
+<img src="http://placehold.it/50/828282/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey51
@@ -4446,7 +4443,7 @@ rgb(130,130,130)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/858585/000000?text=+" />
+<img src="http://placehold.it/50/858585/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey52
@@ -4460,7 +4457,7 @@ rgb(133,133,133)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/878787/000000?text=+" />
+<img src="http://placehold.it/50/878787/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey53
@@ -4474,7 +4471,7 @@ rgb(135,135,135)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8A8A8A/000000?text=+" />
+<img src="http://placehold.it/50/8A8A8A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey54
@@ -4488,7 +4485,7 @@ rgb(138,138,138)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8C8C8C/000000?text=+" />
+<img src="http://placehold.it/50/8C8C8C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey55
@@ -4502,7 +4499,7 @@ rgb(140,140,140)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8F8F8F/000000?text=+" />
+<img src="http://placehold.it/50/8F8F8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey56
@@ -4516,7 +4513,7 @@ rgb(143,143,143)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/919191/000000?text=+" />
+<img src="http://placehold.it/50/919191/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey57
@@ -4530,7 +4527,7 @@ rgb(145,145,145)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/949494/000000?text=+" />
+<img src="http://placehold.it/50/949494/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey58
@@ -4544,7 +4541,7 @@ rgb(148,148,148)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/969696/000000?text=+" />
+<img src="http://placehold.it/50/969696/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey59
@@ -4558,7 +4555,7 @@ rgb(150,150,150)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/999999/000000?text=+" />
+<img src="http://placehold.it/50/999999/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey60
@@ -4572,7 +4569,7 @@ rgb(153,153,153)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9C9C9C/000000?text=+" />
+<img src="http://placehold.it/50/9C9C9C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey61
@@ -4586,7 +4583,7 @@ rgb(156,156,156)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9E9E9E/000000?text=+" />
+<img src="http://placehold.it/50/9E9E9E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey62
@@ -4600,7 +4597,7 @@ rgb(158,158,158)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A1A1A1/000000?text=+" />
+<img src="http://placehold.it/50/A1A1A1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey63
@@ -4614,7 +4611,7 @@ rgb(161,161,161)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A3A3A3/000000?text=+" />
+<img src="http://placehold.it/50/A3A3A3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey64
@@ -4628,7 +4625,7 @@ rgb(163,163,163)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A6A6A6/000000?text=+" />
+<img src="http://placehold.it/50/A6A6A6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey65
@@ -4642,7 +4639,7 @@ rgb(166,166,166)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A8A8A8/000000?text=+" />
+<img src="http://placehold.it/50/A8A8A8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey66
@@ -4656,7 +4653,7 @@ rgb(168,168,168)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/ABABAB/000000?text=+" />
+<img src="http://placehold.it/50/ABABAB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey67
@@ -4670,7 +4667,7 @@ rgb(171,171,171)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/ADADAD/000000?text=+" />
+<img src="http://placehold.it/50/ADADAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey68
@@ -4684,7 +4681,7 @@ rgb(173,173,173)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B0B0B0/000000?text=+" />
+<img src="http://placehold.it/50/B0B0B0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey69
@@ -4698,7 +4695,7 @@ rgb(176,176,176)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B3B3B3/000000?text=+" />
+<img src="http://placehold.it/50/B3B3B3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey70
@@ -4712,7 +4709,7 @@ rgb(179,179,179)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B5B5B5/000000?text=+" />
+<img src="http://placehold.it/50/B5B5B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey71
@@ -4726,7 +4723,7 @@ rgb(181,181,181)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B8B8B8/000000?text=+" />
+<img src="http://placehold.it/50/B8B8B8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey72
@@ -4740,7 +4737,7 @@ rgb(184,184,184)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BABABA/000000?text=+" />
+<img src="http://placehold.it/50/BABABA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey73
@@ -4754,7 +4751,7 @@ rgb(186,186,186)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BDBDBD/000000?text=+" />
+<img src="http://placehold.it/50/BDBDBD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey74
@@ -4768,7 +4765,7 @@ rgb(189,189,189)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BFBFBF/000000?text=+" />
+<img src="http://placehold.it/50/BFBFBF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey75
@@ -4782,7 +4779,7 @@ rgb(191,191,191)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C2C2C2/000000?text=+" />
+<img src="http://placehold.it/50/C2C2C2/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey76
@@ -4796,7 +4793,7 @@ rgb(194,194,194)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C4C4C4/000000?text=+" />
+<img src="http://placehold.it/50/C4C4C4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey77
@@ -4810,7 +4807,7 @@ rgb(196,196,196)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C7C7C7/000000?text=+" />
+<img src="http://placehold.it/50/C7C7C7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey78
@@ -4824,7 +4821,7 @@ rgb(199,199,199)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C9C9C9/000000?text=+" />
+<img src="http://placehold.it/50/C9C9C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey79
@@ -4838,7 +4835,7 @@ rgb(201,201,201)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CCCCCC/000000?text=+" />
+<img src="http://placehold.it/50/CCCCCC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey80
@@ -4852,7 +4849,7 @@ rgb(204,204,204)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CFCFCF/000000?text=+" />
+<img src="http://placehold.it/50/CFCFCF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey81
@@ -4866,7 +4863,7 @@ rgb(207,207,207)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D1D1D1/000000?text=+" />
+<img src="http://placehold.it/50/D1D1D1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey82
@@ -4880,7 +4877,7 @@ rgb(209,209,209)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D4D4D4/000000?text=+" />
+<img src="http://placehold.it/50/D4D4D4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey83
@@ -4894,7 +4891,7 @@ rgb(212,212,212)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D6D6D6/000000?text=+" />
+<img src="http://placehold.it/50/D6D6D6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey84
@@ -4908,7 +4905,7 @@ rgb(214,214,214)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D9D9D9/000000?text=+" />
+<img src="http://placehold.it/50/D9D9D9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey85
@@ -4922,7 +4919,7 @@ rgb(217,217,217)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DBDBDB/000000?text=+" />
+<img src="http://placehold.it/50/DBDBDB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey86
@@ -4936,7 +4933,7 @@ rgb(219,219,219)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DEDEDE/000000?text=+" />
+<img src="http://placehold.it/50/DEDEDE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey87
@@ -4950,7 +4947,7 @@ rgb(222,222,222)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E0E0E0/000000?text=+" />
+<img src="http://placehold.it/50/E0E0E0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey88
@@ -4964,7 +4961,7 @@ rgb(224,224,224)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E3E3E3/000000?text=+" />
+<img src="http://placehold.it/50/E3E3E3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey89
@@ -4978,7 +4975,7 @@ rgb(227,227,227)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E5E5E5/000000?text=+" />
+<img src="http://placehold.it/50/E5E5E5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey90
@@ -4992,7 +4989,7 @@ rgb(229,229,229)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E8E8E8/000000?text=+" />
+<img src="http://placehold.it/50/E8E8E8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey91
@@ -5006,7 +5003,7 @@ rgb(232,232,232)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EBEBEB/000000?text=+" />
+<img src="http://placehold.it/50/EBEBEB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey92
@@ -5020,7 +5017,7 @@ rgb(235,235,235)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EDEDED/000000?text=+" />
+<img src="http://placehold.it/50/EDEDED/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey93
@@ -5034,7 +5031,7 @@ rgb(237,237,237)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0F0F0/000000?text=+" />
+<img src="http://placehold.it/50/F0F0F0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey94
@@ -5048,7 +5045,7 @@ rgb(240,240,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F2F2F2/000000?text=+" />
+<img src="http://placehold.it/50/F2F2F2/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey95
@@ -5062,7 +5059,7 @@ rgb(242,242,242)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F5F5F5/000000?text=+" />
+<img src="http://placehold.it/50/F5F5F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey96
@@ -5076,7 +5073,7 @@ rgb(245,245,245)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F7F7F7/000000?text=+" />
+<img src="http://placehold.it/50/F7F7F7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey97
@@ -5090,7 +5087,7 @@ rgb(247,247,247)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FAFAFA/000000?text=+" />
+<img src="http://placehold.it/50/FAFAFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey98
@@ -5104,7 +5101,7 @@ rgb(250,250,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FCFCFC/000000?text=+" />
+<img src="http://placehold.it/50/FCFCFC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey99
@@ -5118,7 +5115,7 @@ rgb(252,252,252)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFFF/000000?text=+" />
+<img src="http://placehold.it/50/FFFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 grey100
@@ -5132,7 +5129,7 @@ rgb(255,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0FFF0/000000?text=+" />
+<img src="http://placehold.it/50/F0FFF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 honeydew
@@ -5146,7 +5143,7 @@ rgb(240,255,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0FFF0/000000?text=+" />
+<img src="http://placehold.it/50/F0FFF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 honeydew1
@@ -5160,7 +5157,7 @@ rgb(240,255,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E0EEE0/000000?text=+" />
+<img src="http://placehold.it/50/E0EEE0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 honeydew2
@@ -5174,7 +5171,7 @@ rgb(224,238,224)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C1CDC1/000000?text=+" />
+<img src="http://placehold.it/50/C1CDC1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 honeydew3
@@ -5188,7 +5185,7 @@ rgb(193,205,193)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/838B83/000000?text=+" />
+<img src="http://placehold.it/50/838B83/000000?text=+" />
 </td>
 <td style="text-align:left;">
 honeydew4
@@ -5202,7 +5199,7 @@ rgb(131,139,131)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF69B4/000000?text=+" />
+<img src="http://placehold.it/50/FF69B4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 hotpink
@@ -5216,7 +5213,7 @@ rgb(255,105,180)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF6EB4/000000?text=+" />
+<img src="http://placehold.it/50/FF6EB4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 hotpink1
@@ -5230,7 +5227,7 @@ rgb(255,110,180)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE6AA7/000000?text=+" />
+<img src="http://placehold.it/50/EE6AA7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 hotpink2
@@ -5244,7 +5241,7 @@ rgb(238,106,167)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD6090/000000?text=+" />
+<img src="http://placehold.it/50/CD6090/000000?text=+" />
 </td>
 <td style="text-align:left;">
 hotpink3
@@ -5258,7 +5255,7 @@ rgb(205,96,144)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B3A62/000000?text=+" />
+<img src="http://placehold.it/50/8B3A62/000000?text=+" />
 </td>
 <td style="text-align:left;">
 hotpink4
@@ -5272,7 +5269,7 @@ rgb(139,58,98)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD5C5C/000000?text=+" />
+<img src="http://placehold.it/50/CD5C5C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 indianred
@@ -5286,7 +5283,7 @@ rgb(205,92,92)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF6A6A/000000?text=+" />
+<img src="http://placehold.it/50/FF6A6A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 indianred1
@@ -5300,7 +5297,7 @@ rgb(255,106,106)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE6363/000000?text=+" />
+<img src="http://placehold.it/50/EE6363/000000?text=+" />
 </td>
 <td style="text-align:left;">
 indianred2
@@ -5314,7 +5311,7 @@ rgb(238,99,99)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD5555/000000?text=+" />
+<img src="http://placehold.it/50/CD5555/000000?text=+" />
 </td>
 <td style="text-align:left;">
 indianred3
@@ -5328,7 +5325,7 @@ rgb(205,85,85)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B3A3A/000000?text=+" />
+<img src="http://placehold.it/50/8B3A3A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 indianred4
@@ -5342,7 +5339,7 @@ rgb(139,58,58)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFF0/000000?text=+" />
+<img src="http://placehold.it/50/FFFFF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 ivory
@@ -5356,7 +5353,7 @@ rgb(255,255,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFF0/000000?text=+" />
+<img src="http://placehold.it/50/FFFFF0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 ivory1
@@ -5370,7 +5367,7 @@ rgb(255,255,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEEEE0/000000?text=+" />
+<img src="http://placehold.it/50/EEEEE0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 ivory2
@@ -5384,7 +5381,7 @@ rgb(238,238,224)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDCDC1/000000?text=+" />
+<img src="http://placehold.it/50/CDCDC1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 ivory3
@@ -5398,7 +5395,7 @@ rgb(205,205,193)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8B83/000000?text=+" />
+<img src="http://placehold.it/50/8B8B83/000000?text=+" />
 </td>
 <td style="text-align:left;">
 ivory4
@@ -5412,7 +5409,7 @@ rgb(139,139,131)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F0E68C/000000?text=+" />
+<img src="http://placehold.it/50/F0E68C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 khaki
@@ -5426,7 +5423,7 @@ rgb(240,230,140)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFF68F/000000?text=+" />
+<img src="http://placehold.it/50/FFF68F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 khaki1
@@ -5440,7 +5437,7 @@ rgb(255,246,143)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEE685/000000?text=+" />
+<img src="http://placehold.it/50/EEE685/000000?text=+" />
 </td>
 <td style="text-align:left;">
 khaki2
@@ -5454,7 +5451,7 @@ rgb(238,230,133)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDC673/000000?text=+" />
+<img src="http://placehold.it/50/CDC673/000000?text=+" />
 </td>
 <td style="text-align:left;">
 khaki3
@@ -5468,7 +5465,7 @@ rgb(205,198,115)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B864E/000000?text=+" />
+<img src="http://placehold.it/50/8B864E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 khaki4
@@ -5482,7 +5479,7 @@ rgb(139,134,78)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E6E6FA/000000?text=+" />
+<img src="http://placehold.it/50/E6E6FA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lavender
@@ -5496,7 +5493,7 @@ rgb(230,230,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFF0F5/000000?text=+" />
+<img src="http://placehold.it/50/FFF0F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lavenderblush
@@ -5510,7 +5507,7 @@ rgb(255,240,245)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFF0F5/000000?text=+" />
+<img src="http://placehold.it/50/FFF0F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lavenderblush1
@@ -5524,7 +5521,7 @@ rgb(255,240,245)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEE0E5/000000?text=+" />
+<img src="http://placehold.it/50/EEE0E5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lavenderblush2
@@ -5538,7 +5535,7 @@ rgb(238,224,229)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDC1C5/000000?text=+" />
+<img src="http://placehold.it/50/CDC1C5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lavenderblush3
@@ -5552,7 +5549,7 @@ rgb(205,193,197)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8386/000000?text=+" />
+<img src="http://placehold.it/50/8B8386/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lavenderblush4
@@ -5566,7 +5563,7 @@ rgb(139,131,134)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7CFC00/000000?text=+" />
+<img src="http://placehold.it/50/7CFC00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lawngreen
@@ -5580,7 +5577,7 @@ rgb(124,252,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFACD/000000?text=+" />
+<img src="http://placehold.it/50/FFFACD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lemonchiffon
@@ -5594,7 +5591,7 @@ rgb(255,250,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFACD/000000?text=+" />
+<img src="http://placehold.it/50/FFFACD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lemonchiffon1
@@ -5608,7 +5605,7 @@ rgb(255,250,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEE9BF/000000?text=+" />
+<img src="http://placehold.it/50/EEE9BF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lemonchiffon2
@@ -5622,7 +5619,7 @@ rgb(238,233,191)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDC9A5/000000?text=+" />
+<img src="http://placehold.it/50/CDC9A5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lemonchiffon3
@@ -5636,7 +5633,7 @@ rgb(205,201,165)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8970/000000?text=+" />
+<img src="http://placehold.it/50/8B8970/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lemonchiffon4
@@ -5650,7 +5647,7 @@ rgb(139,137,112)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/ADD8E6/000000?text=+" />
+<img src="http://placehold.it/50/ADD8E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightblue
@@ -5664,7 +5661,7 @@ rgb(173,216,230)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BFEFFF/000000?text=+" />
+<img src="http://placehold.it/50/BFEFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightblue1
@@ -5678,7 +5675,7 @@ rgb(191,239,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B2DFEE/000000?text=+" />
+<img src="http://placehold.it/50/B2DFEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightblue2
@@ -5692,7 +5689,7 @@ rgb(178,223,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9AC0CD/000000?text=+" />
+<img src="http://placehold.it/50/9AC0CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightblue3
@@ -5706,7 +5703,7 @@ rgb(154,192,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/68838B/000000?text=+" />
+<img src="http://placehold.it/50/68838B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightblue4
@@ -5720,7 +5717,7 @@ rgb(104,131,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F08080/000000?text=+" />
+<img src="http://placehold.it/50/F08080/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightcoral
@@ -5734,7 +5731,7 @@ rgb(240,128,128)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E0FFFF/000000?text=+" />
+<img src="http://placehold.it/50/E0FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightcyan
@@ -5748,7 +5745,7 @@ rgb(224,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E0FFFF/000000?text=+" />
+<img src="http://placehold.it/50/E0FFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightcyan1
@@ -5762,7 +5759,7 @@ rgb(224,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D1EEEE/000000?text=+" />
+<img src="http://placehold.it/50/D1EEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightcyan2
@@ -5776,7 +5773,7 @@ rgb(209,238,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B4CDCD/000000?text=+" />
+<img src="http://placehold.it/50/B4CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightcyan3
@@ -5790,7 +5787,7 @@ rgb(180,205,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7A8B8B/000000?text=+" />
+<img src="http://placehold.it/50/7A8B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightcyan4
@@ -5804,7 +5801,7 @@ rgb(122,139,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEDD82/000000?text=+" />
+<img src="http://placehold.it/50/EEDD82/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgoldenrod
@@ -5818,7 +5815,7 @@ rgb(238,221,130)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFEC8B/000000?text=+" />
+<img src="http://placehold.it/50/FFEC8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgoldenrod1
@@ -5832,7 +5829,7 @@ rgb(255,236,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEDC82/000000?text=+" />
+<img src="http://placehold.it/50/EEDC82/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgoldenrod2
@@ -5846,7 +5843,7 @@ rgb(238,220,130)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDBE70/000000?text=+" />
+<img src="http://placehold.it/50/CDBE70/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgoldenrod3
@@ -5860,7 +5857,7 @@ rgb(205,190,112)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B814C/000000?text=+" />
+<img src="http://placehold.it/50/8B814C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgoldenrod4
@@ -5874,7 +5871,7 @@ rgb(139,129,76)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FAFAD2/000000?text=+" />
+<img src="http://placehold.it/50/FAFAD2/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgoldenrodyellow
@@ -5888,7 +5885,7 @@ rgb(250,250,210)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D3D3D3/000000?text=+" />
+<img src="http://placehold.it/50/D3D3D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgray
@@ -5902,7 +5899,7 @@ rgb(211,211,211)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/90EE90/000000?text=+" />
+<img src="http://placehold.it/50/90EE90/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgreen
@@ -5916,7 +5913,7 @@ rgb(144,238,144)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D3D3D3/000000?text=+" />
+<img src="http://placehold.it/50/D3D3D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightgrey
@@ -5930,7 +5927,7 @@ rgb(211,211,211)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFB6C1/000000?text=+" />
+<img src="http://placehold.it/50/FFB6C1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightpink
@@ -5944,7 +5941,7 @@ rgb(255,182,193)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFAEB9/000000?text=+" />
+<img src="http://placehold.it/50/FFAEB9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightpink1
@@ -5958,7 +5955,7 @@ rgb(255,174,185)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEA2AD/000000?text=+" />
+<img src="http://placehold.it/50/EEA2AD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightpink2
@@ -5972,7 +5969,7 @@ rgb(238,162,173)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD8C95/000000?text=+" />
+<img src="http://placehold.it/50/CD8C95/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightpink3
@@ -5986,7 +5983,7 @@ rgb(205,140,149)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B5F65/000000?text=+" />
+<img src="http://placehold.it/50/8B5F65/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightpink4
@@ -6000,7 +5997,7 @@ rgb(139,95,101)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFA07A/000000?text=+" />
+<img src="http://placehold.it/50/FFA07A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsalmon
@@ -6014,7 +6011,7 @@ rgb(255,160,122)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFA07A/000000?text=+" />
+<img src="http://placehold.it/50/FFA07A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsalmon1
@@ -6028,7 +6025,7 @@ rgb(255,160,122)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE9572/000000?text=+" />
+<img src="http://placehold.it/50/EE9572/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsalmon2
@@ -6042,7 +6039,7 @@ rgb(238,149,114)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD8162/000000?text=+" />
+<img src="http://placehold.it/50/CD8162/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsalmon3
@@ -6056,7 +6053,7 @@ rgb(205,129,98)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B5742/000000?text=+" />
+<img src="http://placehold.it/50/8B5742/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsalmon4
@@ -6070,7 +6067,7 @@ rgb(139,87,66)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/20B2AA/000000?text=+" />
+<img src="http://placehold.it/50/20B2AA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightseagreen
@@ -6084,7 +6081,7 @@ rgb(32,178,170)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/87CEFA/000000?text=+" />
+<img src="http://placehold.it/50/87CEFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightskyblue
@@ -6098,7 +6095,7 @@ rgb(135,206,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B0E2FF/000000?text=+" />
+<img src="http://placehold.it/50/B0E2FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightskyblue1
@@ -6112,7 +6109,7 @@ rgb(176,226,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A4D3EE/000000?text=+" />
+<img src="http://placehold.it/50/A4D3EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightskyblue2
@@ -6126,7 +6123,7 @@ rgb(164,211,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8DB6CD/000000?text=+" />
+<img src="http://placehold.it/50/8DB6CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightskyblue3
@@ -6140,7 +6137,7 @@ rgb(141,182,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/607B8B/000000?text=+" />
+<img src="http://placehold.it/50/607B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightskyblue4
@@ -6154,7 +6151,7 @@ rgb(96,123,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8470FF/000000?text=+" />
+<img src="http://placehold.it/50/8470FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightslateblue
@@ -6168,7 +6165,7 @@ rgb(132,112,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/778899/000000?text=+" />
+<img src="http://placehold.it/50/778899/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightslategray
@@ -6182,7 +6179,7 @@ rgb(119,136,153)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/778899/000000?text=+" />
+<img src="http://placehold.it/50/778899/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightslategrey
@@ -6196,7 +6193,7 @@ rgb(119,136,153)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B0C4DE/000000?text=+" />
+<img src="http://placehold.it/50/B0C4DE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsteelblue
@@ -6210,7 +6207,7 @@ rgb(176,196,222)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CAE1FF/000000?text=+" />
+<img src="http://placehold.it/50/CAE1FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsteelblue1
@@ -6224,7 +6221,7 @@ rgb(202,225,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BCD2EE/000000?text=+" />
+<img src="http://placehold.it/50/BCD2EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsteelblue2
@@ -6238,7 +6235,7 @@ rgb(188,210,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A2B5CD/000000?text=+" />
+<img src="http://placehold.it/50/A2B5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsteelblue3
@@ -6252,7 +6249,7 @@ rgb(162,181,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6E7B8B/000000?text=+" />
+<img src="http://placehold.it/50/6E7B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightsteelblue4
@@ -6266,7 +6263,7 @@ rgb(110,123,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFE0/000000?text=+" />
+<img src="http://placehold.it/50/FFFFE0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightyellow
@@ -6280,7 +6277,7 @@ rgb(255,255,224)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFFE0/000000?text=+" />
+<img src="http://placehold.it/50/FFFFE0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightyellow1
@@ -6294,7 +6291,7 @@ rgb(255,255,224)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEEED1/000000?text=+" />
+<img src="http://placehold.it/50/EEEED1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightyellow2
@@ -6308,7 +6305,7 @@ rgb(238,238,209)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDCDB4/000000?text=+" />
+<img src="http://placehold.it/50/CDCDB4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightyellow3
@@ -6322,7 +6319,7 @@ rgb(205,205,180)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8B7A/000000?text=+" />
+<img src="http://placehold.it/50/8B8B7A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 lightyellow4
@@ -6336,7 +6333,7 @@ rgb(139,139,122)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/32CD32/000000?text=+" />
+<img src="http://placehold.it/50/32CD32/000000?text=+" />
 </td>
 <td style="text-align:left;">
 limegreen
@@ -6350,7 +6347,7 @@ rgb(50,205,50)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FAF0E6/000000?text=+" />
+<img src="http://placehold.it/50/FAF0E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 linen
@@ -6364,7 +6361,7 @@ rgb(250,240,230)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF00FF/000000?text=+" />
+<img src="http://placehold.it/50/FF00FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 magenta
@@ -6378,7 +6375,7 @@ rgb(255,0,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF00FF/000000?text=+" />
+<img src="http://placehold.it/50/FF00FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 magenta1
@@ -6392,7 +6389,7 @@ rgb(255,0,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE00EE/000000?text=+" />
+<img src="http://placehold.it/50/EE00EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 magenta2
@@ -6406,7 +6403,7 @@ rgb(238,0,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD00CD/000000?text=+" />
+<img src="http://placehold.it/50/CD00CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 magenta3
@@ -6420,7 +6417,7 @@ rgb(205,0,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B008B/000000?text=+" />
+<img src="http://placehold.it/50/8B008B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 magenta4
@@ -6434,7 +6431,7 @@ rgb(139,0,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B03060/000000?text=+" />
+<img src="http://placehold.it/50/B03060/000000?text=+" />
 </td>
 <td style="text-align:left;">
 maroon
@@ -6448,7 +6445,7 @@ rgb(176,48,96)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF34B3/000000?text=+" />
+<img src="http://placehold.it/50/FF34B3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 maroon1
@@ -6462,7 +6459,7 @@ rgb(255,52,179)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE30A7/000000?text=+" />
+<img src="http://placehold.it/50/EE30A7/000000?text=+" />
 </td>
 <td style="text-align:left;">
 maroon2
@@ -6476,7 +6473,7 @@ rgb(238,48,167)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD2990/000000?text=+" />
+<img src="http://placehold.it/50/CD2990/000000?text=+" />
 </td>
 <td style="text-align:left;">
 maroon3
@@ -6490,7 +6487,7 @@ rgb(205,41,144)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B1C62/000000?text=+" />
+<img src="http://placehold.it/50/8B1C62/000000?text=+" />
 </td>
 <td style="text-align:left;">
 maroon4
@@ -6504,7 +6501,7 @@ rgb(139,28,98)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/66CDAA/000000?text=+" />
+<img src="http://placehold.it/50/66CDAA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumaquamarine
@@ -6518,7 +6515,7 @@ rgb(102,205,170)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/0000CD/000000?text=+" />
+<img src="http://placehold.it/50/0000CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumblue
@@ -6532,7 +6529,7 @@ rgb(0,0,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BA55D3/000000?text=+" />
+<img src="http://placehold.it/50/BA55D3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumorchid
@@ -6546,7 +6543,7 @@ rgb(186,85,211)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/E066FF/000000?text=+" />
+<img src="http://placehold.it/50/E066FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumorchid1
@@ -6560,7 +6557,7 @@ rgb(224,102,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D15FEE/000000?text=+" />
+<img src="http://placehold.it/50/D15FEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumorchid2
@@ -6574,7 +6571,7 @@ rgb(209,95,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B452CD/000000?text=+" />
+<img src="http://placehold.it/50/B452CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumorchid3
@@ -6588,7 +6585,7 @@ rgb(180,82,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7A378B/000000?text=+" />
+<img src="http://placehold.it/50/7A378B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumorchid4
@@ -6602,7 +6599,7 @@ rgb(122,55,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9370DB/000000?text=+" />
+<img src="http://placehold.it/50/9370DB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumpurple
@@ -6616,7 +6613,7 @@ rgb(147,112,219)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/AB82FF/000000?text=+" />
+<img src="http://placehold.it/50/AB82FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumpurple1
@@ -6630,7 +6627,7 @@ rgb(171,130,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9F79EE/000000?text=+" />
+<img src="http://placehold.it/50/9F79EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumpurple2
@@ -6644,7 +6641,7 @@ rgb(159,121,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8968CD/000000?text=+" />
+<img src="http://placehold.it/50/8968CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumpurple3
@@ -6658,7 +6655,7 @@ rgb(137,104,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/5D478B/000000?text=+" />
+<img src="http://placehold.it/50/5D478B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumpurple4
@@ -6672,7 +6669,7 @@ rgb(93,71,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/3CB371/000000?text=+" />
+<img src="http://placehold.it/50/3CB371/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumseagreen
@@ -6686,7 +6683,7 @@ rgb(60,179,113)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7B68EE/000000?text=+" />
+<img src="http://placehold.it/50/7B68EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumslateblue
@@ -6700,7 +6697,7 @@ rgb(123,104,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00FA9A/000000?text=+" />
+<img src="http://placehold.it/50/00FA9A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumspringgreen
@@ -6714,7 +6711,7 @@ rgb(0,250,154)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/48D1CC/000000?text=+" />
+<img src="http://placehold.it/50/48D1CC/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumturquoise
@@ -6728,7 +6725,7 @@ rgb(72,209,204)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C71585/000000?text=+" />
+<img src="http://placehold.it/50/C71585/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mediumvioletred
@@ -6742,7 +6739,7 @@ rgb(199,21,133)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/191970/000000?text=+" />
+<img src="http://placehold.it/50/191970/000000?text=+" />
 </td>
 <td style="text-align:left;">
 midnightblue
@@ -6756,7 +6753,7 @@ rgb(25,25,112)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F5FFFA/000000?text=+" />
+<img src="http://placehold.it/50/F5FFFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mintcream
@@ -6770,7 +6767,7 @@ rgb(245,255,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFE4E1/000000?text=+" />
+<img src="http://placehold.it/50/FFE4E1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mistyrose
@@ -6784,7 +6781,7 @@ rgb(255,228,225)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFE4E1/000000?text=+" />
+<img src="http://placehold.it/50/FFE4E1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mistyrose1
@@ -6798,7 +6795,7 @@ rgb(255,228,225)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EED5D2/000000?text=+" />
+<img src="http://placehold.it/50/EED5D2/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mistyrose2
@@ -6812,7 +6809,7 @@ rgb(238,213,210)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDB7B5/000000?text=+" />
+<img src="http://placehold.it/50/CDB7B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mistyrose3
@@ -6826,7 +6823,7 @@ rgb(205,183,181)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B7D7B/000000?text=+" />
+<img src="http://placehold.it/50/8B7D7B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 mistyrose4
@@ -6840,7 +6837,7 @@ rgb(139,125,123)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFE4B5/000000?text=+" />
+<img src="http://placehold.it/50/FFE4B5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 moccasin
@@ -6854,7 +6851,7 @@ rgb(255,228,181)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFDEAD/000000?text=+" />
+<img src="http://placehold.it/50/FFDEAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 navajowhite
@@ -6868,7 +6865,7 @@ rgb(255,222,173)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFDEAD/000000?text=+" />
+<img src="http://placehold.it/50/FFDEAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 navajowhite1
@@ -6882,7 +6879,7 @@ rgb(255,222,173)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EECFA1/000000?text=+" />
+<img src="http://placehold.it/50/EECFA1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 navajowhite2
@@ -6896,7 +6893,7 @@ rgb(238,207,161)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDB38B/000000?text=+" />
+<img src="http://placehold.it/50/CDB38B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 navajowhite3
@@ -6910,7 +6907,7 @@ rgb(205,179,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B795E/000000?text=+" />
+<img src="http://placehold.it/50/8B795E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 navajowhite4
@@ -6924,7 +6921,7 @@ rgb(139,121,94)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/000080/000000?text=+" />
+<img src="http://placehold.it/50/000080/000000?text=+" />
 </td>
 <td style="text-align:left;">
 navy
@@ -6938,7 +6935,7 @@ rgb(0,0,128)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/000080/000000?text=+" />
+<img src="http://placehold.it/50/000080/000000?text=+" />
 </td>
 <td style="text-align:left;">
 navyblue
@@ -6952,7 +6949,7 @@ rgb(0,0,128)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FDF5E6/000000?text=+" />
+<img src="http://placehold.it/50/FDF5E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 oldlace
@@ -6966,7 +6963,7 @@ rgb(253,245,230)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6B8E23/000000?text=+" />
+<img src="http://placehold.it/50/6B8E23/000000?text=+" />
 </td>
 <td style="text-align:left;">
 olivedrab
@@ -6980,7 +6977,7 @@ rgb(107,142,35)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C0FF3E/000000?text=+" />
+<img src="http://placehold.it/50/C0FF3E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 olivedrab1
@@ -6994,7 +6991,7 @@ rgb(192,255,62)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B3EE3A/000000?text=+" />
+<img src="http://placehold.it/50/B3EE3A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 olivedrab2
@@ -7008,7 +7005,7 @@ rgb(179,238,58)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9ACD32/000000?text=+" />
+<img src="http://placehold.it/50/9ACD32/000000?text=+" />
 </td>
 <td style="text-align:left;">
 olivedrab3
@@ -7022,7 +7019,7 @@ rgb(154,205,50)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/698B22/000000?text=+" />
+<img src="http://placehold.it/50/698B22/000000?text=+" />
 </td>
 <td style="text-align:left;">
 olivedrab4
@@ -7036,7 +7033,7 @@ rgb(105,139,34)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFA500/000000?text=+" />
+<img src="http://placehold.it/50/FFA500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orange
@@ -7050,7 +7047,7 @@ rgb(255,165,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFA500/000000?text=+" />
+<img src="http://placehold.it/50/FFA500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orange1
@@ -7064,7 +7061,7 @@ rgb(255,165,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE9A00/000000?text=+" />
+<img src="http://placehold.it/50/EE9A00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orange2
@@ -7078,7 +7075,7 @@ rgb(238,154,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD8500/000000?text=+" />
+<img src="http://placehold.it/50/CD8500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orange3
@@ -7092,7 +7089,7 @@ rgb(205,133,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B5A00/000000?text=+" />
+<img src="http://placehold.it/50/8B5A00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orange4
@@ -7106,7 +7103,7 @@ rgb(139,90,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF4500/000000?text=+" />
+<img src="http://placehold.it/50/FF4500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orangered
@@ -7120,7 +7117,7 @@ rgb(255,69,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF4500/000000?text=+" />
+<img src="http://placehold.it/50/FF4500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orangered1
@@ -7134,7 +7131,7 @@ rgb(255,69,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE4000/000000?text=+" />
+<img src="http://placehold.it/50/EE4000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orangered2
@@ -7148,7 +7145,7 @@ rgb(238,64,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD3700/000000?text=+" />
+<img src="http://placehold.it/50/CD3700/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orangered3
@@ -7162,7 +7159,7 @@ rgb(205,55,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B2500/000000?text=+" />
+<img src="http://placehold.it/50/8B2500/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orangered4
@@ -7176,7 +7173,7 @@ rgb(139,37,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DA70D6/000000?text=+" />
+<img src="http://placehold.it/50/DA70D6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orchid
@@ -7190,7 +7187,7 @@ rgb(218,112,214)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF83FA/000000?text=+" />
+<img src="http://placehold.it/50/FF83FA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orchid1
@@ -7204,7 +7201,7 @@ rgb(255,131,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE7AE9/000000?text=+" />
+<img src="http://placehold.it/50/EE7AE9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orchid2
@@ -7218,7 +7215,7 @@ rgb(238,122,233)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD69C9/000000?text=+" />
+<img src="http://placehold.it/50/CD69C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orchid3
@@ -7232,7 +7229,7 @@ rgb(205,105,201)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B4789/000000?text=+" />
+<img src="http://placehold.it/50/8B4789/000000?text=+" />
 </td>
 <td style="text-align:left;">
 orchid4
@@ -7246,7 +7243,7 @@ rgb(139,71,137)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEE8AA/000000?text=+" />
+<img src="http://placehold.it/50/EEE8AA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palegoldenrod
@@ -7260,7 +7257,7 @@ rgb(238,232,170)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/98FB98/000000?text=+" />
+<img src="http://placehold.it/50/98FB98/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palegreen
@@ -7274,7 +7271,7 @@ rgb(152,251,152)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9AFF9A/000000?text=+" />
+<img src="http://placehold.it/50/9AFF9A/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palegreen1
@@ -7288,7 +7285,7 @@ rgb(154,255,154)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/90EE90/000000?text=+" />
+<img src="http://placehold.it/50/90EE90/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palegreen2
@@ -7302,7 +7299,7 @@ rgb(144,238,144)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7CCD7C/000000?text=+" />
+<img src="http://placehold.it/50/7CCD7C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palegreen3
@@ -7316,7 +7313,7 @@ rgb(124,205,124)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/548B54/000000?text=+" />
+<img src="http://placehold.it/50/548B54/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palegreen4
@@ -7330,7 +7327,7 @@ rgb(84,139,84)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/AFEEEE/000000?text=+" />
+<img src="http://placehold.it/50/AFEEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 paleturquoise
@@ -7344,7 +7341,7 @@ rgb(175,238,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BBFFFF/000000?text=+" />
+<img src="http://placehold.it/50/BBFFFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 paleturquoise1
@@ -7358,7 +7355,7 @@ rgb(187,255,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/AEEEEE/000000?text=+" />
+<img src="http://placehold.it/50/AEEEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 paleturquoise2
@@ -7372,7 +7369,7 @@ rgb(174,238,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/96CDCD/000000?text=+" />
+<img src="http://placehold.it/50/96CDCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 paleturquoise3
@@ -7386,7 +7383,7 @@ rgb(150,205,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/668B8B/000000?text=+" />
+<img src="http://placehold.it/50/668B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 paleturquoise4
@@ -7400,7 +7397,7 @@ rgb(102,139,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DB7093/000000?text=+" />
+<img src="http://placehold.it/50/DB7093/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palevioletred
@@ -7414,7 +7411,7 @@ rgb(219,112,147)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF82AB/000000?text=+" />
+<img src="http://placehold.it/50/FF82AB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palevioletred1
@@ -7428,7 +7425,7 @@ rgb(255,130,171)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE799F/000000?text=+" />
+<img src="http://placehold.it/50/EE799F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palevioletred2
@@ -7442,7 +7439,7 @@ rgb(238,121,159)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD6889/000000?text=+" />
+<img src="http://placehold.it/50/CD6889/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palevioletred3
@@ -7456,7 +7453,7 @@ rgb(205,104,137)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B475D/000000?text=+" />
+<img src="http://placehold.it/50/8B475D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 palevioletred4
@@ -7470,7 +7467,7 @@ rgb(139,71,93)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFEFD5/000000?text=+" />
+<img src="http://placehold.it/50/FFEFD5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 papayawhip
@@ -7484,7 +7481,7 @@ rgb(255,239,213)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFDAB9/000000?text=+" />
+<img src="http://placehold.it/50/FFDAB9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 peachpuff
@@ -7498,7 +7495,7 @@ rgb(255,218,185)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFDAB9/000000?text=+" />
+<img src="http://placehold.it/50/FFDAB9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 peachpuff1
@@ -7512,7 +7509,7 @@ rgb(255,218,185)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EECBAD/000000?text=+" />
+<img src="http://placehold.it/50/EECBAD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 peachpuff2
@@ -7526,7 +7523,7 @@ rgb(238,203,173)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDAF95/000000?text=+" />
+<img src="http://placehold.it/50/CDAF95/000000?text=+" />
 </td>
 <td style="text-align:left;">
 peachpuff3
@@ -7540,7 +7537,7 @@ rgb(205,175,149)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B7765/000000?text=+" />
+<img src="http://placehold.it/50/8B7765/000000?text=+" />
 </td>
 <td style="text-align:left;">
 peachpuff4
@@ -7554,7 +7551,7 @@ rgb(139,119,101)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD853F/000000?text=+" />
+<img src="http://placehold.it/50/CD853F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 peru
@@ -7568,7 +7565,7 @@ rgb(205,133,63)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFC0CB/000000?text=+" />
+<img src="http://placehold.it/50/FFC0CB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 pink
@@ -7582,7 +7579,7 @@ rgb(255,192,203)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFB5C5/000000?text=+" />
+<img src="http://placehold.it/50/FFB5C5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 pink1
@@ -7596,7 +7593,7 @@ rgb(255,181,197)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEA9B8/000000?text=+" />
+<img src="http://placehold.it/50/EEA9B8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 pink2
@@ -7610,7 +7607,7 @@ rgb(238,169,184)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD919E/000000?text=+" />
+<img src="http://placehold.it/50/CD919E/000000?text=+" />
 </td>
 <td style="text-align:left;">
 pink3
@@ -7624,7 +7621,7 @@ rgb(205,145,158)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B636C/000000?text=+" />
+<img src="http://placehold.it/50/8B636C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 pink4
@@ -7638,7 +7635,7 @@ rgb(139,99,108)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/DDA0DD/000000?text=+" />
+<img src="http://placehold.it/50/DDA0DD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 plum
@@ -7652,7 +7649,7 @@ rgb(221,160,221)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFBBFF/000000?text=+" />
+<img src="http://placehold.it/50/FFBBFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 plum1
@@ -7666,7 +7663,7 @@ rgb(255,187,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEAEEE/000000?text=+" />
+<img src="http://placehold.it/50/EEAEEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 plum2
@@ -7680,7 +7677,7 @@ rgb(238,174,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD96CD/000000?text=+" />
+<img src="http://placehold.it/50/CD96CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 plum3
@@ -7694,7 +7691,7 @@ rgb(205,150,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B668B/000000?text=+" />
+<img src="http://placehold.it/50/8B668B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 plum4
@@ -7708,7 +7705,7 @@ rgb(139,102,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B0E0E6/000000?text=+" />
+<img src="http://placehold.it/50/B0E0E6/000000?text=+" />
 </td>
 <td style="text-align:left;">
 powderblue
@@ -7722,7 +7719,7 @@ rgb(176,224,230)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A020F0/000000?text=+" />
+<img src="http://placehold.it/50/A020F0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 purple
@@ -7736,7 +7733,7 @@ rgb(160,32,240)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9B30FF/000000?text=+" />
+<img src="http://placehold.it/50/9B30FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 purple1
@@ -7750,7 +7747,7 @@ rgb(155,48,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/912CEE/000000?text=+" />
+<img src="http://placehold.it/50/912CEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 purple2
@@ -7764,7 +7761,7 @@ rgb(145,44,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7D26CD/000000?text=+" />
+<img src="http://placehold.it/50/7D26CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 purple3
@@ -7778,7 +7775,7 @@ rgb(125,38,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/551A8B/000000?text=+" />
+<img src="http://placehold.it/50/551A8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 purple4
@@ -7792,7 +7789,7 @@ rgb(85,26,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF0000/000000?text=+" />
+<img src="http://placehold.it/50/FF0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 red
@@ -7806,7 +7803,7 @@ rgb(255,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF0000/000000?text=+" />
+<img src="http://placehold.it/50/FF0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 red1
@@ -7820,7 +7817,7 @@ rgb(255,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE0000/000000?text=+" />
+<img src="http://placehold.it/50/EE0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 red2
@@ -7834,7 +7831,7 @@ rgb(238,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD0000/000000?text=+" />
+<img src="http://placehold.it/50/CD0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 red3
@@ -7848,7 +7845,7 @@ rgb(205,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B0000/000000?text=+" />
+<img src="http://placehold.it/50/8B0000/000000?text=+" />
 </td>
 <td style="text-align:left;">
 red4
@@ -7862,7 +7859,7 @@ rgb(139,0,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/BC8F8F/000000?text=+" />
+<img src="http://placehold.it/50/BC8F8F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 rosybrown
@@ -7876,7 +7873,7 @@ rgb(188,143,143)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFC1C1/000000?text=+" />
+<img src="http://placehold.it/50/FFC1C1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 rosybrown1
@@ -7890,7 +7887,7 @@ rgb(255,193,193)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEB4B4/000000?text=+" />
+<img src="http://placehold.it/50/EEB4B4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 rosybrown2
@@ -7904,7 +7901,7 @@ rgb(238,180,180)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD9B9B/000000?text=+" />
+<img src="http://placehold.it/50/CD9B9B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 rosybrown3
@@ -7918,7 +7915,7 @@ rgb(205,155,155)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B6969/000000?text=+" />
+<img src="http://placehold.it/50/8B6969/000000?text=+" />
 </td>
 <td style="text-align:left;">
 rosybrown4
@@ -7932,7 +7929,7 @@ rgb(139,105,105)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4169E1/000000?text=+" />
+<img src="http://placehold.it/50/4169E1/000000?text=+" />
 </td>
 <td style="text-align:left;">
 royalblue
@@ -7946,7 +7943,7 @@ rgb(65,105,225)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4876FF/000000?text=+" />
+<img src="http://placehold.it/50/4876FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 royalblue1
@@ -7960,7 +7957,7 @@ rgb(72,118,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/436EEE/000000?text=+" />
+<img src="http://placehold.it/50/436EEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 royalblue2
@@ -7974,7 +7971,7 @@ rgb(67,110,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/3A5FCD/000000?text=+" />
+<img src="http://placehold.it/50/3A5FCD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 royalblue3
@@ -7988,7 +7985,7 @@ rgb(58,95,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/27408B/000000?text=+" />
+<img src="http://placehold.it/50/27408B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 royalblue4
@@ -8002,7 +7999,7 @@ rgb(39,64,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B4513/000000?text=+" />
+<img src="http://placehold.it/50/8B4513/000000?text=+" />
 </td>
 <td style="text-align:left;">
 saddlebrown
@@ -8016,7 +8013,7 @@ rgb(139,69,19)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FA8072/000000?text=+" />
+<img src="http://placehold.it/50/FA8072/000000?text=+" />
 </td>
 <td style="text-align:left;">
 salmon
@@ -8030,7 +8027,7 @@ rgb(250,128,114)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF8C69/000000?text=+" />
+<img src="http://placehold.it/50/FF8C69/000000?text=+" />
 </td>
 <td style="text-align:left;">
 salmon1
@@ -8044,7 +8041,7 @@ rgb(255,140,105)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE8262/000000?text=+" />
+<img src="http://placehold.it/50/EE8262/000000?text=+" />
 </td>
 <td style="text-align:left;">
 salmon2
@@ -8058,7 +8055,7 @@ rgb(238,130,98)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD7054/000000?text=+" />
+<img src="http://placehold.it/50/CD7054/000000?text=+" />
 </td>
 <td style="text-align:left;">
 salmon3
@@ -8072,7 +8069,7 @@ rgb(205,112,84)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B4C39/000000?text=+" />
+<img src="http://placehold.it/50/8B4C39/000000?text=+" />
 </td>
 <td style="text-align:left;">
 salmon4
@@ -8086,7 +8083,7 @@ rgb(139,76,57)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F4A460/000000?text=+" />
+<img src="http://placehold.it/50/F4A460/000000?text=+" />
 </td>
 <td style="text-align:left;">
 sandybrown
@@ -8100,7 +8097,7 @@ rgb(244,164,96)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2E8B57/000000?text=+" />
+<img src="http://placehold.it/50/2E8B57/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seagreen
@@ -8114,7 +8111,7 @@ rgb(46,139,87)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/54FF9F/000000?text=+" />
+<img src="http://placehold.it/50/54FF9F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seagreen1
@@ -8128,7 +8125,7 @@ rgb(84,255,159)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4EEE94/000000?text=+" />
+<img src="http://placehold.it/50/4EEE94/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seagreen2
@@ -8142,7 +8139,7 @@ rgb(78,238,148)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/43CD80/000000?text=+" />
+<img src="http://placehold.it/50/43CD80/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seagreen3
@@ -8156,7 +8153,7 @@ rgb(67,205,128)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/2E8B57/000000?text=+" />
+<img src="http://placehold.it/50/2E8B57/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seagreen4
@@ -8170,7 +8167,7 @@ rgb(46,139,87)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFF5EE/000000?text=+" />
+<img src="http://placehold.it/50/FFF5EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seashell
@@ -8184,7 +8181,7 @@ rgb(255,245,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFF5EE/000000?text=+" />
+<img src="http://placehold.it/50/FFF5EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seashell1
@@ -8198,7 +8195,7 @@ rgb(255,245,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEE5DE/000000?text=+" />
+<img src="http://placehold.it/50/EEE5DE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seashell2
@@ -8212,7 +8209,7 @@ rgb(238,229,222)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDC5BF/000000?text=+" />
+<img src="http://placehold.it/50/CDC5BF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seashell3
@@ -8226,7 +8223,7 @@ rgb(205,197,191)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8682/000000?text=+" />
+<img src="http://placehold.it/50/8B8682/000000?text=+" />
 </td>
 <td style="text-align:left;">
 seashell4
@@ -8240,7 +8237,7 @@ rgb(139,134,130)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/A0522D/000000?text=+" />
+<img src="http://placehold.it/50/A0522D/000000?text=+" />
 </td>
 <td style="text-align:left;">
 sienna
@@ -8254,7 +8251,7 @@ rgb(160,82,45)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF8247/000000?text=+" />
+<img src="http://placehold.it/50/FF8247/000000?text=+" />
 </td>
 <td style="text-align:left;">
 sienna1
@@ -8268,7 +8265,7 @@ rgb(255,130,71)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE7942/000000?text=+" />
+<img src="http://placehold.it/50/EE7942/000000?text=+" />
 </td>
 <td style="text-align:left;">
 sienna2
@@ -8282,7 +8279,7 @@ rgb(238,121,66)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD6839/000000?text=+" />
+<img src="http://placehold.it/50/CD6839/000000?text=+" />
 </td>
 <td style="text-align:left;">
 sienna3
@@ -8296,7 +8293,7 @@ rgb(205,104,57)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B4726/000000?text=+" />
+<img src="http://placehold.it/50/8B4726/000000?text=+" />
 </td>
 <td style="text-align:left;">
 sienna4
@@ -8310,7 +8307,7 @@ rgb(139,71,38)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/87CEEB/000000?text=+" />
+<img src="http://placehold.it/50/87CEEB/000000?text=+" />
 </td>
 <td style="text-align:left;">
 skyblue
@@ -8324,7 +8321,7 @@ rgb(135,206,235)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/87CEFF/000000?text=+" />
+<img src="http://placehold.it/50/87CEFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 skyblue1
@@ -8338,7 +8335,7 @@ rgb(135,206,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7EC0EE/000000?text=+" />
+<img src="http://placehold.it/50/7EC0EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 skyblue2
@@ -8352,7 +8349,7 @@ rgb(126,192,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6CA6CD/000000?text=+" />
+<img src="http://placehold.it/50/6CA6CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 skyblue3
@@ -8366,7 +8363,7 @@ rgb(108,166,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4A708B/000000?text=+" />
+<img src="http://placehold.it/50/4A708B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 skyblue4
@@ -8380,7 +8377,7 @@ rgb(74,112,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6A5ACD/000000?text=+" />
+<img src="http://placehold.it/50/6A5ACD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slateblue
@@ -8394,7 +8391,7 @@ rgb(106,90,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/836FFF/000000?text=+" />
+<img src="http://placehold.it/50/836FFF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slateblue1
@@ -8408,7 +8405,7 @@ rgb(131,111,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/7A67EE/000000?text=+" />
+<img src="http://placehold.it/50/7A67EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slateblue2
@@ -8422,7 +8419,7 @@ rgb(122,103,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6959CD/000000?text=+" />
+<img src="http://placehold.it/50/6959CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slateblue3
@@ -8436,7 +8433,7 @@ rgb(105,89,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/473C8B/000000?text=+" />
+<img src="http://placehold.it/50/473C8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slateblue4
@@ -8450,7 +8447,7 @@ rgb(71,60,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/708090/000000?text=+" />
+<img src="http://placehold.it/50/708090/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slategray
@@ -8464,7 +8461,7 @@ rgb(112,128,144)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/C6E2FF/000000?text=+" />
+<img src="http://placehold.it/50/C6E2FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slategray1
@@ -8478,7 +8475,7 @@ rgb(198,226,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/B9D3EE/000000?text=+" />
+<img src="http://placehold.it/50/B9D3EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slategray2
@@ -8492,7 +8489,7 @@ rgb(185,211,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9FB6CD/000000?text=+" />
+<img src="http://placehold.it/50/9FB6CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slategray3
@@ -8506,7 +8503,7 @@ rgb(159,182,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/6C7B8B/000000?text=+" />
+<img src="http://placehold.it/50/6C7B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slategray4
@@ -8520,7 +8517,7 @@ rgb(108,123,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/708090/000000?text=+" />
+<img src="http://placehold.it/50/708090/000000?text=+" />
 </td>
 <td style="text-align:left;">
 slategrey
@@ -8534,7 +8531,7 @@ rgb(112,128,144)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFAFA/000000?text=+" />
+<img src="http://placehold.it/50/FFFAFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 snow
@@ -8548,7 +8545,7 @@ rgb(255,250,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFAFA/000000?text=+" />
+<img src="http://placehold.it/50/FFFAFA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 snow1
@@ -8562,7 +8559,7 @@ rgb(255,250,250)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEE9E9/000000?text=+" />
+<img src="http://placehold.it/50/EEE9E9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 snow2
@@ -8576,7 +8573,7 @@ rgb(238,233,233)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDC9C9/000000?text=+" />
+<img src="http://placehold.it/50/CDC9C9/000000?text=+" />
 </td>
 <td style="text-align:left;">
 snow3
@@ -8590,7 +8587,7 @@ rgb(205,201,201)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8989/000000?text=+" />
+<img src="http://placehold.it/50/8B8989/000000?text=+" />
 </td>
 <td style="text-align:left;">
 snow4
@@ -8604,7 +8601,7 @@ rgb(139,137,137)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00FF7F/000000?text=+" />
+<img src="http://placehold.it/50/00FF7F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 springgreen
@@ -8618,7 +8615,7 @@ rgb(0,255,127)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00FF7F/000000?text=+" />
+<img src="http://placehold.it/50/00FF7F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 springgreen1
@@ -8632,7 +8629,7 @@ rgb(0,255,127)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00EE76/000000?text=+" />
+<img src="http://placehold.it/50/00EE76/000000?text=+" />
 </td>
 <td style="text-align:left;">
 springgreen2
@@ -8646,7 +8643,7 @@ rgb(0,238,118)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00CD66/000000?text=+" />
+<img src="http://placehold.it/50/00CD66/000000?text=+" />
 </td>
 <td style="text-align:left;">
 springgreen3
@@ -8660,7 +8657,7 @@ rgb(0,205,102)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/008B45/000000?text=+" />
+<img src="http://placehold.it/50/008B45/000000?text=+" />
 </td>
 <td style="text-align:left;">
 springgreen4
@@ -8674,7 +8671,7 @@ rgb(0,139,69)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4682B4/000000?text=+" />
+<img src="http://placehold.it/50/4682B4/000000?text=+" />
 </td>
 <td style="text-align:left;">
 steelblue
@@ -8688,7 +8685,7 @@ rgb(70,130,180)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/63B8FF/000000?text=+" />
+<img src="http://placehold.it/50/63B8FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 steelblue1
@@ -8702,7 +8699,7 @@ rgb(99,184,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/5CACEE/000000?text=+" />
+<img src="http://placehold.it/50/5CACEE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 steelblue2
@@ -8716,7 +8713,7 @@ rgb(92,172,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/4F94CD/000000?text=+" />
+<img src="http://placehold.it/50/4F94CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 steelblue3
@@ -8730,7 +8727,7 @@ rgb(79,148,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/36648B/000000?text=+" />
+<img src="http://placehold.it/50/36648B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 steelblue4
@@ -8744,7 +8741,7 @@ rgb(54,100,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D2B48C/000000?text=+" />
+<img src="http://placehold.it/50/D2B48C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tan
@@ -8758,7 +8755,7 @@ rgb(210,180,140)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFA54F/000000?text=+" />
+<img src="http://placehold.it/50/FFA54F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tan1
@@ -8772,7 +8769,7 @@ rgb(255,165,79)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE9A49/000000?text=+" />
+<img src="http://placehold.it/50/EE9A49/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tan2
@@ -8786,7 +8783,7 @@ rgb(238,154,73)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD853F/000000?text=+" />
+<img src="http://placehold.it/50/CD853F/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tan3
@@ -8800,7 +8797,7 @@ rgb(205,133,63)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B5A2B/000000?text=+" />
+<img src="http://placehold.it/50/8B5A2B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tan4
@@ -8814,7 +8811,7 @@ rgb(139,90,43)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D8BFD8/000000?text=+" />
+<img src="http://placehold.it/50/D8BFD8/000000?text=+" />
 </td>
 <td style="text-align:left;">
 thistle
@@ -8828,7 +8825,7 @@ rgb(216,191,216)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFE1FF/000000?text=+" />
+<img src="http://placehold.it/50/FFE1FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 thistle1
@@ -8842,7 +8839,7 @@ rgb(255,225,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EED2EE/000000?text=+" />
+<img src="http://placehold.it/50/EED2EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 thistle2
@@ -8856,7 +8853,7 @@ rgb(238,210,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDB5CD/000000?text=+" />
+<img src="http://placehold.it/50/CDB5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 thistle3
@@ -8870,7 +8867,7 @@ rgb(205,181,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B7B8B/000000?text=+" />
+<img src="http://placehold.it/50/8B7B8B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 thistle4
@@ -8884,7 +8881,7 @@ rgb(139,123,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF6347/000000?text=+" />
+<img src="http://placehold.it/50/FF6347/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tomato
@@ -8898,7 +8895,7 @@ rgb(255,99,71)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF6347/000000?text=+" />
+<img src="http://placehold.it/50/FF6347/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tomato1
@@ -8912,7 +8909,7 @@ rgb(255,99,71)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE5C42/000000?text=+" />
+<img src="http://placehold.it/50/EE5C42/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tomato2
@@ -8926,7 +8923,7 @@ rgb(238,92,66)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD4F39/000000?text=+" />
+<img src="http://placehold.it/50/CD4F39/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tomato3
@@ -8940,7 +8937,7 @@ rgb(205,79,57)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B3626/000000?text=+" />
+<img src="http://placehold.it/50/8B3626/000000?text=+" />
 </td>
 <td style="text-align:left;">
 tomato4
@@ -8954,7 +8951,7 @@ rgb(139,54,38)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/40E0D0/000000?text=+" />
+<img src="http://placehold.it/50/40E0D0/000000?text=+" />
 </td>
 <td style="text-align:left;">
 turquoise
@@ -8968,7 +8965,7 @@ rgb(64,224,208)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00F5FF/000000?text=+" />
+<img src="http://placehold.it/50/00F5FF/000000?text=+" />
 </td>
 <td style="text-align:left;">
 turquoise1
@@ -8982,7 +8979,7 @@ rgb(0,245,255)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00E5EE/000000?text=+" />
+<img src="http://placehold.it/50/00E5EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 turquoise2
@@ -8996,7 +8993,7 @@ rgb(0,229,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00C5CD/000000?text=+" />
+<img src="http://placehold.it/50/00C5CD/000000?text=+" />
 </td>
 <td style="text-align:left;">
 turquoise3
@@ -9010,7 +9007,7 @@ rgb(0,197,205)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/00868B/000000?text=+" />
+<img src="http://placehold.it/50/00868B/000000?text=+" />
 </td>
 <td style="text-align:left;">
 turquoise4
@@ -9024,7 +9021,7 @@ rgb(0,134,139)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE82EE/000000?text=+" />
+<img src="http://placehold.it/50/EE82EE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 violet
@@ -9038,7 +9035,7 @@ rgb(238,130,238)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/D02090/000000?text=+" />
+<img src="http://placehold.it/50/D02090/000000?text=+" />
 </td>
 <td style="text-align:left;">
 violetred
@@ -9052,7 +9049,7 @@ rgb(208,32,144)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FF3E96/000000?text=+" />
+<img src="http://placehold.it/50/FF3E96/000000?text=+" />
 </td>
 <td style="text-align:left;">
 violetred1
@@ -9066,7 +9063,7 @@ rgb(255,62,150)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EE3A8C/000000?text=+" />
+<img src="http://placehold.it/50/EE3A8C/000000?text=+" />
 </td>
 <td style="text-align:left;">
 violetred2
@@ -9080,7 +9077,7 @@ rgb(238,58,140)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CD3278/000000?text=+" />
+<img src="http://placehold.it/50/CD3278/000000?text=+" />
 </td>
 <td style="text-align:left;">
 violetred3
@@ -9094,7 +9091,7 @@ rgb(205,50,120)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B2252/000000?text=+" />
+<img src="http://placehold.it/50/8B2252/000000?text=+" />
 </td>
 <td style="text-align:left;">
 violetred4
@@ -9108,7 +9105,7 @@ rgb(139,34,82)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F5DEB3/000000?text=+" />
+<img src="http://placehold.it/50/F5DEB3/000000?text=+" />
 </td>
 <td style="text-align:left;">
 wheat
@@ -9122,7 +9119,7 @@ rgb(245,222,179)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFE7BA/000000?text=+" />
+<img src="http://placehold.it/50/FFE7BA/000000?text=+" />
 </td>
 <td style="text-align:left;">
 wheat1
@@ -9136,7 +9133,7 @@ rgb(255,231,186)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EED8AE/000000?text=+" />
+<img src="http://placehold.it/50/EED8AE/000000?text=+" />
 </td>
 <td style="text-align:left;">
 wheat2
@@ -9150,7 +9147,7 @@ rgb(238,216,174)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDBA96/000000?text=+" />
+<img src="http://placehold.it/50/CDBA96/000000?text=+" />
 </td>
 <td style="text-align:left;">
 wheat3
@@ -9164,7 +9161,7 @@ rgb(205,186,150)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B7E66/000000?text=+" />
+<img src="http://placehold.it/50/8B7E66/000000?text=+" />
 </td>
 <td style="text-align:left;">
 wheat4
@@ -9178,7 +9175,7 @@ rgb(139,126,102)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/F5F5F5/000000?text=+" />
+<img src="http://placehold.it/50/F5F5F5/000000?text=+" />
 </td>
 <td style="text-align:left;">
 whitesmoke
@@ -9192,7 +9189,7 @@ rgb(245,245,245)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFF00/000000?text=+" />
+<img src="http://placehold.it/50/FFFF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 yellow
@@ -9206,7 +9203,7 @@ rgb(255,255,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/FFFF00/000000?text=+" />
+<img src="http://placehold.it/50/FFFF00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 yellow1
@@ -9220,7 +9217,7 @@ rgb(255,255,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/EEEE00/000000?text=+" />
+<img src="http://placehold.it/50/EEEE00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 yellow2
@@ -9234,7 +9231,7 @@ rgb(238,238,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/CDCD00/000000?text=+" />
+<img src="http://placehold.it/50/CDCD00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 yellow3
@@ -9248,7 +9245,7 @@ rgb(205,205,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/8B8B00/000000?text=+" />
+<img src="http://placehold.it/50/8B8B00/000000?text=+" />
 </td>
 <td style="text-align:left;">
 yellow4
@@ -9262,7 +9259,7 @@ rgb(139,139,0)
 </tr>
 <tr>
 <td style="text-align:left;">
-<img src="https://placehold.it/50/9ACD32/000000?text=+" />
+<img src="http://placehold.it/50/9ACD32/000000?text=+" />
 </td>
 <td style="text-align:left;">
 yellowgreen
