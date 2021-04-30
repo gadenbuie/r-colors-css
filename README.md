@@ -84,7 +84,7 @@ white
 rgb(255,255,255)
 </td>
 <td style="text-align:left;">
-\#FFFFFF
+#FFFFFF
 </td>
 </tr>
 <tr>
@@ -98,7 +98,7 @@ aliceblue
 rgb(240,248,255)
 </td>
 <td style="text-align:left;">
-\#F0F8FF
+#F0F8FF
 </td>
 </tr>
 <tr>
@@ -112,7 +112,7 @@ antiquewhite
 rgb(250,235,215)
 </td>
 <td style="text-align:left;">
-\#FAEBD7
+#FAEBD7
 </td>
 </tr>
 <tr>
@@ -126,7 +126,7 @@ antiquewhite1
 rgb(255,239,219)
 </td>
 <td style="text-align:left;">
-\#FFEFDB
+#FFEFDB
 </td>
 </tr>
 <tr>
@@ -140,7 +140,7 @@ antiquewhite2
 rgb(238,223,204)
 </td>
 <td style="text-align:left;">
-\#EEDFCC
+#EEDFCC
 </td>
 </tr>
 <tr>
@@ -154,7 +154,7 @@ antiquewhite3
 rgb(205,192,176)
 </td>
 <td style="text-align:left;">
-\#CDC0B0
+#CDC0B0
 </td>
 </tr>
 <tr>
@@ -168,7 +168,7 @@ antiquewhite4
 rgb(139,131,120)
 </td>
 <td style="text-align:left;">
-\#8B8378
+#8B8378
 </td>
 </tr>
 <tr>
@@ -182,7 +182,7 @@ aquamarine
 rgb(127,255,212)
 </td>
 <td style="text-align:left;">
-\#7FFFD4
+#7FFFD4
 </td>
 </tr>
 <tr>
@@ -196,7 +196,7 @@ aquamarine1
 rgb(127,255,212)
 </td>
 <td style="text-align:left;">
-\#7FFFD4
+#7FFFD4
 </td>
 </tr>
 <tr>
@@ -210,7 +210,7 @@ aquamarine2
 rgb(118,238,198)
 </td>
 <td style="text-align:left;">
-\#76EEC6
+#76EEC6
 </td>
 </tr>
 <tr>
@@ -224,7 +224,7 @@ aquamarine3
 rgb(102,205,170)
 </td>
 <td style="text-align:left;">
-\#66CDAA
+#66CDAA
 </td>
 </tr>
 <tr>
@@ -238,7 +238,7 @@ aquamarine4
 rgb(69,139,116)
 </td>
 <td style="text-align:left;">
-\#458B74
+#458B74
 </td>
 </tr>
 <tr>
@@ -252,7 +252,7 @@ azure
 rgb(240,255,255)
 </td>
 <td style="text-align:left;">
-\#F0FFFF
+#F0FFFF
 </td>
 </tr>
 <tr>
@@ -266,7 +266,7 @@ azure1
 rgb(240,255,255)
 </td>
 <td style="text-align:left;">
-\#F0FFFF
+#F0FFFF
 </td>
 </tr>
 <tr>
@@ -280,7 +280,7 @@ azure2
 rgb(224,238,238)
 </td>
 <td style="text-align:left;">
-\#E0EEEE
+#E0EEEE
 </td>
 </tr>
 <tr>
@@ -294,7 +294,7 @@ azure3
 rgb(193,205,205)
 </td>
 <td style="text-align:left;">
-\#C1CDCD
+#C1CDCD
 </td>
 </tr>
 <tr>
@@ -308,7 +308,7 @@ azure4
 rgb(131,139,139)
 </td>
 <td style="text-align:left;">
-\#838B8B
+#838B8B
 </td>
 </tr>
 <tr>
@@ -322,7 +322,7 @@ beige
 rgb(245,245,220)
 </td>
 <td style="text-align:left;">
-\#F5F5DC
+#F5F5DC
 </td>
 </tr>
 <tr>
@@ -336,7 +336,7 @@ bisque
 rgb(255,228,196)
 </td>
 <td style="text-align:left;">
-\#FFE4C4
+#FFE4C4
 </td>
 </tr>
 <tr>
@@ -350,7 +350,7 @@ bisque1
 rgb(255,228,196)
 </td>
 <td style="text-align:left;">
-\#FFE4C4
+#FFE4C4
 </td>
 </tr>
 <tr>
@@ -364,7 +364,7 @@ bisque2
 rgb(238,213,183)
 </td>
 <td style="text-align:left;">
-\#EED5B7
+#EED5B7
 </td>
 </tr>
 <tr>
@@ -378,7 +378,7 @@ bisque3
 rgb(205,183,158)
 </td>
 <td style="text-align:left;">
-\#CDB79E
+#CDB79E
 </td>
 </tr>
 <tr>
@@ -392,7 +392,7 @@ bisque4
 rgb(139,125,107)
 </td>
 <td style="text-align:left;">
-\#8B7D6B
+#8B7D6B
 </td>
 </tr>
 <tr>
@@ -406,7 +406,7 @@ black
 rgb(0,0,0)
 </td>
 <td style="text-align:left;">
-\#000000
+#000000
 </td>
 </tr>
 <tr>
@@ -420,7 +420,7 @@ blanchedalmond
 rgb(255,235,205)
 </td>
 <td style="text-align:left;">
-\#FFEBCD
+#FFEBCD
 </td>
 </tr>
 <tr>
@@ -434,7 +434,7 @@ blue
 rgb(0,0,255)
 </td>
 <td style="text-align:left;">
-\#0000FF
+#0000FF
 </td>
 </tr>
 <tr>
@@ -448,7 +448,7 @@ blue1
 rgb(0,0,255)
 </td>
 <td style="text-align:left;">
-\#0000FF
+#0000FF
 </td>
 </tr>
 <tr>
@@ -462,7 +462,7 @@ blue2
 rgb(0,0,238)
 </td>
 <td style="text-align:left;">
-\#0000EE
+#0000EE
 </td>
 </tr>
 <tr>
@@ -476,7 +476,7 @@ blue3
 rgb(0,0,205)
 </td>
 <td style="text-align:left;">
-\#0000CD
+#0000CD
 </td>
 </tr>
 <tr>
@@ -490,7 +490,7 @@ blue4
 rgb(0,0,139)
 </td>
 <td style="text-align:left;">
-\#00008B
+#00008B
 </td>
 </tr>
 <tr>
@@ -504,7 +504,7 @@ blueviolet
 rgb(138,43,226)
 </td>
 <td style="text-align:left;">
-\#8A2BE2
+#8A2BE2
 </td>
 </tr>
 <tr>
@@ -518,7 +518,7 @@ brown
 rgb(165,42,42)
 </td>
 <td style="text-align:left;">
-\#A52A2A
+#A52A2A
 </td>
 </tr>
 <tr>
@@ -532,7 +532,7 @@ brown1
 rgb(255,64,64)
 </td>
 <td style="text-align:left;">
-\#FF4040
+#FF4040
 </td>
 </tr>
 <tr>
@@ -546,7 +546,7 @@ brown2
 rgb(238,59,59)
 </td>
 <td style="text-align:left;">
-\#EE3B3B
+#EE3B3B
 </td>
 </tr>
 <tr>
@@ -560,7 +560,7 @@ brown3
 rgb(205,51,51)
 </td>
 <td style="text-align:left;">
-\#CD3333
+#CD3333
 </td>
 </tr>
 <tr>
@@ -574,7 +574,7 @@ brown4
 rgb(139,35,35)
 </td>
 <td style="text-align:left;">
-\#8B2323
+#8B2323
 </td>
 </tr>
 <tr>
@@ -588,7 +588,7 @@ burlywood
 rgb(222,184,135)
 </td>
 <td style="text-align:left;">
-\#DEB887
+#DEB887
 </td>
 </tr>
 <tr>
@@ -602,7 +602,7 @@ burlywood1
 rgb(255,211,155)
 </td>
 <td style="text-align:left;">
-\#FFD39B
+#FFD39B
 </td>
 </tr>
 <tr>
@@ -616,7 +616,7 @@ burlywood2
 rgb(238,197,145)
 </td>
 <td style="text-align:left;">
-\#EEC591
+#EEC591
 </td>
 </tr>
 <tr>
@@ -630,7 +630,7 @@ burlywood3
 rgb(205,170,125)
 </td>
 <td style="text-align:left;">
-\#CDAA7D
+#CDAA7D
 </td>
 </tr>
 <tr>
@@ -644,7 +644,7 @@ burlywood4
 rgb(139,115,85)
 </td>
 <td style="text-align:left;">
-\#8B7355
+#8B7355
 </td>
 </tr>
 <tr>
@@ -658,7 +658,7 @@ cadetblue
 rgb(95,158,160)
 </td>
 <td style="text-align:left;">
-\#5F9EA0
+#5F9EA0
 </td>
 </tr>
 <tr>
@@ -672,7 +672,7 @@ cadetblue1
 rgb(152,245,255)
 </td>
 <td style="text-align:left;">
-\#98F5FF
+#98F5FF
 </td>
 </tr>
 <tr>
@@ -686,7 +686,7 @@ cadetblue2
 rgb(142,229,238)
 </td>
 <td style="text-align:left;">
-\#8EE5EE
+#8EE5EE
 </td>
 </tr>
 <tr>
@@ -700,7 +700,7 @@ cadetblue3
 rgb(122,197,205)
 </td>
 <td style="text-align:left;">
-\#7AC5CD
+#7AC5CD
 </td>
 </tr>
 <tr>
@@ -714,7 +714,7 @@ cadetblue4
 rgb(83,134,139)
 </td>
 <td style="text-align:left;">
-\#53868B
+#53868B
 </td>
 </tr>
 <tr>
@@ -728,7 +728,7 @@ chartreuse
 rgb(127,255,0)
 </td>
 <td style="text-align:left;">
-\#7FFF00
+#7FFF00
 </td>
 </tr>
 <tr>
@@ -742,7 +742,7 @@ chartreuse1
 rgb(127,255,0)
 </td>
 <td style="text-align:left;">
-\#7FFF00
+#7FFF00
 </td>
 </tr>
 <tr>
@@ -756,7 +756,7 @@ chartreuse2
 rgb(118,238,0)
 </td>
 <td style="text-align:left;">
-\#76EE00
+#76EE00
 </td>
 </tr>
 <tr>
@@ -770,7 +770,7 @@ chartreuse3
 rgb(102,205,0)
 </td>
 <td style="text-align:left;">
-\#66CD00
+#66CD00
 </td>
 </tr>
 <tr>
@@ -784,7 +784,7 @@ chartreuse4
 rgb(69,139,0)
 </td>
 <td style="text-align:left;">
-\#458B00
+#458B00
 </td>
 </tr>
 <tr>
@@ -798,7 +798,7 @@ chocolate
 rgb(210,105,30)
 </td>
 <td style="text-align:left;">
-\#D2691E
+#D2691E
 </td>
 </tr>
 <tr>
@@ -812,7 +812,7 @@ chocolate1
 rgb(255,127,36)
 </td>
 <td style="text-align:left;">
-\#FF7F24
+#FF7F24
 </td>
 </tr>
 <tr>
@@ -826,7 +826,7 @@ chocolate2
 rgb(238,118,33)
 </td>
 <td style="text-align:left;">
-\#EE7621
+#EE7621
 </td>
 </tr>
 <tr>
@@ -840,7 +840,7 @@ chocolate3
 rgb(205,102,29)
 </td>
 <td style="text-align:left;">
-\#CD661D
+#CD661D
 </td>
 </tr>
 <tr>
@@ -854,7 +854,7 @@ chocolate4
 rgb(139,69,19)
 </td>
 <td style="text-align:left;">
-\#8B4513
+#8B4513
 </td>
 </tr>
 <tr>
@@ -868,7 +868,7 @@ coral
 rgb(255,127,80)
 </td>
 <td style="text-align:left;">
-\#FF7F50
+#FF7F50
 </td>
 </tr>
 <tr>
@@ -882,7 +882,7 @@ coral1
 rgb(255,114,86)
 </td>
 <td style="text-align:left;">
-\#FF7256
+#FF7256
 </td>
 </tr>
 <tr>
@@ -896,7 +896,7 @@ coral2
 rgb(238,106,80)
 </td>
 <td style="text-align:left;">
-\#EE6A50
+#EE6A50
 </td>
 </tr>
 <tr>
@@ -910,7 +910,7 @@ coral3
 rgb(205,91,69)
 </td>
 <td style="text-align:left;">
-\#CD5B45
+#CD5B45
 </td>
 </tr>
 <tr>
@@ -924,7 +924,7 @@ coral4
 rgb(139,62,47)
 </td>
 <td style="text-align:left;">
-\#8B3E2F
+#8B3E2F
 </td>
 </tr>
 <tr>
@@ -938,7 +938,7 @@ cornflowerblue
 rgb(100,149,237)
 </td>
 <td style="text-align:left;">
-\#6495ED
+#6495ED
 </td>
 </tr>
 <tr>
@@ -952,7 +952,7 @@ cornsilk
 rgb(255,248,220)
 </td>
 <td style="text-align:left;">
-\#FFF8DC
+#FFF8DC
 </td>
 </tr>
 <tr>
@@ -966,7 +966,7 @@ cornsilk1
 rgb(255,248,220)
 </td>
 <td style="text-align:left;">
-\#FFF8DC
+#FFF8DC
 </td>
 </tr>
 <tr>
@@ -980,7 +980,7 @@ cornsilk2
 rgb(238,232,205)
 </td>
 <td style="text-align:left;">
-\#EEE8CD
+#EEE8CD
 </td>
 </tr>
 <tr>
@@ -994,7 +994,7 @@ cornsilk3
 rgb(205,200,177)
 </td>
 <td style="text-align:left;">
-\#CDC8B1
+#CDC8B1
 </td>
 </tr>
 <tr>
@@ -1008,7 +1008,7 @@ cornsilk4
 rgb(139,136,120)
 </td>
 <td style="text-align:left;">
-\#8B8878
+#8B8878
 </td>
 </tr>
 <tr>
@@ -1022,7 +1022,7 @@ cyan
 rgb(0,255,255)
 </td>
 <td style="text-align:left;">
-\#00FFFF
+#00FFFF
 </td>
 </tr>
 <tr>
@@ -1036,7 +1036,7 @@ cyan1
 rgb(0,255,255)
 </td>
 <td style="text-align:left;">
-\#00FFFF
+#00FFFF
 </td>
 </tr>
 <tr>
@@ -1050,7 +1050,7 @@ cyan2
 rgb(0,238,238)
 </td>
 <td style="text-align:left;">
-\#00EEEE
+#00EEEE
 </td>
 </tr>
 <tr>
@@ -1064,7 +1064,7 @@ cyan3
 rgb(0,205,205)
 </td>
 <td style="text-align:left;">
-\#00CDCD
+#00CDCD
 </td>
 </tr>
 <tr>
@@ -1078,7 +1078,7 @@ cyan4
 rgb(0,139,139)
 </td>
 <td style="text-align:left;">
-\#008B8B
+#008B8B
 </td>
 </tr>
 <tr>
@@ -1092,7 +1092,7 @@ darkblue
 rgb(0,0,139)
 </td>
 <td style="text-align:left;">
-\#00008B
+#00008B
 </td>
 </tr>
 <tr>
@@ -1106,7 +1106,7 @@ darkcyan
 rgb(0,139,139)
 </td>
 <td style="text-align:left;">
-\#008B8B
+#008B8B
 </td>
 </tr>
 <tr>
@@ -1120,7 +1120,7 @@ darkgoldenrod
 rgb(184,134,11)
 </td>
 <td style="text-align:left;">
-\#B8860B
+#B8860B
 </td>
 </tr>
 <tr>
@@ -1134,7 +1134,7 @@ darkgoldenrod1
 rgb(255,185,15)
 </td>
 <td style="text-align:left;">
-\#FFB90F
+#FFB90F
 </td>
 </tr>
 <tr>
@@ -1148,7 +1148,7 @@ darkgoldenrod2
 rgb(238,173,14)
 </td>
 <td style="text-align:left;">
-\#EEAD0E
+#EEAD0E
 </td>
 </tr>
 <tr>
@@ -1162,7 +1162,7 @@ darkgoldenrod3
 rgb(205,149,12)
 </td>
 <td style="text-align:left;">
-\#CD950C
+#CD950C
 </td>
 </tr>
 <tr>
@@ -1176,7 +1176,7 @@ darkgoldenrod4
 rgb(139,101,8)
 </td>
 <td style="text-align:left;">
-\#8B6508
+#8B6508
 </td>
 </tr>
 <tr>
@@ -1190,7 +1190,7 @@ darkgray
 rgb(169,169,169)
 </td>
 <td style="text-align:left;">
-\#A9A9A9
+#A9A9A9
 </td>
 </tr>
 <tr>
@@ -1204,7 +1204,7 @@ darkgreen
 rgb(0,100,0)
 </td>
 <td style="text-align:left;">
-\#006400
+#006400
 </td>
 </tr>
 <tr>
@@ -1218,7 +1218,7 @@ darkgrey
 rgb(169,169,169)
 </td>
 <td style="text-align:left;">
-\#A9A9A9
+#A9A9A9
 </td>
 </tr>
 <tr>
@@ -1232,7 +1232,7 @@ darkkhaki
 rgb(189,183,107)
 </td>
 <td style="text-align:left;">
-\#BDB76B
+#BDB76B
 </td>
 </tr>
 <tr>
@@ -1246,7 +1246,7 @@ darkmagenta
 rgb(139,0,139)
 </td>
 <td style="text-align:left;">
-\#8B008B
+#8B008B
 </td>
 </tr>
 <tr>
@@ -1260,7 +1260,7 @@ darkolivegreen
 rgb(85,107,47)
 </td>
 <td style="text-align:left;">
-\#556B2F
+#556B2F
 </td>
 </tr>
 <tr>
@@ -1274,7 +1274,7 @@ darkolivegreen1
 rgb(202,255,112)
 </td>
 <td style="text-align:left;">
-\#CAFF70
+#CAFF70
 </td>
 </tr>
 <tr>
@@ -1288,7 +1288,7 @@ darkolivegreen2
 rgb(188,238,104)
 </td>
 <td style="text-align:left;">
-\#BCEE68
+#BCEE68
 </td>
 </tr>
 <tr>
@@ -1302,7 +1302,7 @@ darkolivegreen3
 rgb(162,205,90)
 </td>
 <td style="text-align:left;">
-\#A2CD5A
+#A2CD5A
 </td>
 </tr>
 <tr>
@@ -1316,7 +1316,7 @@ darkolivegreen4
 rgb(110,139,61)
 </td>
 <td style="text-align:left;">
-\#6E8B3D
+#6E8B3D
 </td>
 </tr>
 <tr>
@@ -1330,7 +1330,7 @@ darkorange
 rgb(255,140,0)
 </td>
 <td style="text-align:left;">
-\#FF8C00
+#FF8C00
 </td>
 </tr>
 <tr>
@@ -1344,7 +1344,7 @@ darkorange1
 rgb(255,127,0)
 </td>
 <td style="text-align:left;">
-\#FF7F00
+#FF7F00
 </td>
 </tr>
 <tr>
@@ -1358,7 +1358,7 @@ darkorange2
 rgb(238,118,0)
 </td>
 <td style="text-align:left;">
-\#EE7600
+#EE7600
 </td>
 </tr>
 <tr>
@@ -1372,7 +1372,7 @@ darkorange3
 rgb(205,102,0)
 </td>
 <td style="text-align:left;">
-\#CD6600
+#CD6600
 </td>
 </tr>
 <tr>
@@ -1386,7 +1386,7 @@ darkorange4
 rgb(139,69,0)
 </td>
 <td style="text-align:left;">
-\#8B4500
+#8B4500
 </td>
 </tr>
 <tr>
@@ -1400,7 +1400,7 @@ darkorchid
 rgb(153,50,204)
 </td>
 <td style="text-align:left;">
-\#9932CC
+#9932CC
 </td>
 </tr>
 <tr>
@@ -1414,7 +1414,7 @@ darkorchid1
 rgb(191,62,255)
 </td>
 <td style="text-align:left;">
-\#BF3EFF
+#BF3EFF
 </td>
 </tr>
 <tr>
@@ -1428,7 +1428,7 @@ darkorchid2
 rgb(178,58,238)
 </td>
 <td style="text-align:left;">
-\#B23AEE
+#B23AEE
 </td>
 </tr>
 <tr>
@@ -1442,7 +1442,7 @@ darkorchid3
 rgb(154,50,205)
 </td>
 <td style="text-align:left;">
-\#9A32CD
+#9A32CD
 </td>
 </tr>
 <tr>
@@ -1456,7 +1456,7 @@ darkorchid4
 rgb(104,34,139)
 </td>
 <td style="text-align:left;">
-\#68228B
+#68228B
 </td>
 </tr>
 <tr>
@@ -1470,7 +1470,7 @@ darkred
 rgb(139,0,0)
 </td>
 <td style="text-align:left;">
-\#8B0000
+#8B0000
 </td>
 </tr>
 <tr>
@@ -1484,7 +1484,7 @@ darksalmon
 rgb(233,150,122)
 </td>
 <td style="text-align:left;">
-\#E9967A
+#E9967A
 </td>
 </tr>
 <tr>
@@ -1498,7 +1498,7 @@ darkseagreen
 rgb(143,188,143)
 </td>
 <td style="text-align:left;">
-\#8FBC8F
+#8FBC8F
 </td>
 </tr>
 <tr>
@@ -1512,7 +1512,7 @@ darkseagreen1
 rgb(193,255,193)
 </td>
 <td style="text-align:left;">
-\#C1FFC1
+#C1FFC1
 </td>
 </tr>
 <tr>
@@ -1526,7 +1526,7 @@ darkseagreen2
 rgb(180,238,180)
 </td>
 <td style="text-align:left;">
-\#B4EEB4
+#B4EEB4
 </td>
 </tr>
 <tr>
@@ -1540,7 +1540,7 @@ darkseagreen3
 rgb(155,205,155)
 </td>
 <td style="text-align:left;">
-\#9BCD9B
+#9BCD9B
 </td>
 </tr>
 <tr>
@@ -1554,7 +1554,7 @@ darkseagreen4
 rgb(105,139,105)
 </td>
 <td style="text-align:left;">
-\#698B69
+#698B69
 </td>
 </tr>
 <tr>
@@ -1568,7 +1568,7 @@ darkslateblue
 rgb(72,61,139)
 </td>
 <td style="text-align:left;">
-\#483D8B
+#483D8B
 </td>
 </tr>
 <tr>
@@ -1582,7 +1582,7 @@ darkslategray
 rgb(47,79,79)
 </td>
 <td style="text-align:left;">
-\#2F4F4F
+#2F4F4F
 </td>
 </tr>
 <tr>
@@ -1596,7 +1596,7 @@ darkslategray1
 rgb(151,255,255)
 </td>
 <td style="text-align:left;">
-\#97FFFF
+#97FFFF
 </td>
 </tr>
 <tr>
@@ -1610,7 +1610,7 @@ darkslategray2
 rgb(141,238,238)
 </td>
 <td style="text-align:left;">
-\#8DEEEE
+#8DEEEE
 </td>
 </tr>
 <tr>
@@ -1624,7 +1624,7 @@ darkslategray3
 rgb(121,205,205)
 </td>
 <td style="text-align:left;">
-\#79CDCD
+#79CDCD
 </td>
 </tr>
 <tr>
@@ -1638,7 +1638,7 @@ darkslategray4
 rgb(82,139,139)
 </td>
 <td style="text-align:left;">
-\#528B8B
+#528B8B
 </td>
 </tr>
 <tr>
@@ -1652,7 +1652,7 @@ darkslategrey
 rgb(47,79,79)
 </td>
 <td style="text-align:left;">
-\#2F4F4F
+#2F4F4F
 </td>
 </tr>
 <tr>
@@ -1666,7 +1666,7 @@ darkturquoise
 rgb(0,206,209)
 </td>
 <td style="text-align:left;">
-\#00CED1
+#00CED1
 </td>
 </tr>
 <tr>
@@ -1680,7 +1680,7 @@ darkviolet
 rgb(148,0,211)
 </td>
 <td style="text-align:left;">
-\#9400D3
+#9400D3
 </td>
 </tr>
 <tr>
@@ -1694,7 +1694,7 @@ deeppink
 rgb(255,20,147)
 </td>
 <td style="text-align:left;">
-\#FF1493
+#FF1493
 </td>
 </tr>
 <tr>
@@ -1708,7 +1708,7 @@ deeppink1
 rgb(255,20,147)
 </td>
 <td style="text-align:left;">
-\#FF1493
+#FF1493
 </td>
 </tr>
 <tr>
@@ -1722,7 +1722,7 @@ deeppink2
 rgb(238,18,137)
 </td>
 <td style="text-align:left;">
-\#EE1289
+#EE1289
 </td>
 </tr>
 <tr>
@@ -1736,7 +1736,7 @@ deeppink3
 rgb(205,16,118)
 </td>
 <td style="text-align:left;">
-\#CD1076
+#CD1076
 </td>
 </tr>
 <tr>
@@ -1750,7 +1750,7 @@ deeppink4
 rgb(139,10,80)
 </td>
 <td style="text-align:left;">
-\#8B0A50
+#8B0A50
 </td>
 </tr>
 <tr>
@@ -1764,7 +1764,7 @@ deepskyblue
 rgb(0,191,255)
 </td>
 <td style="text-align:left;">
-\#00BFFF
+#00BFFF
 </td>
 </tr>
 <tr>
@@ -1778,7 +1778,7 @@ deepskyblue1
 rgb(0,191,255)
 </td>
 <td style="text-align:left;">
-\#00BFFF
+#00BFFF
 </td>
 </tr>
 <tr>
@@ -1792,7 +1792,7 @@ deepskyblue2
 rgb(0,178,238)
 </td>
 <td style="text-align:left;">
-\#00B2EE
+#00B2EE
 </td>
 </tr>
 <tr>
@@ -1806,7 +1806,7 @@ deepskyblue3
 rgb(0,154,205)
 </td>
 <td style="text-align:left;">
-\#009ACD
+#009ACD
 </td>
 </tr>
 <tr>
@@ -1820,7 +1820,7 @@ deepskyblue4
 rgb(0,104,139)
 </td>
 <td style="text-align:left;">
-\#00688B
+#00688B
 </td>
 </tr>
 <tr>
@@ -1834,7 +1834,7 @@ dimgray
 rgb(105,105,105)
 </td>
 <td style="text-align:left;">
-\#696969
+#696969
 </td>
 </tr>
 <tr>
@@ -1848,7 +1848,7 @@ dimgrey
 rgb(105,105,105)
 </td>
 <td style="text-align:left;">
-\#696969
+#696969
 </td>
 </tr>
 <tr>
@@ -1862,7 +1862,7 @@ dodgerblue
 rgb(30,144,255)
 </td>
 <td style="text-align:left;">
-\#1E90FF
+#1E90FF
 </td>
 </tr>
 <tr>
@@ -1876,7 +1876,7 @@ dodgerblue1
 rgb(30,144,255)
 </td>
 <td style="text-align:left;">
-\#1E90FF
+#1E90FF
 </td>
 </tr>
 <tr>
@@ -1890,7 +1890,7 @@ dodgerblue2
 rgb(28,134,238)
 </td>
 <td style="text-align:left;">
-\#1C86EE
+#1C86EE
 </td>
 </tr>
 <tr>
@@ -1904,7 +1904,7 @@ dodgerblue3
 rgb(24,116,205)
 </td>
 <td style="text-align:left;">
-\#1874CD
+#1874CD
 </td>
 </tr>
 <tr>
@@ -1918,7 +1918,7 @@ dodgerblue4
 rgb(16,78,139)
 </td>
 <td style="text-align:left;">
-\#104E8B
+#104E8B
 </td>
 </tr>
 <tr>
@@ -1932,7 +1932,7 @@ firebrick
 rgb(178,34,34)
 </td>
 <td style="text-align:left;">
-\#B22222
+#B22222
 </td>
 </tr>
 <tr>
@@ -1946,7 +1946,7 @@ firebrick1
 rgb(255,48,48)
 </td>
 <td style="text-align:left;">
-\#FF3030
+#FF3030
 </td>
 </tr>
 <tr>
@@ -1960,7 +1960,7 @@ firebrick2
 rgb(238,44,44)
 </td>
 <td style="text-align:left;">
-\#EE2C2C
+#EE2C2C
 </td>
 </tr>
 <tr>
@@ -1974,7 +1974,7 @@ firebrick3
 rgb(205,38,38)
 </td>
 <td style="text-align:left;">
-\#CD2626
+#CD2626
 </td>
 </tr>
 <tr>
@@ -1988,7 +1988,7 @@ firebrick4
 rgb(139,26,26)
 </td>
 <td style="text-align:left;">
-\#8B1A1A
+#8B1A1A
 </td>
 </tr>
 <tr>
@@ -2002,7 +2002,7 @@ floralwhite
 rgb(255,250,240)
 </td>
 <td style="text-align:left;">
-\#FFFAF0
+#FFFAF0
 </td>
 </tr>
 <tr>
@@ -2016,7 +2016,7 @@ forestgreen
 rgb(34,139,34)
 </td>
 <td style="text-align:left;">
-\#228B22
+#228B22
 </td>
 </tr>
 <tr>
@@ -2030,7 +2030,7 @@ gainsboro
 rgb(220,220,220)
 </td>
 <td style="text-align:left;">
-\#DCDCDC
+#DCDCDC
 </td>
 </tr>
 <tr>
@@ -2044,7 +2044,7 @@ ghostwhite
 rgb(248,248,255)
 </td>
 <td style="text-align:left;">
-\#F8F8FF
+#F8F8FF
 </td>
 </tr>
 <tr>
@@ -2058,7 +2058,7 @@ gold
 rgb(255,215,0)
 </td>
 <td style="text-align:left;">
-\#FFD700
+#FFD700
 </td>
 </tr>
 <tr>
@@ -2072,7 +2072,7 @@ gold1
 rgb(255,215,0)
 </td>
 <td style="text-align:left;">
-\#FFD700
+#FFD700
 </td>
 </tr>
 <tr>
@@ -2086,7 +2086,7 @@ gold2
 rgb(238,201,0)
 </td>
 <td style="text-align:left;">
-\#EEC900
+#EEC900
 </td>
 </tr>
 <tr>
@@ -2100,7 +2100,7 @@ gold3
 rgb(205,173,0)
 </td>
 <td style="text-align:left;">
-\#CDAD00
+#CDAD00
 </td>
 </tr>
 <tr>
@@ -2114,7 +2114,7 @@ gold4
 rgb(139,117,0)
 </td>
 <td style="text-align:left;">
-\#8B7500
+#8B7500
 </td>
 </tr>
 <tr>
@@ -2128,7 +2128,7 @@ goldenrod
 rgb(218,165,32)
 </td>
 <td style="text-align:left;">
-\#DAA520
+#DAA520
 </td>
 </tr>
 <tr>
@@ -2142,7 +2142,7 @@ goldenrod1
 rgb(255,193,37)
 </td>
 <td style="text-align:left;">
-\#FFC125
+#FFC125
 </td>
 </tr>
 <tr>
@@ -2156,7 +2156,7 @@ goldenrod2
 rgb(238,180,34)
 </td>
 <td style="text-align:left;">
-\#EEB422
+#EEB422
 </td>
 </tr>
 <tr>
@@ -2170,7 +2170,7 @@ goldenrod3
 rgb(205,155,29)
 </td>
 <td style="text-align:left;">
-\#CD9B1D
+#CD9B1D
 </td>
 </tr>
 <tr>
@@ -2184,7 +2184,7 @@ goldenrod4
 rgb(139,105,20)
 </td>
 <td style="text-align:left;">
-\#8B6914
+#8B6914
 </td>
 </tr>
 <tr>
@@ -2198,7 +2198,7 @@ gray
 rgb(190,190,190)
 </td>
 <td style="text-align:left;">
-\#BEBEBE
+#BEBEBE
 </td>
 </tr>
 <tr>
@@ -2212,7 +2212,7 @@ gray0
 rgb(0,0,0)
 </td>
 <td style="text-align:left;">
-\#000000
+#000000
 </td>
 </tr>
 <tr>
@@ -2226,7 +2226,7 @@ gray1
 rgb(3,3,3)
 </td>
 <td style="text-align:left;">
-\#030303
+#030303
 </td>
 </tr>
 <tr>
@@ -2240,7 +2240,7 @@ gray2
 rgb(5,5,5)
 </td>
 <td style="text-align:left;">
-\#050505
+#050505
 </td>
 </tr>
 <tr>
@@ -2254,7 +2254,7 @@ gray3
 rgb(8,8,8)
 </td>
 <td style="text-align:left;">
-\#080808
+#080808
 </td>
 </tr>
 <tr>
@@ -2268,7 +2268,7 @@ gray4
 rgb(10,10,10)
 </td>
 <td style="text-align:left;">
-\#0A0A0A
+#0A0A0A
 </td>
 </tr>
 <tr>
@@ -2282,7 +2282,7 @@ gray5
 rgb(13,13,13)
 </td>
 <td style="text-align:left;">
-\#0D0D0D
+#0D0D0D
 </td>
 </tr>
 <tr>
@@ -2296,7 +2296,7 @@ gray6
 rgb(15,15,15)
 </td>
 <td style="text-align:left;">
-\#0F0F0F
+#0F0F0F
 </td>
 </tr>
 <tr>
@@ -2310,7 +2310,7 @@ gray7
 rgb(18,18,18)
 </td>
 <td style="text-align:left;">
-\#121212
+#121212
 </td>
 </tr>
 <tr>
@@ -2324,7 +2324,7 @@ gray8
 rgb(20,20,20)
 </td>
 <td style="text-align:left;">
-\#141414
+#141414
 </td>
 </tr>
 <tr>
@@ -2338,7 +2338,7 @@ gray9
 rgb(23,23,23)
 </td>
 <td style="text-align:left;">
-\#171717
+#171717
 </td>
 </tr>
 <tr>
@@ -2352,7 +2352,7 @@ gray10
 rgb(26,26,26)
 </td>
 <td style="text-align:left;">
-\#1A1A1A
+#1A1A1A
 </td>
 </tr>
 <tr>
@@ -2366,7 +2366,7 @@ gray11
 rgb(28,28,28)
 </td>
 <td style="text-align:left;">
-\#1C1C1C
+#1C1C1C
 </td>
 </tr>
 <tr>
@@ -2380,7 +2380,7 @@ gray12
 rgb(31,31,31)
 </td>
 <td style="text-align:left;">
-\#1F1F1F
+#1F1F1F
 </td>
 </tr>
 <tr>
@@ -2394,7 +2394,7 @@ gray13
 rgb(33,33,33)
 </td>
 <td style="text-align:left;">
-\#212121
+#212121
 </td>
 </tr>
 <tr>
@@ -2408,7 +2408,7 @@ gray14
 rgb(36,36,36)
 </td>
 <td style="text-align:left;">
-\#242424
+#242424
 </td>
 </tr>
 <tr>
@@ -2422,7 +2422,7 @@ gray15
 rgb(38,38,38)
 </td>
 <td style="text-align:left;">
-\#262626
+#262626
 </td>
 </tr>
 <tr>
@@ -2436,7 +2436,7 @@ gray16
 rgb(41,41,41)
 </td>
 <td style="text-align:left;">
-\#292929
+#292929
 </td>
 </tr>
 <tr>
@@ -2450,7 +2450,7 @@ gray17
 rgb(43,43,43)
 </td>
 <td style="text-align:left;">
-\#2B2B2B
+#2B2B2B
 </td>
 </tr>
 <tr>
@@ -2464,7 +2464,7 @@ gray18
 rgb(46,46,46)
 </td>
 <td style="text-align:left;">
-\#2E2E2E
+#2E2E2E
 </td>
 </tr>
 <tr>
@@ -2478,7 +2478,7 @@ gray19
 rgb(48,48,48)
 </td>
 <td style="text-align:left;">
-\#303030
+#303030
 </td>
 </tr>
 <tr>
@@ -2492,7 +2492,7 @@ gray20
 rgb(51,51,51)
 </td>
 <td style="text-align:left;">
-\#333333
+#333333
 </td>
 </tr>
 <tr>
@@ -2506,7 +2506,7 @@ gray21
 rgb(54,54,54)
 </td>
 <td style="text-align:left;">
-\#363636
+#363636
 </td>
 </tr>
 <tr>
@@ -2520,7 +2520,7 @@ gray22
 rgb(56,56,56)
 </td>
 <td style="text-align:left;">
-\#383838
+#383838
 </td>
 </tr>
 <tr>
@@ -2534,7 +2534,7 @@ gray23
 rgb(59,59,59)
 </td>
 <td style="text-align:left;">
-\#3B3B3B
+#3B3B3B
 </td>
 </tr>
 <tr>
@@ -2548,7 +2548,7 @@ gray24
 rgb(61,61,61)
 </td>
 <td style="text-align:left;">
-\#3D3D3D
+#3D3D3D
 </td>
 </tr>
 <tr>
@@ -2562,7 +2562,7 @@ gray25
 rgb(64,64,64)
 </td>
 <td style="text-align:left;">
-\#404040
+#404040
 </td>
 </tr>
 <tr>
@@ -2576,7 +2576,7 @@ gray26
 rgb(66,66,66)
 </td>
 <td style="text-align:left;">
-\#424242
+#424242
 </td>
 </tr>
 <tr>
@@ -2590,7 +2590,7 @@ gray27
 rgb(69,69,69)
 </td>
 <td style="text-align:left;">
-\#454545
+#454545
 </td>
 </tr>
 <tr>
@@ -2604,7 +2604,7 @@ gray28
 rgb(71,71,71)
 </td>
 <td style="text-align:left;">
-\#474747
+#474747
 </td>
 </tr>
 <tr>
@@ -2618,7 +2618,7 @@ gray29
 rgb(74,74,74)
 </td>
 <td style="text-align:left;">
-\#4A4A4A
+#4A4A4A
 </td>
 </tr>
 <tr>
@@ -2632,7 +2632,7 @@ gray30
 rgb(77,77,77)
 </td>
 <td style="text-align:left;">
-\#4D4D4D
+#4D4D4D
 </td>
 </tr>
 <tr>
@@ -2646,7 +2646,7 @@ gray31
 rgb(79,79,79)
 </td>
 <td style="text-align:left;">
-\#4F4F4F
+#4F4F4F
 </td>
 </tr>
 <tr>
@@ -2660,7 +2660,7 @@ gray32
 rgb(82,82,82)
 </td>
 <td style="text-align:left;">
-\#525252
+#525252
 </td>
 </tr>
 <tr>
@@ -2674,7 +2674,7 @@ gray33
 rgb(84,84,84)
 </td>
 <td style="text-align:left;">
-\#545454
+#545454
 </td>
 </tr>
 <tr>
@@ -2688,7 +2688,7 @@ gray34
 rgb(87,87,87)
 </td>
 <td style="text-align:left;">
-\#575757
+#575757
 </td>
 </tr>
 <tr>
@@ -2702,7 +2702,7 @@ gray35
 rgb(89,89,89)
 </td>
 <td style="text-align:left;">
-\#595959
+#595959
 </td>
 </tr>
 <tr>
@@ -2716,7 +2716,7 @@ gray36
 rgb(92,92,92)
 </td>
 <td style="text-align:left;">
-\#5C5C5C
+#5C5C5C
 </td>
 </tr>
 <tr>
@@ -2730,7 +2730,7 @@ gray37
 rgb(94,94,94)
 </td>
 <td style="text-align:left;">
-\#5E5E5E
+#5E5E5E
 </td>
 </tr>
 <tr>
@@ -2744,7 +2744,7 @@ gray38
 rgb(97,97,97)
 </td>
 <td style="text-align:left;">
-\#616161
+#616161
 </td>
 </tr>
 <tr>
@@ -2758,7 +2758,7 @@ gray39
 rgb(99,99,99)
 </td>
 <td style="text-align:left;">
-\#636363
+#636363
 </td>
 </tr>
 <tr>
@@ -2772,7 +2772,7 @@ gray40
 rgb(102,102,102)
 </td>
 <td style="text-align:left;">
-\#666666
+#666666
 </td>
 </tr>
 <tr>
@@ -2786,7 +2786,7 @@ gray41
 rgb(105,105,105)
 </td>
 <td style="text-align:left;">
-\#696969
+#696969
 </td>
 </tr>
 <tr>
@@ -2800,7 +2800,7 @@ gray42
 rgb(107,107,107)
 </td>
 <td style="text-align:left;">
-\#6B6B6B
+#6B6B6B
 </td>
 </tr>
 <tr>
@@ -2814,7 +2814,7 @@ gray43
 rgb(110,110,110)
 </td>
 <td style="text-align:left;">
-\#6E6E6E
+#6E6E6E
 </td>
 </tr>
 <tr>
@@ -2828,7 +2828,7 @@ gray44
 rgb(112,112,112)
 </td>
 <td style="text-align:left;">
-\#707070
+#707070
 </td>
 </tr>
 <tr>
@@ -2842,7 +2842,7 @@ gray45
 rgb(115,115,115)
 </td>
 <td style="text-align:left;">
-\#737373
+#737373
 </td>
 </tr>
 <tr>
@@ -2856,7 +2856,7 @@ gray46
 rgb(117,117,117)
 </td>
 <td style="text-align:left;">
-\#757575
+#757575
 </td>
 </tr>
 <tr>
@@ -2870,7 +2870,7 @@ gray47
 rgb(120,120,120)
 </td>
 <td style="text-align:left;">
-\#787878
+#787878
 </td>
 </tr>
 <tr>
@@ -2884,7 +2884,7 @@ gray48
 rgb(122,122,122)
 </td>
 <td style="text-align:left;">
-\#7A7A7A
+#7A7A7A
 </td>
 </tr>
 <tr>
@@ -2898,7 +2898,7 @@ gray49
 rgb(125,125,125)
 </td>
 <td style="text-align:left;">
-\#7D7D7D
+#7D7D7D
 </td>
 </tr>
 <tr>
@@ -2912,7 +2912,7 @@ gray50
 rgb(127,127,127)
 </td>
 <td style="text-align:left;">
-\#7F7F7F
+#7F7F7F
 </td>
 </tr>
 <tr>
@@ -2926,7 +2926,7 @@ gray51
 rgb(130,130,130)
 </td>
 <td style="text-align:left;">
-\#828282
+#828282
 </td>
 </tr>
 <tr>
@@ -2940,7 +2940,7 @@ gray52
 rgb(133,133,133)
 </td>
 <td style="text-align:left;">
-\#858585
+#858585
 </td>
 </tr>
 <tr>
@@ -2954,7 +2954,7 @@ gray53
 rgb(135,135,135)
 </td>
 <td style="text-align:left;">
-\#878787
+#878787
 </td>
 </tr>
 <tr>
@@ -2968,7 +2968,7 @@ gray54
 rgb(138,138,138)
 </td>
 <td style="text-align:left;">
-\#8A8A8A
+#8A8A8A
 </td>
 </tr>
 <tr>
@@ -2982,7 +2982,7 @@ gray55
 rgb(140,140,140)
 </td>
 <td style="text-align:left;">
-\#8C8C8C
+#8C8C8C
 </td>
 </tr>
 <tr>
@@ -2996,7 +2996,7 @@ gray56
 rgb(143,143,143)
 </td>
 <td style="text-align:left;">
-\#8F8F8F
+#8F8F8F
 </td>
 </tr>
 <tr>
@@ -3010,7 +3010,7 @@ gray57
 rgb(145,145,145)
 </td>
 <td style="text-align:left;">
-\#919191
+#919191
 </td>
 </tr>
 <tr>
@@ -3024,7 +3024,7 @@ gray58
 rgb(148,148,148)
 </td>
 <td style="text-align:left;">
-\#949494
+#949494
 </td>
 </tr>
 <tr>
@@ -3038,7 +3038,7 @@ gray59
 rgb(150,150,150)
 </td>
 <td style="text-align:left;">
-\#969696
+#969696
 </td>
 </tr>
 <tr>
@@ -3052,7 +3052,7 @@ gray60
 rgb(153,153,153)
 </td>
 <td style="text-align:left;">
-\#999999
+#999999
 </td>
 </tr>
 <tr>
@@ -3066,7 +3066,7 @@ gray61
 rgb(156,156,156)
 </td>
 <td style="text-align:left;">
-\#9C9C9C
+#9C9C9C
 </td>
 </tr>
 <tr>
@@ -3080,7 +3080,7 @@ gray62
 rgb(158,158,158)
 </td>
 <td style="text-align:left;">
-\#9E9E9E
+#9E9E9E
 </td>
 </tr>
 <tr>
@@ -3094,7 +3094,7 @@ gray63
 rgb(161,161,161)
 </td>
 <td style="text-align:left;">
-\#A1A1A1
+#A1A1A1
 </td>
 </tr>
 <tr>
@@ -3108,7 +3108,7 @@ gray64
 rgb(163,163,163)
 </td>
 <td style="text-align:left;">
-\#A3A3A3
+#A3A3A3
 </td>
 </tr>
 <tr>
@@ -3122,7 +3122,7 @@ gray65
 rgb(166,166,166)
 </td>
 <td style="text-align:left;">
-\#A6A6A6
+#A6A6A6
 </td>
 </tr>
 <tr>
@@ -3136,7 +3136,7 @@ gray66
 rgb(168,168,168)
 </td>
 <td style="text-align:left;">
-\#A8A8A8
+#A8A8A8
 </td>
 </tr>
 <tr>
@@ -3150,7 +3150,7 @@ gray67
 rgb(171,171,171)
 </td>
 <td style="text-align:left;">
-\#ABABAB
+#ABABAB
 </td>
 </tr>
 <tr>
@@ -3164,7 +3164,7 @@ gray68
 rgb(173,173,173)
 </td>
 <td style="text-align:left;">
-\#ADADAD
+#ADADAD
 </td>
 </tr>
 <tr>
@@ -3178,7 +3178,7 @@ gray69
 rgb(176,176,176)
 </td>
 <td style="text-align:left;">
-\#B0B0B0
+#B0B0B0
 </td>
 </tr>
 <tr>
@@ -3192,7 +3192,7 @@ gray70
 rgb(179,179,179)
 </td>
 <td style="text-align:left;">
-\#B3B3B3
+#B3B3B3
 </td>
 </tr>
 <tr>
@@ -3206,7 +3206,7 @@ gray71
 rgb(181,181,181)
 </td>
 <td style="text-align:left;">
-\#B5B5B5
+#B5B5B5
 </td>
 </tr>
 <tr>
@@ -3220,7 +3220,7 @@ gray72
 rgb(184,184,184)
 </td>
 <td style="text-align:left;">
-\#B8B8B8
+#B8B8B8
 </td>
 </tr>
 <tr>
@@ -3234,7 +3234,7 @@ gray73
 rgb(186,186,186)
 </td>
 <td style="text-align:left;">
-\#BABABA
+#BABABA
 </td>
 </tr>
 <tr>
@@ -3248,7 +3248,7 @@ gray74
 rgb(189,189,189)
 </td>
 <td style="text-align:left;">
-\#BDBDBD
+#BDBDBD
 </td>
 </tr>
 <tr>
@@ -3262,7 +3262,7 @@ gray75
 rgb(191,191,191)
 </td>
 <td style="text-align:left;">
-\#BFBFBF
+#BFBFBF
 </td>
 </tr>
 <tr>
@@ -3276,7 +3276,7 @@ gray76
 rgb(194,194,194)
 </td>
 <td style="text-align:left;">
-\#C2C2C2
+#C2C2C2
 </td>
 </tr>
 <tr>
@@ -3290,7 +3290,7 @@ gray77
 rgb(196,196,196)
 </td>
 <td style="text-align:left;">
-\#C4C4C4
+#C4C4C4
 </td>
 </tr>
 <tr>
@@ -3304,7 +3304,7 @@ gray78
 rgb(199,199,199)
 </td>
 <td style="text-align:left;">
-\#C7C7C7
+#C7C7C7
 </td>
 </tr>
 <tr>
@@ -3318,7 +3318,7 @@ gray79
 rgb(201,201,201)
 </td>
 <td style="text-align:left;">
-\#C9C9C9
+#C9C9C9
 </td>
 </tr>
 <tr>
@@ -3332,7 +3332,7 @@ gray80
 rgb(204,204,204)
 </td>
 <td style="text-align:left;">
-\#CCCCCC
+#CCCCCC
 </td>
 </tr>
 <tr>
@@ -3346,7 +3346,7 @@ gray81
 rgb(207,207,207)
 </td>
 <td style="text-align:left;">
-\#CFCFCF
+#CFCFCF
 </td>
 </tr>
 <tr>
@@ -3360,7 +3360,7 @@ gray82
 rgb(209,209,209)
 </td>
 <td style="text-align:left;">
-\#D1D1D1
+#D1D1D1
 </td>
 </tr>
 <tr>
@@ -3374,7 +3374,7 @@ gray83
 rgb(212,212,212)
 </td>
 <td style="text-align:left;">
-\#D4D4D4
+#D4D4D4
 </td>
 </tr>
 <tr>
@@ -3388,7 +3388,7 @@ gray84
 rgb(214,214,214)
 </td>
 <td style="text-align:left;">
-\#D6D6D6
+#D6D6D6
 </td>
 </tr>
 <tr>
@@ -3402,7 +3402,7 @@ gray85
 rgb(217,217,217)
 </td>
 <td style="text-align:left;">
-\#D9D9D9
+#D9D9D9
 </td>
 </tr>
 <tr>
@@ -3416,7 +3416,7 @@ gray86
 rgb(219,219,219)
 </td>
 <td style="text-align:left;">
-\#DBDBDB
+#DBDBDB
 </td>
 </tr>
 <tr>
@@ -3430,7 +3430,7 @@ gray87
 rgb(222,222,222)
 </td>
 <td style="text-align:left;">
-\#DEDEDE
+#DEDEDE
 </td>
 </tr>
 <tr>
@@ -3444,7 +3444,7 @@ gray88
 rgb(224,224,224)
 </td>
 <td style="text-align:left;">
-\#E0E0E0
+#E0E0E0
 </td>
 </tr>
 <tr>
@@ -3458,7 +3458,7 @@ gray89
 rgb(227,227,227)
 </td>
 <td style="text-align:left;">
-\#E3E3E3
+#E3E3E3
 </td>
 </tr>
 <tr>
@@ -3472,7 +3472,7 @@ gray90
 rgb(229,229,229)
 </td>
 <td style="text-align:left;">
-\#E5E5E5
+#E5E5E5
 </td>
 </tr>
 <tr>
@@ -3486,7 +3486,7 @@ gray91
 rgb(232,232,232)
 </td>
 <td style="text-align:left;">
-\#E8E8E8
+#E8E8E8
 </td>
 </tr>
 <tr>
@@ -3500,7 +3500,7 @@ gray92
 rgb(235,235,235)
 </td>
 <td style="text-align:left;">
-\#EBEBEB
+#EBEBEB
 </td>
 </tr>
 <tr>
@@ -3514,7 +3514,7 @@ gray93
 rgb(237,237,237)
 </td>
 <td style="text-align:left;">
-\#EDEDED
+#EDEDED
 </td>
 </tr>
 <tr>
@@ -3528,7 +3528,7 @@ gray94
 rgb(240,240,240)
 </td>
 <td style="text-align:left;">
-\#F0F0F0
+#F0F0F0
 </td>
 </tr>
 <tr>
@@ -3542,7 +3542,7 @@ gray95
 rgb(242,242,242)
 </td>
 <td style="text-align:left;">
-\#F2F2F2
+#F2F2F2
 </td>
 </tr>
 <tr>
@@ -3556,7 +3556,7 @@ gray96
 rgb(245,245,245)
 </td>
 <td style="text-align:left;">
-\#F5F5F5
+#F5F5F5
 </td>
 </tr>
 <tr>
@@ -3570,7 +3570,7 @@ gray97
 rgb(247,247,247)
 </td>
 <td style="text-align:left;">
-\#F7F7F7
+#F7F7F7
 </td>
 </tr>
 <tr>
@@ -3584,7 +3584,7 @@ gray98
 rgb(250,250,250)
 </td>
 <td style="text-align:left;">
-\#FAFAFA
+#FAFAFA
 </td>
 </tr>
 <tr>
@@ -3598,7 +3598,7 @@ gray99
 rgb(252,252,252)
 </td>
 <td style="text-align:left;">
-\#FCFCFC
+#FCFCFC
 </td>
 </tr>
 <tr>
@@ -3612,7 +3612,7 @@ gray100
 rgb(255,255,255)
 </td>
 <td style="text-align:left;">
-\#FFFFFF
+#FFFFFF
 </td>
 </tr>
 <tr>
@@ -3626,7 +3626,7 @@ green
 rgb(0,255,0)
 </td>
 <td style="text-align:left;">
-\#00FF00
+#00FF00
 </td>
 </tr>
 <tr>
@@ -3640,7 +3640,7 @@ green1
 rgb(0,255,0)
 </td>
 <td style="text-align:left;">
-\#00FF00
+#00FF00
 </td>
 </tr>
 <tr>
@@ -3654,7 +3654,7 @@ green2
 rgb(0,238,0)
 </td>
 <td style="text-align:left;">
-\#00EE00
+#00EE00
 </td>
 </tr>
 <tr>
@@ -3668,7 +3668,7 @@ green3
 rgb(0,205,0)
 </td>
 <td style="text-align:left;">
-\#00CD00
+#00CD00
 </td>
 </tr>
 <tr>
@@ -3682,7 +3682,7 @@ green4
 rgb(0,139,0)
 </td>
 <td style="text-align:left;">
-\#008B00
+#008B00
 </td>
 </tr>
 <tr>
@@ -3696,7 +3696,7 @@ greenyellow
 rgb(173,255,47)
 </td>
 <td style="text-align:left;">
-\#ADFF2F
+#ADFF2F
 </td>
 </tr>
 <tr>
@@ -3710,7 +3710,7 @@ grey
 rgb(190,190,190)
 </td>
 <td style="text-align:left;">
-\#BEBEBE
+#BEBEBE
 </td>
 </tr>
 <tr>
@@ -3724,7 +3724,7 @@ grey0
 rgb(0,0,0)
 </td>
 <td style="text-align:left;">
-\#000000
+#000000
 </td>
 </tr>
 <tr>
@@ -3738,7 +3738,7 @@ grey1
 rgb(3,3,3)
 </td>
 <td style="text-align:left;">
-\#030303
+#030303
 </td>
 </tr>
 <tr>
@@ -3752,7 +3752,7 @@ grey2
 rgb(5,5,5)
 </td>
 <td style="text-align:left;">
-\#050505
+#050505
 </td>
 </tr>
 <tr>
@@ -3766,7 +3766,7 @@ grey3
 rgb(8,8,8)
 </td>
 <td style="text-align:left;">
-\#080808
+#080808
 </td>
 </tr>
 <tr>
@@ -3780,7 +3780,7 @@ grey4
 rgb(10,10,10)
 </td>
 <td style="text-align:left;">
-\#0A0A0A
+#0A0A0A
 </td>
 </tr>
 <tr>
@@ -3794,7 +3794,7 @@ grey5
 rgb(13,13,13)
 </td>
 <td style="text-align:left;">
-\#0D0D0D
+#0D0D0D
 </td>
 </tr>
 <tr>
@@ -3808,7 +3808,7 @@ grey6
 rgb(15,15,15)
 </td>
 <td style="text-align:left;">
-\#0F0F0F
+#0F0F0F
 </td>
 </tr>
 <tr>
@@ -3822,7 +3822,7 @@ grey7
 rgb(18,18,18)
 </td>
 <td style="text-align:left;">
-\#121212
+#121212
 </td>
 </tr>
 <tr>
@@ -3836,7 +3836,7 @@ grey8
 rgb(20,20,20)
 </td>
 <td style="text-align:left;">
-\#141414
+#141414
 </td>
 </tr>
 <tr>
@@ -3850,7 +3850,7 @@ grey9
 rgb(23,23,23)
 </td>
 <td style="text-align:left;">
-\#171717
+#171717
 </td>
 </tr>
 <tr>
@@ -3864,7 +3864,7 @@ grey10
 rgb(26,26,26)
 </td>
 <td style="text-align:left;">
-\#1A1A1A
+#1A1A1A
 </td>
 </tr>
 <tr>
@@ -3878,7 +3878,7 @@ grey11
 rgb(28,28,28)
 </td>
 <td style="text-align:left;">
-\#1C1C1C
+#1C1C1C
 </td>
 </tr>
 <tr>
@@ -3892,7 +3892,7 @@ grey12
 rgb(31,31,31)
 </td>
 <td style="text-align:left;">
-\#1F1F1F
+#1F1F1F
 </td>
 </tr>
 <tr>
@@ -3906,7 +3906,7 @@ grey13
 rgb(33,33,33)
 </td>
 <td style="text-align:left;">
-\#212121
+#212121
 </td>
 </tr>
 <tr>
@@ -3920,7 +3920,7 @@ grey14
 rgb(36,36,36)
 </td>
 <td style="text-align:left;">
-\#242424
+#242424
 </td>
 </tr>
 <tr>
@@ -3934,7 +3934,7 @@ grey15
 rgb(38,38,38)
 </td>
 <td style="text-align:left;">
-\#262626
+#262626
 </td>
 </tr>
 <tr>
@@ -3948,7 +3948,7 @@ grey16
 rgb(41,41,41)
 </td>
 <td style="text-align:left;">
-\#292929
+#292929
 </td>
 </tr>
 <tr>
@@ -3962,7 +3962,7 @@ grey17
 rgb(43,43,43)
 </td>
 <td style="text-align:left;">
-\#2B2B2B
+#2B2B2B
 </td>
 </tr>
 <tr>
@@ -3976,7 +3976,7 @@ grey18
 rgb(46,46,46)
 </td>
 <td style="text-align:left;">
-\#2E2E2E
+#2E2E2E
 </td>
 </tr>
 <tr>
@@ -3990,7 +3990,7 @@ grey19
 rgb(48,48,48)
 </td>
 <td style="text-align:left;">
-\#303030
+#303030
 </td>
 </tr>
 <tr>
@@ -4004,7 +4004,7 @@ grey20
 rgb(51,51,51)
 </td>
 <td style="text-align:left;">
-\#333333
+#333333
 </td>
 </tr>
 <tr>
@@ -4018,7 +4018,7 @@ grey21
 rgb(54,54,54)
 </td>
 <td style="text-align:left;">
-\#363636
+#363636
 </td>
 </tr>
 <tr>
@@ -4032,7 +4032,7 @@ grey22
 rgb(56,56,56)
 </td>
 <td style="text-align:left;">
-\#383838
+#383838
 </td>
 </tr>
 <tr>
@@ -4046,7 +4046,7 @@ grey23
 rgb(59,59,59)
 </td>
 <td style="text-align:left;">
-\#3B3B3B
+#3B3B3B
 </td>
 </tr>
 <tr>
@@ -4060,7 +4060,7 @@ grey24
 rgb(61,61,61)
 </td>
 <td style="text-align:left;">
-\#3D3D3D
+#3D3D3D
 </td>
 </tr>
 <tr>
@@ -4074,7 +4074,7 @@ grey25
 rgb(64,64,64)
 </td>
 <td style="text-align:left;">
-\#404040
+#404040
 </td>
 </tr>
 <tr>
@@ -4088,7 +4088,7 @@ grey26
 rgb(66,66,66)
 </td>
 <td style="text-align:left;">
-\#424242
+#424242
 </td>
 </tr>
 <tr>
@@ -4102,7 +4102,7 @@ grey27
 rgb(69,69,69)
 </td>
 <td style="text-align:left;">
-\#454545
+#454545
 </td>
 </tr>
 <tr>
@@ -4116,7 +4116,7 @@ grey28
 rgb(71,71,71)
 </td>
 <td style="text-align:left;">
-\#474747
+#474747
 </td>
 </tr>
 <tr>
@@ -4130,7 +4130,7 @@ grey29
 rgb(74,74,74)
 </td>
 <td style="text-align:left;">
-\#4A4A4A
+#4A4A4A
 </td>
 </tr>
 <tr>
@@ -4144,7 +4144,7 @@ grey30
 rgb(77,77,77)
 </td>
 <td style="text-align:left;">
-\#4D4D4D
+#4D4D4D
 </td>
 </tr>
 <tr>
@@ -4158,7 +4158,7 @@ grey31
 rgb(79,79,79)
 </td>
 <td style="text-align:left;">
-\#4F4F4F
+#4F4F4F
 </td>
 </tr>
 <tr>
@@ -4172,7 +4172,7 @@ grey32
 rgb(82,82,82)
 </td>
 <td style="text-align:left;">
-\#525252
+#525252
 </td>
 </tr>
 <tr>
@@ -4186,7 +4186,7 @@ grey33
 rgb(84,84,84)
 </td>
 <td style="text-align:left;">
-\#545454
+#545454
 </td>
 </tr>
 <tr>
@@ -4200,7 +4200,7 @@ grey34
 rgb(87,87,87)
 </td>
 <td style="text-align:left;">
-\#575757
+#575757
 </td>
 </tr>
 <tr>
@@ -4214,7 +4214,7 @@ grey35
 rgb(89,89,89)
 </td>
 <td style="text-align:left;">
-\#595959
+#595959
 </td>
 </tr>
 <tr>
@@ -4228,7 +4228,7 @@ grey36
 rgb(92,92,92)
 </td>
 <td style="text-align:left;">
-\#5C5C5C
+#5C5C5C
 </td>
 </tr>
 <tr>
@@ -4242,7 +4242,7 @@ grey37
 rgb(94,94,94)
 </td>
 <td style="text-align:left;">
-\#5E5E5E
+#5E5E5E
 </td>
 </tr>
 <tr>
@@ -4256,7 +4256,7 @@ grey38
 rgb(97,97,97)
 </td>
 <td style="text-align:left;">
-\#616161
+#616161
 </td>
 </tr>
 <tr>
@@ -4270,7 +4270,7 @@ grey39
 rgb(99,99,99)
 </td>
 <td style="text-align:left;">
-\#636363
+#636363
 </td>
 </tr>
 <tr>
@@ -4284,7 +4284,7 @@ grey40
 rgb(102,102,102)
 </td>
 <td style="text-align:left;">
-\#666666
+#666666
 </td>
 </tr>
 <tr>
@@ -4298,7 +4298,7 @@ grey41
 rgb(105,105,105)
 </td>
 <td style="text-align:left;">
-\#696969
+#696969
 </td>
 </tr>
 <tr>
@@ -4312,7 +4312,7 @@ grey42
 rgb(107,107,107)
 </td>
 <td style="text-align:left;">
-\#6B6B6B
+#6B6B6B
 </td>
 </tr>
 <tr>
@@ -4326,7 +4326,7 @@ grey43
 rgb(110,110,110)
 </td>
 <td style="text-align:left;">
-\#6E6E6E
+#6E6E6E
 </td>
 </tr>
 <tr>
@@ -4340,7 +4340,7 @@ grey44
 rgb(112,112,112)
 </td>
 <td style="text-align:left;">
-\#707070
+#707070
 </td>
 </tr>
 <tr>
@@ -4354,7 +4354,7 @@ grey45
 rgb(115,115,115)
 </td>
 <td style="text-align:left;">
-\#737373
+#737373
 </td>
 </tr>
 <tr>
@@ -4368,7 +4368,7 @@ grey46
 rgb(117,117,117)
 </td>
 <td style="text-align:left;">
-\#757575
+#757575
 </td>
 </tr>
 <tr>
@@ -4382,7 +4382,7 @@ grey47
 rgb(120,120,120)
 </td>
 <td style="text-align:left;">
-\#787878
+#787878
 </td>
 </tr>
 <tr>
@@ -4396,7 +4396,7 @@ grey48
 rgb(122,122,122)
 </td>
 <td style="text-align:left;">
-\#7A7A7A
+#7A7A7A
 </td>
 </tr>
 <tr>
@@ -4410,7 +4410,7 @@ grey49
 rgb(125,125,125)
 </td>
 <td style="text-align:left;">
-\#7D7D7D
+#7D7D7D
 </td>
 </tr>
 <tr>
@@ -4424,7 +4424,7 @@ grey50
 rgb(127,127,127)
 </td>
 <td style="text-align:left;">
-\#7F7F7F
+#7F7F7F
 </td>
 </tr>
 <tr>
@@ -4438,7 +4438,7 @@ grey51
 rgb(130,130,130)
 </td>
 <td style="text-align:left;">
-\#828282
+#828282
 </td>
 </tr>
 <tr>
@@ -4452,7 +4452,7 @@ grey52
 rgb(133,133,133)
 </td>
 <td style="text-align:left;">
-\#858585
+#858585
 </td>
 </tr>
 <tr>
@@ -4466,7 +4466,7 @@ grey53
 rgb(135,135,135)
 </td>
 <td style="text-align:left;">
-\#878787
+#878787
 </td>
 </tr>
 <tr>
@@ -4480,7 +4480,7 @@ grey54
 rgb(138,138,138)
 </td>
 <td style="text-align:left;">
-\#8A8A8A
+#8A8A8A
 </td>
 </tr>
 <tr>
@@ -4494,7 +4494,7 @@ grey55
 rgb(140,140,140)
 </td>
 <td style="text-align:left;">
-\#8C8C8C
+#8C8C8C
 </td>
 </tr>
 <tr>
@@ -4508,7 +4508,7 @@ grey56
 rgb(143,143,143)
 </td>
 <td style="text-align:left;">
-\#8F8F8F
+#8F8F8F
 </td>
 </tr>
 <tr>
@@ -4522,7 +4522,7 @@ grey57
 rgb(145,145,145)
 </td>
 <td style="text-align:left;">
-\#919191
+#919191
 </td>
 </tr>
 <tr>
@@ -4536,7 +4536,7 @@ grey58
 rgb(148,148,148)
 </td>
 <td style="text-align:left;">
-\#949494
+#949494
 </td>
 </tr>
 <tr>
@@ -4550,7 +4550,7 @@ grey59
 rgb(150,150,150)
 </td>
 <td style="text-align:left;">
-\#969696
+#969696
 </td>
 </tr>
 <tr>
@@ -4564,7 +4564,7 @@ grey60
 rgb(153,153,153)
 </td>
 <td style="text-align:left;">
-\#999999
+#999999
 </td>
 </tr>
 <tr>
@@ -4578,7 +4578,7 @@ grey61
 rgb(156,156,156)
 </td>
 <td style="text-align:left;">
-\#9C9C9C
+#9C9C9C
 </td>
 </tr>
 <tr>
@@ -4592,7 +4592,7 @@ grey62
 rgb(158,158,158)
 </td>
 <td style="text-align:left;">
-\#9E9E9E
+#9E9E9E
 </td>
 </tr>
 <tr>
@@ -4606,7 +4606,7 @@ grey63
 rgb(161,161,161)
 </td>
 <td style="text-align:left;">
-\#A1A1A1
+#A1A1A1
 </td>
 </tr>
 <tr>
@@ -4620,7 +4620,7 @@ grey64
 rgb(163,163,163)
 </td>
 <td style="text-align:left;">
-\#A3A3A3
+#A3A3A3
 </td>
 </tr>
 <tr>
@@ -4634,7 +4634,7 @@ grey65
 rgb(166,166,166)
 </td>
 <td style="text-align:left;">
-\#A6A6A6
+#A6A6A6
 </td>
 </tr>
 <tr>
@@ -4648,7 +4648,7 @@ grey66
 rgb(168,168,168)
 </td>
 <td style="text-align:left;">
-\#A8A8A8
+#A8A8A8
 </td>
 </tr>
 <tr>
@@ -4662,7 +4662,7 @@ grey67
 rgb(171,171,171)
 </td>
 <td style="text-align:left;">
-\#ABABAB
+#ABABAB
 </td>
 </tr>
 <tr>
@@ -4676,7 +4676,7 @@ grey68
 rgb(173,173,173)
 </td>
 <td style="text-align:left;">
-\#ADADAD
+#ADADAD
 </td>
 </tr>
 <tr>
@@ -4690,7 +4690,7 @@ grey69
 rgb(176,176,176)
 </td>
 <td style="text-align:left;">
-\#B0B0B0
+#B0B0B0
 </td>
 </tr>
 <tr>
@@ -4704,7 +4704,7 @@ grey70
 rgb(179,179,179)
 </td>
 <td style="text-align:left;">
-\#B3B3B3
+#B3B3B3
 </td>
 </tr>
 <tr>
@@ -4718,7 +4718,7 @@ grey71
 rgb(181,181,181)
 </td>
 <td style="text-align:left;">
-\#B5B5B5
+#B5B5B5
 </td>
 </tr>
 <tr>
@@ -4732,7 +4732,7 @@ grey72
 rgb(184,184,184)
 </td>
 <td style="text-align:left;">
-\#B8B8B8
+#B8B8B8
 </td>
 </tr>
 <tr>
@@ -4746,7 +4746,7 @@ grey73
 rgb(186,186,186)
 </td>
 <td style="text-align:left;">
-\#BABABA
+#BABABA
 </td>
 </tr>
 <tr>
@@ -4760,7 +4760,7 @@ grey74
 rgb(189,189,189)
 </td>
 <td style="text-align:left;">
-\#BDBDBD
+#BDBDBD
 </td>
 </tr>
 <tr>
@@ -4774,7 +4774,7 @@ grey75
 rgb(191,191,191)
 </td>
 <td style="text-align:left;">
-\#BFBFBF
+#BFBFBF
 </td>
 </tr>
 <tr>
@@ -4788,7 +4788,7 @@ grey76
 rgb(194,194,194)
 </td>
 <td style="text-align:left;">
-\#C2C2C2
+#C2C2C2
 </td>
 </tr>
 <tr>
@@ -4802,7 +4802,7 @@ grey77
 rgb(196,196,196)
 </td>
 <td style="text-align:left;">
-\#C4C4C4
+#C4C4C4
 </td>
 </tr>
 <tr>
@@ -4816,7 +4816,7 @@ grey78
 rgb(199,199,199)
 </td>
 <td style="text-align:left;">
-\#C7C7C7
+#C7C7C7
 </td>
 </tr>
 <tr>
@@ -4830,7 +4830,7 @@ grey79
 rgb(201,201,201)
 </td>
 <td style="text-align:left;">
-\#C9C9C9
+#C9C9C9
 </td>
 </tr>
 <tr>
@@ -4844,7 +4844,7 @@ grey80
 rgb(204,204,204)
 </td>
 <td style="text-align:left;">
-\#CCCCCC
+#CCCCCC
 </td>
 </tr>
 <tr>
@@ -4858,7 +4858,7 @@ grey81
 rgb(207,207,207)
 </td>
 <td style="text-align:left;">
-\#CFCFCF
+#CFCFCF
 </td>
 </tr>
 <tr>
@@ -4872,7 +4872,7 @@ grey82
 rgb(209,209,209)
 </td>
 <td style="text-align:left;">
-\#D1D1D1
+#D1D1D1
 </td>
 </tr>
 <tr>
@@ -4886,7 +4886,7 @@ grey83
 rgb(212,212,212)
 </td>
 <td style="text-align:left;">
-\#D4D4D4
+#D4D4D4
 </td>
 </tr>
 <tr>
@@ -4900,7 +4900,7 @@ grey84
 rgb(214,214,214)
 </td>
 <td style="text-align:left;">
-\#D6D6D6
+#D6D6D6
 </td>
 </tr>
 <tr>
@@ -4914,7 +4914,7 @@ grey85
 rgb(217,217,217)
 </td>
 <td style="text-align:left;">
-\#D9D9D9
+#D9D9D9
 </td>
 </tr>
 <tr>
@@ -4928,7 +4928,7 @@ grey86
 rgb(219,219,219)
 </td>
 <td style="text-align:left;">
-\#DBDBDB
+#DBDBDB
 </td>
 </tr>
 <tr>
@@ -4942,7 +4942,7 @@ grey87
 rgb(222,222,222)
 </td>
 <td style="text-align:left;">
-\#DEDEDE
+#DEDEDE
 </td>
 </tr>
 <tr>
@@ -4956,7 +4956,7 @@ grey88
 rgb(224,224,224)
 </td>
 <td style="text-align:left;">
-\#E0E0E0
+#E0E0E0
 </td>
 </tr>
 <tr>
@@ -4970,7 +4970,7 @@ grey89
 rgb(227,227,227)
 </td>
 <td style="text-align:left;">
-\#E3E3E3
+#E3E3E3
 </td>
 </tr>
 <tr>
@@ -4984,7 +4984,7 @@ grey90
 rgb(229,229,229)
 </td>
 <td style="text-align:left;">
-\#E5E5E5
+#E5E5E5
 </td>
 </tr>
 <tr>
@@ -4998,7 +4998,7 @@ grey91
 rgb(232,232,232)
 </td>
 <td style="text-align:left;">
-\#E8E8E8
+#E8E8E8
 </td>
 </tr>
 <tr>
@@ -5012,7 +5012,7 @@ grey92
 rgb(235,235,235)
 </td>
 <td style="text-align:left;">
-\#EBEBEB
+#EBEBEB
 </td>
 </tr>
 <tr>
@@ -5026,7 +5026,7 @@ grey93
 rgb(237,237,237)
 </td>
 <td style="text-align:left;">
-\#EDEDED
+#EDEDED
 </td>
 </tr>
 <tr>
@@ -5040,7 +5040,7 @@ grey94
 rgb(240,240,240)
 </td>
 <td style="text-align:left;">
-\#F0F0F0
+#F0F0F0
 </td>
 </tr>
 <tr>
@@ -5054,7 +5054,7 @@ grey95
 rgb(242,242,242)
 </td>
 <td style="text-align:left;">
-\#F2F2F2
+#F2F2F2
 </td>
 </tr>
 <tr>
@@ -5068,7 +5068,7 @@ grey96
 rgb(245,245,245)
 </td>
 <td style="text-align:left;">
-\#F5F5F5
+#F5F5F5
 </td>
 </tr>
 <tr>
@@ -5082,7 +5082,7 @@ grey97
 rgb(247,247,247)
 </td>
 <td style="text-align:left;">
-\#F7F7F7
+#F7F7F7
 </td>
 </tr>
 <tr>
@@ -5096,7 +5096,7 @@ grey98
 rgb(250,250,250)
 </td>
 <td style="text-align:left;">
-\#FAFAFA
+#FAFAFA
 </td>
 </tr>
 <tr>
@@ -5110,7 +5110,7 @@ grey99
 rgb(252,252,252)
 </td>
 <td style="text-align:left;">
-\#FCFCFC
+#FCFCFC
 </td>
 </tr>
 <tr>
@@ -5124,7 +5124,7 @@ grey100
 rgb(255,255,255)
 </td>
 <td style="text-align:left;">
-\#FFFFFF
+#FFFFFF
 </td>
 </tr>
 <tr>
@@ -5138,7 +5138,7 @@ honeydew
 rgb(240,255,240)
 </td>
 <td style="text-align:left;">
-\#F0FFF0
+#F0FFF0
 </td>
 </tr>
 <tr>
@@ -5152,7 +5152,7 @@ honeydew1
 rgb(240,255,240)
 </td>
 <td style="text-align:left;">
-\#F0FFF0
+#F0FFF0
 </td>
 </tr>
 <tr>
@@ -5166,7 +5166,7 @@ honeydew2
 rgb(224,238,224)
 </td>
 <td style="text-align:left;">
-\#E0EEE0
+#E0EEE0
 </td>
 </tr>
 <tr>
@@ -5180,7 +5180,7 @@ honeydew3
 rgb(193,205,193)
 </td>
 <td style="text-align:left;">
-\#C1CDC1
+#C1CDC1
 </td>
 </tr>
 <tr>
@@ -5194,7 +5194,7 @@ honeydew4
 rgb(131,139,131)
 </td>
 <td style="text-align:left;">
-\#838B83
+#838B83
 </td>
 </tr>
 <tr>
@@ -5208,7 +5208,7 @@ hotpink
 rgb(255,105,180)
 </td>
 <td style="text-align:left;">
-\#FF69B4
+#FF69B4
 </td>
 </tr>
 <tr>
@@ -5222,7 +5222,7 @@ hotpink1
 rgb(255,110,180)
 </td>
 <td style="text-align:left;">
-\#FF6EB4
+#FF6EB4
 </td>
 </tr>
 <tr>
@@ -5236,7 +5236,7 @@ hotpink2
 rgb(238,106,167)
 </td>
 <td style="text-align:left;">
-\#EE6AA7
+#EE6AA7
 </td>
 </tr>
 <tr>
@@ -5250,7 +5250,7 @@ hotpink3
 rgb(205,96,144)
 </td>
 <td style="text-align:left;">
-\#CD6090
+#CD6090
 </td>
 </tr>
 <tr>
@@ -5264,7 +5264,7 @@ hotpink4
 rgb(139,58,98)
 </td>
 <td style="text-align:left;">
-\#8B3A62
+#8B3A62
 </td>
 </tr>
 <tr>
@@ -5278,7 +5278,7 @@ indianred
 rgb(205,92,92)
 </td>
 <td style="text-align:left;">
-\#CD5C5C
+#CD5C5C
 </td>
 </tr>
 <tr>
@@ -5292,7 +5292,7 @@ indianred1
 rgb(255,106,106)
 </td>
 <td style="text-align:left;">
-\#FF6A6A
+#FF6A6A
 </td>
 </tr>
 <tr>
@@ -5306,7 +5306,7 @@ indianred2
 rgb(238,99,99)
 </td>
 <td style="text-align:left;">
-\#EE6363
+#EE6363
 </td>
 </tr>
 <tr>
@@ -5320,7 +5320,7 @@ indianred3
 rgb(205,85,85)
 </td>
 <td style="text-align:left;">
-\#CD5555
+#CD5555
 </td>
 </tr>
 <tr>
@@ -5334,7 +5334,7 @@ indianred4
 rgb(139,58,58)
 </td>
 <td style="text-align:left;">
-\#8B3A3A
+#8B3A3A
 </td>
 </tr>
 <tr>
@@ -5348,7 +5348,7 @@ ivory
 rgb(255,255,240)
 </td>
 <td style="text-align:left;">
-\#FFFFF0
+#FFFFF0
 </td>
 </tr>
 <tr>
@@ -5362,7 +5362,7 @@ ivory1
 rgb(255,255,240)
 </td>
 <td style="text-align:left;">
-\#FFFFF0
+#FFFFF0
 </td>
 </tr>
 <tr>
@@ -5376,7 +5376,7 @@ ivory2
 rgb(238,238,224)
 </td>
 <td style="text-align:left;">
-\#EEEEE0
+#EEEEE0
 </td>
 </tr>
 <tr>
@@ -5390,7 +5390,7 @@ ivory3
 rgb(205,205,193)
 </td>
 <td style="text-align:left;">
-\#CDCDC1
+#CDCDC1
 </td>
 </tr>
 <tr>
@@ -5404,7 +5404,7 @@ ivory4
 rgb(139,139,131)
 </td>
 <td style="text-align:left;">
-\#8B8B83
+#8B8B83
 </td>
 </tr>
 <tr>
@@ -5418,7 +5418,7 @@ khaki
 rgb(240,230,140)
 </td>
 <td style="text-align:left;">
-\#F0E68C
+#F0E68C
 </td>
 </tr>
 <tr>
@@ -5432,7 +5432,7 @@ khaki1
 rgb(255,246,143)
 </td>
 <td style="text-align:left;">
-\#FFF68F
+#FFF68F
 </td>
 </tr>
 <tr>
@@ -5446,7 +5446,7 @@ khaki2
 rgb(238,230,133)
 </td>
 <td style="text-align:left;">
-\#EEE685
+#EEE685
 </td>
 </tr>
 <tr>
@@ -5460,7 +5460,7 @@ khaki3
 rgb(205,198,115)
 </td>
 <td style="text-align:left;">
-\#CDC673
+#CDC673
 </td>
 </tr>
 <tr>
@@ -5474,7 +5474,7 @@ khaki4
 rgb(139,134,78)
 </td>
 <td style="text-align:left;">
-\#8B864E
+#8B864E
 </td>
 </tr>
 <tr>
@@ -5488,7 +5488,7 @@ lavender
 rgb(230,230,250)
 </td>
 <td style="text-align:left;">
-\#E6E6FA
+#E6E6FA
 </td>
 </tr>
 <tr>
@@ -5502,7 +5502,7 @@ lavenderblush
 rgb(255,240,245)
 </td>
 <td style="text-align:left;">
-\#FFF0F5
+#FFF0F5
 </td>
 </tr>
 <tr>
@@ -5516,7 +5516,7 @@ lavenderblush1
 rgb(255,240,245)
 </td>
 <td style="text-align:left;">
-\#FFF0F5
+#FFF0F5
 </td>
 </tr>
 <tr>
@@ -5530,7 +5530,7 @@ lavenderblush2
 rgb(238,224,229)
 </td>
 <td style="text-align:left;">
-\#EEE0E5
+#EEE0E5
 </td>
 </tr>
 <tr>
@@ -5544,7 +5544,7 @@ lavenderblush3
 rgb(205,193,197)
 </td>
 <td style="text-align:left;">
-\#CDC1C5
+#CDC1C5
 </td>
 </tr>
 <tr>
@@ -5558,7 +5558,7 @@ lavenderblush4
 rgb(139,131,134)
 </td>
 <td style="text-align:left;">
-\#8B8386
+#8B8386
 </td>
 </tr>
 <tr>
@@ -5572,7 +5572,7 @@ lawngreen
 rgb(124,252,0)
 </td>
 <td style="text-align:left;">
-\#7CFC00
+#7CFC00
 </td>
 </tr>
 <tr>
@@ -5586,7 +5586,7 @@ lemonchiffon
 rgb(255,250,205)
 </td>
 <td style="text-align:left;">
-\#FFFACD
+#FFFACD
 </td>
 </tr>
 <tr>
@@ -5600,7 +5600,7 @@ lemonchiffon1
 rgb(255,250,205)
 </td>
 <td style="text-align:left;">
-\#FFFACD
+#FFFACD
 </td>
 </tr>
 <tr>
@@ -5614,7 +5614,7 @@ lemonchiffon2
 rgb(238,233,191)
 </td>
 <td style="text-align:left;">
-\#EEE9BF
+#EEE9BF
 </td>
 </tr>
 <tr>
@@ -5628,7 +5628,7 @@ lemonchiffon3
 rgb(205,201,165)
 </td>
 <td style="text-align:left;">
-\#CDC9A5
+#CDC9A5
 </td>
 </tr>
 <tr>
@@ -5642,7 +5642,7 @@ lemonchiffon4
 rgb(139,137,112)
 </td>
 <td style="text-align:left;">
-\#8B8970
+#8B8970
 </td>
 </tr>
 <tr>
@@ -5656,7 +5656,7 @@ lightblue
 rgb(173,216,230)
 </td>
 <td style="text-align:left;">
-\#ADD8E6
+#ADD8E6
 </td>
 </tr>
 <tr>
@@ -5670,7 +5670,7 @@ lightblue1
 rgb(191,239,255)
 </td>
 <td style="text-align:left;">
-\#BFEFFF
+#BFEFFF
 </td>
 </tr>
 <tr>
@@ -5684,7 +5684,7 @@ lightblue2
 rgb(178,223,238)
 </td>
 <td style="text-align:left;">
-\#B2DFEE
+#B2DFEE
 </td>
 </tr>
 <tr>
@@ -5698,7 +5698,7 @@ lightblue3
 rgb(154,192,205)
 </td>
 <td style="text-align:left;">
-\#9AC0CD
+#9AC0CD
 </td>
 </tr>
 <tr>
@@ -5712,7 +5712,7 @@ lightblue4
 rgb(104,131,139)
 </td>
 <td style="text-align:left;">
-\#68838B
+#68838B
 </td>
 </tr>
 <tr>
@@ -5726,7 +5726,7 @@ lightcoral
 rgb(240,128,128)
 </td>
 <td style="text-align:left;">
-\#F08080
+#F08080
 </td>
 </tr>
 <tr>
@@ -5740,7 +5740,7 @@ lightcyan
 rgb(224,255,255)
 </td>
 <td style="text-align:left;">
-\#E0FFFF
+#E0FFFF
 </td>
 </tr>
 <tr>
@@ -5754,7 +5754,7 @@ lightcyan1
 rgb(224,255,255)
 </td>
 <td style="text-align:left;">
-\#E0FFFF
+#E0FFFF
 </td>
 </tr>
 <tr>
@@ -5768,7 +5768,7 @@ lightcyan2
 rgb(209,238,238)
 </td>
 <td style="text-align:left;">
-\#D1EEEE
+#D1EEEE
 </td>
 </tr>
 <tr>
@@ -5782,7 +5782,7 @@ lightcyan3
 rgb(180,205,205)
 </td>
 <td style="text-align:left;">
-\#B4CDCD
+#B4CDCD
 </td>
 </tr>
 <tr>
@@ -5796,7 +5796,7 @@ lightcyan4
 rgb(122,139,139)
 </td>
 <td style="text-align:left;">
-\#7A8B8B
+#7A8B8B
 </td>
 </tr>
 <tr>
@@ -5810,7 +5810,7 @@ lightgoldenrod
 rgb(238,221,130)
 </td>
 <td style="text-align:left;">
-\#EEDD82
+#EEDD82
 </td>
 </tr>
 <tr>
@@ -5824,7 +5824,7 @@ lightgoldenrod1
 rgb(255,236,139)
 </td>
 <td style="text-align:left;">
-\#FFEC8B
+#FFEC8B
 </td>
 </tr>
 <tr>
@@ -5838,7 +5838,7 @@ lightgoldenrod2
 rgb(238,220,130)
 </td>
 <td style="text-align:left;">
-\#EEDC82
+#EEDC82
 </td>
 </tr>
 <tr>
@@ -5852,7 +5852,7 @@ lightgoldenrod3
 rgb(205,190,112)
 </td>
 <td style="text-align:left;">
-\#CDBE70
+#CDBE70
 </td>
 </tr>
 <tr>
@@ -5866,7 +5866,7 @@ lightgoldenrod4
 rgb(139,129,76)
 </td>
 <td style="text-align:left;">
-\#8B814C
+#8B814C
 </td>
 </tr>
 <tr>
@@ -5880,7 +5880,7 @@ lightgoldenrodyellow
 rgb(250,250,210)
 </td>
 <td style="text-align:left;">
-\#FAFAD2
+#FAFAD2
 </td>
 </tr>
 <tr>
@@ -5894,7 +5894,7 @@ lightgray
 rgb(211,211,211)
 </td>
 <td style="text-align:left;">
-\#D3D3D3
+#D3D3D3
 </td>
 </tr>
 <tr>
@@ -5908,7 +5908,7 @@ lightgreen
 rgb(144,238,144)
 </td>
 <td style="text-align:left;">
-\#90EE90
+#90EE90
 </td>
 </tr>
 <tr>
@@ -5922,7 +5922,7 @@ lightgrey
 rgb(211,211,211)
 </td>
 <td style="text-align:left;">
-\#D3D3D3
+#D3D3D3
 </td>
 </tr>
 <tr>
@@ -5936,7 +5936,7 @@ lightpink
 rgb(255,182,193)
 </td>
 <td style="text-align:left;">
-\#FFB6C1
+#FFB6C1
 </td>
 </tr>
 <tr>
@@ -5950,7 +5950,7 @@ lightpink1
 rgb(255,174,185)
 </td>
 <td style="text-align:left;">
-\#FFAEB9
+#FFAEB9
 </td>
 </tr>
 <tr>
@@ -5964,7 +5964,7 @@ lightpink2
 rgb(238,162,173)
 </td>
 <td style="text-align:left;">
-\#EEA2AD
+#EEA2AD
 </td>
 </tr>
 <tr>
@@ -5978,7 +5978,7 @@ lightpink3
 rgb(205,140,149)
 </td>
 <td style="text-align:left;">
-\#CD8C95
+#CD8C95
 </td>
 </tr>
 <tr>
@@ -5992,7 +5992,7 @@ lightpink4
 rgb(139,95,101)
 </td>
 <td style="text-align:left;">
-\#8B5F65
+#8B5F65
 </td>
 </tr>
 <tr>
@@ -6006,7 +6006,7 @@ lightsalmon
 rgb(255,160,122)
 </td>
 <td style="text-align:left;">
-\#FFA07A
+#FFA07A
 </td>
 </tr>
 <tr>
@@ -6020,7 +6020,7 @@ lightsalmon1
 rgb(255,160,122)
 </td>
 <td style="text-align:left;">
-\#FFA07A
+#FFA07A
 </td>
 </tr>
 <tr>
@@ -6034,7 +6034,7 @@ lightsalmon2
 rgb(238,149,114)
 </td>
 <td style="text-align:left;">
-\#EE9572
+#EE9572
 </td>
 </tr>
 <tr>
@@ -6048,7 +6048,7 @@ lightsalmon3
 rgb(205,129,98)
 </td>
 <td style="text-align:left;">
-\#CD8162
+#CD8162
 </td>
 </tr>
 <tr>
@@ -6062,7 +6062,7 @@ lightsalmon4
 rgb(139,87,66)
 </td>
 <td style="text-align:left;">
-\#8B5742
+#8B5742
 </td>
 </tr>
 <tr>
@@ -6076,7 +6076,7 @@ lightseagreen
 rgb(32,178,170)
 </td>
 <td style="text-align:left;">
-\#20B2AA
+#20B2AA
 </td>
 </tr>
 <tr>
@@ -6090,7 +6090,7 @@ lightskyblue
 rgb(135,206,250)
 </td>
 <td style="text-align:left;">
-\#87CEFA
+#87CEFA
 </td>
 </tr>
 <tr>
@@ -6104,7 +6104,7 @@ lightskyblue1
 rgb(176,226,255)
 </td>
 <td style="text-align:left;">
-\#B0E2FF
+#B0E2FF
 </td>
 </tr>
 <tr>
@@ -6118,7 +6118,7 @@ lightskyblue2
 rgb(164,211,238)
 </td>
 <td style="text-align:left;">
-\#A4D3EE
+#A4D3EE
 </td>
 </tr>
 <tr>
@@ -6132,7 +6132,7 @@ lightskyblue3
 rgb(141,182,205)
 </td>
 <td style="text-align:left;">
-\#8DB6CD
+#8DB6CD
 </td>
 </tr>
 <tr>
@@ -6146,7 +6146,7 @@ lightskyblue4
 rgb(96,123,139)
 </td>
 <td style="text-align:left;">
-\#607B8B
+#607B8B
 </td>
 </tr>
 <tr>
@@ -6160,7 +6160,7 @@ lightslateblue
 rgb(132,112,255)
 </td>
 <td style="text-align:left;">
-\#8470FF
+#8470FF
 </td>
 </tr>
 <tr>
@@ -6174,7 +6174,7 @@ lightslategray
 rgb(119,136,153)
 </td>
 <td style="text-align:left;">
-\#778899
+#778899
 </td>
 </tr>
 <tr>
@@ -6188,7 +6188,7 @@ lightslategrey
 rgb(119,136,153)
 </td>
 <td style="text-align:left;">
-\#778899
+#778899
 </td>
 </tr>
 <tr>
@@ -6202,7 +6202,7 @@ lightsteelblue
 rgb(176,196,222)
 </td>
 <td style="text-align:left;">
-\#B0C4DE
+#B0C4DE
 </td>
 </tr>
 <tr>
@@ -6216,7 +6216,7 @@ lightsteelblue1
 rgb(202,225,255)
 </td>
 <td style="text-align:left;">
-\#CAE1FF
+#CAE1FF
 </td>
 </tr>
 <tr>
@@ -6230,7 +6230,7 @@ lightsteelblue2
 rgb(188,210,238)
 </td>
 <td style="text-align:left;">
-\#BCD2EE
+#BCD2EE
 </td>
 </tr>
 <tr>
@@ -6244,7 +6244,7 @@ lightsteelblue3
 rgb(162,181,205)
 </td>
 <td style="text-align:left;">
-\#A2B5CD
+#A2B5CD
 </td>
 </tr>
 <tr>
@@ -6258,7 +6258,7 @@ lightsteelblue4
 rgb(110,123,139)
 </td>
 <td style="text-align:left;">
-\#6E7B8B
+#6E7B8B
 </td>
 </tr>
 <tr>
@@ -6272,7 +6272,7 @@ lightyellow
 rgb(255,255,224)
 </td>
 <td style="text-align:left;">
-\#FFFFE0
+#FFFFE0
 </td>
 </tr>
 <tr>
@@ -6286,7 +6286,7 @@ lightyellow1
 rgb(255,255,224)
 </td>
 <td style="text-align:left;">
-\#FFFFE0
+#FFFFE0
 </td>
 </tr>
 <tr>
@@ -6300,7 +6300,7 @@ lightyellow2
 rgb(238,238,209)
 </td>
 <td style="text-align:left;">
-\#EEEED1
+#EEEED1
 </td>
 </tr>
 <tr>
@@ -6314,7 +6314,7 @@ lightyellow3
 rgb(205,205,180)
 </td>
 <td style="text-align:left;">
-\#CDCDB4
+#CDCDB4
 </td>
 </tr>
 <tr>
@@ -6328,7 +6328,7 @@ lightyellow4
 rgb(139,139,122)
 </td>
 <td style="text-align:left;">
-\#8B8B7A
+#8B8B7A
 </td>
 </tr>
 <tr>
@@ -6342,7 +6342,7 @@ limegreen
 rgb(50,205,50)
 </td>
 <td style="text-align:left;">
-\#32CD32
+#32CD32
 </td>
 </tr>
 <tr>
@@ -6356,7 +6356,7 @@ linen
 rgb(250,240,230)
 </td>
 <td style="text-align:left;">
-\#FAF0E6
+#FAF0E6
 </td>
 </tr>
 <tr>
@@ -6370,7 +6370,7 @@ magenta
 rgb(255,0,255)
 </td>
 <td style="text-align:left;">
-\#FF00FF
+#FF00FF
 </td>
 </tr>
 <tr>
@@ -6384,7 +6384,7 @@ magenta1
 rgb(255,0,255)
 </td>
 <td style="text-align:left;">
-\#FF00FF
+#FF00FF
 </td>
 </tr>
 <tr>
@@ -6398,7 +6398,7 @@ magenta2
 rgb(238,0,238)
 </td>
 <td style="text-align:left;">
-\#EE00EE
+#EE00EE
 </td>
 </tr>
 <tr>
@@ -6412,7 +6412,7 @@ magenta3
 rgb(205,0,205)
 </td>
 <td style="text-align:left;">
-\#CD00CD
+#CD00CD
 </td>
 </tr>
 <tr>
@@ -6426,7 +6426,7 @@ magenta4
 rgb(139,0,139)
 </td>
 <td style="text-align:left;">
-\#8B008B
+#8B008B
 </td>
 </tr>
 <tr>
@@ -6440,7 +6440,7 @@ maroon
 rgb(176,48,96)
 </td>
 <td style="text-align:left;">
-\#B03060
+#B03060
 </td>
 </tr>
 <tr>
@@ -6454,7 +6454,7 @@ maroon1
 rgb(255,52,179)
 </td>
 <td style="text-align:left;">
-\#FF34B3
+#FF34B3
 </td>
 </tr>
 <tr>
@@ -6468,7 +6468,7 @@ maroon2
 rgb(238,48,167)
 </td>
 <td style="text-align:left;">
-\#EE30A7
+#EE30A7
 </td>
 </tr>
 <tr>
@@ -6482,7 +6482,7 @@ maroon3
 rgb(205,41,144)
 </td>
 <td style="text-align:left;">
-\#CD2990
+#CD2990
 </td>
 </tr>
 <tr>
@@ -6496,7 +6496,7 @@ maroon4
 rgb(139,28,98)
 </td>
 <td style="text-align:left;">
-\#8B1C62
+#8B1C62
 </td>
 </tr>
 <tr>
@@ -6510,7 +6510,7 @@ mediumaquamarine
 rgb(102,205,170)
 </td>
 <td style="text-align:left;">
-\#66CDAA
+#66CDAA
 </td>
 </tr>
 <tr>
@@ -6524,7 +6524,7 @@ mediumblue
 rgb(0,0,205)
 </td>
 <td style="text-align:left;">
-\#0000CD
+#0000CD
 </td>
 </tr>
 <tr>
@@ -6538,7 +6538,7 @@ mediumorchid
 rgb(186,85,211)
 </td>
 <td style="text-align:left;">
-\#BA55D3
+#BA55D3
 </td>
 </tr>
 <tr>
@@ -6552,7 +6552,7 @@ mediumorchid1
 rgb(224,102,255)
 </td>
 <td style="text-align:left;">
-\#E066FF
+#E066FF
 </td>
 </tr>
 <tr>
@@ -6566,7 +6566,7 @@ mediumorchid2
 rgb(209,95,238)
 </td>
 <td style="text-align:left;">
-\#D15FEE
+#D15FEE
 </td>
 </tr>
 <tr>
@@ -6580,7 +6580,7 @@ mediumorchid3
 rgb(180,82,205)
 </td>
 <td style="text-align:left;">
-\#B452CD
+#B452CD
 </td>
 </tr>
 <tr>
@@ -6594,7 +6594,7 @@ mediumorchid4
 rgb(122,55,139)
 </td>
 <td style="text-align:left;">
-\#7A378B
+#7A378B
 </td>
 </tr>
 <tr>
@@ -6608,7 +6608,7 @@ mediumpurple
 rgb(147,112,219)
 </td>
 <td style="text-align:left;">
-\#9370DB
+#9370DB
 </td>
 </tr>
 <tr>
@@ -6622,7 +6622,7 @@ mediumpurple1
 rgb(171,130,255)
 </td>
 <td style="text-align:left;">
-\#AB82FF
+#AB82FF
 </td>
 </tr>
 <tr>
@@ -6636,7 +6636,7 @@ mediumpurple2
 rgb(159,121,238)
 </td>
 <td style="text-align:left;">
-\#9F79EE
+#9F79EE
 </td>
 </tr>
 <tr>
@@ -6650,7 +6650,7 @@ mediumpurple3
 rgb(137,104,205)
 </td>
 <td style="text-align:left;">
-\#8968CD
+#8968CD
 </td>
 </tr>
 <tr>
@@ -6664,7 +6664,7 @@ mediumpurple4
 rgb(93,71,139)
 </td>
 <td style="text-align:left;">
-\#5D478B
+#5D478B
 </td>
 </tr>
 <tr>
@@ -6678,7 +6678,7 @@ mediumseagreen
 rgb(60,179,113)
 </td>
 <td style="text-align:left;">
-\#3CB371
+#3CB371
 </td>
 </tr>
 <tr>
@@ -6692,7 +6692,7 @@ mediumslateblue
 rgb(123,104,238)
 </td>
 <td style="text-align:left;">
-\#7B68EE
+#7B68EE
 </td>
 </tr>
 <tr>
@@ -6706,7 +6706,7 @@ mediumspringgreen
 rgb(0,250,154)
 </td>
 <td style="text-align:left;">
-\#00FA9A
+#00FA9A
 </td>
 </tr>
 <tr>
@@ -6720,7 +6720,7 @@ mediumturquoise
 rgb(72,209,204)
 </td>
 <td style="text-align:left;">
-\#48D1CC
+#48D1CC
 </td>
 </tr>
 <tr>
@@ -6734,7 +6734,7 @@ mediumvioletred
 rgb(199,21,133)
 </td>
 <td style="text-align:left;">
-\#C71585
+#C71585
 </td>
 </tr>
 <tr>
@@ -6748,7 +6748,7 @@ midnightblue
 rgb(25,25,112)
 </td>
 <td style="text-align:left;">
-\#191970
+#191970
 </td>
 </tr>
 <tr>
@@ -6762,7 +6762,7 @@ mintcream
 rgb(245,255,250)
 </td>
 <td style="text-align:left;">
-\#F5FFFA
+#F5FFFA
 </td>
 </tr>
 <tr>
@@ -6776,7 +6776,7 @@ mistyrose
 rgb(255,228,225)
 </td>
 <td style="text-align:left;">
-\#FFE4E1
+#FFE4E1
 </td>
 </tr>
 <tr>
@@ -6790,7 +6790,7 @@ mistyrose1
 rgb(255,228,225)
 </td>
 <td style="text-align:left;">
-\#FFE4E1
+#FFE4E1
 </td>
 </tr>
 <tr>
@@ -6804,7 +6804,7 @@ mistyrose2
 rgb(238,213,210)
 </td>
 <td style="text-align:left;">
-\#EED5D2
+#EED5D2
 </td>
 </tr>
 <tr>
@@ -6818,7 +6818,7 @@ mistyrose3
 rgb(205,183,181)
 </td>
 <td style="text-align:left;">
-\#CDB7B5
+#CDB7B5
 </td>
 </tr>
 <tr>
@@ -6832,7 +6832,7 @@ mistyrose4
 rgb(139,125,123)
 </td>
 <td style="text-align:left;">
-\#8B7D7B
+#8B7D7B
 </td>
 </tr>
 <tr>
@@ -6846,7 +6846,7 @@ moccasin
 rgb(255,228,181)
 </td>
 <td style="text-align:left;">
-\#FFE4B5
+#FFE4B5
 </td>
 </tr>
 <tr>
@@ -6860,7 +6860,7 @@ navajowhite
 rgb(255,222,173)
 </td>
 <td style="text-align:left;">
-\#FFDEAD
+#FFDEAD
 </td>
 </tr>
 <tr>
@@ -6874,7 +6874,7 @@ navajowhite1
 rgb(255,222,173)
 </td>
 <td style="text-align:left;">
-\#FFDEAD
+#FFDEAD
 </td>
 </tr>
 <tr>
@@ -6888,7 +6888,7 @@ navajowhite2
 rgb(238,207,161)
 </td>
 <td style="text-align:left;">
-\#EECFA1
+#EECFA1
 </td>
 </tr>
 <tr>
@@ -6902,7 +6902,7 @@ navajowhite3
 rgb(205,179,139)
 </td>
 <td style="text-align:left;">
-\#CDB38B
+#CDB38B
 </td>
 </tr>
 <tr>
@@ -6916,7 +6916,7 @@ navajowhite4
 rgb(139,121,94)
 </td>
 <td style="text-align:left;">
-\#8B795E
+#8B795E
 </td>
 </tr>
 <tr>
@@ -6930,7 +6930,7 @@ navy
 rgb(0,0,128)
 </td>
 <td style="text-align:left;">
-\#000080
+#000080
 </td>
 </tr>
 <tr>
@@ -6944,7 +6944,7 @@ navyblue
 rgb(0,0,128)
 </td>
 <td style="text-align:left;">
-\#000080
+#000080
 </td>
 </tr>
 <tr>
@@ -6958,7 +6958,7 @@ oldlace
 rgb(253,245,230)
 </td>
 <td style="text-align:left;">
-\#FDF5E6
+#FDF5E6
 </td>
 </tr>
 <tr>
@@ -6972,7 +6972,7 @@ olivedrab
 rgb(107,142,35)
 </td>
 <td style="text-align:left;">
-\#6B8E23
+#6B8E23
 </td>
 </tr>
 <tr>
@@ -6986,7 +6986,7 @@ olivedrab1
 rgb(192,255,62)
 </td>
 <td style="text-align:left;">
-\#C0FF3E
+#C0FF3E
 </td>
 </tr>
 <tr>
@@ -7000,7 +7000,7 @@ olivedrab2
 rgb(179,238,58)
 </td>
 <td style="text-align:left;">
-\#B3EE3A
+#B3EE3A
 </td>
 </tr>
 <tr>
@@ -7014,7 +7014,7 @@ olivedrab3
 rgb(154,205,50)
 </td>
 <td style="text-align:left;">
-\#9ACD32
+#9ACD32
 </td>
 </tr>
 <tr>
@@ -7028,7 +7028,7 @@ olivedrab4
 rgb(105,139,34)
 </td>
 <td style="text-align:left;">
-\#698B22
+#698B22
 </td>
 </tr>
 <tr>
@@ -7042,7 +7042,7 @@ orange
 rgb(255,165,0)
 </td>
 <td style="text-align:left;">
-\#FFA500
+#FFA500
 </td>
 </tr>
 <tr>
@@ -7056,7 +7056,7 @@ orange1
 rgb(255,165,0)
 </td>
 <td style="text-align:left;">
-\#FFA500
+#FFA500
 </td>
 </tr>
 <tr>
@@ -7070,7 +7070,7 @@ orange2
 rgb(238,154,0)
 </td>
 <td style="text-align:left;">
-\#EE9A00
+#EE9A00
 </td>
 </tr>
 <tr>
@@ -7084,7 +7084,7 @@ orange3
 rgb(205,133,0)
 </td>
 <td style="text-align:left;">
-\#CD8500
+#CD8500
 </td>
 </tr>
 <tr>
@@ -7098,7 +7098,7 @@ orange4
 rgb(139,90,0)
 </td>
 <td style="text-align:left;">
-\#8B5A00
+#8B5A00
 </td>
 </tr>
 <tr>
@@ -7112,7 +7112,7 @@ orangered
 rgb(255,69,0)
 </td>
 <td style="text-align:left;">
-\#FF4500
+#FF4500
 </td>
 </tr>
 <tr>
@@ -7126,7 +7126,7 @@ orangered1
 rgb(255,69,0)
 </td>
 <td style="text-align:left;">
-\#FF4500
+#FF4500
 </td>
 </tr>
 <tr>
@@ -7140,7 +7140,7 @@ orangered2
 rgb(238,64,0)
 </td>
 <td style="text-align:left;">
-\#EE4000
+#EE4000
 </td>
 </tr>
 <tr>
@@ -7154,7 +7154,7 @@ orangered3
 rgb(205,55,0)
 </td>
 <td style="text-align:left;">
-\#CD3700
+#CD3700
 </td>
 </tr>
 <tr>
@@ -7168,7 +7168,7 @@ orangered4
 rgb(139,37,0)
 </td>
 <td style="text-align:left;">
-\#8B2500
+#8B2500
 </td>
 </tr>
 <tr>
@@ -7182,7 +7182,7 @@ orchid
 rgb(218,112,214)
 </td>
 <td style="text-align:left;">
-\#DA70D6
+#DA70D6
 </td>
 </tr>
 <tr>
@@ -7196,7 +7196,7 @@ orchid1
 rgb(255,131,250)
 </td>
 <td style="text-align:left;">
-\#FF83FA
+#FF83FA
 </td>
 </tr>
 <tr>
@@ -7210,7 +7210,7 @@ orchid2
 rgb(238,122,233)
 </td>
 <td style="text-align:left;">
-\#EE7AE9
+#EE7AE9
 </td>
 </tr>
 <tr>
@@ -7224,7 +7224,7 @@ orchid3
 rgb(205,105,201)
 </td>
 <td style="text-align:left;">
-\#CD69C9
+#CD69C9
 </td>
 </tr>
 <tr>
@@ -7238,7 +7238,7 @@ orchid4
 rgb(139,71,137)
 </td>
 <td style="text-align:left;">
-\#8B4789
+#8B4789
 </td>
 </tr>
 <tr>
@@ -7252,7 +7252,7 @@ palegoldenrod
 rgb(238,232,170)
 </td>
 <td style="text-align:left;">
-\#EEE8AA
+#EEE8AA
 </td>
 </tr>
 <tr>
@@ -7266,7 +7266,7 @@ palegreen
 rgb(152,251,152)
 </td>
 <td style="text-align:left;">
-\#98FB98
+#98FB98
 </td>
 </tr>
 <tr>
@@ -7280,7 +7280,7 @@ palegreen1
 rgb(154,255,154)
 </td>
 <td style="text-align:left;">
-\#9AFF9A
+#9AFF9A
 </td>
 </tr>
 <tr>
@@ -7294,7 +7294,7 @@ palegreen2
 rgb(144,238,144)
 </td>
 <td style="text-align:left;">
-\#90EE90
+#90EE90
 </td>
 </tr>
 <tr>
@@ -7308,7 +7308,7 @@ palegreen3
 rgb(124,205,124)
 </td>
 <td style="text-align:left;">
-\#7CCD7C
+#7CCD7C
 </td>
 </tr>
 <tr>
@@ -7322,7 +7322,7 @@ palegreen4
 rgb(84,139,84)
 </td>
 <td style="text-align:left;">
-\#548B54
+#548B54
 </td>
 </tr>
 <tr>
@@ -7336,7 +7336,7 @@ paleturquoise
 rgb(175,238,238)
 </td>
 <td style="text-align:left;">
-\#AFEEEE
+#AFEEEE
 </td>
 </tr>
 <tr>
@@ -7350,7 +7350,7 @@ paleturquoise1
 rgb(187,255,255)
 </td>
 <td style="text-align:left;">
-\#BBFFFF
+#BBFFFF
 </td>
 </tr>
 <tr>
@@ -7364,7 +7364,7 @@ paleturquoise2
 rgb(174,238,238)
 </td>
 <td style="text-align:left;">
-\#AEEEEE
+#AEEEEE
 </td>
 </tr>
 <tr>
@@ -7378,7 +7378,7 @@ paleturquoise3
 rgb(150,205,205)
 </td>
 <td style="text-align:left;">
-\#96CDCD
+#96CDCD
 </td>
 </tr>
 <tr>
@@ -7392,7 +7392,7 @@ paleturquoise4
 rgb(102,139,139)
 </td>
 <td style="text-align:left;">
-\#668B8B
+#668B8B
 </td>
 </tr>
 <tr>
@@ -7406,7 +7406,7 @@ palevioletred
 rgb(219,112,147)
 </td>
 <td style="text-align:left;">
-\#DB7093
+#DB7093
 </td>
 </tr>
 <tr>
@@ -7420,7 +7420,7 @@ palevioletred1
 rgb(255,130,171)
 </td>
 <td style="text-align:left;">
-\#FF82AB
+#FF82AB
 </td>
 </tr>
 <tr>
@@ -7434,7 +7434,7 @@ palevioletred2
 rgb(238,121,159)
 </td>
 <td style="text-align:left;">
-\#EE799F
+#EE799F
 </td>
 </tr>
 <tr>
@@ -7448,7 +7448,7 @@ palevioletred3
 rgb(205,104,137)
 </td>
 <td style="text-align:left;">
-\#CD6889
+#CD6889
 </td>
 </tr>
 <tr>
@@ -7462,7 +7462,7 @@ palevioletred4
 rgb(139,71,93)
 </td>
 <td style="text-align:left;">
-\#8B475D
+#8B475D
 </td>
 </tr>
 <tr>
@@ -7476,7 +7476,7 @@ papayawhip
 rgb(255,239,213)
 </td>
 <td style="text-align:left;">
-\#FFEFD5
+#FFEFD5
 </td>
 </tr>
 <tr>
@@ -7490,7 +7490,7 @@ peachpuff
 rgb(255,218,185)
 </td>
 <td style="text-align:left;">
-\#FFDAB9
+#FFDAB9
 </td>
 </tr>
 <tr>
@@ -7504,7 +7504,7 @@ peachpuff1
 rgb(255,218,185)
 </td>
 <td style="text-align:left;">
-\#FFDAB9
+#FFDAB9
 </td>
 </tr>
 <tr>
@@ -7518,7 +7518,7 @@ peachpuff2
 rgb(238,203,173)
 </td>
 <td style="text-align:left;">
-\#EECBAD
+#EECBAD
 </td>
 </tr>
 <tr>
@@ -7532,7 +7532,7 @@ peachpuff3
 rgb(205,175,149)
 </td>
 <td style="text-align:left;">
-\#CDAF95
+#CDAF95
 </td>
 </tr>
 <tr>
@@ -7546,7 +7546,7 @@ peachpuff4
 rgb(139,119,101)
 </td>
 <td style="text-align:left;">
-\#8B7765
+#8B7765
 </td>
 </tr>
 <tr>
@@ -7560,7 +7560,7 @@ peru
 rgb(205,133,63)
 </td>
 <td style="text-align:left;">
-\#CD853F
+#CD853F
 </td>
 </tr>
 <tr>
@@ -7574,7 +7574,7 @@ pink
 rgb(255,192,203)
 </td>
 <td style="text-align:left;">
-\#FFC0CB
+#FFC0CB
 </td>
 </tr>
 <tr>
@@ -7588,7 +7588,7 @@ pink1
 rgb(255,181,197)
 </td>
 <td style="text-align:left;">
-\#FFB5C5
+#FFB5C5
 </td>
 </tr>
 <tr>
@@ -7602,7 +7602,7 @@ pink2
 rgb(238,169,184)
 </td>
 <td style="text-align:left;">
-\#EEA9B8
+#EEA9B8
 </td>
 </tr>
 <tr>
@@ -7616,7 +7616,7 @@ pink3
 rgb(205,145,158)
 </td>
 <td style="text-align:left;">
-\#CD919E
+#CD919E
 </td>
 </tr>
 <tr>
@@ -7630,7 +7630,7 @@ pink4
 rgb(139,99,108)
 </td>
 <td style="text-align:left;">
-\#8B636C
+#8B636C
 </td>
 </tr>
 <tr>
@@ -7644,7 +7644,7 @@ plum
 rgb(221,160,221)
 </td>
 <td style="text-align:left;">
-\#DDA0DD
+#DDA0DD
 </td>
 </tr>
 <tr>
@@ -7658,7 +7658,7 @@ plum1
 rgb(255,187,255)
 </td>
 <td style="text-align:left;">
-\#FFBBFF
+#FFBBFF
 </td>
 </tr>
 <tr>
@@ -7672,7 +7672,7 @@ plum2
 rgb(238,174,238)
 </td>
 <td style="text-align:left;">
-\#EEAEEE
+#EEAEEE
 </td>
 </tr>
 <tr>
@@ -7686,7 +7686,7 @@ plum3
 rgb(205,150,205)
 </td>
 <td style="text-align:left;">
-\#CD96CD
+#CD96CD
 </td>
 </tr>
 <tr>
@@ -7700,7 +7700,7 @@ plum4
 rgb(139,102,139)
 </td>
 <td style="text-align:left;">
-\#8B668B
+#8B668B
 </td>
 </tr>
 <tr>
@@ -7714,7 +7714,7 @@ powderblue
 rgb(176,224,230)
 </td>
 <td style="text-align:left;">
-\#B0E0E6
+#B0E0E6
 </td>
 </tr>
 <tr>
@@ -7728,7 +7728,7 @@ purple
 rgb(160,32,240)
 </td>
 <td style="text-align:left;">
-\#A020F0
+#A020F0
 </td>
 </tr>
 <tr>
@@ -7742,7 +7742,7 @@ purple1
 rgb(155,48,255)
 </td>
 <td style="text-align:left;">
-\#9B30FF
+#9B30FF
 </td>
 </tr>
 <tr>
@@ -7756,7 +7756,7 @@ purple2
 rgb(145,44,238)
 </td>
 <td style="text-align:left;">
-\#912CEE
+#912CEE
 </td>
 </tr>
 <tr>
@@ -7770,7 +7770,7 @@ purple3
 rgb(125,38,205)
 </td>
 <td style="text-align:left;">
-\#7D26CD
+#7D26CD
 </td>
 </tr>
 <tr>
@@ -7784,7 +7784,7 @@ purple4
 rgb(85,26,139)
 </td>
 <td style="text-align:left;">
-\#551A8B
+#551A8B
 </td>
 </tr>
 <tr>
@@ -7798,7 +7798,7 @@ red
 rgb(255,0,0)
 </td>
 <td style="text-align:left;">
-\#FF0000
+#FF0000
 </td>
 </tr>
 <tr>
@@ -7812,7 +7812,7 @@ red1
 rgb(255,0,0)
 </td>
 <td style="text-align:left;">
-\#FF0000
+#FF0000
 </td>
 </tr>
 <tr>
@@ -7826,7 +7826,7 @@ red2
 rgb(238,0,0)
 </td>
 <td style="text-align:left;">
-\#EE0000
+#EE0000
 </td>
 </tr>
 <tr>
@@ -7840,7 +7840,7 @@ red3
 rgb(205,0,0)
 </td>
 <td style="text-align:left;">
-\#CD0000
+#CD0000
 </td>
 </tr>
 <tr>
@@ -7854,7 +7854,7 @@ red4
 rgb(139,0,0)
 </td>
 <td style="text-align:left;">
-\#8B0000
+#8B0000
 </td>
 </tr>
 <tr>
@@ -7868,7 +7868,7 @@ rosybrown
 rgb(188,143,143)
 </td>
 <td style="text-align:left;">
-\#BC8F8F
+#BC8F8F
 </td>
 </tr>
 <tr>
@@ -7882,7 +7882,7 @@ rosybrown1
 rgb(255,193,193)
 </td>
 <td style="text-align:left;">
-\#FFC1C1
+#FFC1C1
 </td>
 </tr>
 <tr>
@@ -7896,7 +7896,7 @@ rosybrown2
 rgb(238,180,180)
 </td>
 <td style="text-align:left;">
-\#EEB4B4
+#EEB4B4
 </td>
 </tr>
 <tr>
@@ -7910,7 +7910,7 @@ rosybrown3
 rgb(205,155,155)
 </td>
 <td style="text-align:left;">
-\#CD9B9B
+#CD9B9B
 </td>
 </tr>
 <tr>
@@ -7924,7 +7924,7 @@ rosybrown4
 rgb(139,105,105)
 </td>
 <td style="text-align:left;">
-\#8B6969
+#8B6969
 </td>
 </tr>
 <tr>
@@ -7938,7 +7938,7 @@ royalblue
 rgb(65,105,225)
 </td>
 <td style="text-align:left;">
-\#4169E1
+#4169E1
 </td>
 </tr>
 <tr>
@@ -7952,7 +7952,7 @@ royalblue1
 rgb(72,118,255)
 </td>
 <td style="text-align:left;">
-\#4876FF
+#4876FF
 </td>
 </tr>
 <tr>
@@ -7966,7 +7966,7 @@ royalblue2
 rgb(67,110,238)
 </td>
 <td style="text-align:left;">
-\#436EEE
+#436EEE
 </td>
 </tr>
 <tr>
@@ -7980,7 +7980,7 @@ royalblue3
 rgb(58,95,205)
 </td>
 <td style="text-align:left;">
-\#3A5FCD
+#3A5FCD
 </td>
 </tr>
 <tr>
@@ -7994,7 +7994,7 @@ royalblue4
 rgb(39,64,139)
 </td>
 <td style="text-align:left;">
-\#27408B
+#27408B
 </td>
 </tr>
 <tr>
@@ -8008,7 +8008,7 @@ saddlebrown
 rgb(139,69,19)
 </td>
 <td style="text-align:left;">
-\#8B4513
+#8B4513
 </td>
 </tr>
 <tr>
@@ -8022,7 +8022,7 @@ salmon
 rgb(250,128,114)
 </td>
 <td style="text-align:left;">
-\#FA8072
+#FA8072
 </td>
 </tr>
 <tr>
@@ -8036,7 +8036,7 @@ salmon1
 rgb(255,140,105)
 </td>
 <td style="text-align:left;">
-\#FF8C69
+#FF8C69
 </td>
 </tr>
 <tr>
@@ -8050,7 +8050,7 @@ salmon2
 rgb(238,130,98)
 </td>
 <td style="text-align:left;">
-\#EE8262
+#EE8262
 </td>
 </tr>
 <tr>
@@ -8064,7 +8064,7 @@ salmon3
 rgb(205,112,84)
 </td>
 <td style="text-align:left;">
-\#CD7054
+#CD7054
 </td>
 </tr>
 <tr>
@@ -8078,7 +8078,7 @@ salmon4
 rgb(139,76,57)
 </td>
 <td style="text-align:left;">
-\#8B4C39
+#8B4C39
 </td>
 </tr>
 <tr>
@@ -8092,7 +8092,7 @@ sandybrown
 rgb(244,164,96)
 </td>
 <td style="text-align:left;">
-\#F4A460
+#F4A460
 </td>
 </tr>
 <tr>
@@ -8106,7 +8106,7 @@ seagreen
 rgb(46,139,87)
 </td>
 <td style="text-align:left;">
-\#2E8B57
+#2E8B57
 </td>
 </tr>
 <tr>
@@ -8120,7 +8120,7 @@ seagreen1
 rgb(84,255,159)
 </td>
 <td style="text-align:left;">
-\#54FF9F
+#54FF9F
 </td>
 </tr>
 <tr>
@@ -8134,7 +8134,7 @@ seagreen2
 rgb(78,238,148)
 </td>
 <td style="text-align:left;">
-\#4EEE94
+#4EEE94
 </td>
 </tr>
 <tr>
@@ -8148,7 +8148,7 @@ seagreen3
 rgb(67,205,128)
 </td>
 <td style="text-align:left;">
-\#43CD80
+#43CD80
 </td>
 </tr>
 <tr>
@@ -8162,7 +8162,7 @@ seagreen4
 rgb(46,139,87)
 </td>
 <td style="text-align:left;">
-\#2E8B57
+#2E8B57
 </td>
 </tr>
 <tr>
@@ -8176,7 +8176,7 @@ seashell
 rgb(255,245,238)
 </td>
 <td style="text-align:left;">
-\#FFF5EE
+#FFF5EE
 </td>
 </tr>
 <tr>
@@ -8190,7 +8190,7 @@ seashell1
 rgb(255,245,238)
 </td>
 <td style="text-align:left;">
-\#FFF5EE
+#FFF5EE
 </td>
 </tr>
 <tr>
@@ -8204,7 +8204,7 @@ seashell2
 rgb(238,229,222)
 </td>
 <td style="text-align:left;">
-\#EEE5DE
+#EEE5DE
 </td>
 </tr>
 <tr>
@@ -8218,7 +8218,7 @@ seashell3
 rgb(205,197,191)
 </td>
 <td style="text-align:left;">
-\#CDC5BF
+#CDC5BF
 </td>
 </tr>
 <tr>
@@ -8232,7 +8232,7 @@ seashell4
 rgb(139,134,130)
 </td>
 <td style="text-align:left;">
-\#8B8682
+#8B8682
 </td>
 </tr>
 <tr>
@@ -8246,7 +8246,7 @@ sienna
 rgb(160,82,45)
 </td>
 <td style="text-align:left;">
-\#A0522D
+#A0522D
 </td>
 </tr>
 <tr>
@@ -8260,7 +8260,7 @@ sienna1
 rgb(255,130,71)
 </td>
 <td style="text-align:left;">
-\#FF8247
+#FF8247
 </td>
 </tr>
 <tr>
@@ -8274,7 +8274,7 @@ sienna2
 rgb(238,121,66)
 </td>
 <td style="text-align:left;">
-\#EE7942
+#EE7942
 </td>
 </tr>
 <tr>
@@ -8288,7 +8288,7 @@ sienna3
 rgb(205,104,57)
 </td>
 <td style="text-align:left;">
-\#CD6839
+#CD6839
 </td>
 </tr>
 <tr>
@@ -8302,7 +8302,7 @@ sienna4
 rgb(139,71,38)
 </td>
 <td style="text-align:left;">
-\#8B4726
+#8B4726
 </td>
 </tr>
 <tr>
@@ -8316,7 +8316,7 @@ skyblue
 rgb(135,206,235)
 </td>
 <td style="text-align:left;">
-\#87CEEB
+#87CEEB
 </td>
 </tr>
 <tr>
@@ -8330,7 +8330,7 @@ skyblue1
 rgb(135,206,255)
 </td>
 <td style="text-align:left;">
-\#87CEFF
+#87CEFF
 </td>
 </tr>
 <tr>
@@ -8344,7 +8344,7 @@ skyblue2
 rgb(126,192,238)
 </td>
 <td style="text-align:left;">
-\#7EC0EE
+#7EC0EE
 </td>
 </tr>
 <tr>
@@ -8358,7 +8358,7 @@ skyblue3
 rgb(108,166,205)
 </td>
 <td style="text-align:left;">
-\#6CA6CD
+#6CA6CD
 </td>
 </tr>
 <tr>
@@ -8372,7 +8372,7 @@ skyblue4
 rgb(74,112,139)
 </td>
 <td style="text-align:left;">
-\#4A708B
+#4A708B
 </td>
 </tr>
 <tr>
@@ -8386,7 +8386,7 @@ slateblue
 rgb(106,90,205)
 </td>
 <td style="text-align:left;">
-\#6A5ACD
+#6A5ACD
 </td>
 </tr>
 <tr>
@@ -8400,7 +8400,7 @@ slateblue1
 rgb(131,111,255)
 </td>
 <td style="text-align:left;">
-\#836FFF
+#836FFF
 </td>
 </tr>
 <tr>
@@ -8414,7 +8414,7 @@ slateblue2
 rgb(122,103,238)
 </td>
 <td style="text-align:left;">
-\#7A67EE
+#7A67EE
 </td>
 </tr>
 <tr>
@@ -8428,7 +8428,7 @@ slateblue3
 rgb(105,89,205)
 </td>
 <td style="text-align:left;">
-\#6959CD
+#6959CD
 </td>
 </tr>
 <tr>
@@ -8442,7 +8442,7 @@ slateblue4
 rgb(71,60,139)
 </td>
 <td style="text-align:left;">
-\#473C8B
+#473C8B
 </td>
 </tr>
 <tr>
@@ -8456,7 +8456,7 @@ slategray
 rgb(112,128,144)
 </td>
 <td style="text-align:left;">
-\#708090
+#708090
 </td>
 </tr>
 <tr>
@@ -8470,7 +8470,7 @@ slategray1
 rgb(198,226,255)
 </td>
 <td style="text-align:left;">
-\#C6E2FF
+#C6E2FF
 </td>
 </tr>
 <tr>
@@ -8484,7 +8484,7 @@ slategray2
 rgb(185,211,238)
 </td>
 <td style="text-align:left;">
-\#B9D3EE
+#B9D3EE
 </td>
 </tr>
 <tr>
@@ -8498,7 +8498,7 @@ slategray3
 rgb(159,182,205)
 </td>
 <td style="text-align:left;">
-\#9FB6CD
+#9FB6CD
 </td>
 </tr>
 <tr>
@@ -8512,7 +8512,7 @@ slategray4
 rgb(108,123,139)
 </td>
 <td style="text-align:left;">
-\#6C7B8B
+#6C7B8B
 </td>
 </tr>
 <tr>
@@ -8526,7 +8526,7 @@ slategrey
 rgb(112,128,144)
 </td>
 <td style="text-align:left;">
-\#708090
+#708090
 </td>
 </tr>
 <tr>
@@ -8540,7 +8540,7 @@ snow
 rgb(255,250,250)
 </td>
 <td style="text-align:left;">
-\#FFFAFA
+#FFFAFA
 </td>
 </tr>
 <tr>
@@ -8554,7 +8554,7 @@ snow1
 rgb(255,250,250)
 </td>
 <td style="text-align:left;">
-\#FFFAFA
+#FFFAFA
 </td>
 </tr>
 <tr>
@@ -8568,7 +8568,7 @@ snow2
 rgb(238,233,233)
 </td>
 <td style="text-align:left;">
-\#EEE9E9
+#EEE9E9
 </td>
 </tr>
 <tr>
@@ -8582,7 +8582,7 @@ snow3
 rgb(205,201,201)
 </td>
 <td style="text-align:left;">
-\#CDC9C9
+#CDC9C9
 </td>
 </tr>
 <tr>
@@ -8596,7 +8596,7 @@ snow4
 rgb(139,137,137)
 </td>
 <td style="text-align:left;">
-\#8B8989
+#8B8989
 </td>
 </tr>
 <tr>
@@ -8610,7 +8610,7 @@ springgreen
 rgb(0,255,127)
 </td>
 <td style="text-align:left;">
-\#00FF7F
+#00FF7F
 </td>
 </tr>
 <tr>
@@ -8624,7 +8624,7 @@ springgreen1
 rgb(0,255,127)
 </td>
 <td style="text-align:left;">
-\#00FF7F
+#00FF7F
 </td>
 </tr>
 <tr>
@@ -8638,7 +8638,7 @@ springgreen2
 rgb(0,238,118)
 </td>
 <td style="text-align:left;">
-\#00EE76
+#00EE76
 </td>
 </tr>
 <tr>
@@ -8652,7 +8652,7 @@ springgreen3
 rgb(0,205,102)
 </td>
 <td style="text-align:left;">
-\#00CD66
+#00CD66
 </td>
 </tr>
 <tr>
@@ -8666,7 +8666,7 @@ springgreen4
 rgb(0,139,69)
 </td>
 <td style="text-align:left;">
-\#008B45
+#008B45
 </td>
 </tr>
 <tr>
@@ -8680,7 +8680,7 @@ steelblue
 rgb(70,130,180)
 </td>
 <td style="text-align:left;">
-\#4682B4
+#4682B4
 </td>
 </tr>
 <tr>
@@ -8694,7 +8694,7 @@ steelblue1
 rgb(99,184,255)
 </td>
 <td style="text-align:left;">
-\#63B8FF
+#63B8FF
 </td>
 </tr>
 <tr>
@@ -8708,7 +8708,7 @@ steelblue2
 rgb(92,172,238)
 </td>
 <td style="text-align:left;">
-\#5CACEE
+#5CACEE
 </td>
 </tr>
 <tr>
@@ -8722,7 +8722,7 @@ steelblue3
 rgb(79,148,205)
 </td>
 <td style="text-align:left;">
-\#4F94CD
+#4F94CD
 </td>
 </tr>
 <tr>
@@ -8736,7 +8736,7 @@ steelblue4
 rgb(54,100,139)
 </td>
 <td style="text-align:left;">
-\#36648B
+#36648B
 </td>
 </tr>
 <tr>
@@ -8750,7 +8750,7 @@ tan
 rgb(210,180,140)
 </td>
 <td style="text-align:left;">
-\#D2B48C
+#D2B48C
 </td>
 </tr>
 <tr>
@@ -8764,7 +8764,7 @@ tan1
 rgb(255,165,79)
 </td>
 <td style="text-align:left;">
-\#FFA54F
+#FFA54F
 </td>
 </tr>
 <tr>
@@ -8778,7 +8778,7 @@ tan2
 rgb(238,154,73)
 </td>
 <td style="text-align:left;">
-\#EE9A49
+#EE9A49
 </td>
 </tr>
 <tr>
@@ -8792,7 +8792,7 @@ tan3
 rgb(205,133,63)
 </td>
 <td style="text-align:left;">
-\#CD853F
+#CD853F
 </td>
 </tr>
 <tr>
@@ -8806,7 +8806,7 @@ tan4
 rgb(139,90,43)
 </td>
 <td style="text-align:left;">
-\#8B5A2B
+#8B5A2B
 </td>
 </tr>
 <tr>
@@ -8820,7 +8820,7 @@ thistle
 rgb(216,191,216)
 </td>
 <td style="text-align:left;">
-\#D8BFD8
+#D8BFD8
 </td>
 </tr>
 <tr>
@@ -8834,7 +8834,7 @@ thistle1
 rgb(255,225,255)
 </td>
 <td style="text-align:left;">
-\#FFE1FF
+#FFE1FF
 </td>
 </tr>
 <tr>
@@ -8848,7 +8848,7 @@ thistle2
 rgb(238,210,238)
 </td>
 <td style="text-align:left;">
-\#EED2EE
+#EED2EE
 </td>
 </tr>
 <tr>
@@ -8862,7 +8862,7 @@ thistle3
 rgb(205,181,205)
 </td>
 <td style="text-align:left;">
-\#CDB5CD
+#CDB5CD
 </td>
 </tr>
 <tr>
@@ -8876,7 +8876,7 @@ thistle4
 rgb(139,123,139)
 </td>
 <td style="text-align:left;">
-\#8B7B8B
+#8B7B8B
 </td>
 </tr>
 <tr>
@@ -8890,7 +8890,7 @@ tomato
 rgb(255,99,71)
 </td>
 <td style="text-align:left;">
-\#FF6347
+#FF6347
 </td>
 </tr>
 <tr>
@@ -8904,7 +8904,7 @@ tomato1
 rgb(255,99,71)
 </td>
 <td style="text-align:left;">
-\#FF6347
+#FF6347
 </td>
 </tr>
 <tr>
@@ -8918,7 +8918,7 @@ tomato2
 rgb(238,92,66)
 </td>
 <td style="text-align:left;">
-\#EE5C42
+#EE5C42
 </td>
 </tr>
 <tr>
@@ -8932,7 +8932,7 @@ tomato3
 rgb(205,79,57)
 </td>
 <td style="text-align:left;">
-\#CD4F39
+#CD4F39
 </td>
 </tr>
 <tr>
@@ -8946,7 +8946,7 @@ tomato4
 rgb(139,54,38)
 </td>
 <td style="text-align:left;">
-\#8B3626
+#8B3626
 </td>
 </tr>
 <tr>
@@ -8960,7 +8960,7 @@ turquoise
 rgb(64,224,208)
 </td>
 <td style="text-align:left;">
-\#40E0D0
+#40E0D0
 </td>
 </tr>
 <tr>
@@ -8974,7 +8974,7 @@ turquoise1
 rgb(0,245,255)
 </td>
 <td style="text-align:left;">
-\#00F5FF
+#00F5FF
 </td>
 </tr>
 <tr>
@@ -8988,7 +8988,7 @@ turquoise2
 rgb(0,229,238)
 </td>
 <td style="text-align:left;">
-\#00E5EE
+#00E5EE
 </td>
 </tr>
 <tr>
@@ -9002,7 +9002,7 @@ turquoise3
 rgb(0,197,205)
 </td>
 <td style="text-align:left;">
-\#00C5CD
+#00C5CD
 </td>
 </tr>
 <tr>
@@ -9016,7 +9016,7 @@ turquoise4
 rgb(0,134,139)
 </td>
 <td style="text-align:left;">
-\#00868B
+#00868B
 </td>
 </tr>
 <tr>
@@ -9030,7 +9030,7 @@ violet
 rgb(238,130,238)
 </td>
 <td style="text-align:left;">
-\#EE82EE
+#EE82EE
 </td>
 </tr>
 <tr>
@@ -9044,7 +9044,7 @@ violetred
 rgb(208,32,144)
 </td>
 <td style="text-align:left;">
-\#D02090
+#D02090
 </td>
 </tr>
 <tr>
@@ -9058,7 +9058,7 @@ violetred1
 rgb(255,62,150)
 </td>
 <td style="text-align:left;">
-\#FF3E96
+#FF3E96
 </td>
 </tr>
 <tr>
@@ -9072,7 +9072,7 @@ violetred2
 rgb(238,58,140)
 </td>
 <td style="text-align:left;">
-\#EE3A8C
+#EE3A8C
 </td>
 </tr>
 <tr>
@@ -9086,7 +9086,7 @@ violetred3
 rgb(205,50,120)
 </td>
 <td style="text-align:left;">
-\#CD3278
+#CD3278
 </td>
 </tr>
 <tr>
@@ -9100,7 +9100,7 @@ violetred4
 rgb(139,34,82)
 </td>
 <td style="text-align:left;">
-\#8B2252
+#8B2252
 </td>
 </tr>
 <tr>
@@ -9114,7 +9114,7 @@ wheat
 rgb(245,222,179)
 </td>
 <td style="text-align:left;">
-\#F5DEB3
+#F5DEB3
 </td>
 </tr>
 <tr>
@@ -9128,7 +9128,7 @@ wheat1
 rgb(255,231,186)
 </td>
 <td style="text-align:left;">
-\#FFE7BA
+#FFE7BA
 </td>
 </tr>
 <tr>
@@ -9142,7 +9142,7 @@ wheat2
 rgb(238,216,174)
 </td>
 <td style="text-align:left;">
-\#EED8AE
+#EED8AE
 </td>
 </tr>
 <tr>
@@ -9156,7 +9156,7 @@ wheat3
 rgb(205,186,150)
 </td>
 <td style="text-align:left;">
-\#CDBA96
+#CDBA96
 </td>
 </tr>
 <tr>
@@ -9170,7 +9170,7 @@ wheat4
 rgb(139,126,102)
 </td>
 <td style="text-align:left;">
-\#8B7E66
+#8B7E66
 </td>
 </tr>
 <tr>
@@ -9184,7 +9184,7 @@ whitesmoke
 rgb(245,245,245)
 </td>
 <td style="text-align:left;">
-\#F5F5F5
+#F5F5F5
 </td>
 </tr>
 <tr>
@@ -9198,7 +9198,7 @@ yellow
 rgb(255,255,0)
 </td>
 <td style="text-align:left;">
-\#FFFF00
+#FFFF00
 </td>
 </tr>
 <tr>
@@ -9212,7 +9212,7 @@ yellow1
 rgb(255,255,0)
 </td>
 <td style="text-align:left;">
-\#FFFF00
+#FFFF00
 </td>
 </tr>
 <tr>
@@ -9226,7 +9226,7 @@ yellow2
 rgb(238,238,0)
 </td>
 <td style="text-align:left;">
-\#EEEE00
+#EEEE00
 </td>
 </tr>
 <tr>
@@ -9240,7 +9240,7 @@ yellow3
 rgb(205,205,0)
 </td>
 <td style="text-align:left;">
-\#CDCD00
+#CDCD00
 </td>
 </tr>
 <tr>
@@ -9254,7 +9254,7 @@ yellow4
 rgb(139,139,0)
 </td>
 <td style="text-align:left;">
-\#8B8B00
+#8B8B00
 </td>
 </tr>
 <tr>
@@ -9268,7 +9268,7 @@ yellowgreen
 rgb(154,205,50)
 </td>
 <td style="text-align:left;">
-\#9ACD32
+#9ACD32
 </td>
 </tr>
 </tbody>

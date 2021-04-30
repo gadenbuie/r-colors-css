@@ -53,3 +53,8 @@ writeLines(
   c(r_colors_license, r_colors_fg_hover_css, r_colors_bg_hover_css),
   "dist/r-colors.hover.css"
 )
+
+rmarkdown::render("README.Rmd")
+rmd <- readLines("README.md")
+rmd <- gsub("\\\\#", "#", rmd)
+writeLines(rmd, "README.md")
